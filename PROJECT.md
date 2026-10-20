@@ -97,7 +97,7 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## File map
 - `PROJECT.md` this file. `README.md` how to run the pipeline.
-- `docs/01-market-research.md` platforms, money, risks. `02-india-addendum.md` India payouts, tax, SEBI. `03-competitor-notes.md`. `04-brand-briefs.md` page briefs. `05-research-prompts.md` manual prompts (mostly superseded). `06-verified-facts.md` official facts. `07-competitors-and-rates.md`. `08-account-setup-guide.md` **owner's step-by-step**. `09-content-plan.md` 30-day plan. `10-audio-strategy.md` audio. `11-claude-chat-prompts.md` prompt pack for account-level tasks.
+- `docs/01-market-research.md` platforms, money, risks. `02-india-addendum.md` India payouts, tax, SEBI. `03-competitor-notes.md`. `04-brand-briefs.md` page briefs. `05-research-prompts.md` manual prompts (mostly superseded). `06-verified-facts.md` official facts. `07-competitors-and-rates.md`. `08-account-setup-guide.md` **owner's step-by-step**. `09-content-plan.md` 30-day plan. `10-audio-strategy.md` audio. `11-claude-chat-prompts.md` prompt pack for account-level tasks. `12-bridge-claude-chat.md` how Claude Code and the chat project "static automation" connect.
 - `content/pages/*.json` brand config. `content/posts/<page>/*.json` posts. `brand/` profile images.
 - `pipeline/`: `render.py`, `reel.py`, `audio.py`, `approve.py`, `publish.py`, `relay.py`, `brand.py`, `setup_tokens.py`. `content/audio_moods.json`.
 - `research/requests`, `research/answers`: relay. `research/audio`: weekly audio shortlists. `.github/workflows/`: `research-relay.yml`, `publish.yml`, `audio-shortlist.yml`.
