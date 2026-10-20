@@ -1,0 +1,384 @@
+URL: https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/
+METHOD: r.jina.ai
+
+Title: Instagram API with Facebook Login
+
+URL Source: https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/
+
+Markdown Content:
+[](https://developers.facebook.com/?no_redirect=true)
+
+Docs Docs Docs
+
+Tools Tools Tools
+
+Support Support Support
+
+More More More
+
+Search input 
+
+​
+
+[Login Login Login](https://business.facebook.com/business/loginpage/?is_work_accounts=true&login_options[0]=FB&login_options[1]=SSO&config_ref=biz_login_tool_flavor_dfc&app=436761779744620&next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-platform%2Finstagram-api-with-facebook-login%2F%3Fnav_ref%3Dbiz_unified_f3_login_page_to_dfc)
+
+Instagram Platform
+
+Instagram Platform
+
+[Instagram Platform](https://developers.facebook.com/documentation/instagram-platform)
+
+[Overview](https://developers.facebook.com/documentation/instagram-platform/overview)
+
+[Create an app](https://developers.facebook.com/documentation/instagram-platform/create-an-instagram-app)
+
+[Instagram API with Instagram Login](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[Instagram API with Instagram Login](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login)
+
+[Migration guide](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/migration-guide)
+
+[Business Login for Instagram](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/business-login)
+
+[Get started](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/get-started)
+
+[Messaging](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[Messaging](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api)
+
+[User Profile API](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/user-profile)
+
+[Quick Replies](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/quick-replies)
+
+[Generic Template](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/generic-template)
+
+[Button Template](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/button-template)
+
+[Sender Actions](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/sender-actions)
+
+[Persistent Menu](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/persistent-menu)
+
+[Ice Breakers](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/ice-breakers)
+
+[ig.me](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api/ig-me)
+
+[Welcome message ads](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/welcome-message-ads)
+
+[Conversations API](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/conversations-api)
+
+[Mentions](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/mentions)
+
+[Instagram API with Facebook Login](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[Instagram API with Facebook Login](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login)
+
+[Get started](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/get-started)
+
+[Facebook Login for Business](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/business-login-for-instagram)
+
+[Business Discovery](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/business-discovery)
+
+[Creator Marketplace Discovery API](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/creator-marketplace)
+
+[Creator Marketplace Messaging API](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/creator-marketplace-messaging)
+
+[Copyright Detection](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/copyright-detection)
+
+[Hashtag Search](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/hashtag-search)
+
+[Mentions](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/mentions)
+
+[Product Tagging](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/product-tagging)
+
+[Upcoming Events](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/upcoming-events)
+
+[Collaboration](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/collaboration)
+
+[Webhooks](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[Overview](https://developers.facebook.com/documentation/instagram-platform/webhooks)
+
+[Set up Webhooks](https://developers.facebook.com/documentation/instagram-platform/webhooks/setup)
+
+[Webhook fields](https://developers.facebook.com/documentation/instagram-platform/webhooks/fields)
+
+[Examples](https://developers.facebook.com/documentation/instagram-platform/webhooks/examples)
+
+[Publish Content](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[Publish Content](https://developers.facebook.com/documentation/instagram-platform/content-publishing)
+
+[Resumable Uploads](https://developers.facebook.com/documentation/instagram-platform/content-publishing/resumable-uploads)
+
+[Audio API](https://developers.facebook.com/documentation/instagram-platform/content-publishing/audio-api)
+
+[Caption Add-ons](https://developers.facebook.com/documentation/instagram-platform/content-publishing/caption-add-ons)
+
+[Comment Moderation](https://developers.facebook.com/documentation/instagram-platform/comment-moderation)
+
+[Private Replies](https://developers.facebook.com/documentation/instagram-platform/private-replies)
+
+[Insights](https://developers.facebook.com/documentation/instagram-platform/insights)
+
+[Sharing to Feed](https://developers.facebook.com/documentation/instagram-platform/sharing-to-feed)
+
+[Sharing to Stories](https://developers.facebook.com/documentation/instagram-platform/sharing-to-stories)
+
+[oEmbed](https://developers.facebook.com/documentation/instagram-platform/oembed)
+
+[Embed Button](https://developers.facebook.com/documentation/instagram-platform/embed-button)
+
+[Self Messaging](https://developers.facebook.com/documentation/instagram-platform/self-messaging)
+
+[API Reference](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[API Reference](https://developers.facebook.com/documentation/instagram-platform/reference)
+
+[Error Codes](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/error-codes)
+
+[Access Token](https://developers.facebook.com/documentation/instagram-platform/reference/access_token)
+
+[IG Comment](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[IG Comment](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-comment)
+
+[Replies](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-comment/replies)
+
+[IG Container](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-container)
+
+[IG Hashtag Search](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-hashtag-search)
+
+[IG Hashtag](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[IG Hashtag](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-hashtag)
+
+[Recent Media](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-hashtag/recent-media)
+
+[Top Media](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-hashtag/top-media)
+
+[IG Media](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[IG Media](https://developers.facebook.com/documentation/instagram-platform/reference/instagram-media)
+
+[Children](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-media/children)
+
+[Collaborators](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-media/collaborators)
+
+[Comments](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-media/comments)
+
+[Insights](https://developers.facebook.com/documentation/instagram-platform/reference/instagram-media/insights)
+
+[Poll Attachment](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-media/poll_attachment)
+
+[Product Tags](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-media/product_tags)
+
+[Prompt Response](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-media/prompt_response)
+
+[IG User](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/#)
+
+[IG User](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user)
+
+[Available Catalogs](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/available_catalogs)
+
+[Business Discovery](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery)
+
+[Catalog Product Search](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/catalog_product_search)
+
+[Connected Threads User](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/connected_threads_user)
+
+[Content Publishing Limit](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/content_publishing_limit)
+
+[Insights](https://developers.facebook.com/documentation/instagram-platform/api-reference/instagram-user/insights)
+
+[Instagram-Backed Threads User](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/instagram_backed_threads_user)
+
+[Live Media](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/live_media)
+
+[Media](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/media)
+
+[Media Publish](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/media_publish)
+
+[Mentions](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/mentions)
+
+[Mentioned Comment](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_comment)
+
+[Mentioned Media](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_media)
+
+[Product Appeal](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/product_appeal)
+
+[Recently Searched Hashtags](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/recently_searched_hashtags)
+
+[Stories](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/stories)
+
+[Tags](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/tags)
+
+[/me](https://developers.facebook.com/documentation/instagram-platform/reference/me)
+
+[Oauth Authorize](https://developers.facebook.com/documentation/instagram-platform/reference/oauth-authorize)
+
+[Page](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/page)
+
+[Refresh Access Token](https://developers.facebook.com/documentation/instagram-platform/reference/refresh_access_token)
+
+[App Review](https://developers.facebook.com/documentation/instagram-platform/app-review)
+
+[Support](https://developers.facebook.com/documentation/instagram-platform/support)
+
+[Changelog](https://developers.facebook.com/documentation/instagram-platform/changelog)
+
+* * *
+
+Resources
+
+[Changelog](https://developers.facebook.com/documentation/instagram-platform/changelog/)
+
+[Docs](https://developers.facebook.com/docs)
+
+[Overview](https://developers.facebook.com/documentation/instagram-platform)
+
+Instagram API with Facebook Login
+
+Was this helpful?
+
+# Instagram API with Facebook Login
+
+Updated: Mar 3, 2025
+
+Copy for LLM
+
+[View as Markdown](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login.md)
+
+The Instagram API with Facebook Login allows [Instagram Professionals⁠](https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F502981923235522&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw) — Businesses and Creators — to use your app to manage their presence on Instagram. The API can be used to get and publish their media, manage and reply to comments on their media, identify media where they have been @mentioned by other Instagram users, find hashtagged media, and get basic metadata and metrics about other Instagram Businesses and Creators.
+
+## Common Uses
+
+*   [Getting](https://developers.facebook.com/documentation/instagram-platform/instagram-graph-api/reference/ig-user/media#get-media) and [managing](https://developers.facebook.com/documentation/instagram-platform/reference/instagram-media) published photos, videos, and stories
+*   [Getting basic data about other Instagram Business and Creator accounts](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/business-discovery)
+*   [Moderating comments and their replies](https://developers.facebook.com/documentation/instagram-platform/comment-moderation)
+*   [Measuring media and profile interaction](https://developers.facebook.com/documentation/instagram-platform/insights)
+*   [Discovering hashtagged media](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/hashtag-search)
+*   [Discovering @mentions](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login/mentions)
+*   [Content publishing](https://developers.facebook.com/documentation/instagram-platform/content-publishing)
+
+## Limitations
+
+*   The Instagram API with Facebook Login cannot access Instagram consumer accounts (i.e., non-Business or non-Creator Instagram accounts).
+*   [Content Publishing](https://developers.facebook.com/documentation/instagram-platform/content-publishing) is available to all Instagram Professional accounts, except Stories, which are only available to business accounts.
+*   [Ordering results](https://developers.facebook.com/docs/graph-api/using-graph-api#ordering) is not supported
+*   All endpoints support cursor-based [pagination](https://developers.facebook.com/docs/graph-api/using-graph-api#paging), but the [User Insights](https://developers.facebook.com/documentation/instagram-platform/api-reference/instagram-user/insights) edge is the only endpoint that supports time-based pagination
+
+## Next Steps
+
+Next, learn about the core concepts, components, and usage requirements for the Instagram API in the [Overview](https://developers.facebook.com/documentation/instagram-platform/overview).
+
+## See Also
+
+*   [Facebook Graph API](https://developers.facebook.com/docs/graph-api)
+*   [Instagram Professional accounts⁠](https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F502981923235522&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+*   [Set Up a Professional Account on Instagram⁠](https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F502981923235522&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+*   [Instagram Messaging with Messenger Platform](https://developers.facebook.com/documentation/business-messaging/instagram-messaging)
+
+Did you find this page helpful?
+
+![Image 1: Thumbs up icon](https://static.xx.fbcdn.net/rsrc.php/yR/r/OEXJ0_DJeZv.svg)
+
+![Image 2: Thumbs down icon](https://static.xx.fbcdn.net/rsrc.php/yb/r/qKPgNVNeatU.svg)
+
+ON THIS PAGE
+
+Common Uses
+
+Limitations
+
+Next Steps
+
+See Also
+
+* * *
+
+* * *
+
+![Image 3: Meta](https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg)
+
+[![Image 4: Facebook](https://scontent-sea5-1.xx.fbcdn.net/v/t39.2365-6/425860105_925920989121941_6933048753023841367_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=mJwu1EVx6D4Q7kNvwFyGqg2&_nc_oc=Adr9Fvvou7iqVJbhidBOlV4OlQLyL7zbIKeke5nqmBrDxEaY8cmTbuj7cInxRwkMIG8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=4uHaeg_uYKyWyZUz_M0zqQ&_nc_ss=7b289&oh=00_AQOJ_kaT4QT6duLD5a3KkY7uTGOcY4RXq7GW1ux6mNCABQ&oe=6ADD7722)](https://www.facebook.com/MetaforDevelopers)[![Image 5: Instagram](https://scontent-sea5-1.xx.fbcdn.net/v/t39.2365-6/425804778_757649995874129_6917476492193301523_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=L86IdtTLv_MQ7kNvwE3mR5y&_nc_oc=AdrMh5NaKcBdA2TWBwk3i_DTtIdeMgv-DJwkAmeaCv76ufU3447Lr9pCMbTb4zbagUs&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=4uHaeg_uYKyWyZUz_M0zqQ&_nc_ss=7b289&oh=00_AQPjk-8H7W0prsb8D8i1bLqDnqqcCfQvD957qhvIKI6wOw&oe=6ADD9978)](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[![Image 6: X](https://scontent-sea5-1.xx.fbcdn.net/v/t39.2365-6/426747931_385023204117867_5811151062540225287_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=Pwg0rrwLMUEQ7kNvwH-PYaf&_nc_oc=AdqDIijKXJlXe-SMyKSfNK4JQndlDbk093KZNxN8Y_ZeDiY-YA3W54GP5W9KaKhocC0&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=4uHaeg_uYKyWyZUz_M0zqQ&_nc_ss=7b289&oh=00_AQNEkejeE10_Ajt_y2HNXN_YRsgWeDXgoNQFnP9_sVSqOg&oe=6ADD7FAA)](https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[![Image 7: LinkedIn](https://scontent-sea5-1.xx.fbcdn.net/v/t39.2365-6/467689750_1684384502343829_7561568713040200172_n.svg?_nc_cat=103&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=VOmMZfwnIB4Q7kNvwGEoVjZ&_nc_oc=Adou6ziVJyKrypTl8oVBJdkhSsAMaL3A5KMRvmoPviPggHArBJGOWrcg5ypB2a1xbjI&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=4uHaeg_uYKyWyZUz_M0zqQ&_nc_ss=7b289&oh=00_AQOmGEY0fcgkLM38Wd_JigiC6qwDnhzFhehgfmTccbG1Kg&oe=6ADD8F3E)](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[![Image 8: YouTube](https://scontent-sea5-1.xx.fbcdn.net/v/t39.2365-6/425519002_724756916408357_7491658959807896355_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=XLDxVt7EAjoQ7kNvwESdl_I&_nc_oc=Adpw4KmkT1IWUwMl_Cx1OC2n0Qwj9U5D3tJKITGJfzlXGx0lq9OXELNdKbWtLVDsVX8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=4uHaeg_uYKyWyZUz_M0zqQ&_nc_ss=7b289&oh=00_AQPRqGKT1j-m-_9dazXzhSknkfbS1qeZVxqAdxG_f1xkGA&oe=6ADD7A5F)](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+Build with Meta
+
+[AI](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[Meta Horizon](https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[Social technologies](https://developers.facebook.com/social-technologies/)[Wearables](https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+* * *
+
+News
+
+[Meta for Developers](https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[Blog](https://developers.facebook.com/blog/)[Success stories](https://developers.facebook.com/success-stories/)
+
+* * *
+
+Support
+
+[Developer Support](https://developers.facebook.com/support/)[Bug tool](https://developers.facebook.com/support/bugs/)[Platform status](https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[Developer community forum](https://www.facebook.com/groups/fbdevelopers/)[Report an incident](https://developers.facebook.com/incident/report/)
+
+* * *
+
+Terms and policies
+
+[Responsible platform initiatives](https://developers.facebook.com/products/responsible-platform-initiatives/)[Platform terms](https://developers.facebook.com/terms/dfc_platform_terms/)[Developer policies](https://developers.facebook.com/devpolicy/)[Privacy policy](https://www.facebook.com/about/privacy)[Cookies](https://www.facebook.com/help/cookies)
+
+* * *
+
+About us
+
+[About](https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)[Careers](https://www.facebook.com/careers)
+
+* * *
+
+Build with Meta
+
+[AI](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+[Meta Horizon](https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+[Social technologies](https://developers.facebook.com/social-technologies/)
+
+[Wearables](https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+News
+
+[Meta for Developers](https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+[Blog](https://developers.facebook.com/blog/)
+
+[Success stories](https://developers.facebook.com/success-stories/)
+
+Support
+
+[Developer Support](https://developers.facebook.com/support/)
+
+[Bug tool](https://developers.facebook.com/support/bugs/)
+
+[Platform status](https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+[Developer community forum](https://www.facebook.com/groups/fbdevelopers/)
+
+[Report an incident](https://developers.facebook.com/incident/report/)
+
+About us
+
+[About](https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AUAK_3lHaNWq8VKFZyZWgTdtouNZ1uPHbh7dhuXp_WSEdGTvPn2Hv3PQyT7QdkIWJr7u63rckK86uHnDFMW77cONOg9FuwY1ywhAyrE3IUeGQ_Wvm8U9i0GFG3_XD1XzHnx6c7iRCyrAzw)
+
+[Careers](https://www.facebook.com/careers)
+
+Terms and policies
+
+[Responsible platform initiatives](https://developers.facebook.com/products/responsible-platform-initiatives/)
+
+[Platform terms](https://developers.facebook.com/terms/dfc_platform_terms/)
+
+[Developer policies](https://developers.facebook.com/devpolicy/)
+
+[Privacy policy](https://www.facebook.com/about/privacy)
+
+[Cookies](https://www.facebook.com/help/cookies)
+
+English (US)
+
