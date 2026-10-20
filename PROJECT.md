@@ -51,6 +51,9 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Owner still has to do (no tool can): the three Facebook password steps (B2 username, B2 name "Quiet Discipline", A2 name "Roz Ka Rule"), profile pictures on all four, 2FA on Facebook and both Instagram accounts, Security Checkup on B1's account, A1 Account Status/name/bio/category on the phone, Creator vs Business.
 - Next operator run: Prompts 2B then 2C (see QUICK RUN in docs/11), then Prompt 3.
 
+## Public check (relay run 2009, 2026-10-21)
+- Facebook A2 now named **"Roz Ka Rule"**, B2 **"Quiet Discipline"** with username **/disciplinequiet** working. Both show a profile photo. A2 has no username yet. So the three Facebook password steps appear **done**. Instagram profiles are login-walled (cannot verify publicly); the operator verifies with Prompt 2D.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.

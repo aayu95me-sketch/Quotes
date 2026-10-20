@@ -96,6 +96,17 @@ Read CLAUDE.md and docs/11-claude-chat-prompts.md. Run, in this order, the accou
 ```
 Then, in a separate new thread, Prompt 3 (developer app).
 
+## PROMPT 2D: verify the final state (read-only) and finish the last Facebook item
+Public check on 2026-10-21 (relay run 2009): Facebook Page A2 now shows the name "Roz Ka Rule", Page B2 shows "Quiet Discipline" and its username `disciplinequiet` works (the page URL redirects to /disciplinequiet/). Both Pages show a profile photo link. A2 has no username yet (its URL is a /people/ address). Instagram profiles are behind a login wall, so only the operator can verify them.
+```
+Task 2D. For A1, A2, B1, B2 only, using the owner's logged-in browser, REPORT the exact current state (read-only unless told otherwise):
+- Instagram username, display name, category, bio, profile picture present (yes/no), account type if the app or web shows it
+- Facebook Page name, username, category, bio, profile picture present (yes/no)
+- B1: has the username become the.disciplinequiet?
+Then ONE change, only if A2 still has no username: set the A2 Page username to rozkarule. This asks for the owner's password: stop at the password box, tell me, and wait.
+If anything differs from CLAUDE.md, list the differences. Do not touch anything else. End with the REPORT in inbox/.
+```
+
 ## MANUAL: do these on your phone (Claude chat could not, and some are security steps that should be yours)
 1. **Two-factor on Instagram B1, and check A1:** Instagram app > Settings and activity > Accounts Center > Password and security > Two-factor authentication. Use an authenticator app. Save the backup codes offline. Do the same for the Facebook profile.
 2. **Security Checkup on B1's Meta account:** work through the 3 recommended actions.
