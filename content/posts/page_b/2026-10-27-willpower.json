@@ -1,0 +1,45 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-27T17:00:00+00:00",
+  "pillar": "habits",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Why willpower fails, and what to use instead."
+    },
+    {
+      "kind": "body",
+      "text": "Willpower is a limited resource you spend on decisions all day. By evening it is mostly gone."
+    },
+    {
+      "kind": "body",
+      "text": "So relying on it is a plan that works best exactly when you need it least."
+    },
+    {
+      "kind": "body",
+      "text": "What works better is changing the environment so the right action takes less effort."
+    },
+    {
+      "kind": "body",
+      "text": "Add friction to what you want less of. Phone in another room. Delete the app."
+    },
+    {
+      "kind": "body",
+      "text": "Remove friction from what you want more of. Shoes by the door. Book on the pillow."
+    },
+    {
+      "kind": "body",
+      "text": "You do not need more discipline. You need fewer decisions."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for the next time you blame yourself.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Willpower is a poor foundation. Design your environment so the good choice is the easy one.\n\nWhich one small change will you make today?\n\n#selfimprovement #habits #discipline #psychology #productivity",
+  "ai_label": true,
+  "lang": "en"
+}

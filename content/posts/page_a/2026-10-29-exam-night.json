@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-29T19:00:00+05:30",
+  "pillar": "study",
+  "lang": "hinglish",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Exam se ek raat pehle yeh mat karo"
+    },
+    {
+      "kind": "body",
+      "text": "Naya chapter shuru mat karo. Ek raat mein naya kuch yaad nahi hota, bas ghabrahat badhti hai."
+    },
+    {
+      "kind": "body",
+      "text": "Pura syllabus dobara padhne ki koshish mat karo. Sirf formula, definitions aur short notes dekho."
+    },
+    {
+      "kind": "body",
+      "text": "Raat bhar jaagna galat plan hai. Neend memory ko pakka karti hai."
+    },
+    {
+      "kind": "body",
+      "text": "Kal ke liye sab kuch pehle se rakh lo: admit card, pen, ID, paani. Subah ki tension kam hogi."
+    },
+    {
+      "kind": "body",
+      "text": "Doston se \"kitna ho gaya\" poochna band karo. Doosron ki taiyari tumhari neend nahi hai."
+    },
+    {
+      "kind": "body",
+      "text": "Exam ke 10 minute pehle apne hi notes dekho. Naye doubts mat khodo."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Exam se pehle wali raat yeh dobara padhna.",
+      "sub": "Follow for one study rule a day"
+    }
+  ],
+  "caption": "Exam se pehle ki raat ka plan chhota rakho: revise, so jao, aur shaant raho.\n\nKal kaunsa exam hai? Comment mein batao, all the best!\n\n#studymotivation #examtips #students #studytips #hinglish",
+  "ai_label": true
+}

@@ -37,7 +37,8 @@ def slide_html(page, slide, idx, total):
     t = page["theme"]
     kind = slide["kind"]
     text = slide["text"]
-    size = 84 if kind == "hook" else 62 if len(text) < 110 else 54
+    n = len(text)
+    size = (84 if n < 70 else 74) if kind == "hook" else 78 if n < 60 else 68 if n < 100 else 60 if n < 150 else 54
     sub = f'<div class="sub">{html.escape(slide["sub"])}</div>' if slide.get("sub") else ""
     return TEMPLATE.format(
         w=W, h=H, bg=t["bg"], fg=t["fg"], muted=t["muted"], accent=t["accent"],

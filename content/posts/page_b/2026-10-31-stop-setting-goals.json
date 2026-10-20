@@ -1,0 +1,45 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-31T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Stop setting goals. Set these instead."
+    },
+    {
+      "kind": "body",
+      "text": "Goals describe an outcome. Outcomes depend on things you do not control."
+    },
+    {
+      "kind": "body",
+      "text": "Set an input instead: the action you can repeat no matter what happens."
+    },
+    {
+      "kind": "body",
+      "text": "Instead of \"lose weight\", choose \"walk for 20 minutes after dinner\"."
+    },
+    {
+      "kind": "body",
+      "text": "Define a minimum version for bad days. Five minutes counts."
+    },
+    {
+      "kind": "body",
+      "text": "Review weekly, not daily. Ask what got in the way and remove one obstacle."
+    },
+    {
+      "kind": "body",
+      "text": "Outcomes are the scoreboard. Inputs are the game."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this and rewrite one goal as an input today.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Outcomes are the scoreboard. Inputs are the game. Turn one goal into a repeatable action.\n\nWhat is your input this week?\n\n#goalsetting #habits #productivity #selfimprovement #mindset",
+  "ai_label": true
+}

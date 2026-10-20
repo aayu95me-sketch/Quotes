@@ -1,0 +1,45 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-29T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The 2-minute rule is incomplete. Here is the missing half."
+    },
+    {
+      "kind": "body",
+      "text": "The common advice: make a habit take two minutes so starting feels easy."
+    },
+    {
+      "kind": "body",
+      "text": "It works for starting. It ignores what happens after you start."
+    },
+    {
+      "kind": "body",
+      "text": "Missing half one: decide in advance when you stop. An endpoint makes starting feel safe."
+    },
+    {
+      "kind": "body",
+      "text": "Missing half two: attach it to something that already happens. After coffee. After you sit at your desk."
+    },
+    {
+      "kind": "body",
+      "text": "Missing half three: track the start, not the result. Showing up is the habit."
+    },
+    {
+      "kind": "body",
+      "text": "Small and anchored beats big and heroic. Every time."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this and pick one habit to shrink today.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Starting small is only half the system. Add an endpoint and an anchor.\n\nWhat habit are you shrinking this week?\n\n#habits #productivity #selfimprovement #discipline #psychology",
+  "ai_label": true
+}

@@ -1,0 +1,45 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-28T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "5 phrases that end arguments without winning them"
+    },
+    {
+      "kind": "body",
+      "text": "\"Help me understand what matters most to you here.\" It moves the conversation from positions to needs."
+    },
+    {
+      "kind": "body",
+      "text": "\"I might be missing something.\" Admitting that you could be wrong lowers the other person's guard."
+    },
+    {
+      "kind": "body",
+      "text": "\"What would a good outcome look like for you?\" Now you are solving, not fighting."
+    },
+    {
+      "kind": "body",
+      "text": "\"Let's pause and come back to this at 7.\" A planned break is not avoidance."
+    },
+    {
+      "kind": "body",
+      "text": "\"I can see why that felt unfair.\" Understanding is not agreement."
+    },
+    {
+      "kind": "body",
+      "text": "Winning the argument often loses the relationship. Aim to be understood, not to be right."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for the next hard conversation.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Arguments rarely end because someone wins. They end when both people feel heard.\n\nWhich phrase would you actually use? Tell us below.\n\n#relationships #communication #emotionalintelligence #selfimprovement #psychology",
+  "ai_label": true
+}

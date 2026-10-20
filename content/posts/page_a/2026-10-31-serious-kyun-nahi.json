@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-31T19:00:00+05:30",
+  "pillar": "career",
+  "lang": "hinglish",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Log tumhe serious kyun nahi lete (aur kya karna hai)"
+    },
+    {
+      "kind": "body",
+      "text": "Tum har baat ke saath \"sorry\" ya \"shayad\" bolte ho. Seedha bolo: \"Mera suggestion yeh hai.\""
+    },
+    {
+      "kind": "body",
+      "text": "Bahut tez bolte ho? Dheere bolo. Dheemi awaaz aur chhote pauses bharosa dikhate hain."
+    },
+    {
+      "kind": "body",
+      "text": "Baat shuru karne se pehle apna point ek line mein soch lo. Phir bolo."
+    },
+    {
+      "kind": "body",
+      "text": "Meeting mein kam se kam ek baar bolo. Chup rehne wale yaad nahi rehte."
+    },
+    {
+      "kind": "body",
+      "text": "Galti ho jaye toh seedha maan lo aur fix batao. Bahane dene se image kharab hoti hai."
+    },
+    {
+      "kind": "body",
+      "text": "Kapde aur presentation par thoda dhyan do. Log pehle dikhta hua dekhte hain."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo aur apne us dost ko bhejo jo kabhi kuch bolta hi nahi.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "Serious dikhne ka matlab loud hona nahi hai. Clear aur confident hona hai.\n\nKaunsa point tumhe sabse zyada kaam ka laga?\n\n#communication #careergrowth #confidence #youngindia #hinglish",
+  "ai_label": true
+}

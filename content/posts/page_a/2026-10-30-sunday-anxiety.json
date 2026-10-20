@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-30T19:00:00+05:30",
+  "pillar": "mind",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Sunday night anxiety: a 4-minute reset"
+    },
+    {
+      "kind": "body",
+      "text": "Minute 1: Write down every worry in one list. Your head stops looping once it is on paper."
+    },
+    {
+      "kind": "body",
+      "text": "Minute 2: Circle only the ones you can act on this week. Cross out the rest."
+    },
+    {
+      "kind": "body",
+      "text": "Minute 3: Pick the top 3 tasks for tomorrow and write them where you will see them first."
+    },
+    {
+      "kind": "body",
+      "text": "Minute 4: Do one tiny step now. Send one message. Open one file. Starting shrinks dread."
+    },
+    {
+      "kind": "body",
+      "text": "Then put the phone away and do something slow. A shower, a walk, music."
+    },
+    {
+      "kind": "body",
+      "text": "If this feeling is constant and heavy, please talk to a professional. This is general advice, not treatment."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next Sunday.",
+      "sub": "Follow for one mind rule a day"
+    }
+  ],
+  "caption": "A short reset for the Sunday scaries: list, filter, plan, one small step.\n\nWhat does your Sunday night feel like? Comment below.\n\n#mentalwellness #sundayreset #productivity #selfimprovement #india",
+  "ai_label": true
+}

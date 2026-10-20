@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-28T19:00:00+05:30",
+  "pillar": "career",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "5 things nobody tells you in your first job"
+    },
+    {
+      "kind": "body",
+      "text": "Your manager will not hand you a roadmap. Ask specific questions, not \"what should I do?\""
+    },
+    {
+      "kind": "body",
+      "text": "Keep a weekly note of what you finished. At appraisal time, memory alone will not help you."
+    },
+    {
+      "kind": "body",
+      "text": "Learn how decisions get made in your team, not just how tasks get done."
+    },
+    {
+      "kind": "body",
+      "text": "Being useful beats being right. Help the team first. Credit usually follows."
+    },
+    {
+      "kind": "body",
+      "text": "Your first salary is a starting point, not a verdict. Skills compound faster than raises."
+    },
+    {
+      "kind": "body",
+      "text": "Find one person who is 3 years ahead of you and watch how they work."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your first week. Send it to a friend who is joining soon.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "First job nerves are normal. These five habits make the first year easier.\n\nWhich one do you wish you knew earlier? Tell us below.\n\n#career #firstjob #youngprofessionals #careeradvice #india",
+  "ai_label": true
+}

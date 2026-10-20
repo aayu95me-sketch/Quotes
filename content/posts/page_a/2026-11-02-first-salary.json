@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-02T19:00:00+05:30",
+  "pillar": "money",
+  "lang": "hinglish",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Pehli salary mein yeh 3 cheezein pehle karo"
+    },
+    {
+      "kind": "body",
+      "text": "1. Emergency fund se shuru karo. Itna paisa alag rakho ki kuch mahine ka kharcha nikal sake."
+    },
+    {
+      "kind": "body",
+      "text": "2. Mahine ka kharcha likhna shuru karo. Pata chalega paisa jaata kahan hai."
+    },
+    {
+      "kind": "body",
+      "text": "3. Agar koi mehnga loan ya credit card ka balance hai toh use pehle utaaro."
+    },
+    {
+      "kind": "body",
+      "text": "Pehli salary par gadgets aur trips ka lalach hota hai. Thoda enjoy karo, par plan ke saath."
+    },
+    {
+      "kind": "body",
+      "text": "Kisi ke kehne par kisi stock ya scheme mein paisa mat lagao. Pehle basics samjho."
+    },
+    {
+      "kind": "body",
+      "text": "Paise ki aadat chhoti shuruaat se banti hai. Perfect plan ka intezaar mat karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Pehli salary aane par dobara padhna.",
+      "sub": "Educational only, not financial advice."
+    }
+  ],
+  "caption": "Pehli salary ke baad kuch simple steps: emergency fund, kharcha track karo, mehnga loan pehle.\n\nPehli salary mein tumne kya kiya? Batao.\n\nEducational content only, not financial advice.\n\n#personalfinance #firstsalary #moneybasics #youngindia #hinglish",
+  "ai_label": true
+}
