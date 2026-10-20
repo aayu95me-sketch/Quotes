@@ -72,3 +72,12 @@ what Claude Code should know from my side: <bullets, or none>
 ```
 Read the latest PROJECT.md and the draft posts in content/posts/ (status "draft"). For the coming week, list each post as: date, page, type (carousel or reel), first-slide text, language, and whether it contains a disclaimer where needed. Flag anything that looks wrong, risky or repetitive. Do not approve anything. I will tell Claude Code which posts to approve.
 ```
+
+
+---
+# UPDATE 2026-10-21: what "Static Automation" actually is
+The owner's screenshot shows **Static Automation is a Claude Code project** (claude.ai/code/project/...), not a normal chat project. Its Settings > Environment has the repo `aayu95me-sketch/Quotes` under "Project repositories", so **every thread in it gets the repo cloned and can run git and tools**, plus "Let Claude use your device" is on. That makes it a second Claude Code worker on the same repo, so there is no "project knowledge" to sync. The repo default branch was changed to `claude/eager-bell-i41n67` by the owner (confirmed: the default branch now lists PROJECT.md and the whole repo).
+
+Sync is therefore **through git**: both sides read the same files. `CLAUDE.md` (repo root) is auto-loaded by Claude Code sessions and carries the scope, rules and the division of work. Reports flow through `inbox/`.
+
+What the builder session could and could not see: its session-list tool shows only cloud sessions, and "Static Automation" threads were not among them (likely local/device sessions), so the builder cannot read that conversation directly. It reads what is committed to the repo (`inbox/`) or pasted by the owner.

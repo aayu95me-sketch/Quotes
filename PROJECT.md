@@ -39,6 +39,10 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Owner on phone: profile pictures for A1, A2, B1, B2 (files sent to the owner); A1 bio, name "Roz Ka Rule", category; 2FA; Account Status for A1; Creator vs Business.
 - Prompt 2C covers category, B1 handle and display name via Chrome.
 
+## Sync with the "Static Automation" Claude Code project (2026-10-21)
+- Static Automation is a Claude Code project with the repo attached (Settings > Environment > Project repositories). Default branch is now `claude/eager-bell-i41n67`. `CLAUDE.md` at the repo root gives it scope, rules and the REPORT format; it writes reports to `inbox/` and pushes. The builder reads them with `git fetch` and `git pull`.
+- `publish.yml` now has a cheap "anything due?" check so scheduled runs on the default branch cost seconds, not minutes.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.

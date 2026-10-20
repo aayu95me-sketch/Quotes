@@ -19,11 +19,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Anything due? (cheap check, keeps Actions minutes low)
+        id: due
+        run: echo "n=$(python pipeline/publish.py --count | tail -1)" >> "$GITHUB_OUTPUT"
       - name: Install renderer
+        if: steps.due.outputs.n != '0'
         run: |
           pip install playwright
           playwright install --with-deps chromium
       - name: Publish due, approved posts
+        if: steps.due.outputs.n != '0'
         env:
           LIVE: ${{ vars.LIVE_PUBLISH }}
           ASSETS_REPO: ${{ vars.ASSETS_REPO }}

@@ -177,8 +177,12 @@ def publish_reel(f, post, live):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true")
+    ap.add_argument("--count", action="store_true", help="print the number of approved, due posts and exit (cheap check for CI)")
     a = ap.parse_args()
     now = dt.datetime.now(dt.timezone.utc)
+    if a.count:
+        print(sum(1 for _ in due_posts(now)))
+        return
     n = 0
     for f, post in due_posts(now):
         if n >= MAX_PER_RUN:
