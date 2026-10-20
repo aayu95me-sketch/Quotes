@@ -1,0 +1,387 @@
+URL: https://peerseek.io/blogs/creator-platform-fees-india-compared
+QUERY: SuperProfile Topmate Graphy fees international payments creators India 2026
+METHOD: direct
+
+Creator Platform Fees in India Compared (2026): Topmate vs SuperProfile vs Instamojo vs Graphy vs Peerseek | Peerseek
+
+ Back to blog
+
+ creator-tips
+
+Creator Platform Fees in India Compared (2026): Topmate vs SuperProfile vs Instamojo vs Graphy vs Peerseek
+
+Akshit Ahuja
+
+ July 24, 2026
+
+ 8
+ min read
+
+Indian creator platforms charge very differently, and the gap is bigger than most creators realise. 
+Topmate
+ takes 14.16% per sale through your own link, 
+Graphy
+ stacks a revenue share on top of a subscription and a one-time onboarding fee, 
+SuperProfile
+ charges Indian sellers ₹499 a month plus 5% + GST per sale, 
+Instamojo
+ charges 5% on digital goods, and 
+Peerseek
+ keeps it to a flat 5% with no platform fee and no subscription. Here is the full 2026 breakdown so you can compare all-in cost, not just the sticker rate.
+
+Want your own numbers? 
+Use the free creator fee calculator
+ to see what each platform keeps from your sales.
+
+Key takeaways
+
+Simplest low cost for most creators:
+ Peerseek at a flat 5%, with no platform fee, no monthly plan, and no onboarding charge.
+
+Highest headline cut:
+ Topmate at 14.16% on a rupee sale through your own link, and more on international payments.
+
+The hidden one:
+ Graphy's India plan adds a 19,999 rupee one-time onboarding fee on top of a monthly subscription and a 10% revenue share.
+
+Free is rarely free:
+ SuperProfile's free Starter plan cannot sell at all. Selling requires the Creator plan, which costs Indian creators 99 rupees for the first month and 499 rupees a month after that, plus a platform fee of 5% + GST on every sale.
+
+Watch two lines:
+ most platforms add 18% GST on their fee, and payment-gateway charges can apply on top of any platform's cut. Compare all-in, not the sticker rate.
+
+Transparency note: Peerseek is our platform. The fees below are taken from each provider's public pricing pages and pricing coverage as of July 2026. Rates change, so always confirm on the live pricing page before you decide.
+
+The full fee comparison (2026)
+
+Platform
+
+Platform fee
+
+Payment processing
+
+Subscription
+
+One-time fee
+
+On a 1,000 rupee digital sale
+
+Peerseek
+
+0%
+
+Flat 5%
+
+None
+
+None
+
+~50, all-in, no separate gateway fee
+
+Instamojo (digital goods)
+
+5% + 3
+
+Included
+
+None
+
+None
+
+~53 + 18% GST on fee
+
+SuperProfile (Starter, free)
+
+Cannot sell on this plan
+
+n/a
+
+None
+
+None
+
+Selling disabled on the free plan
+
+SuperProfile (Creator)
+
+5% + GST (Indian accounts)
+
+Routed through SuperProfile, no separate charge listed
+
+499 rupees/mo (99 for the first month)
+
+None
+
+941 less the monthly subscription
+
+Topmate
+
+10%
+
+2% + 18% GST on the fee
+
+None
+
+None
+
+~142 (14.16%)
+
+Graphy (India)
+
+10% rev-share + GST
+
+Extra
+
+1,999 to 8,400/mo
+
+19,999 onboarding
+
+~100+ plus monthly plus onboarding
+
+Sources: Topmate fee via eximpe and ownstreet coverage; SuperProfile via its 
+India pricing page
+ and 
+help centre
+, rechecked 12 September 2026; Instamojo via its own help center; Graphy India pricing via Ruzuku and SchoolMaker; Peerseek via peerseek.io. Verified July 2026.
+
+What each platform actually costs (the honest version)
+
+Topmate: simplest to start, most expensive to stay
+
+Topmate charges no subscription, just a 10% platform fee plus a 2% transaction fee, with 18% GST on the fee, so 14.16% on a rupee sale through your own link (Topmate's own example: ₹141.60 on ₹1,000). International payments cost more once currency conversion and cross-border fees apply. It is a clean product and a fine place to launch. But if you sell at any real volume, that cut becomes the single biggest line item eating your earnings. If you are already feeling it, it is worth comparing 
+Topmate alternatives in India
+.
+
+Who it is for:
+ creators testing the waters who value simplicity over margin.
+
+SuperProfile: 499 rupees a month plus 5%
+
+SuperProfile is a genuine India-first player with a large creator base, but for Indian sellers it costs more than a flat 5% at every sales level. Its free Starter plan cannot sell at all, so selling means the Creator plan at 99 rupees for the first month and 499 rupees a month after that. On top of the subscription, 
+SuperProfile's own help centre
+ lists a platform fee of 5% + GST on every sale for Indian accounts, which is 5.9% of each sale. The 0% commission on its pricing page applies only to Global accounts outside India. On 1,00,000 rupees of monthly sales that is 6,399 rupees on SuperProfile against 5,000 rupees on a flat 5%.
+
+Who it is for:
+ established creators doing enough volume that a paid tier's lower rate beats the free tier's 10%.
+
+Instamojo: fine for payments, built for stores not creators
+
+Instamojo has no setup or maintenance fee and charges 2% + 3 rupees on regular payments, but 5% + 3 rupees on digital goods, with 18% GST added on the fee. It is a solid payment and store tool. It is not built around the creator monetization flow (1:1 sessions, webinars, cohorts) the way a creator-first platform is, so you end up stitching tools together.
+
+Who it is for:
+ sellers who mainly need a checkout and store, not a creator toolkit.
+
+Graphy: powerful LMS, punishing India pricing
+
+Graphy (formerly Spayee) is a capable course platform, but its India pricing is harsh: monthly plans from 1,999 to 8,400 rupees, a 10% revenue share plus GST on every transaction, and a one-time 19,999 rupee onboarding fee. You pay to join, pay every month, and still give up 10% of every sale. The international USD plans charge 0% transaction fees, which tells you exactly who the India model is designed to squeeze.
+
+Who it is for:
+ larger course businesses that need a full LMS and can absorb the fixed costs.
+
+Peerseek: flat 5 percent, nothing hidden
+
+Peerseek charges a 0% platform fee and a flat 5% transaction fee. No subscription. No onboarding charge. No free tier that quietly takes 10%. As with every platform, standard payment-gateway charges can apply on top, but there is no extra platform cut layered over it. You accept UPI, cards, netbanking, wallets, and international payments, and you sell 1:1 sessions, 
+host a paid webinar in India
+, run cohorts, and sell digital products from one place. On a 1,00,000 rupee month, that is roughly the difference between keeping 95,000 and keeping 85,840 on Topmate.
+
+Who it is for:
+ creators who actually sell and want the most of every rupee to reach their own bank account.
+
+Not sure how to move your setup over? I'll help you personally. 
+Book a free 15-minute setup call
+ and we'll get your Peerseek profile ready to take bookings, no pitch, no pressure.
+
+Worked example: what you keep on 1,00,000 rupees in sales
+
+Platform
+
+Fees taken
+
+You keep
+
+Peerseek
+
+~5,000
+
+~95,000
+
+SuperProfile (Creator)
+
+~6,399 (499 subscription + 5,900 in fees)
+
+~93,601
+
+Instamojo (digital goods)
+
+~5,000 + GST
+
+~94,000
+
+SuperProfile (Starter, free)
+
+Cannot sell on this plan
+
+Selling disabled on the free plan
+
+Topmate
+
+~14,160
+
+~85,840
+
+Graphy (India)
+
+~10,000 + monthly + 19,999 onboarding
+
+under 90,000, minus fixed costs
+
+The gap between the cheapest and most expensive option here is roughly 8,000 to 10,000 rupees on every 1,00,000 rupees you sell. Over a year of serious selling, that is a phone, a laptop, or a month of runway. If you want to see what serious sellers actually pull in by niche, read 
+how much Indian creators earn
+.
+
+The fees nobody advertises
+
+GST on the fee (18%):
+ most platforms add it on top of their cut. A 5% fee is effectively about 5.9% after GST.
+
+Payment-gateway charges:
+ these can sit on top of any platform's fee, including the lowest ones. Compare all-in.
+
+International payment surcharges:
+ cross-border and currency conversion add to a platform's fees on top of the domestic rate.
+
+Onboarding and setup fees:
+ Graphy's 19,999 rupees is the loud example. Always check for a one-time charge.
+
+Payout timelines:
+ a low fee means less if your money is locked for T+7. Look for T+1 to T+2 settlement.
+
+Free plan fine print:
+ free almost always means a higher percentage cut. Read what the free tier actually takes.
+
+How to choose (a 30 second rule)
+
+Selling occasionally, low volume?
+ Simplicity wins. A no-subscription platform with a flat fee beats paying monthly.
+
+Selling seriously every month?
+ Do the math on total cost, not the headline rate. A cheaper tier with a 12,000 rupee yearly plan only pays off above a certain volume.
+
+Selling 1:1 calls, webinars, cohorts, and products together?
+ Pick a creator-first platform that does all of it in one place, so you are not stitching a store, a scheduler, and a checkout together.
+
+Taking international payments?
+ Check the cross-border rate specifically. Domestic and international fees are often very different.
+
+For most Indian creators who are actively selling, a flat, low, all-inclusive fee with no subscription is the structure that keeps the most money in your account. That is the bet Peerseek is built on.
+
+Want a hand switching? I'll do it with you, free
+
+If you're ready to move but don't want to figure out the setup alone, I'll help you personally. Book a free 15-minute setup call and we'll get your profile live, map your 1:1 sessions, webinars, cohorts, and digital products into one dashboard, and sort out payouts and moving your audience over. Bring your current pricing and we'll do the math on what you'll save.
+
+Book your free 15-minute setup call
+. Free, 15 minutes, 1:1 with the Peerseek founder. No pitch, no pressure.
+
+Frequently asked questions
+
+Which creator platform has the lowest fees in India in 2026?
++
+
+For most creators, Peerseek is the simplest low cost with a flat 5% transaction fee, no platform fee, no subscription, and no onboarding charge. SuperProfile's Creator plan costs Indian creators 499 rupees a month plus a platform fee of 5% + GST per sale, so it costs more than a flat 5% at every sales level.
+
+How much does Topmate charge in India?
++
+
+14.16% on a rupee sale through your own link (10% platform fee plus a 2% transaction fee, with 18% GST on the fee). International payments cost more. There is no subscription.
+
+Is SuperProfile really free?
++
+
+There is a free Starter plan, but it cannot sell anything. SuperProfile's own plan comparison marks digital products, 1:1 coaching, courses and webinars with a cross on the free tier. In India, selling requires the Creator plan at 99 rupees for the first month and 499 rupees a month after that, plus 5% + GST on every sale.
+
+Does Graphy charge a joining fee?
++
+
+Yes. Graphy's India pricing includes a one-time onboarding fee of 19,999 rupees, on top of monthly plans (1,999 to 8,400 rupees) and a 10% revenue share plus GST.
+
+Do these fees include GST?
++
+
+Usually not. Most platforms add 18% GST on top of their fee, and payment-gateway charges can also apply, so your real cost is higher than the advertised percentage. Always check whether the quoted rate is all-inclusive.
+
+What is the cheapest way to sell digital products, webinars, and 1:1 calls together in India?
++
+
+A single creator-first platform with a flat fee, so you avoid paying separate tools and separate cuts for each product type. Peerseek bundles 1:1 sessions, webinars, cohorts, and digital products under one flat 5% fee.
+
+Correction, 9 October 2026: an earlier version of this post gave Topmate's all-in rate as about 12.9%, a third-party estimate. Topmate's own payout guidelines give a 10% platform fee plus a fixed 2% transaction fee, with 18% GST on that fee, which is 14.16% on a rupee sale through your own link (Topmate's own example: ₹141.60 on ₹1,000). The figures and tables below were updated.
+
+Your turn
+
+Start earning on PeerSeek
+
+Turn the audience you already have into income. 0% platform fee, no subscription, only 5% transaction charges.
+
+Start earning 
+
+Read more from the blog 
+
+All-in-one platform for creators to monetise their expertise. Host consultations, webinars, sell digital products, and grow your Instagram audience.
+
+Just 5% transaction charges. No subscription, no hidden charges.
+
+Built by a team from Google, Microsoft, Samsung and Spinny
+
+Quick Links
+
+Find Experts
+
+Become a Creator
+
+Blogs
+
+Contact Us
+
+For AI Agents
+
+Growlee
+
+Features
+
+1:1 Consultations
+
+Fee calculator
+
+Use cases
+
+Webinars & Cohorts
+
+Online Courses
+
+Digital Products
+
+Instagram Auto DM
+
+Auto DM Tools Compared
+
+For Professionals
+
+Legal
+
+Terms & Conditions
+
+Privacy Policy
+
+Refund Policy
+
+Contact
+
+support@peerseek.io
+
++91 99887 44669
+
+Gurugram, Haryana, India
+
+© 
+2026
+ AscendLink Technologies Private Limited. All Rights Reserved.

@@ -1,0 +1,17 @@
+URL: https://www.facebook.com/fb-answers/content-monetization-eligible-countries-list/
+QUERY: Meta Facebook content monetization program eligible countries list
+METHOD: r.jina.ai
+
+Title: Facebook
+
+URL Source: https://www.facebook.com/fb-answers/content-monetization-eligible-countries-list/
+
+Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page.
+
+Markdown Content:
+[Log In](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=%2Ffb-answers%2Fcontent-monetization-eligible-countries-list%2F)
+
+Log In
+
+[Forgot Account?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar)
+

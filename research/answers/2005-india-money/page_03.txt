@@ -1,0 +1,701 @@
+URL: https://www.lilachbullock.com/gumroad-in-india/
+QUERY: sell digital products India Gumroad Lemon Squeezy payout Indian bank account 2026
+METHOD: direct
+
+Gumroad in India: Payouts, UPI and PayPal (2026)
+
+About
+
+Blog
+
+▼
+
+Re-engineer your Business mindset for success
+
+Productivity tips, advice and tools
+
+Content marketing templates, strategies and tips
+
+Social Media guides, tips and tactics
+
+Useful tools for bloggers and businesses
+
+Product Reviews
+
+Sales tips, planning, business development & lead generation
+
+SEO tips, tricks and strategies
+
+AI Tools, Tips and Workflows
+
+Get Found on AI
+
+GEO & AEO Services
+
+Speaking
+
+Resources
+
+Partners
+
+Contact Me
+
+Research
+
+Does AI recommend your business?
+
+Run the free check →
+
+×
+
+Join 15,000 business owners, marketers and entrepreneurs. The Sunday newsletter you'll be annoyed only arrives once a week.
+
+I want in.
+
+Home
+
+Work with me
+
+About
+
+Blog
+
+Get Found on AI
+
+Partner with me
+
+Speaking
+
+Resources
+
+Contact Me
+
+Newsletter
+
+Search
+
+Menu
+
+01
+
+Home
+
+02
+
+Work with me
+
+03
+
+About
+
+04
+
+Blog
+
+05
+
+Get Found on AI
+
+06
+
+Partner with me
+
+07
+
+Speaking
+
+08
+
+Resources
+
+09
+
+Contact Me
+
+10
+
+Newsletter 
+→
+
+[email protected]
+
+Marketing since the dial-up era.
+
+×
+
+One thing before you leave
+
+The one marketing email you'll want to open.
+
+One email, every Sunday. What I'm testing, what's working, what bombed, and the numbers behind it. Steal all of it.
+
+Yes please
+
+Free. 15,000 subscribers. 70%+ open rate.
+
+You're in.
+
+The first one lands Sunday.
+
+Lead generation
+
+Ads
+
+SEO
+
+Workflow automation
+
+HubSpot
+
+Systems
+
+AI agents
+
+Content engines
+
+Fractional CMO
+
+Lead generation
+
+Ads
+
+SEO
+
+Workflow automation
+
+HubSpot
+
+Systems
+
+AI agents
+
+Content engines
+
+Fractional CMO
+
+Article
+
+Gumroad in India: Rupee Payouts, UPI and the PayPal Catch (2026)
+
+By Lilach Bullock
+
+In this article
+
+A rupee bank payout is the route for India
+
+PayPal Connect leaves India out
+
+UPI is for your buyers, not your bank deposit
+
+Tuesday payouts and how long they take
+
+What Stripe asks Indian sellers to verify
+
+The review before your first payout
+
+Two mistakes to avoid on day one
+
+What Gumroad takes per sale
+
+India checklist from Gumroad's pages
+
+Frequently asked questions
+
+According to Gumroad's help pages, India is on its bank payout list, with INR as the payout currency, paid on a Tuesday. The catch is that Gumroad's PayPal Connect option excludes India, so there's no easy PayPal fallback, and your payout is separate from the UPI option buyers may see.
+
+Indian creators ask me about Gumroad a lot, usually because they've seen someone sell a template pack or a course and want to know if they can do the same from home. The honest answer comes in three parts: how you get paid, what your buyers can pay with, and what happens if the bank route doesn't work for you. Everything below comes from Gumroad's own help centre, with PayPal's India agreement for the fallback question.
+
+A rupee bank payout is the route for India
+
+Gumroad's getting-paid article lists the countries where it supports direct bank deposits, and India appears with INR as the payout currency. It says it supports local-currency bank deposits for most countries, and uses PayPal only where bank deposits aren't offered. So an Indian seller is on the bank route by default.
+
+Gumroad adds that it can only pay out to a local bank account in your local currency. It can't send dollars to an Indian account. The conversion rate is fixed at the time of each sale, not on payout day, so what you receive depends on the rate that day.
+
+PayPal Connect leaves India out
+
+Many sellers assume PayPal is the safety net. Gumroad's PayPal Connect article says that option is available to creators from countries where PayPal operates, except Algeria, Brazil, Egypt, India, Japan, Morocco, Turkiye and a few others. India is named in that exception list.
+
+PayPal's own India user agreement explains part of why this is different. It says PayPal offers Export Payment Services in India, which allow you to receive payments from buyers for the export of goods and services outside India, and it lists as a restricted activity using those services for anything worth more than 10,000 US dollars per transaction. For my wider notes on how that works, see 
+PayPal for Indian sellers
+.
+
+UPI is for your buyers, not your bank deposit
+
+Gumroad's own note makes a distinction that trips people up. It accepts many payment methods at checkout, including cards, PayPal and local methods such as UPI in India, and which ones a buyer sees depends on where the buyer is. It then says your payout isn't affected by any of that. Sales land in your Gumroad balance and are paid out the one way you set up, in your payout currency.
+
+So if you're selling to people in India, UPI can help them pay. It doesn't change how or when you're paid.
+
+Tuesday payouts and how long they take
+
+Gumroad's payout day table names India among the countries paid on a Tuesday for bank accounts. You need a minimum balance of 100 US dollars, and on weekly, monthly and quarterly schedules each sale has a minimum seven-day holding period. Gumroad says bank payouts can take two to seven business days to process and can slip around bank holidays.
+
+What Stripe asks Indian sellers to verify
+
+Gumroad uses Stripe for bank payouts and says Stripe will ask for several items, such as date of birth, legal name, phone number, address, a government ID number such as your country's national ID, a photo of your ID and proof of your home address. Gumroad says you should use your full legal name and a physical address, not a PO box.
+
+Stripe's own global page labels India as Preview, which tells me the way Stripe treats India isn't the same as in its fully launched countries. That's Stripe's wording, and I'd read it as a reason to keep your documents tidy rather than as a warning. Gumroad's help pages don't say it affects Indian bank payouts.
+
+Work with me
+
+Want AI doing the heavy lifting in your marketing?
+
+I build the systems that handle the boring 80 percent, so you get your week back. Done properly, with the human kept in.
+
+Book a free 30-minute call
+
+Or grab the free resources →
+
+The review before your first payout
+
+New accounts go through a review before the first payout. Gumroad says it can take one to three weeks, and typically means three to four sales with a balance over 100 US dollars. Until it clears, each payout day is skipped, but Gumroad says none of the money is lost: it stays in your balance and goes out on your first payout day once everything else is in place.
+
+It also warns that buying your own product to speed this up looks like fraud to payment processors. If you want to see what a buyer sees, use the test purchase feature instead.
+
+Two mistakes to avoid on day one
+
+Picking the wrong country. Changing your payout country clears your saved bank and identity details and forfeits unpaid amounts on the old country's connected account, so choose carefully.
+
+Typing the account holder name loosely. If the bank account is rejected, Gumroad says the name has to match the one registered with your bank exactly.
+
+What Gumroad takes per sale
+
+On sales through Gumroad's website, Gumroad charges 10% plus fifty cents per transaction. It says that doesn't include card processing of 2.9% plus thirty cents. Your Indian bank may charge separately for incoming transfers, so ask it.
+
+India checklist from Gumroad's pages
+
+What I checked
+
+What Gumroad says for India
+
+Bank payout
+
+Listed, INR payout currency
+
+PayPal Connect
+
+India is on the excluded list
+
+Payout day
+
+Tuesday for bank accounts
+
+Buyer methods
+
+UPI can appear for buyers in India
+
+Minimum balance
+
+100 US dollars
+
+Conversion
+
+At the rate on the day of the sale
+
+If you also earn from other platforms, 
+how Payoneer works for Indian freelancers
+ is a separate route from Gumroad, since Gumroad itself doesn't support Payoneer. For tax on this income, ask a local accountant.
+
+Frequently asked questions
+
+Does Gumroad support payouts in India?
+
+According to Gumroad's help pages, yes. India is on the bank payout list with INR as the payout currency.
+
+Can Indian sellers use PayPal with Gumroad?
+
+Gumroad's PayPal Connect article lists India among the countries excluded from that option, so you should plan on the bank route.
+
+Does UPI affect how I get paid?
+
+No. Gumroad says UPI is a checkout method some buyers in India may see, and that your payout is a separate thing paid out in your own payout currency.
+
+What day does Gumroad pay Indian bank accounts?
+
+Gumroad's payout day table names India among the countries paid on a Tuesday for bank accounts.
+
+What is the minimum payout on Gumroad?
+
+Gumroad says you need a minimum balance of 100 US dollars, and sales are held for seven days on the weekly, monthly and quarterly schedules.
+
+Related guides you might find useful
+
+Why Are Twitter Images Not Loading on Chrome?
+
+Mangools Alternatives (2026): 10 Tools Compared
+
+How to Get Verified on TikTok: The Official Criteria
+
+MeetEdgar Alternatives (2026): 10 Tools Compared
+
+Published and maintained by the 
+
+Lilach Bullock
+
+ team, covering marketing, AI and business growth.
+
+Search
+
+Other Blog Categories
+
+AI Tools, Tips and Workflows
+
+Business Experiments & Results
+
+Re-engineer Your Business Mindset
+
+Productivity Tips & Tools
+
+Content Marketing
+
+Social Media
+
+Product Reviews
+
+Sales & Lead Generation
+
+SEO Tips & Strategies
+
+Free tool
+
+Does AI name you?
+
+Check free if ChatGPT, Claude, Perplexity, Gemini and Google recommend your business, and how to become the answer.
+
+Run the free check →
+
+Sundays only
+
+The Sunday 
+Newsletter.
+
+AI experiments, marketing tactics, and the workflows Lilach is building right now.
+
+15K+
+
+Readers
+
+70%+
+
+Open rate
+
+Subscribe free 
+→
+
+Need help?
+
+Work with me 
+on AI.
+
+AI implementation, marketing strategy, lead generation. Done for you, consulting, coaching, or training.
+
+Book a call 
+→
+
+250+
+ free 
+resources.
+
+Guides, templates, courses and checklists to grow your business. All free, all in one library.
+
+Browse the library 
+→
+
+Free tools
+
+Run the 
+numbers.
+
+Two free calculators that show you exactly where the money is.
+
+AI savings calculator 
+→
+
+Lead leak calculator 
+→
+
+Your buyers are asking AI who to use. Does it say you?
+
+See for free whether ChatGPT, Claude, Perplexity, Gemini and Google name you, and get the plan to become the answer.
+
+Check my AI visibility →
+
+About the author
+
+Lilach Bullock
+
+Forbes Top 20 Social Media Power Influencer. 21 years of marketing experience. Currently obsessed with AI implementation done well. British AI and marketing consultant working internationally, writes a weekly newsletter that 15,000+ founders read on Sunday mornings.
+
+Work with me
+
+Newsletter
+
+About
+
+Sundays only
+
+Get the 
+Sunday newsletter.
+
+One email a week. AI experiments, marketing tactics, and the workflows Lilach is building right now in her own business.
+
+Subscribe free
+
+Let’s get your marketing running on 
+AI
+.
+
+Book a free 30-minute call
+
+We figure out what you need, where AI fits in, and what working together would look like.
+
+Book the call →
+
+Or take the 30-second calculator
+
+You’ll see the hours and the money quietly leaking out of your week, and the three workflows worth building first.
+
+Take the calculator →
+
+Or grab the free AI resource library
+
+Prompt packs, templates, checklists, and swipe files. The exact tools I build for paying clients. Yours, free.
+
+Get the library →
+
+Keep reading
+
+More from 
+the blog.
+
+Lemon Squeezy in Pakistan: Do Bank Payouts Work? (2026)
+
+According to Lemon Squeezy's supported-countries page, Pakistan is on its bank payout list with no special note. Payouts… 
+
+Ko-fi in the Philippines: PayPal, GCash and Pesos (2026)
+
+Ko-fi doesn't pay you itself: according to its help pages, supporters pay into your own PayPal or Stripe… 
+
+Ko-fi in Indonesia: PayPal Fees, Stripe and Rupiah (2026)
+
+Ko-fi doesn't hold or send your money: its help pages say supporters pay into your own PayPal or… 
+
+Let’s get your marketing running on 
+AI
+.
+
+Book a free 30-minute call
+
+We figure out what you need, where AI fits in, and what working together would look like.
+
+Book the call →
+
+Or take the 30-second calculator
+
+You’ll see the hours and the money quietly leaking out of your week, and the three workflows worth building first.
+
+Take the calculator →
+
+Or grab the free AI resource library
+
+Prompt packs, templates, checklists, and swipe files. The exact tools I build for paying clients, ready to plug in. Yours, free.
+
+Get the library →
+
+That AI consultant 
+who started in marketing.
+
+21 years building marketing that worked. Currently obsessed with AI implementation done well.
+
+Work with me
+
+Work With Me
+
+AI Savings Calculator
+
+AI Visibility Checker
+
+Partner With Me
+
+Speaking
+
+Read & learn
+
+Blog
+
+The Sunday Newsletter
+
+Resources
+
+About Lilach
+
+Get in touch
+
+Contact
+
+Add as preferred source on Google
+
+Book a free 30-min call
+
+ © Lilach Bullock 2026. All rights reserved.
+
+Privacy
+
+Terms
+
+Contact
+
+Add as preferred source on Google
+
+JOIN 15,000 BUSINESS OWNERS, MARKETERS AND ENTREPRENEURS
+
+The Sunday newsletter you'll be annoyed only 
+arrives once a week
+
+ Every week: the live experiment I ran in my own business and what actually happened,
+ which tools are actually worth your money.
+
+Tools. AI. Growth. Marketing.
+
+ And the stuff other newsletter writers read and then pretend they were already doing.
+
+I want in.
+
+Free. Every Sunday. Unsubscribe any time.
+
+https://www.facebook.com/lilachbullockbiz
+
+https://twitter.com/lilachbullock
+
+https://www.youtube.com/@LilachBullock
+
+https://www.instagram.com/lilachbullock/
+
+Privacy Policy
+
+Terms & Conditions
+
+Contact me
+
+AI Consultant UK
+
+AI Automation Consultant
+
+AI Strategy Consultant
+
+Work With Me
+
+Free tools:
+
+All free tools
+
+|
+
+AI Visibility Checker
+
+|
+
+Instagram Unfollowers Checker
+
+|
+
+Engagement Rate Calculator
+
+|
+
+AI Caption Generator
+
+|
+
+AI Bio Generator
+
+|
+
+Best Time to Post Calculator
+
+|
+
+Hashtag Checker
+
+|
+
+XML Sitemap Generator
+
+|
+
+Website Mapping Tool
+
+Popular right now:
+
+What Is an Instagram Story Reshare and...
+
+|
+
+What Does the Instagram Story Spotlight...
+
+|
+
+Where to Find Your Instagram Story Drafts
+
+|
+
+The Helen Hadsell Story
+
+|
+
+How to Keep Your Instagram Story Private...
+
+|
+
+What It Means When Instagram Says Someone...
+
+|
+
+What to Do When Your Instagram Story Is...
+
+|
+
+Does Twitter Track Your Watch History?...
+
+Topics:
+
+Social media
+ · 
+AI for business
+ · 
+Content marketing
+ · 
+SEO
+ · 
+Marketing
+ · 
+Sales
+ · 
+Business growth
+ · 
+Business lessons
+ · 
+Productivity
+ · 
+Tools
+ · 
+Reviews
+ · 
+Business finance
+ · 
+Earning online
+ · 
+Jobs and careers
+ · 
+Games
+ · 
+Home and lifestyle
+
+wpDiscuz
+
+Insert
+
+We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+
+Ok
+
+Privacy policy

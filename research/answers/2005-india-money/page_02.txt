@@ -1,0 +1,504 @@
+URL: https://getvik.com/blog/can-i-sell-on-gumroad-from-india-2026
+QUERY: sell digital products India Gumroad Lemon Squeezy payout Indian bank account 2026
+METHOD: direct
+
+Does Gumroad Work in India? UPI, Payouts, Fees in Rupees | getvik
+
+get
+vik
+
+Discover
+
+Pricing
+
+Blog
+
+Programs 
+
+Explore 
+
+get
+vik
+
+Home
+
+Blog
+
+Does Gumroad Work in India? UPI, Payouts, Fees in Rupees
+
+Does Gumroad Work in India? UPI, Payouts, Fees in Rupees
+
+Yes. Indian buyers can pay by UPI on Gumroad, and you get INR to your bank after a $100 minimum and a 7-day hold. Here's what it costs in rupees.
+
+Nikhil Dhaliya
+
+Updated 
+20 Oct 2026
+
+8 min read
+
+On this page
+
+Does Gumroad support UPI?
+
+Does Gumroad pay out to an Indian bank account?
+
+What does Gumroad cost in rupees?
+
+Does Gumroad handle GST in India?
+
+When is Gumroad the better choice?
+
+What should Indian creators use instead?
+
+Table of contents
+
+Does Gumroad support UPI?
+
+Does Gumroad pay out to an Indian bank account?
+
+What does Gumroad cost in rupees?
+
+Does Gumroad handle GST in India?
+
+When is Gumroad the better choice?
+
+What should Indian creators use instead?
+
+Sources & editorial notes
+
+The quick answer
+
+Yes, Gumroad works in India. Buyers here can pay by UPI, and Gumroad pays you in INR to an Indian bank account.
+
+You can't withdraw to a UPI ID. Payouts need a $100 balance (about ₹9,500), wait 7 days, go out on Tuesdays and take 2 to 7 business days to land.
+
+The fee is 10% + $0.50 a sale, plus card processing. On a ₹499 product you keep about ₹359. On a ₹99 product you keep about ₹10.
+
+Public sources checked on 
+20 October 2026
+.
+ Plans and features can change; check the linked providers before choosing.
+
+Yes, you can sell on Gumroad from India, and your Indian buyers can pay you by UPI at checkout. The catch is on your side of the sale: Gumroad holds your money till you cross a $100 balance, pays it out in rupees to your bank once a week, and takes 10% + $0.50 on every sale, which stings at Indian prices.
+
+I'm Nikhil. I built Getvik, so I'm not neutral here. I'll still give it to you straight, including the places where Gumroad beats us. Everything about Gumroad below comes from its own pricing and help pages, which I checked on 20 October 2026.
+
+Does Gumroad support UPI?
+
+For buyers, yes. Gumroad's getting-paid page lists UPI in India as one of the local payment methods at checkout, next to cards and PayPal. Which options a buyer sees depends on where that buyer is, so someone in Jaipur gets UPI and someone in Dubai probably doesn't.
+
+For you, no. UPI is only how buyers pay. Your earnings sit in your Gumroad balance and leave one way, as a bank transfer in INR on Gumroad's schedule. There's no "withdraw to UPI ID" option, and Gumroad's page says plainly that how buyers pay and how you get paid are two separate things.
+
+If you read somewhere that Gumroad has no UPI at all, that's old information. It's there for buyers now.
+
+Does Gumroad pay out to an Indian bank account?
+
+Yes. India is on Gumroad's bank-payout list with INR as the payout currency, and that's the only way it pays Indian creators. No USD payouts, no Payoneer, Wise, cheque or wire. PayPal payouts exist only for countries where Gumroad can't do bank transfers, and once your account is on bank payouts you can't switch to PayPal.
+
+How the money moves, from Gumroad's own page:
+
+You need a $100 balance before anything is sent. At about ₹95 to the dollar that's roughly ₹9,500 sitting with Gumroad before your first payout.
+
+Every sale waits at least 7 days on the weekly, monthly and quarterly schedules.
+
+Tuesday is the payout day for Indian bank accounts. Each payout covers sales made through the previous Friday (UTC).
+
+Your bank then takes 2 to 7 business days to credit it, longer around bank holidays.
+
+The exchange rate is fixed at the time of sale, not at payout.
+
+Add that up and a sale made today is usually in your bank two to three weeks from now, assuming you're already over $100. That's fine for a side income. It's a problem if you're paying for ads from this week's sales.
+
+Before your first payout there's also an account review. Gumroad says it takes 1 to 3 weeks and typically needs 3 or 4 sales with a balance over $100. Don't buy your own product to get there faster; Gumroad says payment processors treat that as fraud and it can get you banned. Use the test purchase feature instead.
+
+Stripe does the identity checks. Keep your full legal name, a physical address (no PO box), a government photo ID and a proof of address ready. If you sell as a registered business, the bank account has to be in the country where the business is registered.
+
+Daily payouts and instant payouts, the ones with no $100 minimum, are for US creators only.
+
+What does Gumroad cost in rupees?
+
+The headline price is 10% + $0.50 per direct sale, 30% on sales that come through Gumroad's Discover marketplace, and no monthly fee. The part most people miss is on the fees help page: the 10% + $0.50 does not include card processing, which Gumroad lists as 2.9% + $0.30, or PayPal fees. The page doesn't say what processing costs on a UPI sale, so I've used the card numbers below.
+
+At about ₹95 to the dollar (20 October 2026), that fixed $0.50 is about ₹48 and the $0.30 is about ₹29. Here's what that does at the prices Indian creators actually charge:
+
+Your price
+
+Gumroad fee (10% + $0.50)
+
+Card processing (2.9% + $0.30)
+
+You keep
+
+Effective cut
+
+₹99
+
+₹57
+
+₹31
+
+₹10
+
+about 90%
+
+₹499
+
+₹97
+
+₹43
+
+₹359
+
+about 28%
+
+₹1,999
+
+₹247
+
+₹86
+
+₹1,665
+
+about 17%
+
+₹4,999
+
+₹547
+
+₹173
+
+₹4,278
+
+about 14%
+
+Figures rounded; use the day's rate for your own sums. The pattern is the point. The percentages are the same everywhere, but the two fixed fees are set for someone selling a $20 ebook to Americans. On a ₹99 Notion template they eat almost everything. Above ₹2,000 Gumroad's pricing is reasonable.
+
+Two smaller things. Once your paid sales in a calendar month cross $20,000 (about ₹19 lakh), direct sales for the rest of that month drop to 5% + $0.50. And if you refund a sale, Gumroad returns its own fee but keeps the processing part, because the processor keeps it too.
+
+Does Gumroad handle GST in India?
+
+Gumroad says it has been the merchant of record for all sales since 1 January 2025. It collects and remits sales tax worldwide, and you don't manage any tax settings on the platform. For anyone selling to Europe or the UK, where VAT on digital products is a real headache, that's genuinely useful, and it's something we don't do for you at Getvik.
+
+What stays with you: income tax on the money that reaches your bank, and your own GST registration once your turnover needs one. I'm not a CA. Ask one before you cross a few lakh a year.
+
+When is Gumroad the better choice?
+
+Pick Gumroad if most of your buyers are outside India and pay in dollars. At $15 or $25 a product the fixed fees barely register, Gumroad handles the sales tax, and your buyers already trust the checkout.
+
+Pick it if you want Discover. Thirty percent is steep, but Gumroad's marketplace has years of buyers behind it. Getvik has a Discover page too, at your normal fee, but it's far younger and smaller.
+
+Pick it if you sell memberships that charge the card again every month. Gumroad has recurring billing. Getvik memberships are paid once for 30, 90 or 365 days and renewed by hand, which works for a lot of creators but isn't the same thing.
+
+Where Gumroad is a weak fit: your buyers are Indian, your prices are between ₹99 and ₹999, and you want your money this week rather than in three. That's the gap I built Getvik for.
+
+What should Indian creators use instead?
+
+Getvik. I'll keep this short and you can check it on the 
+pricing page
+.
+
+Buyers in India pay in INR by UPI or card; international buyers can pay with PayPal, and nobody needs an account to check out. The Free plan has no monthly charge and a 10% fee on each sale, with 18% GST on our fee and payment gateway charges on top. On the same ₹499 product that's ₹49.90 + ₹8.98 GST = ₹58.88, plus the gateway charge, with no fixed per-sale fee. On a ₹99 product it's ₹11.68 plus gateway. Basic (₹299/month + GST) drops the fee to 5% and Pro (₹1,499/month + GST) to 3%.
+
+Payouts work the other way round from Gumroad. You request one once your balance crosses ₹100, and it usually completes within 2 to 3 business days. To publish a product you first complete payout setup: PAN, legal name, a UPI ID and a bank account in your own name. That's deliberate; it means the money has somewhere to go before the first sale happens.
+
+Gumroad
+
+Getvik
+
+Fee on a ₹499 sale
+
+about ₹140 incl. card processing
+
+₹58.88 + gateway charge (Free plan)
+
+Fixed fee per sale
+
+$0.50 + $0.30 processing
+
+none
+
+Minimum payout
+
+$100 (about ₹9,500)
+
+₹100
+
+Payout timing
+
+Tuesdays after a 7-day hold, then 2 to 7 bank days
+
+on request, usually 2 to 3 business days
+
+Paid to
+
+Indian bank, INR
+
+your UPI ID and bank account
+
+Marketplace
+
+Discover (30%)
+
+Discover (your normal fee)
+
+Tax on your sales
+
+handled as merchant of record
+
+you handle your own GST
+
+The longer comparison is in 
+Getvik vs Gumroad
+, and the 
+Gumroad alternative page
+ shows the rupee checkout itself. If you're new to this and just want to see how UPI selling works end to end, start with 
+selling digital products with UPI
+.
+
+Whichever you pick, open your own checkout on your phone and make one test purchase before you post the link anywhere. You want to see the price, the payment options and the download exactly the way a buyer does.
+
+Your work deserves its own store.
+
+Sell a download, course, membership, or consultation from one link. Buyers pay by UPI or card.
+
+Create your store
+
+Free to start · No card needed
+
+Common questions
+
+Does Gumroad support UPI?
+
+For buyers, yes. Gumroad lists UPI in India as a local payment method at checkout. For you, no. Earnings are paid to your bank account in INR, and there's no option to withdraw to a UPI ID.
+
+Can I withdraw Gumroad money to PayPal from India?
+
+No. Gumroad only pays by PayPal in countries where it can't do bank payouts, and India has INR bank payouts. Its PayPal Connect checkout feature is also not available to creators in India.
+
+What is Gumroad's minimum payout in India?
+
+$100 in your balance, roughly ₹9,500 at today's rate. India has no higher local minimum. Instant and daily payouts with no minimum are for US creators only.
+
+How much does Gumroad charge on a ₹499 sale?
+
+About ₹97 (10% + $0.50) plus about ₹43 card processing (2.9% + $0.30), so roughly ₹140 of ₹499. You'd keep about ₹359. At ₹95 to the dollar; the fixed fees are what hurt at Indian prices.
+
+Does Gumroad handle GST on my sales?
+
+Gumroad says it's the merchant of record and collects and remits sales tax worldwide, so you don't set up tax on the platform. Income tax on what reaches your bank, and your own GST registration if your turnover needs one, are still your job. Ask a CA.
+
+Is there a Gumroad alternative that pays out by UPI in India?
+
+Getvik, which I built. Buyers pay in INR by UPI or card, and you request a payout once your balance crosses ₹100; it usually completes in 2 to 3 business days. Payouts go to the UPI ID and bank account in your name.
+
+Sources & editorial notes
+
+Gumroad pricing
+
+10% + $0.50 on direct sales, 30% through Discover, no monthly fee, merchant of record since 1 January 2025.
+
+Gumroad help: Gumroad's fees
+
+The 10% + $0.50 does not include card processing (2.9% + $0.30) or PayPal fees. 5% + $0.50 after $20,000 of sales in a calendar month. Refunds return Gumroad's fee but not the processing part.
+
+Gumroad help: Getting paid by Gumroad
+
+UPI for buyers in India; India listed for INR bank payouts; $100 minimum; 7-day hold; Tuesday payout day for Indian banks; 2 to 7 business days; exchange rate fixed at the time of sale; no Payoneer, Wise or wire; account review of 1 to 3 weeks; daily and instant payouts for US creators only.
+
+Gumroad help: Filling out payout settings
+
+Stripe KYC: legal name, physical address (no PO box), photo ID, proof of address. You cannot switch from bank payouts to PayPal payouts.
+
+Gumroad help: Adding PayPal to checkout
+
+PayPal Connect is not available to creators in India.
+
+Gumroad help: Sales tax on Gumroad
+
+Gumroad is merchant of record for all sales and handles sales tax collection and remittance worldwide.
+
+Getvik pricing
+
+Free 10%, Basic ₹299/month 5%, Pro ₹1,499/month 3%; 18% GST on the fee; gateway charges extra.
+
+Written by Nikhil Dhaliya.
+
+Founder of Getvik. I build the checkout and payout side, so these are the questions I deal with every week.
+
+Other platforms' details come from their own pages, linked above.
+
+Suggest a correction
+
+Share this guide
+
+Twitter
+
+LinkedIn
+
+Copy link
+
+On this page
+
+Does Gumroad support UPI?
+
+Does Gumroad pay out to an Indian bank account?
+
+What does Gumroad cost in rupees?
+
+Does Gumroad handle GST in India?
+
+When is Gumroad the better choice?
+
+What should Indian creators use instead?
+
+Table of contents
+
+Does Gumroad support UPI?
+
+Does Gumroad pay out to an Indian bank account?
+
+What does Gumroad cost in rupees?
+
+Does Gumroad handle GST in India?
+
+When is Gumroad the better choice?
+
+What should Indian creators use instead?
+
+Sources & editorial notes
+
+Your work deserves its own store.
+
+Sell a download, course, membership, or consultation from one link.
+
+Create your store
+
+Read Next
+
+4 min read
+
+Getvik vs Gumroad: Which Should an Indian Creator Pick?
+
+Gumroad if your buyers pay in dollars. Getvik if they pay in rupees. The fee on a ₹499 sale is about ₹140 on Gumroad and ₹59 plus gateway on Getvik.
+
+Updated 
+Oct 20, 2026
+
+Read article 
+
+7 min read
+
+6 Best Platforms to Sell Digital Products in India (2026)
+
+Getvik, Gumroad, Topmate, SuperProfile, Payhip and Instamojo compared on a ₹499 sale, UPI, payout speed and who each suits. Four have no monthly fee.
+
+Updated 
+Oct 20, 2026
+
+Read article 
+
+6 min read
+
+SuperProfile vs Getvik: Pricing in India, Fees, Payouts
+
+SuperProfile is ₹99 for the first month, then ₹499 a month plus 5% a sale, and you need that plan to sell. Getvik Free is ₹0 plus 10%. The sums by month.
+
+Updated 
+Oct 20, 2026
+
+Read article 
+
+get
+vik
+
+Sell digital products, courses, memberships and 1:1 calls from your own store. Buyers pay by UPI or card.
+
+Creator tips, now and then
+
+Ideas for your next product, launch notes and Getvik updates.
+
+Email address 
+*
+
+ (required)
+
+Subscribe
+
+I agree to receive marketing emails. 
+*
+
+ Required.
+ See our 
+Privacy Policy
+.
+
+Product
+
+Discover
+
+Pricing
+
+Link in bio store
+
+Blog
+
+Take a break
+
+Sell
+
+Digital products
+
+Online courses
+
+Memberships
+
+1:1 consultations
+
+UPI payments
+
+Compare
+
+Gumroad alternative
+
+Topmate alternative
+
+SuperProfile alternative
+
+Cosmofeed alternative
+
+Instamojo alternative
+
+Company
+
+About us
+
+Launch Sprint
+
+Creator Rewards
+
+Brand deals
+
+Earn
+
+Changelog
+
+Contact
+
+Legal
+
+Privacy policy
+
+Terms of service
+
+Data deletion
+
+GST & taxes
+
+Privacy settings
+
+© 
+2026
+ Getvik. All rights reserved. 
+GSTIN: 
+09OCEPK6041M1ZZ

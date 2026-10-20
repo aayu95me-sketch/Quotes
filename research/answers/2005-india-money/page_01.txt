@@ -1,0 +1,478 @@
+URL: https://peerseek.io/blogs/sell-on-gumroad-from-india
+QUERY: sell digital products India Gumroad Lemon Squeezy payout Indian bank account 2026
+METHOD: direct
+
+Sell on Gumroad From India: Payouts, UPI and Fees (2026) | Peerseek
+
+ Back to blog
+
+ creator-tips
+
+Sell on Gumroad From India: Payouts, UPI and Fees (2026)
+
+Akshit Ahuja
+
+ October 20, 2026
+
+ 9
+ min read
+
+Yes, you can sell on Gumroad from India. Gumroad accepts UPI from Indian buyers and pays Indian creators straight to an Indian bank account in rupees. Two rules shape the experience: you need a 
+$100 balance
+ before a payout goes out, and on a card sale Gumroad's 
+10% + $0.50
+ fee does not include card processing of 2.9% + $0.30.
+
+Transparency note: Peerseek is our platform and it competes with Gumroad. Every Gumroad fact below comes from Gumroad's own help centre and pricing page, read on 20 October 2026, and each one links to its page. Last updated 20 October 2026.
+
+What does "selling on Gumroad from India" involve?
+ You list a digital product on Gumroad, buyers anywhere pay by card, PayPal or (in India) UPI, the money collects in your Gumroad balance, and Gumroad pays it out to your Indian bank account in rupees on its weekly schedule once you cross the minimum.
+
+Key takeaways
+
+Gumroad works in India.
+ Its payout article lists India with payout currency INR, and says it accepts "local methods such as UPI in India" at checkout.
+
+Many answers online are out of date.
+ Several guides, and Google's own AI summary on 20 October 2026, still say Indian creators get paid only through PayPal and that Gumroad has no UPI. Gumroad's help centre says the opposite on both.
+
+Fees on a direct sale:
+ 10% + $0.50 plus sales tax. Card processing (2.9% + $0.30) and PayPal fees are extra. Sales through Gumroad's Discover marketplace cost a flat 30% with processing included.
+
+Getting paid takes a while.
+ A $100 minimum, a 7-day hold on every sale, and payouts to Indian banks go out on Tuesdays. Instant and daily payouts are US-only.
+
+GST is a real question.
+ GST law treats a service as an export only when you are paid in convertible foreign exchange, and Gumroad pays Indian banks in rupees. Ask your CA before you choose.
+
+In this guide
+
+Can you sell on Gumroad from India?
+
+How to sell on Gumroad from India, step by step
+
+How does Gumroad pay you in India?
+
+What does Gumroad charge per sale?
+
+How long until your first payout?
+
+Gumroad, GST and the rupee payout
+
+Is Gumroad safe in India?
+
+When your buyers are mostly Indian: sell in rupees on Peerseek
+
+Gumroad India mein kaam karta hai?
+
+Frequently asked questions
+
+Can you sell on Gumroad from India?
+
+Yes. Gumroad's 
+Getting paid by Gumroad
+ article lists India in its table of bank payout countries, with payout currency 
+INR
+. The same article says Gumroad "accepts many payment methods at checkout, including cards, PayPal, and local methods such as UPI in India".
+
+That matters because a lot of what you will read says otherwise. On 20 October 2026, Google's AI summary for "can we use gumroad in india" said Gumroad "pays Indian creators via PayPal" and that bank payouts are not supported for India. For "how to sell on gumroad in india" it warned about "a lack of native UPI support". Both lines repeat third-party guides, not Gumroad's own pages. Gumroad announced Indian bank payouts on X on 
+2 August 2024
+: "Creators in India can now connect a bank account to get paid out directly!"
+
+Key fact:
+ Gumroad only falls back to PayPal "if bank payouts aren't supported in your country". India is supported, so an Indian creator is paid to a bank account in rupees.
+
+How to sell on Gumroad from India, step by step
+
+Create an account
+ at gumroad.com with your email. Selling is free to start. Gumroad's 
+pricing page
+ says "No hidden fees, no monthly charges".
+
+Add a product.
+ Upload the file (PDF, video, template, preset) and write the product page. Set your price.
+
+Fill in payout settings.
+ Add your Indian bank account. Gumroad's payment processor, Stripe, will ask for identity checks once your sales build up. Have a government-issued photo ID and proof of residence ready. If you sell as a business, the bank account must be in the country where the business is registered.
+
+Share your product link.
+ Put it in your Instagram bio, a YouTube description or a newsletter. (If you are still choosing between selling on a platform and building your own site, see 
+how to sell digital products in India without a website
+.) Sales through your own link are "direct sales" and cost less than Discover sales.
+
+Wait for the minimum.
+ Your sales sit in your Gumroad balance until it reaches $100 and the weekly payout runs. More on that below.
+
+One warning before you start. Gumroad says unpaid amounts on a country-specific account "cannot move to a new country's account", so changing your payout country later "forfeits those amounts". Set up the Indian bank account right the first time.
+
+How does Gumroad pay you in India?
+
+Gumroad pays Indian creators by 
+bank transfer in Indian rupees
+. Here is how its payout article describes the process, read on 20 October 2026:
+
+Payout detail
+
+What Gumroad says
+
+Payout method for India
+
+Direct bank deposit, payout currency INR
+
+Minimum balance
+
+$100 USD before a payout is sent
+
+Holding period
+
+"a sale has a minimum 7-day holding period" on weekly, monthly and quarterly schedules
+
+Which sales a payout covers
+
+Sales "made through the previous Friday (UTC)"
+
+Payout day for Indian bank accounts
+
+Tuesday
+
+Time to reach your bank
+
+"Bank transfers can then take a few business days to land"
+
+Currency conversion
+
+At "the exchange rates at the time of sale, not at the time of the payout", typically mid-market
+
+Instant and daily payouts
+
+US creators only
+
+PayPal payouts
+
+Only where bank payouts are not supported; processed in USD with a 2% payout fee
+
+Gumroad also says it does not support "alternative payout modes like Payoneer, Wise, check, money order, wire transfer". Older guides that tell Indian sellers to route money through Payoneer describe a setup Gumroad no longer offers.
+
+What does Gumroad charge per sale?
+
+Gumroad's 
+fee article
+ gives three numbers:
+
+Direct sales
+ (your profile or your own links): 
+10% + $0.50
+ per transaction, plus sales tax. In Gumroad's words, this "does not include" credit card processing of 
+2.9% + $0.30
+ or PayPal fees.
+
+Discover sales
+ (buyers who find you on Gumroad's marketplace): a flat 
+30%
+, which "includes all processing fees".
+
+High volume:
+ once your paid sales in a calendar month reach 
+$20,000
+, new direct sales that month cost 5% + $0.50. It resets on the 1st.
+
+There is no monthly fee. The flat $0.50 and $0.30 are what hurt a small product. Here is what Gumroad keeps from a direct card sale, computed from its own rates:
+
+Price
+
+Gumroad fee (10% + $0.50)
+
+Card processing (2.9% + $0.30)
+
+Total taken
+
+Share of the sale
+
+You keep
+
+$10
+
+$1.50
+
+$0.59
+
+$2.09
+
+20.9%
+
+$7.91
+
+$20
+
+$2.50
+
+$0.88
+
+$3.38
+
+16.9%
+
+$16.62
+
+$50
+
+$5.50
+
+$1.75
+
+$7.25
+
+14.5%
+
+$42.75
+
+Calculated from Gumroad's fee article, read 20 October 2026. Sales tax, which Gumroad collects from the buyer as merchant of record, is not included. Gumroad does not publish a separate processing rate for UPI payments, so this table covers card sales only.
+
+In short: on a $10 ebook sold by card through your own link, Gumroad and card processing take about 21%, and you keep $7.91.
+
+How long until your first payout?
+
+Two rules decide it: the 
+$100 minimum
+ and the 
+7-day hold
+.
+
+At $10 a sale, you keep $7.91 per card sale, so you need 
+13 sales
+ ($102.83) before your balance clears $100 
+(calculated)
+. At $50 a sale you need 3. A new creator selling a low-priced product can wait weeks for the first rupee.
+
+Once you are over $100, the timing works like this. Each sale waits at least 7 days. The weekly payout covers sales made through the previous Friday (UTC). Indian bank payouts go out on Tuesday, and then the bank transfer can take "a few business days". So even your earliest eligible sale reaches your account more than a week after the buyer paid.
+
+That is the trade-off of a global platform. Gumroad is built to pay creators in many countries on one weekly schedule, and Indian accounts sit inside that schedule.
+
+Gumroad, GST and the rupee payout
+
+This section explains the rule. It is not tax advice, and Gumroad's own tax article says the same about itself.
+
+Since 
+1 January 2025
+, Gumroad has been the merchant of record for sales on its platform. Its pricing page says it handles "sales tax collection and remittance worldwide", so you do not collect VAT or GST from buyers yourself.
+
+Your own GST position is a separate question. India's GST law zero-rates an "export of services", and the 
+GST Council's exports booklet
+ states that the definition "requires that the payment for such services should have been received by the supplier of services in convertible foreign exchange". (The Act itself also allows Indian rupees "wherever permitted by the Reserve Bank of India".)
+
+Gumroad pays Indian bank accounts in rupees. Whether your Gumroad income still counts as an export once you are GST-registered depends on how that rupee payout is treated, and that is a question for a chartered accountant 
+before
+ you cross the registration threshold, not after.
+
+Is Gumroad safe in India?
+
+Gumroad runs payments through Stripe, which carries out identity (KYC) checks on every account that sells, and Gumroad acts as merchant of record for tax. Buyers in India pay through methods they already use, including UPI.
+
+The risks a seller should know are written into Gumroad's own help pages:
+
+Account review holds.
+ If an account is under review, for suspected fraud or misleading marketing for example, the balance "stays held until that is resolved".
+
+Payout-country changes can forfeit money.
+ Unpaid amounts on a country-specific account cannot move to a new country's account.
+
+Rejected verification.
+ If Stripe rejects an account, verification stops and any remaining balance of $1 or more is paid out.
+
+None of this is unusual for a global payments platform. It is worth knowing before you put your income through it.
+
+When your buyers are mostly Indian: sell in rupees on Peerseek
+
+Gumroad is built for selling to the world in dollars. If most of your buyers are Indian and your product costs ₹199 to ₹4,999, the step where Gumroad gets slow is 
+getting paid
+. That is the step Peerseek is built around.
+
+What matters to an Indian seller
+
+Peerseek
+
+Price your product in
+
+Rupees
+
+Fee per sale
+
+5% flat, payment processing included. On a ₹1,000 sale you keep ₹950
+
+Monthly fee
+
+₹0
+
+Buyer checkout
+
+UPI, cards and netbanking, no buyer account needed
+
+When earnings can be withdrawn
+
+24 hours after a digital product sale
+
+Minimum withdrawal
+
+None. Withdraw any balance to your Indian bank account
+
+Put the two side by side. On a ₹1,000 ebook sold on Peerseek you keep ₹950, about 95%, and can withdraw it the next day. On a $10 ebook sold by card on Gumroad you keep $7.91, about 79%, and it waits in your balance until it reaches $100 and the next Tuesday payout.
+
+Sell your first product on Peerseek
+
+Create a free Peerseek account
+ and add your Indian bank account for payouts.
+
+Add a digital product.
+ Upload the file and set the price in rupees. Download it once yourself to check the file opens.
+
+Share your Peerseek page link
+ in your Instagram bio, or let Auto DM share it with everyone who comments on your post.
+
+Keep Gumroad for buyers abroad
+ if you still need it, and send Indian buyers to your Peerseek page.
+
+If you are weighing the two in more detail, our 
+Gumroad vs Peerseek comparison
+ lays out every fee with its source, and 
+creator platform fees in India, compared
+ puts Gumroad next to the Indian platforms. For more places to list a product, see 
+where to sell digital products in India
+.
+
+Who should stay on Gumroad:
+ creators whose buyers are mostly in the US or Europe, who price in dollars, and who get sales from Gumroad's Discover marketplace they would not find elsewhere.
+
+Gumroad India mein kaam karta hai?
+
+Haan. Gumroad India mein UPI se payment leta hai aur Indian bank account mein rupees mein payout deta hai. Lekin payout ke liye kam se kam $100 balance chahiye, har sale 7 din hold hoti hai, aur card sale par 10% + $0.50 ke upar 2.9% + $0.30 processing alag lagti hai. Agar aapke zyada buyers India se hain, to rupees mein bechna aur 24 ghante baad withdraw karna aasaan rehta hai.
+
+FAQ
+
+Can we use Gumroad in India?
++
+
+Yes. Gumroad lets Indian creators sign up, list digital products and get paid to an Indian bank account in rupees. Its payout article lists India with payout currency INR, and its checkout accepts UPI from Indian buyers alongside cards and PayPal. Selling is free to start, with fees taken per sale.
+
+How does Gumroad pay you in India?
++
+
+By bank transfer in Indian rupees. Sales collect in your Gumroad balance, wait at least 7 days, and go out in the weekly payout once you have $100. Payouts to Indian bank accounts are sent on Tuesdays and can take a few business days to land. Currency is converted at the rate on the day of each sale.
+
+What is the minimum payout on Gumroad?
++
+
+$100 USD for weekly, monthly and quarterly payouts. Gumroad holds your balance until it reaches that amount. Instant payouts have no $100 minimum, but Gumroad offers them only to creators in the US. At $10 a product sold by card, you need 13 sales to clear $100.
+
+Does Gumroad accept UPI?
++
+
+Yes. Gumroad's payout article says it accepts "local methods such as UPI in India" at checkout, and that the methods a buyer sees depend on where the buyer is. Gumroad does not publish a separate processing rate for UPI payments.
+
+How much does Gumroad charge per sale?
++
+
+10% + $0.50 per direct sale plus sales tax, and Gumroad says this does not include card processing (2.9% + $0.30) or PayPal fees. Sales from its Discover marketplace cost 30% including processing. After $20,000 of sales in a month, new direct sales that month cost 5% + $0.50.
+
+Do I need GST to sell on Gumroad from India?
++
+
+Gumroad collects tax from buyers as merchant of record, but your own GST registration is separate and depends on your turnover. GST law treats a service as an export only when you are paid in convertible foreign exchange, and Gumroad pays Indian banks in rupees. Ask a chartered accountant how this applies to you.
+
+Is Gumroad free to sell on?
++
+
+There is no monthly fee or sign-up charge. Gumroad earns by taking a share of each sale: 10% + $0.50 on direct sales, plus card processing, or 30% on Discover sales. On Peerseek there is also no monthly fee, and the 5% per sale already includes processing.
+
+Sources
+
+All read on 20 October 2026.
+
+Gumroad, 
+Getting paid by Gumroad
+: payout countries and currencies, $100 minimum, 7-day hold, payout days, instant payouts, PayPal, verification, forfeiture on country change.
+
+Gumroad, 
+Gumroad's fees
+: 10% + $0.50, processing not included, 30% Discover, $20,000 high-volume rate.
+
+Gumroad, 
+Pricing
+: no monthly charges, merchant of record since 1 January 2025.
+
+Gumroad on X, 
+2 August 2024
+: Indian bank payouts announced.
+
+GST Council, 
+Sectoral booklet on exports
+: export of services and convertible foreign exchange.
+
+Your turn
+
+Start earning on PeerSeek
+
+Turn the audience you already have into income. 0% platform fee, no subscription, only 5% transaction charges.
+
+Start earning 
+
+Read more from the blog 
+
+All-in-one platform for creators to monetise their expertise. Host consultations, webinars, sell digital products, and grow your Instagram audience.
+
+Just 5% transaction charges. No subscription, no hidden charges.
+
+Built by a team from Google, Microsoft, Samsung and Spinny
+
+Quick Links
+
+Find Experts
+
+Become a Creator
+
+Blogs
+
+Contact Us
+
+For AI Agents
+
+Growlee
+
+Features
+
+1:1 Consultations
+
+Fee calculator
+
+Use cases
+
+Webinars & Cohorts
+
+Online Courses
+
+Digital Products
+
+Instagram Auto DM
+
+Auto DM Tools Compared
+
+For Professionals
+
+Legal
+
+Terms & Conditions
+
+Privacy Policy
+
+Refund Policy
+
+Contact
+
+support@peerseek.io
+
++91 99887 44669
+
+Gurugram, Haryana, India
+
+© 
+2026
+ AscendLink Technologies Private Limited. All Rights Reserved.

@@ -1,0 +1,493 @@
+URL: https://github.com/deepaksinghh/instagram-india-mega-report
+QUERY: Indian psychology facts Instagram page Hinglish followers growth case study
+METHOD: direct
+
+GitHub - deepaksinghh/instagram-india-mega-report: Instagram in India 2025 Mega Report — Users, Hinglish/Hindi bios, captions, trends & case studies by Deepak Singh, SEO Expert in India. · GitHub
+
+Skip to content
+
+Navigation Menu
+
+Sign in
+
+Appearance settings
+
+Platform 
+
+AI CODE CREATION
+
+ GitHub Copilot
+
+Write better code with AI
+
+ GitHub Copilot app
+
+Direct agents from issue to merge
+
+ MCP Registry
+
+Integrate external tools
+
+DEVELOPER WORKFLOWS
+
+ Actions
+
+Automate any workflow
+
+ Codespaces
+
+Instant dev environments
+
+ Issues
+
+Plan and track work
+
+ Code Review
+
+Manage code changes
+
+ Code Quality
+
+Enforce quality at merge
+
+APPLICATION SECURITY
+
+ GitHub Advanced Security
+
+Find and fix vulnerabilities
+
+ Code security
+
+Secure your code as you build
+
+ Secret protection
+
+Stop leaks before they start
+
+EXPLORE
+
+Why GitHub
+
+Documentation
+
+Blog
+
+Changelog
+
+Marketplace
+
+View all features
+
+Solutions 
+
+BY COMPANY SIZE
+
+Enterprises
+
+Small and medium teams
+
+Startups
+
+Nonprofits
+
+BY USE CASE
+
+App Modernization
+
+DevSecOps
+
+DevOps
+
+CI/CD
+
+View all use cases
+
+BY INDUSTRY
+
+Healthcare
+
+Financial services
+
+Manufacturing
+
+Government
+
+View all industries
+
+View all solutions
+
+Resources 
+
+EXPLORE BY TOPIC
+
+AI
+
+Software Development
+
+DevOps
+
+Security
+
+View all topics
+
+EXPLORE BY TYPE
+
+Customer stories
+
+Events & webinars
+
+Ebooks & reports
+
+Business insights
+
+GitHub Skills
+
+SUPPORT & SERVICES
+
+Documentation
+
+Customer support
+
+Community forum
+
+Trust center
+
+Partners
+
+View all resources
+
+Open Source 
+
+COMMUNITY
+
+ GitHub Sponsors
+
+Fund open source developers
+
+PROGRAMS
+
+Security Lab
+
+Maintainer Community
+
+GitHub Stars
+
+Archive Program
+
+REPOSITORIES
+
+Topics
+
+Trending
+
+Collections
+
+Enterprise 
+
+ENTERPRISE SOLUTIONS
+
+ Enterprise platform
+
+AI-powered developer platform
+
+AVAILABLE ADD-ONS
+
+ GitHub Advanced Security
+
+Enterprise-grade security features
+
+ Copilot for Business
+
+Enterprise-grade AI features
+
+ Premium Support
+
+Enterprise-grade 24/7 support
+
+Pricing
+
+Search
+
+/
+
+Sign in
+
+Sign up
+
+Appearance settings
+
+You signed in with another tab or window. 
+Reload
+ to refresh your session.
+
+You signed out in another tab or window. 
+Reload
+ to refresh your session.
+
+You switched accounts on another tab or window. 
+Reload
+ to refresh your session.
+
+Dismiss alert
+
+{{ message }}
+
+deepaksinghh
+
+instagram-india-mega-report
+
+Repository navigation
+
+Code
+
+Issues
+
+Pull requests
+
+Actions
+
+Projects
+
+Security and quality
+
+Insights
+
+More
+ items
+
+instagram-india-mega-report
+
+Public
+
+Notifications
+
+You must be signed in to change notification settings
+
+Fork
+
+0
+
+ (
+0
+)
+
+Star
+
+0
+
+ (
+0
+)
+
+You must be signed in to star a repository
+
+About
+
+Instagram in India 2025 Mega Report — Users, Hinglish/Hindi bios, captions, trends & case studies by Deepak Singh, SEO Expert in India.
+
+Resources
+
+Readme
+
+Activity
+
+Stars
+
+0
+ stars
+
+Watchers
+
+0
+ watching
+
+Forks
+
+0
+
+ forks
+
+Report repository
+
+main
+
+Branches
+
+Tags
+
+Go to file
+
+Code
+
+Open more actions menu
+
+Latest commit
+
+History
+
+8 Commits
+
+8 Commits
+
+Folders and files
+
+Name
+
+Name
+
+Last commit message
+
+Last commit date
+
+README.md
+
+README.md
+
+index.html
+
+index.html
+
+og-hero.jpg
+
+og-hero.jpg
+
+robots.txt
+
+robots.txt
+
+sitemap.xml
+
+sitemap.xml
+
+View all files
+
+Repository files navigation
+
+README
+
+More
+ items
+
+Instagram in India (2025 Mega Report)
+
+Instagram in India 2025 Mega Report
+ — An in-depth study of user growth, regional adoption, Hinglish/Hindi bios, captions, case studies, and future trends.
+
+This research is created by 
+Deepak Singh — SEO Expert in India & Founder of 
+The DM School
+
+.
+
+We’ve trained 1 Lakh+ students, managed ₹10 Crore+ ad spend, and generated ₹100 Crore+ in client revenue.
+
+📊 What’s Inside the Report
+
+Instagram’s growth in India from 2020 → 2025
+
+Regional adoption (Tier-2/3 cities, Hindi + Hinglish dominance)
+
+Bio trends for students, founders, freelancers & businesses
+
+Caption strategies that drive 20–30% higher engagement
+
+Case studies of Indian influencers & micro-creators
+
+Ads landscape: CPC, CPM, Tier-2 vs Metro performance
+
+Future of Instagram in India (AI, shopping, captions economy)
+
+🔗 Live Report
+
+Read the full mega report here:
+
+👉 
+Instagram in India 2025 Mega Report (GitHub Pages)
+
+📚 Related Resources
+
+Instagram Bio Ideas in Hindi
+
+Trendy Instagram Bios
+
+Funny Instagram Captions
+
+Motivational Instagram Captions
+
+👤 Author
+
+Deepak Singh
+
+Founder — 
+The DM School
+
+Recognized 
+SEO Expert in India
+
+📌 License
+
+This report is for educational and research purposes.
+
+© 2025 The DM School | All rights reserved.
+
+About
+
+Instagram in India 2025 Mega Report — Users, Hinglish/Hindi bios, captions, trends & case studies by Deepak Singh, SEO Expert in India.
+
+Resources
+
+Readme
+
+Activity
+
+Stars
+
+0
+ stars
+
+Watchers
+
+0
+ watching
+
+Forks
+
+0
+
+ forks
+
+Report repository
+
+Releases
+
+Packages
+
+Contributors
+
+Languages
+
+Footer
+
+ © 2026 GitHub, Inc.
+
+Footer navigation
+
+Terms
+
+Privacy
+
+Security
+
+Status
+
+Community
+
+Docs
+
+Contact
+
+ Manage cookies
+
+ Do not share my personal information
+
+ You can’t perform that action at this time.
