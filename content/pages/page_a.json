@@ -1,0 +1,15 @@
+{
+  "id": "page_a",
+  "name": "Roz Ka Rule",
+  "handle": "@rozkarule",
+  "audience": "India, 18-30, Hinglish + English",
+  "theme": {
+    "bg": "#0E0E10",
+    "fg": "#F5F2EA",
+    "muted": "#9A978F",
+    "accent": "#FF7A1A",
+    "font": "Inter, 'Helvetica Neue', Arial, sans-serif"
+  },
+  "footer": "@rozkarule",
+  "disclaimer_money": "Educational only, not financial advice."
+}

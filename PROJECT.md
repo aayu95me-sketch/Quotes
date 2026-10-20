@@ -12,7 +12,7 @@ Maximise income from faceless, automated text-image carousels and static-image r
 
 ## Status
 - **Phase 0, Research:** Rounds 1, 1b and 2 done → docs 01–03. Competitor data is thin (no Instagram access from here); owner can add real examples. Official-policy verification still open.
-- **Phase 1, Setup:** brand briefs drafted ([docs/04-brand-briefs.md](docs/04-brand-briefs.md)), **awaiting owner approval and name choice**. Pipeline build not started.
+- **Phase 1, Setup:** briefs **approved**; names chosen: **Roz Ka Rule** (Page A), **Quiet Discipline** (Page B). Pipeline v0 built and tested locally (render, static reel, approve, dry-run publish); live publish untested. 2 sample drafts in `content/posts/`. Owner next: connect Gemini in Zapier, create accounts.
 - **Phase 2, Pilot:** not started.
 
 ## Key finding
@@ -36,10 +36,17 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - Budget: **₹0**. Everything must use free tools and free tiers.
 - Niche: left to Claude. Language: Hinglish and English both fine. Will book the CA call.
 
+## Owner answers, round 2 (2026-10-20)
+- Briefs approved; names left to Claude. Repo is **private**. Owner skipped manual account research and asked Claude to use Zapier/Make with Gemini or Claude instead.
+
+## Research tooling via Zapier (state)
+- Zapier MCP works. Connected there already: Google Sheets/Docs, Gmail, ChatGPT (OpenAI), Kartra, PhantomBuster. Make MCP works but the account lacks org-view rights.
+- **Gemini (Google AI Studio) actions enabled; needs owner to connect an API key** at the auth URL (free key from aistudio.google.com). `send_prompt` with Google Search grounding gives live web research. Anthropic (Claude) app exists in Zapier but is not enabled or connected.
+- ChatGPT is connected but not used: owner named Claude/Gemini, and it may bill their OpenAI credits (budget ₹0).
+
 ## Open questions for the owner
-1. Approve Page A / Page B briefs ([docs/04-brand-briefs.md](docs/04-brand-briefs.md))? Pick a name for each.
-2. Optional: 30-minute phone research, saving 10 strong accounts per niche (doc 03, section 5).
-3. Is this repo private? (Matters for where slide images are hosted; see Technical notes.)
+1. Connect Gemini in Zapier (see above).
+2. Create the accounts (checklist in doc 02, section 4).
 
 ## Technical notes (₹0 constraints)
 - Instagram's API needs **publicly reachable image URLs**. Plan: a separate **public** repo/GitHub Pages for rendered slides only, with strategy and secrets kept out of it.
@@ -48,9 +55,9 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - Whether the API supports delayed scheduling is unverified; fall back to a GitHub Actions cron that publishes approved posts at set times.
 
 ## Next steps (proposed order)
-1. **Owner:** approve briefs, pick names.
+1. **Owner:** connect Gemini in Zapier. **Claude then:** competitor and trend research via Gemini with Google Search grounding.
 2. **Owner:** create the accounts (checklist in doc 02, section 4).
-3. **Claude (can start now, niche-independent):** build the pipeline in this repo: content generator, HTML→PNG renderer, static-reel builder (ffmpeg), approval queue, publisher (Graph API), analytics puller.
+3. **Claude:** add GitHub Actions workflow, analytics puller, Graph API test on a real account.
 4. **Claude:** generate the first 30-day content batch per page for owner approval.
 5. **Together:** spike-test the Instagram Audio API on a test account.
 6. **Pilot:** 30 days, 1 post per day per page, owner approves each batch.
@@ -75,3 +82,4 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - `docs/02-india-addendum.md`: India-specific payouts, tax notes, SEBI, tooling, account checklist.
 - `docs/03-competitor-notes.md`: what exists, hook patterns, gaps, risks.
 - `docs/04-brand-briefs.md`: Page A (India) and Page B (Tier-1) briefs, shared rules, sample hooks.
+- `pipeline/`, `content/`: renderer, reel builder, approval CLI, publisher; brand configs and posts. See README.md.

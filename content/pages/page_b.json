@@ -1,0 +1,15 @@
+{
+  "id": "page_b",
+  "name": "Quiet Discipline",
+  "handle": "@quietdiscipline",
+  "audience": "US/UK/CA/AU, 22-40, English",
+  "theme": {
+    "bg": "#F4EFE6",
+    "fg": "#1C1C1E",
+    "muted": "#6B665C",
+    "accent": "#3D5A5A",
+    "font": "Georgia, 'Times New Roman', serif"
+  },
+  "footer": "@quietdiscipline",
+  "disclaimer_money": "Educational only, not financial advice."
+}

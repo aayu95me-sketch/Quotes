@@ -1,0 +1,44 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-26T13:30:00+05:30",
+  "pillar": "mind",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Procrastination laziness nahi hai. Yeh hai asli wajah."
+    },
+    {
+      "kind": "body",
+      "text": "Aap kaam isliye taalte ho kyunki kaam se judi feeling se bach rahe ho. Kaam se nahi."
+    },
+    {
+      "kind": "body",
+      "text": "Boring, darr, ya \"perfect nahi hoga\" wali feeling. Dimaag use avoid karta hai."
+    },
+    {
+      "kind": "body",
+      "text": "Isliye motivation ka wait karna kaam nahi karta. Feeling pehle nahi badalti."
+    },
+    {
+      "kind": "body",
+      "text": "Rule 1: Kaam ko itna chhota karo ki darr na lage. \"Ek page padhna\", \"do line likhna\"."
+    },
+    {
+      "kind": "body",
+      "text": "Rule 2: Timer lagao, 10 minute. Sirf shuru karna hai, khatam nahi."
+    },
+    {
+      "kind": "body",
+      "text": "Rule 3: Shuru karne ke baad hi motivation aati hai. Pehle nahi."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Kal jab taaloge, yeh dobara dekhna.",
+      "sub": "Follow for one rule a day"
+    }
+  ],
+  "caption": "Procrastination ka matlab laziness nahi hota. Dimaag ek feeling se bach raha hota hai. Chhota shuru karo, motivation baad mein aati hai.\n\nKaunsa kaam aap abhi taal rahe ho? Comment mein likho.\n\n#discipline #studymotivation #selfimprovement #procrastination #hinglish",
+  "ai_label": true
+}
