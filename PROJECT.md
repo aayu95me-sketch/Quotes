@@ -11,8 +11,8 @@ Maximise income from faceless, automated text-image carousels and static-image r
 - Will create any accounts needed. Will follow the plan. Will **approve every post for the first month**.
 
 ## Status
-- **Phase 0, Research:** Round 1 and 1b done → [docs/01-market-research.md](docs/01-market-research.md), [docs/02-india-addendum.md](docs/02-india-addendum.md). Round 2 (competitor teardown, official-policy verification) open.
-- **Phase 1, Setup:** not started.
+- **Phase 0, Research:** Rounds 1, 1b and 2 done → docs 01–03. Competitor data is thin (no Instagram access from here); owner can add real examples. Official-policy verification still open.
+- **Phase 1, Setup:** brand briefs drafted ([docs/04-brand-briefs.md](docs/04-brand-briefs.md)), **awaiting owner approval and name choice**. Pipeline build not started.
 - **Phase 2, Pilot:** not started.
 
 ## Key finding
@@ -32,17 +32,26 @@ Platform payouts are small, and for an India-based page they are smaller still (
 | 9 | Pipeline runs on GitHub Actions (always on); secrets in GitHub Secrets | Proposed |
 | 10 | Human approves every post for the first 30 days | **Confirmed by owner** |
 
+## Owner answers (2026-10-20)
+- Budget: **₹0**. Everything must use free tools and free tiers.
+- Niche: left to Claude. Language: Hinglish and English both fine. Will book the CA call.
+
 ## Open questions for the owner
-1. Monthly budget in ₹ (even if ₹0)? Near-zero is workable.
-2. Any niche you want to avoid, or have expertise in?
-3. Hinglish: are you comfortable approving Hinglish posts, or English only?
-4. Okay to book a one-hour call with a CA (tax/GST/LUT structure) before the first income?
+1. Approve Page A / Page B briefs ([docs/04-brand-briefs.md](docs/04-brand-briefs.md))? Pick a name for each.
+2. Optional: 30-minute phone research, saving 10 strong accounts per niche (doc 03, section 5).
+3. Is this repo private? (Matters for where slide images are hosted; see Technical notes.)
+
+## Technical notes (₹0 constraints)
+- Instagram's API needs **publicly reachable image URLs**. Plan: a separate **public** repo/GitHub Pages for rendered slides only, with strategy and secrets kept out of it.
+- GitHub Actions is free for public repos, and has a monthly free-minute allowance for private ones. The posting job is small.
+- Use only the **official Graph API**. Avoid unofficial/private-API libraries (account-restriction risk).
+- Whether the API supports delayed scheduling is unverified; fall back to a GitHub Actions cron that publishes approved posts at set times.
 
 ## Next steps (proposed order)
-1. **Claude:** Round 2 research: competitor teardown for the candidate niches (India and Tier-1); verify official policies where reachable.
-2. **Claude:** brand brief per page (name options, voice, visual system, content pillars, 30-day content plan).
-3. **Owner:** after the briefs are approved, create the accounts (checklist in doc 02, section 4).
-4. **Claude:** build the pipeline in this repo: content generator, HTML→PNG renderer, static-reel builder (ffmpeg), approval queue, publisher (Graph API), analytics puller.
+1. **Owner:** approve briefs, pick names.
+2. **Owner:** create the accounts (checklist in doc 02, section 4).
+3. **Claude (can start now, niche-independent):** build the pipeline in this repo: content generator, HTML→PNG renderer, static-reel builder (ffmpeg), approval queue, publisher (Graph API), analytics puller.
+4. **Claude:** generate the first 30-day content batch per page for owner approval.
 5. **Together:** spike-test the Instagram Audio API on a test account.
 6. **Pilot:** 30 days, 1 post per day per page, owner approves each batch.
 7. **Weekly review:** keep, change or kill, using the criteria below.
@@ -64,3 +73,5 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - `PROJECT.md`: this file (state, decisions, next steps).
 - `docs/01-market-research.md`: Round 1 market research (platforms, money, niches, risks).
 - `docs/02-india-addendum.md`: India-specific payouts, tax notes, SEBI, tooling, account checklist.
+- `docs/03-competitor-notes.md`: what exists, hook patterns, gaps, risks.
+- `docs/04-brand-briefs.md`: Page A (India) and Page B (Tier-1) briefs, shared rules, sample hooks.
