@@ -21,6 +21,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - **Pipeline:** render (carousels and 9:16 Reels), static Reel slideshow builder, approval CLI, publisher (render + upload to public assets repo + Graph API + AI flag, safety rails), research relay. All tested locally or on Actions except **live publishing, which has not been run**. `publish.yml` is a dry run unless repo variable `LIVE_PUBLISH=true`, and only activates once merged to `main`.
 - **Owner next:** Phase 1 of `docs/08-account-setup-guide.md` (create the two Instagram accounts, Facebook Pages, 2FA, profile pictures, bios). Then 3-5 days of warm-up. Then Phase 2 (Meta developer app, tokens, secrets) with Claude guiding step by step.
 
+## Account audit (Claude chat read-only check, 2026-10-20)
+- A1 IG @rozkarule, IG ID 17841469203264060, linked to A2 Page "Rozkarule" (ID 1345396148663682). B1 IG @disciplinequite, IG ID 17841422691847840, linked to B2 Page "Quietdiscipline" (ID 1436529449539802). Links correct. Both IG accounts are Professional (type Creator vs Business unconfirmed; B1 looks Business), category "Art" (wrong), no photos or bios, public. B1 Account Status clean.
+- Issues: B1 2FA off (owner); A1 2FA and Account Status unknown (owner, on phone); Page names are one word ("Rozkarule", "Quietdiscipline") and B1 display name is "Quite Discipline" (Prompt 2 fixes); **B2 has two extra "Quiet Discipline" entries with full access, unidentified** (Prompt 2B, read-only); A1 is owned by portfolio "Quite Discipline" while A2 is in "Roz ka Rule" (leave until the API test); B1 account has 3 Security Checkup recommendations (owner).
+- Next: Prompt 2 and 2B (docs/11), the manual phone steps, then Phase 2 (developer app).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
