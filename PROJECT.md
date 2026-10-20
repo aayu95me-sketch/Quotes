@@ -14,7 +14,7 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## Status (2026-10-20)
 - **Research:** done to the extent possible. See docs 01-03, 06, 07. Verified facts are in doc 06 (official pages fetched through the relay).
-- **Accounts:** owner created Instagram **@rozkarule** (Page A) and **@disciplinequite** was created with a typo; owner asked (2026-10-20) to correct it to **@disciplinequiet** in the Instagram and Facebook Page settings (owner action; files already use the corrected spelling) plus matching Facebook Pages. Still to confirm: Professional (Creator) switch, Page-to-Instagram link, 2FA, profile pictures and bios.
+- **Accounts:** owner created Instagram **@rozkarule** (Page A) and **@disciplinequite** was created with a typo; owner asked (2026-10-20) to correct it to **@disciplinequiet.official** in the Instagram and Facebook Page settings (owner action; files already use the corrected spelling) plus matching Facebook Pages. Still to confirm: Professional (Creator) switch, Page-to-Instagram link, 2FA, profile pictures and bios.
 - **Brand:** approved. **Roz Ka Rule** (Page A, India, Hinglish+English) and **Quiet Discipline** (Page B, US/UK/CA/AU, English). Profile images in `brand/`.
 - **Content:** week 1 fully written: 7 draft carousels plus 3 static-image Reels per page (20 total) in `content/posts/`, all `status: draft`, dates 27 Oct to 2 Nov (shift to real go-live). Plan for days 8-30 (hooks) in `docs/09-content-plan.md`. Weeks 2-4 get written one week at a time after reading the previous week's data.
 - **Audio:** trending, mood-matched music for Reels via Meta's Audio API (`pipeline/audio.py`, `content/audio_moods.json`, weekly shortlist job). Strategy and limits in `docs/10-audio-strategy.md`. Music cannot be attached to carousels or Stories through the API.
@@ -28,9 +28,16 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## Account fixes status (2026-10-20, after Prompt 2 report)
 - Done by Claude chat: bios on B1, A2, B2. Not done: names/passwords/pictures (owner), A1 items (chat only had B1 signed in on Instagram web).
-- **Instagram @disciplinequiet is taken.** Chosen Instagram handle for B1: **@the.disciplinequiet** (alternatives free: disciplinequiet_, disciplinequiet.in, disciplinequiet.official). Facebook Page B2 username: `disciplinequiet` (reported available). Slide footers and reels use @the.disciplinequiet.
+- **Instagram @disciplinequiet.official is taken.** Chosen Instagram handle for B1: **@the.disciplinequiet** (alternatives free: disciplinequiet_, disciplinequiet.in, disciplinequiet.official). Facebook Page B2 username: `disciplinequiet` (reported available). Slide footers and reels use @the.disciplinequiet.
 - Owner phone/Chrome checklist given: Page name changes (B2 "Quiet Discipline", A2 "Roz Ka Rule", Meta review up to 3 days, then 60-day lock), usernames, profile pictures, IG renames, 2FA, Security Checkup, A1 Account Status, Creator switch.
 - Still open: Prompt 2B (identify two unknown full-access "Quiet Discipline" entries on B2) before generating any tokens.
+
+## Prompt 2 result (2026-10-20)
+- Done by Claude chat: bios on B1, A2, B2. Not done: names, pictures, A1 anything (Chrome is signed in only as B1).
+- **@disciplinequiet is taken on Instagram** (also @quietdiscipline). Decision: Page B Instagram handle = **@disciplinequiet.official** (files updated). Facebook Page B2 username `disciplinequiet` was available (separate namespace).
+- Owner must do (passwords): B2 username (box open in Chrome), B2 name -> "Quiet Discipline", A2 name -> "Roz Ka Rule". Facebook reviews page-name changes (up to 3 days) and then locks the name for 60 days, so the spelling must be exact.
+- Owner on phone: profile pictures for A1, A2, B1, B2 (files sent to the owner); A1 bio, name "Roz Ka Rule", category; 2FA; Account Status for A1; Creator vs Business.
+- Prompt 2C covers category, B1 handle and display name via Chrome.
 
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.

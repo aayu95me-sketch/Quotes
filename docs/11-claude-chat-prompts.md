@@ -11,7 +11,7 @@ I could not verify which tools the chat project has (browser control, Meta conne
 SCOPE. This task concerns ONLY these four assets and nothing else (IDs confirmed by the read-only check):
   A1  Instagram account  @rozkarule                  IG ID 17841469203264060   (display name now "Rozkarule")
   A2  Facebook Page      currently "Rozkarule"       Page ID 1345396148663682  (correct name: "Roz Ka Rule")
-  B1  Instagram account  @disciplinequite            IG ID 17841422691847840   (display name now "Quite Discipline"; handle will become @disciplinequiet)
+  B1  Instagram account  @disciplinequite            IG ID 17841422691847840   (display name now "Quite Discipline"; handle will become @disciplinequiet.official)
   B2  Facebook Page      currently "Quietdiscipline" Page ID 1436529449539802  (correct name: "Quiet Discipline")
 Everything else in my Business Suite is OUT OF SCOPE: other Pages, other Instagram accounts, other businesses or portfolios, ad accounts, catalogs, pixels, campaigns, ads, payment methods, users, roles and settings. Do not open, edit, delete, post to, message from, or change anything outside those four assets, even if it looks related or you think it would help.
 If you cannot tell for certain which asset is which (similar names, duplicates, or more than one match), STOP and ask me. Identify each asset by handle or exact name, and tell me the ID you matched before changing it.
@@ -74,6 +74,19 @@ Prompt 1 saw two separate entries both named "Quiet Discipline" with full access
 
 TASK 2B: READ-ONLY. Change NOTHING. On Facebook Page B2 (ID 1436529449539802), open the people / access list. For the two entries named "Quiet Discipline", tell me for each: is it a person, a business portfolio, a partner business, an app, or a system user? What access level, who or what is behind it (the owner's name or ID if shown), and when it was added. Do the same for the "Ayush Sharma" entry. Say plainly whether anything on this list looks like it does not belong to me. Do not remove or edit any entry.
 End with the REPORT.
+```
+
+## PROMPT 2C: finish what Prompt 2 could not (Chrome is signed in as B1 and the Page B2)
+Prompt 2 result: bios set on B1, A2, B2. `@disciplinequiet` is TAKEN on Instagram. Free options found: disciplinequiet_, the.disciplinequiet, disciplinequiet.in, disciplinequiet.official. Decision: **@disciplinequiet.official** (the .in ending would suggest an Indian page; a trailing underscore looks unpolished). The Facebook Page username `disciplinequiet` was available and is fine, it is a separate namespace.
+```
+[paste the SCOPE BLOCK here if this is a new chat. Note: B1's handle is now to become @disciplinequiet.official]
+
+TASK 2C. Chrome is signed in to Instagram as B1 (@disciplinequite) and can act as Page B2. Do only these:
+1. B1 Instagram (web, Edit profile): username -> disciplinequiet.official. Name -> "Quiet Discipline". Category -> "Education" (or "Personal blog" if not offered; tell me which).
+2. Facebook Page A2 (ID 1345396148663682): Page category -> "Education" (or "Personal blog"). Do NOT start the name change; I will do it myself because it needs my password.
+3. Facebook Page B2 (ID 1436529449539802): category -> "Education" (or "Personal blog").
+4. Do not touch passwords, pictures, 2FA, roles, portfolios, or any other Page. Do not sign in to or switch to A1; I will do A1 on my phone.
+End with the REPORT, with the final username, display name and category of B1, A2 and B2.
 ```
 
 ## MANUAL: do these on your phone (Claude chat could not, and some are security steps that should be yours)
