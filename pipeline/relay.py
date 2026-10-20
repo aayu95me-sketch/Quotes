@@ -5,6 +5,7 @@ Each file research/requests/<id>.json is processed once; output goes to research
 Request format:
 {
   "fetch": ["https://..."],                 # public pages, saved as text (direct fetch, r.jina.ai fallback)
+  "search": {"queries": ["..."], "top": 3}, # free web search (DuckDuckGo HTML, Bing fallback); top N result pages are fetched too
   "ask": {                                   # optional LLM call, needs a repo secret for the provider
     "provider": "gemini" | "groq" | "openai",
     "model": "gemini-3.8-flash",             # optional
@@ -22,6 +23,7 @@ import pathlib
 import re
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -54,6 +56,27 @@ def fetch(url):
         return "r.jina.ai", http("https://r.jina.ai/" + url, headers={"Accept": "text/plain"})[:MAX_PAGE]
     except Exception as e:
         return "failed", f"{text}\n(jina fallback failed: {e})"
+
+
+def web_search(query, n=8):
+    """Return [(title, url)] from DuckDuckGo HTML, falling back to Bing."""
+    out = []
+    try:
+        page = http("https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(query))
+        for href, title in re.findall(r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', page, re.S):
+            m = re.search(r"uddg=([^&]+)", href)
+            url = urllib.parse.unquote(m.group(1)) if m else href
+            out.append((strip_html(title), url))
+    except Exception:
+        pass
+    if not out:
+        try:
+            page = http("https://www.bing.com/search?q=" + urllib.parse.quote(query))
+            for url, title in re.findall(r'<li class="b_algo".*?<a href="(https?://[^"]+)"[^>]*>(.*?)</a>', page, re.S):
+                out.append((strip_html(title), url))
+        except Exception:
+            pass
+    return out[:n]
 
 
 def post_json(url, body, headers, tries=4):
@@ -120,6 +143,23 @@ def main():
             (out / f"page_{i:02d}.txt").write_text(f"URL: {url}\nMETHOD: {how}\n\n{text}\n")
             log.append(f"- page_{i:02d}.txt  {how}  {len(text)} chars  {url}")
             context.append(f"## {url}\n{text[:20000]}")
+        sq = req.get("search")
+        if sq:
+            lines, seen = [], set(req.get("fetch", []))
+            for q in sq["queries"]:
+                results = web_search(q)
+                lines.append(f"### {q}")
+                lines += [f"- {t} {u}" for t, u in results] or ["- (no results)"]
+                for t, u in results[: sq.get("top", 3)]:
+                    if u in seen:
+                        continue
+                    seen.add(u)
+                    i = len(log) + 1
+                    how, text = fetch(u)
+                    (out / f"page_{i:02d}.txt").write_text(f"URL: {u}\nQUERY: {q}\nMETHOD: {how}\n\n{text}\n")
+                    log.append(f"- page_{i:02d}.txt  {how}  {len(text)} chars  {u}  (query: {q})")
+                    context.append(f"## {u}\n{text[:20000]}")
+            (out / "search_results.md").write_text("\n".join(lines) + "\n")
         answer = ""
         if req.get("ask"):
             try:
