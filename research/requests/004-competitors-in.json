@@ -1,0 +1,7 @@
+{
+  "ask": {
+    "provider": "groq",
+    "prompt": "Find real Indian Instagram pages (faceless text/carousel pages or small creators) in discipline, study motivation, career advice, psychology facts and self-improvement posting in Hinglish or English for Indians 18-30. List up to 12 with handle, approximate followers and date/source, language, format, monetisation. Then answer with evidence only: does Hinglish or English perform better for engagement on such pages? Which topics are saturated vs underserved? What do pages of ~10k, ~50k, ~100k followers typically charge brands in INR for a post or story?",
+    "system": "You are a careful market researcher with live web search. Never invent accounts, handles, follower counts, rates or quotes. Every claim needs a source URL. If you cannot verify something, write 'unverified'. Prefer 2026 sources and official pages. Be concise; use markdown tables."
+  }
+}

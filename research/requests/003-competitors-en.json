@@ -1,0 +1,7 @@
+{
+  "ask": {
+    "provider": "groq",
+    "prompt": "Find real English-language faceless Instagram pages (text/graphic carousels or static posts, no face) in self-improvement, discipline, habits, psychology and stoicism that target US/UK/CA/AU audiences. List up to 12 with handle, approximate followers and the date/source of that figure, format, and monetisation. Then summarise: which sub-angles look saturated vs underserved, and the most common slide-1 hook patterns. If you cannot verify follower counts, say so rather than guessing.",
+    "system": "You are a careful market researcher with live web search. Never invent accounts, handles, follower counts, rates or quotes. Every claim needs a source URL. If you cannot verify something, write 'unverified'. Prefer 2026 sources and official pages. Be concise; use markdown tables."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ask": {
+    "provider": "groq",
+    "prompt": "For an individual creator in India with a \u20b90 budget and an Indian bank account, using official pages where possible: (1) which platforms for selling digital products (PDF planners, templates) pay out to Indian bank accounts in 2026 (Gumroad, Lemon Squeezy, Payhip, SuperProfile, Instamojo, Razorpay Payment Pages, Topmate, Graphy, Stripe): fees and whether international buyers can pay; (2) affiliate programs usable from India for self-improvement/productivity/book audiences (Amazon Associates India, Cuelinks, others): commission, payout minimum, and whether links in an Instagram bio are allowed; (3) free link-in-bio tools and free email-list tools that work from India.",
+    "system": "You are a careful market researcher with live web search. Never invent accounts, handles, follower counts, rates or quotes. Every claim needs a source URL. If you cannot verify something, write 'unverified'. Prefer 2026 sources and official pages. Be concise; use markdown tables."
+  }
+}
