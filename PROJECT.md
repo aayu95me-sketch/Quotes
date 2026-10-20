@@ -42,7 +42,8 @@ Platform payouts are small, and for an India-based page they are smaller still (
 ## Research tooling via Zapier (state)
 - Zapier MCP works. Connected there already: Google Sheets/Docs, Gmail, ChatGPT (OpenAI), Kartra, PhantomBuster. Make MCP works but the account lacks org-view rights.
 - **Gemini connected and working** (model `gemini-3.8-flash`; `gemini-2.5-flash` is retired). But the free API key returned **quota exceeded** on search-grounded prompts (retried several times, 2026-10-20). Fallback: owner runs the ready prompts in `docs/05-research-prompts.md` in the Gemini app or Claude chat and pastes answers back. Retry Zapier-Gemini later (quota may reset). Anthropic (Claude) app exists in Zapier but is not enabled or connected.
-- ChatGPT is connected but not used: owner named Claude/Gemini, and it may bill their OpenAI credits (budget ₹0).
+- Gemini rate-limit screenshots (owner, 2026-10-20): `gemini-3.8-flash` is 5 requests/min free; usage was low, yet every **search-grounded** call (3.8 and 3.6 flash, sequential) still returned quota-exceeded, and one ungrounded call returned 'high demand'. Likely cause: no free quota for Google Search grounding. Ungrounded Gemini works (use for drafting, not research).
+- ChatGPT via Zapier uses an **OpenAI API key with no credits** ('no credits remaining'). A ChatGPT Go subscription does not fund API calls. So the owner must run research prompts manually in the ChatGPT or Gemini apps (both have web search).
 
 ## Open questions for the owner
 1. Optional but valuable: run P1-P4 from `docs/05-research-prompts.md` in the Gemini app and paste back the answers.
