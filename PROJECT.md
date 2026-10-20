@@ -49,7 +49,9 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - **How it works:** I commit a request file to `research/requests/` on a `claude/**` branch. `.github/workflows/research-relay.yml` runs `pipeline/relay.py` on GitHub Actions (open internet, free), which fetches pages (direct, `r.jina.ai` fallback), runs free web searches (DuckDuckGo/Bing) and optionally calls an LLM, then commits results to `research/answers/<id>/`. I `git pull` and read them (~1 minute round trip). Tested: official Meta pages, Instagram creator blog, GST portal all retrieved.
 - **Optional AI step:** add repo secrets `GEMINI_API_KEY` / `GROQ_API_KEY` / `OPENAI_API_KEY` (Settings > Secrets and variables > Actions) and requests can include an `ask` block. Gemini grounded search was quota-blocked on the free key through Zapier; Groq's free `groq/compound` model has built-in web search and needs only a free key.
 - Zapier/Make are kept as backups (Zapier-Gemini works for ungrounded prompts; Make is on the Free plan, its AI Web Search needs a paid plan).
-- Verified facts so far: [docs/06-verified-facts.md](docs/06-verified-facts.md).
+- Verified facts so far: [docs/06-verified-facts.md](docs/06-verified-facts.md). Competitors/rates: [docs/07-competitors-and-rates.md](docs/07-competitors-and-rates.md).
+- **Groq key added by owner and works, but the free account has no web-search model** (models: gpt-oss-120b/20b, qwen3.8-27b, etc.; no `groq/compound`). The relay's own search+fetch does the research; Groq/Gemini can be used for summarising fetched text. Search engines rate-limit bursts: relay now pauses and falls back across DuckDuckGo, Mojeek, Bing.
+- **Big update:** Facebook Content Monetization officially lists **India** and the **English and Hindi** languages for public Reels. Photo/text eligibility and thresholds still need the owner's Meta account.
 
 ## Open questions for the owner
 1. Optional but valuable: run P1-P4 from `docs/05-research-prompts.md` in the Gemini app and paste back the answers.

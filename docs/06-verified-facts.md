@@ -43,3 +43,9 @@ Fetched 2026-10-20 by `pipeline/relay.py` on GitHub Actions. Raw pages are in `r
 - Instagram Gifts, Subscriptions and Bonuses availability in India (`creators.instagram.com/bonuses`, `/earn-money/...`).
 - Broadcast Channels requirements (search returned no result; `creators.instagram.com/create/broadcast-channels` exists).
 - Competitor accounts and Hinglish-versus-English performance (needs a search-grounded LLM or manual check).
+
+## Added 2026-10-20 (relay run 2003-2006)
+- **[Official] Facebook Content Monetization, country and language availability** (Meta Business Help `facebook.com/business/help/267128784014981`): public **Reels** are eligible when published in listed countries and languages. **India is on the country list. English and Hindi are on the language list.** In-stream ads for Live ended June 15, 2026. Whether *photo/text posts* earn there is **not stated** on this page, and whether Roman-script Hinglish is detected as English or Hindi is unknown. Eligibility thresholds and invite status must still be checked in the owner's Meta account.
+- **[Official, with caveat] Instagram Bonuses page** (`creators.instagram.com/bonuses`) returned "Sorry, this page isn't available". Consistent with the bonus programme being closed, but one fetch only; treat as unverified.
+- **[Soft, cites Gumroad's help centre] Gumroad in India:** pays Indian bank accounts in rupees (weekly Tuesday payouts), accepts UPI at checkout; fee 10% + $0.50 per direct sale (card processing extra; 30% via Discover); **$100 minimum payout and 7-day hold**. Caveat from the same source: GST treats a service as an export only if paid in convertible foreign exchange, and rupee payouts may not qualify. Ask the CA before choosing a platform.
+- **[Official] Amazon.in Associates:** fixed advertising rates by category, roughly 1% to 8% depending on category (page text only partly extracted).
