@@ -26,6 +26,12 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Issues: B1 2FA off (owner); A1 2FA and Account Status unknown (owner, on phone); Page names are one word ("Rozkarule", "Quietdiscipline") and B1 display name is "Quite Discipline" (Prompt 2 fixes); **B2 has two extra "Quiet Discipline" entries with full access, unidentified** (Prompt 2B, read-only); A1 is owned by portfolio "Quite Discipline" while A2 is in "Roz ka Rule" (leave until the API test); B1 account has 3 Security Checkup recommendations (owner).
 - Next: Prompt 2 and 2B (docs/11), the manual phone steps, then Phase 2 (developer app).
 
+## Account fixes status (2026-10-20, after Prompt 2 report)
+- Done by Claude chat: bios on B1, A2, B2. Not done: names/passwords/pictures (owner), A1 items (chat only had B1 signed in on Instagram web).
+- **Instagram @disciplinequiet is taken.** Chosen Instagram handle for B1: **@the.disciplinequiet** (alternatives free: disciplinequiet_, disciplinequiet.in, disciplinequiet.official). Facebook Page B2 username: `disciplinequiet` (reported available). Slide footers and reels use @the.disciplinequiet.
+- Owner phone/Chrome checklist given: Page name changes (B2 "Quiet Discipline", A2 "Roz Ka Rule", Meta review up to 3 days, then 60-day lock), usernames, profile pictures, IG renames, 2FA, Security Checkup, A1 Account Status, Creator switch.
+- Still open: Prompt 2B (identify two unknown full-access "Quiet Discipline" entries on B2) before generating any tokens.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
