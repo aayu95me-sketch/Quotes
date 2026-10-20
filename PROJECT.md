@@ -45,6 +45,12 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - Gemini rate-limit screenshots (owner, 2026-10-20): `gemini-3.8-flash` is 5 requests/min free; usage was low, yet every **search-grounded** call (3.8 and 3.6 flash, sequential) still returned quota-exceeded, and one ungrounded call returned 'high demand'. Likely cause: no free quota for Google Search grounding. Ungrounded Gemini works (use for drafting, not research).
 - ChatGPT via Zapier uses an **OpenAI API key with no credits** ('no credits remaining'). A ChatGPT Go subscription does not fund API calls. So the owner must run research prompts manually in the ChatGPT or Gemini apps (both have web search).
 
+## Research relay (permanent, built 2026-10-20)
+- **How it works:** I commit a request file to `research/requests/` on a `claude/**` branch. `.github/workflows/research-relay.yml` runs `pipeline/relay.py` on GitHub Actions (open internet, free), which fetches pages (direct, `r.jina.ai` fallback), runs free web searches (DuckDuckGo/Bing) and optionally calls an LLM, then commits results to `research/answers/<id>/`. I `git pull` and read them (~1 minute round trip). Tested: official Meta pages, Instagram creator blog, GST portal all retrieved.
+- **Optional AI step:** add repo secrets `GEMINI_API_KEY` / `GROQ_API_KEY` / `OPENAI_API_KEY` (Settings > Secrets and variables > Actions) and requests can include an `ask` block. Gemini grounded search was quota-blocked on the free key through Zapier; Groq's free `groq/compound` model has built-in web search and needs only a free key.
+- Zapier/Make are kept as backups (Zapier-Gemini works for ungrounded prompts; Make is on the Free plan, its AI Web Search needs a paid plan).
+- Verified facts so far: [docs/06-verified-facts.md](docs/06-verified-facts.md).
+
 ## Open questions for the owner
 1. Optional but valuable: run P1-P4 from `docs/05-research-prompts.md` in the Gemini app and paste back the answers.
 2. Create the accounts (checklist in doc 02, section 4).
@@ -82,5 +88,8 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - `docs/01-market-research.md`: Round 1 market research (platforms, money, niches, risks).
 - `docs/02-india-addendum.md`: India-specific payouts, tax notes, SEBI, tooling, account checklist.
 - `docs/03-competitor-notes.md`: what exists, hook patterns, gaps, risks.
+- `docs/05-research-prompts.md`: manual prompts (now mostly superseded by the relay).
+- `docs/06-verified-facts.md`: facts confirmed from official/primary pages.
+- `research/`: relay requests and answers. `.github/workflows/research-relay.yml`.
 - `docs/04-brand-briefs.md`: Page A (India) and Page B (Tier-1) briefs, shared rules, sample hooks.
 - `pipeline/`, `content/`: renderer, reel builder, approval CLI, publisher; brand configs and posts. See README.md.

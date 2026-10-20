@@ -9,6 +9,8 @@ Env (live mode only):
   IG_<PAGE>_USER_ID / IG_<PAGE>_TOKEN   e.g. IG_PAGE_A_USER_ID, IG_PAGE_A_TOKEN
   GRAPH_VERSION     optional, default v21.0 (check Meta docs for the current version)
 
+Meta docs (checked 2026-10-20): limit 100 API posts per rolling 24h (carousel = 1), up to 20 items per carousel;
+no publish_time parameter, so scheduling is done by our own cron (GitHub Actions).
 Flow per carousel: one child container per image (is_carousel_item=true) -> parent
 container (media_type=CAROUSEL, children=ids, caption) -> media_publish.
 """
@@ -55,9 +57,11 @@ def publish_carousel(post, stem, live):
     kids = []
     for u in urls:
         kids.append(api("POST", f"{uid}/media", {"image_url": u, "is_carousel_item": "true", "access_token": token}, ver)["id"])
-    parent = api("POST", f"{uid}/media", {
-        "media_type": "CAROUSEL", "children": ",".join(kids),
-        "caption": post["caption"], "access_token": token}, ver)["id"]
+    parent_params = {"media_type": "CAROUSEL", "children": ",".join(kids),
+                     "caption": post["caption"], "access_token": token}
+    if post.get("ai_label"):  # self-disclosure; set on the carousel container only, not on children
+        parent_params["is_ai_generated"] = "true"
+    parent = api("POST", f"{uid}/media", parent_params, ver)["id"]
     for _ in range(12):  # wait for processing
         st = api("GET", parent, {"fields": "status_code", "access_token": token}, ver)
         if st.get("status_code") == "FINISHED":
