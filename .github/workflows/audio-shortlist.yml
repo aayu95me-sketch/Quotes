@@ -1,0 +1,33 @@
+name: audio-shortlist
+# Weekly: asks Meta's Audio API for trending music per mood and commits a ranked shortlist to research/audio/.
+# Runs from the default branch (after merge). Needs the IG_* secrets.
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shortlist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build shortlist
+        env:
+          IG_PAGE_A_USER_ID: ${{ secrets.IG_PAGE_A_USER_ID }}
+          IG_PAGE_A_TOKEN: ${{ secrets.IG_PAGE_A_TOKEN }}
+          IG_PAGE_B_USER_ID: ${{ secrets.IG_PAGE_B_USER_ID }}
+          IG_PAGE_B_TOKEN: ${{ secrets.IG_PAGE_B_TOKEN }}
+        run: python pipeline/audio.py shortlist
+      - name: Commit
+        run: |
+          git config user.name "audio-bot"
+          git config user.email "audio-bot@users.noreply.github.com"
+          git add research/audio
+          git diff --cached --quiet && exit 0
+          git commit -m "audio shortlist [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

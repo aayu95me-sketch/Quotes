@@ -1,0 +1,28 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-01T12:30:00+05:30",
+  "pillar": "confident",
+  "lang": "hinglish",
+  "mood": "confident",
+  "seconds_each": 3.5,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Dheere bolo. Seedha bolo."
+    },
+    {
+      "kind": "body",
+      "text": "Log tumhe serious lene lagenge."
+    },
+    {
+      "kind": "cta",
+      "text": "Aur 5 tips carousel mein.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Serious dikhna loud hona nahi hai. Clear aur confident hona hai.\n\n#communication #careergrowth #confidence #hinglish #reels",
+  "ai_label": true
+}

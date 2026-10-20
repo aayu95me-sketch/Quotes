@@ -1,0 +1,28 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-10-30T12:30:00+05:30",
+  "pillar": "calm",
+  "lang": "hinglish",
+  "mood": "calm",
+  "seconds_each": 3.5,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Exam se ek raat pehle: naya chapter mat padho."
+    },
+    {
+      "kind": "body",
+      "text": "Revise karo. Paani piyo. Time par so jao."
+    },
+    {
+      "kind": "cta",
+      "text": "Kal ke liye save karo.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Exam se pehle ki raat: revise karo, so jao, shaant raho. All the best!\n\n#examtips #studymotivation #students #hinglish #reels",
+  "ai_label": true
+}

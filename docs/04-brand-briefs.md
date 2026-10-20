@@ -1,6 +1,6 @@
 # Brand Briefs: Pilot Pages A and B
 
-Status: **APPROVED by owner 2026-10-20; names chosen by Claude: Page A "Roz Ka Rule" (@rozkarule), Page B "Quiet Discipline" (@quietdiscipline).** Handle availability is unchecked: if taken, use the next name on the list or add a suffix (e.g. `.official`, `_daily`). Budget: ₹0, so everything here uses free tools only.
+Status: **APPROVED by owner 2026-10-20; names chosen by Claude: Page A "Roz Ka Rule" (@rozkarule), Page B "Quiet Discipline" (@disciplinequite).** Handle availability is unchecked: if taken, use the next name on the list or add a suffix (e.g. `.official`, `_daily`). Budget: ₹0, so everything here uses free tools only.
 Handles/names below are *ideas*. I can't check availability, so the owner must check Instagram, Facebook and a quick web/trademark search before settling on one. Avoid anything resembling an existing brand.
 
 ---

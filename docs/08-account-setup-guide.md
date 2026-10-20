@@ -13,7 +13,7 @@ Gets the accounts ready. Takes about 45 minutes.
 
 1. **Facebook:** log in to your normal personal Facebook account. If you don't have one, create one with your real name. (Pages are managed by a real personal profile.)
 2. **Create two Instagram accounts** in the Instagram app (Add account > Create new account). Use two different emails (a free Gmail alias such as `yourname+rozkarule@gmail.com` works for the email field) and your phone number for verification.
-   - Page A username: `rozkarule`. Page B username: `quietdiscipline`.
+   - Page A username: `rozkarule`. Page B username: `disciplinequite`.
    - **If a name is taken**, try (in order): Page A `roz.ka.rule`, `rozkarule.in`, `rozkarule_daily`. Page B `quiet.discipline`, `quietdiscipline.co`, `quietdiscipline_daily`. Tell me the final handles so I can update the files.
 3. **Profile pictures:** use `brand/page_a_profile.png` and `brand/page_b_profile.png` from the repo (download them from GitHub on your Mac and AirDrop them to your phone, or save them from the GitHub app).
 4. **Bios** (paste, then adjust if you wish):

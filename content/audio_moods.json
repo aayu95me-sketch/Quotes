@@ -1,0 +1,15 @@
+{
+  "_doc": "Mood -> search keywords for the Instagram Audio API (music). The API returns only audio licensed for third-party publishing. Trending tracks that also match a mood keyword score highest. volume = audio_volume (1-100); our video track is silent, so text carries the message and music stays under it.",
+  "moods": {
+    "focus":     {"queries": ["lofi", "instrumental", "piano", "study", "chill"],            "volume": 35},
+    "calm":      {"queries": ["soft piano", "acoustic", "ambient", "peaceful", "slow"],      "volume": 30},
+    "confident": {"queries": ["motivational", "cinematic", "upbeat", "inspiring", "epic"],  "volume": 40},
+    "reflective":{"queries": ["emotional piano", "reflective", "deep", "ambient"],          "volume": 30}
+  },
+  "page_overrides": {
+    "page_a": {"focus": {"queries": ["hindi lofi", "lofi", "instrumental", "chill"], "volume": 35},
+               "confident": {"queries": ["motivational", "punjabi", "cinematic", "upbeat"], "volume": 40}}
+  },
+  "avoid_reuse_days": 14,
+  "min_duration_ms_margin": 2000
+}

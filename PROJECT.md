@@ -14,9 +14,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## Status (2026-10-20)
 - **Research:** done to the extent possible. See docs 01-03, 06, 07. Verified facts are in doc 06 (official pages fetched through the relay).
-- **Brand:** approved. **Roz Ka Rule** (Page A, India, Hinglish+English) and **Quiet Discipline** (Page B, US/UK/CA/AU, English). Handles unchecked. Profile images in `brand/`.
-- **Content:** week 1 fully written: 7 draft carousels per page (14 total) in `content/posts/`, all `status: draft`, dates 27 Oct to 2 Nov (shift to real go-live). Plan for days 8-30 (hooks) in `docs/09-content-plan.md`. Weeks 2-4 get written one week at a time after reading the previous week's data.
-- **Pipeline:** render (carousels), static Reel builder, approval CLI, publisher (render + upload to public assets repo + Graph API + AI flag, safety rails), research relay. All tested locally or on Actions except **live publishing, which has not been run**. `publish.yml` is a dry run unless repo variable `LIVE_PUBLISH=true`, and only activates once merged to `main`.
+- **Accounts:** owner created Instagram **@rozkarule** (Page A) and **@disciplinequite** (Page B; note the spelling "quite", the owner's choice or a typo to confirm) plus matching Facebook Pages. Still to confirm: Professional (Creator) switch, Page-to-Instagram link, 2FA, profile pictures and bios.
+- **Brand:** approved. **Roz Ka Rule** (Page A, India, Hinglish+English) and **Quiet Discipline** (Page B, US/UK/CA/AU, English). Profile images in `brand/`.
+- **Content:** week 1 fully written: 7 draft carousels plus 3 static-image Reels per page (20 total) in `content/posts/`, all `status: draft`, dates 27 Oct to 2 Nov (shift to real go-live). Plan for days 8-30 (hooks) in `docs/09-content-plan.md`. Weeks 2-4 get written one week at a time after reading the previous week's data.
+- **Audio:** trending, mood-matched music for Reels via Meta's Audio API (`pipeline/audio.py`, `content/audio_moods.json`, weekly shortlist job). Strategy and limits in `docs/10-audio-strategy.md`. Music cannot be attached to carousels or Stories through the API.
+- **Pipeline:** render (carousels and 9:16 Reels), static Reel slideshow builder, approval CLI, publisher (render + upload to public assets repo + Graph API + AI flag, safety rails), research relay. All tested locally or on Actions except **live publishing, which has not been run**. `publish.yml` is a dry run unless repo variable `LIVE_PUBLISH=true`, and only activates once merged to `main`.
 - **Owner next:** Phase 1 of `docs/08-account-setup-guide.md` (create the two Instagram accounts, Facebook Pages, 2FA, profile pictures, bios). Then 3-5 days of warm-up. Then Phase 2 (Meta developer app, tokens, secrets) with Claude guiding step by step.
 
 ## Key findings
@@ -69,7 +71,7 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## File map
 - `PROJECT.md` this file. `README.md` how to run the pipeline.
-- `docs/01-market-research.md` platforms, money, risks. `02-india-addendum.md` India payouts, tax, SEBI. `03-competitor-notes.md`. `04-brand-briefs.md` page briefs. `05-research-prompts.md` manual prompts (mostly superseded). `06-verified-facts.md` official facts. `07-competitors-and-rates.md`. `08-account-setup-guide.md` **owner's step-by-step**. `09-content-plan.md` 30-day plan.
+- `docs/01-market-research.md` platforms, money, risks. `02-india-addendum.md` India payouts, tax, SEBI. `03-competitor-notes.md`. `04-brand-briefs.md` page briefs. `05-research-prompts.md` manual prompts (mostly superseded). `06-verified-facts.md` official facts. `07-competitors-and-rates.md`. `08-account-setup-guide.md` **owner's step-by-step**. `09-content-plan.md` 30-day plan. `10-audio-strategy.md` audio.
 - `content/pages/*.json` brand config. `content/posts/<page>/*.json` posts. `brand/` profile images.
-- `pipeline/`: `render.py`, `reel.py`, `approve.py`, `publish.py`, `relay.py`, `brand.py`, `setup_tokens.py`.
-- `research/requests`, `research/answers`: relay. `.github/workflows/`: `research-relay.yml`, `publish.yml`.
+- `pipeline/`: `render.py`, `reel.py`, `audio.py`, `approve.py`, `publish.py`, `relay.py`, `brand.py`, `setup_tokens.py`. `content/audio_moods.json`.
+- `research/requests`, `research/answers`: relay. `research/audio`: weekly audio shortlists. `.github/workflows/`: `research-relay.yml`, `publish.yml`, `audio-shortlist.yml`.

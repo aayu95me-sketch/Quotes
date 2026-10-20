@@ -1,0 +1,28 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-10-28T13:00:00+00:00",
+  "pillar": "focus",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 3.5,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Willpower is a poor plan."
+    },
+    {
+      "kind": "body",
+      "text": "Design your environment so the right choice is the easy one."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for tomorrow.",
+      "sub": "@disciplinequite"
+    }
+  ],
+  "caption": "Willpower runs out. Environment doesn't. Full carousel on our profile.\n\n#selfimprovement #habits #discipline #psychology #reels",
+  "ai_label": true
+}

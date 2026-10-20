@@ -1,0 +1,28 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-01T13:00:00+00:00",
+  "pillar": "confident",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 3.5,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "A boundary is a sentence you prepared in advance."
+    },
+    {
+      "kind": "body",
+      "text": "Say it once. Calmly. Without a long apology."
+    },
+    {
+      "kind": "cta",
+      "text": "Save these scripts.",
+      "sub": "@disciplinequite"
+    }
+  ],
+  "caption": "Prepare your script before you need it.\n\n#boundaries #workplace #assertiveness #selfimprovement #reels",
+  "ai_label": true
+}

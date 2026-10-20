@@ -1,0 +1,28 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-10-30T13:00:00+00:00",
+  "pillar": "calm",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 3.5,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Aim to be understood, not to be right."
+    },
+    {
+      "kind": "body",
+      "text": "Try: \"Help me understand what matters most to you here.\""
+    },
+    {
+      "kind": "cta",
+      "text": "Save it for the next hard talk.",
+      "sub": "@disciplinequite"
+    }
+  ],
+  "caption": "Arguments end when both people feel heard.\n\n#relationships #communication #emotionalintelligence #selfimprovement #reels",
+  "ai_label": true
+}

@@ -1,0 +1,28 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-10-28T12:30:00+05:30",
+  "pillar": "focus",
+  "lang": "hinglish",
+  "mood": "focus",
+  "seconds_each": 3.5,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Procrastination laziness nahi hai."
+    },
+    {
+      "kind": "body",
+      "text": "Dimaag ek feeling se bach raha hai. Chhota shuru karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Poora carousel dekho. Save karo.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Procrastination laziness nahi hoti. Chhota shuru karo, motivation baad mein aati hai. Poora carousel humare profile par.\n\n#discipline #studymotivation #procrastination #hinglish #reels",
+  "ai_label": true
+}

@@ -1,5 +1,6 @@
 """Publish approved, due carousel posts via the official Instagram Graph API.
 
+Handles carousels and static-image Reels (trending, mood-matched audio via the Audio API).
 Dry-run by default. Pass --live to actually publish. NOT yet tested against the live API:
 the first live run must be a test post on one of the owner's own accounts.
 
@@ -112,6 +113,67 @@ def publish_carousel(f, post, live):
     return api("POST", f"{uid}/media_publish", {"creation_id": parent, "access_token": token}, ver)["id"]
 
 
+def rupload(container_id, mp4, token, ver):
+    """Resumable upload of a local video to Meta (rupload.facebook.com), as documented for Reels."""
+    data = pathlib.Path(mp4).read_bytes()
+    req = urllib.request.Request(f"https://rupload.facebook.com/ig-api-upload/{ver}/{container_id}", data=data, method="POST",
+                                 headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(data))})
+    try:
+        out = json.loads(urllib.request.urlopen(req, timeout=300).read())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"rupload {e.code}: {e.read().decode('utf-8', 'replace')[:300]}")
+    if not out.get("success"):
+        raise RuntimeError(f"rupload failed: {out}")
+
+
+def publish_reel(f, post, live):
+    """Static-image Reel: render 9:16 slides, build a silent slideshow mp4, attach trending mood-matched audio."""
+    page, stem = post["page"], f.stem
+    per = float(post.get("seconds_each", 3.5))
+    if not live:
+        print(f"[dry-run] {page}/{stem}: reel, {len(post['slides'])} slides x {per}s, mood={post.get('mood')}, "
+              f"audio_id={post.get('audio_id', 'auto-pick at publish time')}")
+        return None
+    from render import render
+    from reel import build_slideshow
+    import audio as audio_mod
+    paths = render(f, ROOT / "out")
+    mp4 = str(ROOT / "out" / page / f"{stem}.mp4")
+    build_slideshow([str(x) for x in paths], mp4, per)
+    key = page.upper()
+    uid, token = os.environ[f"IG_{key}_USER_ID"], os.environ[f"IG_{key}_TOKEN"]
+    ver = os.environ.get("GRAPH_VERSION", "v26.0")
+    params = {"media_type": "REELS", "upload_type": "resumable", "caption": post["caption"], "access_token": token}
+    if post.get("ai_label"):
+        params["is_ai_generated"] = "true"
+    chosen, vol = None, audio_mod.mood_cfg(page, post.get("mood", "focus"))["volume"]
+    try:
+        if post.get("audio_id"):
+            chosen = {"audio_id": post["audio_id"]}
+        else:
+            chosen, vol = audio_mod.pick(page, post.get("mood", "focus"), uid, token, ver,
+                                         post.get("audio_type", "music"), per * len(post["slides"]),
+                                         post.get("audio_queries", []))
+    except Exception as e:  # audio failure should not block the post; publish silent and note it
+        print(f"WARN audio lookup failed ({e}); publishing without audio")
+    if chosen:
+        params["audio_configuration"] = json.dumps({"audio_id": chosen["audio_id"], "audio_volume": int(post.get("audio_volume", vol)), "video_volume": 0})
+    cid = api("POST", f"{uid}/media", params, ver)["id"]
+    rupload(cid, mp4, token, ver)
+    for _ in range(40):
+        st = api("GET", cid, {"fields": "status_code", "access_token": token}, ver).get("status_code")
+        if st == "FINISHED":
+            break
+        if st == "ERROR":
+            raise RuntimeError("Reel processing failed")
+        time.sleep(6)
+    mid = api("POST", f"{uid}/media_publish", {"creation_id": cid, "access_token": token}, ver)["id"]
+    if chosen and chosen.get("title"):
+        audio_mod.record_use(page, chosen)
+        post["audio_used"] = {k: chosen.get(k) for k in ("audio_id", "title", "display_artist")}
+    return mid
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true")
@@ -121,11 +183,11 @@ def main():
     for f, post in due_posts(now):
         if n >= MAX_PER_RUN:
             break
-        if post["type"] != "carousel":
+        if post["type"] not in ("carousel", "reel"):
             print(f"skip {f.name}: type {post['type']} not supported yet")
             continue
         try:
-            media_id = publish_carousel(f, post, a.live)
+            media_id = (publish_reel if post["type"] == "reel" else publish_carousel)(f, post, a.live)
         except Exception as e:  # never crash the whole run; record and move on
             print(f"ERROR {f.name}: {e}")
             if a.live:
