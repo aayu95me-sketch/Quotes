@@ -1,38 +1,77 @@
 """Publish approved, due carousel posts via the official Instagram Graph API.
 
 Dry-run by default. Pass --live to actually publish. NOT yet tested against the live API:
-the first live run must be on a test post on one of the owner's own accounts.
+the first live run must be a test post on one of the owner's own accounts.
 
 Env (live mode only):
-  ASSETS_BASE_URL   public base URL where rendered slides are hosted,
-                    e.g. https://<user>.github.io/<assets-repo>   (slides at <base>/<page>/<post>/slide_NN.png)
-  IG_<PAGE>_USER_ID / IG_<PAGE>_TOKEN   e.g. IG_PAGE_A_USER_ID, IG_PAGE_A_TOKEN
-  GRAPH_VERSION     optional, default v21.0 (check Meta docs for the current version)
+  ASSETS_REPO       public repo "owner/name" used to host slide images (raw.githubusercontent.com URLs)
+  ASSETS_PAT        fine-grained token with Contents:write on ASSETS_REPO only
+  IG_<PAGE>_USER_ID / IG_<PAGE>_TOKEN   e.g. IG_PAGE_A_USER_ID, IG_PAGE_A_TOKEN (long-lived Page token)
+  GRAPH_VERSION     optional, default v26.0 (latest per Meta docs, Jun 2026)
 
 Meta docs (checked 2026-10-20): limit 100 API posts per rolling 24h (carousel = 1), up to 20 items per carousel;
 no publish_time parameter, so scheduling is done by our own cron (GitHub Actions).
 Flow per carousel: one child container per image (is_carousel_item=true) -> parent
-container (media_type=CAROUSEL, children=ids, caption) -> media_publish.
+container (media_type=CAROUSEL, children=ids, caption, is_ai_generated on the parent only) -> media_publish.
+Slides are rendered and uploaded just before publishing, so nothing is public until it is due.
 """
 import argparse
+import base64
 import datetime as dt
 import json
 import os
 import pathlib
+import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "pipeline"))
 GRAPH = "https://graph.facebook.com"
+MAX_LATE = dt.timedelta(hours=24)  # never publish something that is more than a day overdue
+MAX_PER_RUN = 3
 
 
 def api(method, path, params, version):
     url = f"{GRAPH}/{version}/{path}"
-    data = urllib.parse.urlencode(params).encode()
-    req = urllib.request.Request(url, data=data if method == "POST" else None, method=method)
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read())
+    data = urllib.parse.urlencode(params).encode() if method == "POST" else None
+    if method == "GET":
+        url += "?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, data=data, method=method)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"Graph API {e.code}: {e.read().decode('utf-8', 'replace')[:400]}")
+
+
+def upload_assets(paths, page, stem):
+    """Push rendered PNGs to the public assets repo; return their raw URLs."""
+    repo, pat = os.environ["ASSETS_REPO"], os.environ["ASSETS_PAT"]
+    urls = []
+    for p in paths:
+        rel = f"{page}/{stem}/{p.name}"
+        api_url = f"https://api.github.com/repos/{repo}/contents/{rel}"
+        hdr = {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
+        body = {"message": f"slide {rel}", "content": base64.b64encode(p.read_bytes()).decode()}
+        try:  # overwrite if it already exists
+            with urllib.request.urlopen(urllib.request.Request(api_url, headers=hdr), timeout=30) as r:
+                body["sha"] = json.loads(r.read())["sha"]
+        except urllib.error.HTTPError:
+            pass
+        req = urllib.request.Request(api_url, data=json.dumps(body).encode(), headers=hdr, method="PUT")
+        urllib.request.urlopen(req, timeout=60).read()
+        urls.append(f"https://raw.githubusercontent.com/{repo}/main/{rel}")
+    for u in urls:  # wait until each URL is actually reachable
+        for _ in range(10):
+            try:
+                urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=15)
+                break
+            except Exception:
+                time.sleep(3)
+    return urls
 
 
 def due_posts(now):
@@ -40,31 +79,34 @@ def due_posts(now):
         post = json.loads(f.read_text())
         if post.get("status") != "approved":
             continue
-        if dt.datetime.fromisoformat(post["publish_at"]) <= now:
-            yield f, post
+        when = dt.datetime.fromisoformat(post["publish_at"])
+        if when > now:
+            continue
+        if now - when > MAX_LATE:
+            print(f"skip {f.name}: more than 24h overdue, reschedule it")
+            continue
+        yield f, post
 
 
-def publish_carousel(post, stem, live):
-    page = post["page"]
-    base = os.environ.get("ASSETS_BASE_URL", "https://example.invalid")
-    urls = [f"{base}/{page}/{stem}/slide_{i:02d}.png" for i in range(1, len(post["slides"]) + 1)]
+def publish_carousel(f, post, live):
+    page, stem = post["page"], f.stem
+    n = len(post["slides"])
     if not live:
-        print(f"[dry-run] {page}/{stem}: {len(urls)} slides, caption {len(post['caption'])} chars")
+        print(f"[dry-run] {page}/{stem}: {n} slides, caption {len(post['caption'])} chars, ai_label={post.get('ai_label')}")
         return None
+    from render import render
+    paths = render(f, ROOT / "out")
+    urls = upload_assets(paths, page, stem)
     key = page.upper()
     uid, token = os.environ[f"IG_{key}_USER_ID"], os.environ[f"IG_{key}_TOKEN"]
-    ver = os.environ.get("GRAPH_VERSION", "v21.0")
-    kids = []
-    for u in urls:
-        kids.append(api("POST", f"{uid}/media", {"image_url": u, "is_carousel_item": "true", "access_token": token}, ver)["id"])
-    parent_params = {"media_type": "CAROUSEL", "children": ",".join(kids),
-                     "caption": post["caption"], "access_token": token}
-    if post.get("ai_label"):  # self-disclosure; set on the carousel container only, not on children
-        parent_params["is_ai_generated"] = "true"
-    parent = api("POST", f"{uid}/media", parent_params, ver)["id"]
-    for _ in range(12):  # wait for processing
-        st = api("GET", parent, {"fields": "status_code", "access_token": token}, ver)
-        if st.get("status_code") == "FINISHED":
+    ver = os.environ.get("GRAPH_VERSION", "v26.0")
+    kids = [api("POST", f"{uid}/media", {"image_url": u, "is_carousel_item": "true", "access_token": token}, ver)["id"] for u in urls]
+    params = {"media_type": "CAROUSEL", "children": ",".join(kids), "caption": post["caption"], "access_token": token}
+    if post.get("ai_label"):  # self-disclosure; carousel container only, not children
+        params["is_ai_generated"] = "true"
+    parent = api("POST", f"{uid}/media", params, ver)["id"]
+    for _ in range(20):  # wait for processing
+        if api("GET", parent, {"fields": "status_code", "access_token": token}, ver).get("status_code") == "FINISHED":
             break
         time.sleep(5)
     return api("POST", f"{uid}/media_publish", {"creation_id": parent, "access_token": token}, ver)["id"]
@@ -77,13 +119,24 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     n = 0
     for f, post in due_posts(now):
+        if n >= MAX_PER_RUN:
+            break
         if post["type"] != "carousel":
             print(f"skip {f.name}: type {post['type']} not supported yet")
             continue
-        media_id = publish_carousel(post, f.stem, a.live)
+        try:
+            media_id = publish_carousel(f, post, a.live)
+        except Exception as e:  # never crash the whole run; record and move on
+            print(f"ERROR {f.name}: {e}")
+            if a.live:
+                post["status"] = "failed"
+                post["error"] = str(e)[:300]
+                f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
+            continue
         if a.live and media_id:
             post["status"] = "published"
             post["media_id"] = media_id
+            post["published_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
             f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
         n += 1
     print(f"{n} post(s) processed ({'live' if a.live else 'dry-run'})")
