@@ -1,6 +1,0 @@
-URL: https://medium.com/financial-freedom-pro/case-study-the-system-behind-profitable-faceless-instagram-accounts-db5038e847bf
-QUERY: faceless Instagram theme page stoicism psychology facts case study followers growth carousel
-METHOD: failed
-
-(direct fetch failed: HTTP Error 403: Forbidden)
-(jina fallback failed: HTTP Error 403: Forbidden)

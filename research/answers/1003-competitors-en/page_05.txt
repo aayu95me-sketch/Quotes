@@ -1,6 +1,0 @@
-URL: https://medium.com/@vireuoess/case-study-turning-a-faceless-instagram-page-into-a-passive-income-machine-eb2927b379a0
-QUERY: faceless Instagram theme page stoicism psychology facts case study followers growth carousel
-METHOD: failed
-
-(direct fetch failed: HTTP Error 403: Forbidden)
-(jina fallback failed: HTTP Error 403: Forbidden)

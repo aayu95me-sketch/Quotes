@@ -58,25 +58,40 @@ def fetch(url):
         return "failed", f"{text}\n(jina fallback failed: {e})"
 
 
+def _ddg(q):
+    page = http("https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(q))
+    res = []
+    for href, title in re.findall(r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', page, re.S):
+        m = re.search(r"uddg=([^&]+)", href)
+        res.append((strip_html(title), urllib.parse.unquote(m.group(1)) if m else href))
+    return res
+
+
+def _mojeek(q):
+    page = http("https://www.mojeek.com/search?q=" + urllib.parse.quote(q))
+    return [(strip_html(t), u) for u, t in re.findall(r'<a class="title" href="(https?://[^"]+)"[^>]*>(.*?)</a>', page, re.S)]
+
+
+def _bing(q):
+    page = http("https://www.bing.com/search?q=" + urllib.parse.quote(q) + "&setlang=en")
+    return [(strip_html(t), u) for u, t in re.findall(r'<li class="b_algo".*?<a href="(https?://[^"]+)"[^>]*>(.*?)</a>', page, re.S)]
+
+
 def web_search(query, n=8):
-    """Return [(title, url)] from DuckDuckGo HTML, falling back to Bing."""
-    out = []
-    try:
-        page = http("https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(query))
-        for href, title in re.findall(r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', page, re.S):
-            m = re.search(r"uddg=([^&]+)", href)
-            url = urllib.parse.unquote(m.group(1)) if m else href
-            out.append((strip_html(title), url))
-    except Exception:
-        pass
-    if not out:
-        try:
-            page = http("https://www.bing.com/search?q=" + urllib.parse.quote(query))
-            for url, title in re.findall(r'<li class="b_algo".*?<a href="(https?://[^"]+)"[^>]*>(.*?)</a>', page, re.S):
-                out.append((strip_html(title), url))
-        except Exception:
-            pass
-    return out[:n]
+    """Return ([(title, url)], notes). Tries DuckDuckGo, Mojeek, Bing with pauses and one retry."""
+    notes = []
+    for attempt in range(2):
+        for name, fn in (("ddg", _ddg), ("mojeek", _mojeek), ("bing", _bing)):
+            try:
+                res = fn(query)
+                if res:
+                    return res[:n], notes
+                notes.append(f"{name}: 0 results")
+            except Exception as e:
+                notes.append(f"{name}: {str(e)[:60]}")
+            time.sleep(3)
+        time.sleep(15)
+    return [], notes
 
 
 def post_json(url, body, headers, tries=4):
@@ -147,9 +162,10 @@ def main():
         if sq:
             lines, seen = [], set(req.get("fetch", []))
             for q in sq["queries"]:
-                results = web_search(q)
+                results, notes = web_search(q)
                 lines.append(f"### {q}")
-                lines += [f"- {t} {u}" for t, u in results] or ["- (no results)"]
+                lines += [f"- {t} {u}" for t, u in results] or [f"- (no results) {'; '.join(notes)}"]
+                time.sleep(5)
                 for t, u in results[: sq.get("top", 3)]:
                     if u in seen:
                         continue
