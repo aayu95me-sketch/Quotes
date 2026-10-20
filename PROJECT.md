@@ -43,6 +43,14 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Static Automation is a Claude Code project with the repo attached (Settings > Environment > Project repositories). Default branch is now `claude/eager-bell-i41n67`. `CLAUDE.md` at the repo root gives it scope, rules and the REPORT format; it writes reports to `inbox/` and pushes. The builder reads them with `git fetch` and `git pull`.
 - `publish.yml` now has a cheap "anything due?" check so scheduled runs on the default branch cost seconds, not minutes.
 
+## Operator report received (2026-10-21)
+- The Static Automation operator session pushed `inbox/2026-10-21-static-automation-sync.md` and `inbox/2026-10-21-tasks-2b-2c-3-status.md` to branch `claude/project-thread-stzy0k`; the builder merged them (fast-forward). **Sync through git works.**
+- **Correction:** Tasks 2B, 2C and 3 were **never run**. No Meta developer app exists yet and there is no App ID. Only Task 1 (audit) and Task 2 (bios set on B1, A2, B2) ran.
+- Operator tools: git (repo only), Chrome on the owner's Mac (Instagram signed in as B1 only, so A1 is out of reach), an image-upload tool that failed earlier, Meta ads connector (not used), Mac folders not yet approved. The operator did not read passwords or tokens.
+- Handle target for B1 is `@the.disciplinequiet` everywhere (docs/11 scope block fixed). Fallbacks: `disciplinequiet.official`, `disciplinequiet_`.
+- Owner still has to do (no tool can): the three Facebook password steps (B2 username, B2 name "Quiet Discipline", A2 name "Roz Ka Rule"), profile pictures on all four, 2FA on Facebook and both Instagram accounts, Security Checkup on B1's account, A1 Account Status/name/bio/category on the phone, Creator vs Business.
+- Next operator run: Prompts 2B then 2C (see QUICK RUN in docs/11), then Prompt 3.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.

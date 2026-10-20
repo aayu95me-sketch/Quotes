@@ -11,7 +11,7 @@ I could not verify which tools the chat project has (browser control, Meta conne
 SCOPE. This task concerns ONLY these four assets and nothing else (IDs confirmed by the read-only check):
   A1  Instagram account  @rozkarule                  IG ID 17841469203264060   (display name now "Rozkarule")
   A2  Facebook Page      currently "Rozkarule"       Page ID 1345396148663682  (correct name: "Roz Ka Rule")
-  B1  Instagram account  @disciplinequite            IG ID 17841422691847840   (display name now "Quite Discipline"; handle will become @disciplinequiet.official)
+  B1  Instagram account  @disciplinequite            IG ID 17841422691847840   (display name now "Quite Discipline"; handle will become @the.disciplinequiet)
   B2  Facebook Page      currently "Quietdiscipline" Page ID 1436529449539802  (correct name: "Quiet Discipline")
 Everything else in my Business Suite is OUT OF SCOPE: other Pages, other Instagram accounts, other businesses or portfolios, ad accounts, catalogs, pixels, campaigns, ads, payment methods, users, roles and settings. Do not open, edit, delete, post to, message from, or change anything outside those four assets, even if it looks related or you think it would help.
 If you cannot tell for certain which asset is which (similar names, duplicates, or more than one match), STOP and ask me. Identify each asset by handle or exact name, and tell me the ID you matched before changing it.
@@ -88,6 +88,13 @@ TASK 2C. Chrome is signed in to Instagram as B1 (@disciplinequite) and can act a
 4. Do not touch passwords, pictures, 2FA, roles, portfolios, or any other Page. Do not sign in to or switch to A1; I will do A1 on my phone.
 End with the REPORT, with the final username, display name and category of B1, A2 and B2.
 ```
+
+## QUICK RUN for the Static Automation project (a Claude Code thread that already has this repo)
+No need to paste the scope block: `CLAUDE.md` is loaded automatically. Give it this, in a new thread:
+```
+Read CLAUDE.md and docs/11-claude-chat-prompts.md. Run, in this order, the account tasks exactly as written in the repo: Prompt 2B (read-only), then Prompt 2C, then stop and report. Do not run Prompt 3 yet. Use the Chrome session you already have. Never enter or ask for passwords or codes; stop at any sign-in or password box and tell me. Write one REPORT per prompt to inbox/YYYY-MM-DD-<task>.md, commit and push.
+```
+Then, in a separate new thread, Prompt 3 (developer app).
 
 ## MANUAL: do these on your phone (Claude chat could not, and some are security steps that should be yours)
 1. **Two-factor on Instagram B1, and check A1:** Instagram app > Settings and activity > Accounts Center > Password and security > Two-factor authentication. Use an authenticator app. Save the backup codes offline. Do the same for the Facebook profile.
