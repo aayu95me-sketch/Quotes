@@ -61,6 +61,9 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - **Working pattern:** operator prefills screens, owner presses Save and enters passwords (Prompt 2E in docs/11).
 - Remaining: A2 username, A1 name/bio/category, B1 rename and category, Education on A2 and B2, two-factor and Security Checkup, the portfolio people question, then Prompt 3 (developer app).
 
+## Complete setup checklist (2026-10-21)
+- The owner asked to stop going back and forth: `docs/13-account-setup-complete.md` is the single full checklist for all four assets with every text and image (profile pictures plus new Facebook cover photos in `brand/`). The owner does the saves and passwords; the operator only verifies afterwards (Prompt 2D). After "setup done" and 3-5 days of warm-up comes Phase 2.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
