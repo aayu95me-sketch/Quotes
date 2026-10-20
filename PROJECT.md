@@ -25,6 +25,7 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
 - **GitHub Actions (always on):** publishes approved posts, pulls audio shortlists, runs research requests.
+- **Prompt relay (agreed 2026-10-20):** whenever an account-level change is needed, Claude Code writes a ready prompt (see `docs/11-claude-chat-prompts.md`); the owner pastes it into the Claude chat project; the owner pastes the REPORT back. Secrets never go through chat.
 - **Claude chat project "New Bot Planning" (owner's claude.ai):** not reachable from Claude Code. To share state, give it this repo (GitHub connector in the project) or paste `PROJECT.md` into its knowledge. Use it for approvals and brainstorming on the phone; the repo stays the source of truth.
 - **Meta Ads connector in this session:** advertising tools only (list pages/ad accounts, boost posts, create ads). It cannot create accounts, rename them, or publish organic posts. One Pages lookup was blocked by the permission classifier and was not retried; one ad-account list lookup ran (read-only, nothing changed). Not used further for this project.
 
@@ -78,7 +79,7 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## File map
 - `PROJECT.md` this file. `README.md` how to run the pipeline.
-- `docs/01-market-research.md` platforms, money, risks. `02-india-addendum.md` India payouts, tax, SEBI. `03-competitor-notes.md`. `04-brand-briefs.md` page briefs. `05-research-prompts.md` manual prompts (mostly superseded). `06-verified-facts.md` official facts. `07-competitors-and-rates.md`. `08-account-setup-guide.md` **owner's step-by-step**. `09-content-plan.md` 30-day plan. `10-audio-strategy.md` audio.
+- `docs/01-market-research.md` platforms, money, risks. `02-india-addendum.md` India payouts, tax, SEBI. `03-competitor-notes.md`. `04-brand-briefs.md` page briefs. `05-research-prompts.md` manual prompts (mostly superseded). `06-verified-facts.md` official facts. `07-competitors-and-rates.md`. `08-account-setup-guide.md` **owner's step-by-step**. `09-content-plan.md` 30-day plan. `10-audio-strategy.md` audio. `11-claude-chat-prompts.md` prompt pack for account-level tasks.
 - `content/pages/*.json` brand config. `content/posts/<page>/*.json` posts. `brand/` profile images.
 - `pipeline/`: `render.py`, `reel.py`, `audio.py`, `approve.py`, `publish.py`, `relay.py`, `brand.py`, `setup_tokens.py`. `content/audio_moods.json`.
 - `research/requests`, `research/answers`: relay. `research/audio`: weekly audio shortlists. `.github/workflows/`: `research-relay.yml`, `publish.yml`, `audio-shortlist.yml`.
