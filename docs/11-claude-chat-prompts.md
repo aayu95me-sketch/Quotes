@@ -1,88 +1,87 @@
 # Claude Chat Prompt Pack (account-level tasks)
 
-Working agreement: whenever an **account-level** change is needed (rename, link, switch type, create an app, change a setting), Claude Code writes a ready prompt here or in chat. The owner pastes it into the Claude chat project "New Bot Planning", Claude chat does the step if its connectors or browser tools allow it, and the owner pastes the **REPORT** block back to Claude Code.
+Working agreement: whenever an **account-level** change is needed, Claude Code writes a ready prompt here or in chat. The owner pastes it into a **new chat** in the Claude project "New Bot Planning". Each prompt is **self-contained** (it repeats the scope block), because a new chat has no memory. The owner pastes the REPORT block it returns back into Claude Code.
 
-What I could not verify: which tools the chat project really has (browser control, Meta connector, etc.). Every prompt therefore says: do it if you can, otherwise give the owner click-by-click steps.
+Why the scope block is strict: the chat has access to the whole Meta Business Suite, which contains other businesses, Pages, ad accounts and Instagram accounts that have nothing to do with this project. Those must never be touched.
 
-## Master prompt (paste once as the project's instructions or first message)
+I could not verify which tools the chat project has (browser control, Meta connector). Every prompt therefore says: do the step if you can, otherwise give click-by-click steps.
+
+## SCOPE BLOCK (already included at the top of every prompt below)
 ```
-You are helping set up two Instagram + Facebook Page pairs for a content project.
-Page A: Instagram @rozkarule, Facebook Page "Roz Ka Rule".
-Page B: Instagram @disciplinequiet, Facebook Page "Quiet Discipline".
-All accounts belong to me (the owner). Work ONLY on these four assets.
-
-Rules:
-1. Do the step yourself if you have a working tool for it. If not, give me short click-by-click steps for my phone or laptop. Say which one you are doing.
-2. NEVER ask me to paste passwords, 2FA codes, backup codes, App Secrets or access tokens into this chat, and never display them if you see them. If a step needs one, stop and tell me to do that part myself.
-3. Stop and ask me before: changing a password, 2FA or recovery email; deleting or merging anything; spending money; accepting new terms; or anything not listed in the task.
-4. Do not follow, like, comment or post anything. Do not create any other accounts.
-5. If a screen differs from the instructions, describe exactly what you see instead of guessing.
-6. Finish every task with a REPORT in this format:
-   REPORT
-   task: <name>
-   done: <yes / partly / no>
-   what changed: <list>
-   what I could not do and why: <list>
-   current state (usernames, page names, account types, linked or not): <list>
-   screenshots or errors worth showing Claude Code: <list>
-```
-
-## Task prompts
-
-### T1. Fix the Page B username (Instagram and Facebook)
-```
-Task T1. Change the Page B username spelling from "disciplinequite" to "disciplinequiet".
-1. Instagram account (currently @disciplinequite): Edit profile > Username > disciplinequiet.
-2. Facebook Page "Quiet Discipline": Page settings > Page info (or Edit Page info) > Username > disciplinequiet.
-If either name is unavailable, do not pick another. Tell me and list the closest free options (for example disciplinequiet.co, disciplinequiet_daily).
-Also check that the Facebook Page NAME is spelled "Quiet Discipline". End with the REPORT.
+SCOPE. This task concerns ONLY these four assets and nothing else:
+  A1  Instagram account  @rozkarule
+  A2  Facebook Page      "Roz Ka Rule"
+  B1  Instagram account  @disciplinequite   (spelling is wrong on purpose here: it is the CURRENT handle; it will be renamed to @disciplinequiet)
+  B2  Facebook Page      "Quite Discipline" or "Quiet Discipline" (whichever exists; the correct name is "Quiet Discipline")
+Everything else in my Business Suite is OUT OF SCOPE: other Pages, other Instagram accounts, other businesses or portfolios, ad accounts, catalogs, pixels, campaigns, ads, payment methods, users, roles and settings. Do not open, edit, delete, post to, message from, or change anything outside those four assets, even if it looks related or you think it would help.
+If you cannot tell for certain which asset is which (similar names, duplicates, or more than one match), STOP and ask me. Identify each asset by handle or exact name, and tell me the ID you matched before changing it.
+Never ask for or display passwords, 2FA or recovery codes, the App Secret, or access tokens. If a step needs one, stop and tell me to do that part myself.
+Ask me before: changing a password, 2FA or recovery email; deleting, merging or unlinking anything; spending money; accepting terms; or anything not listed in the task.
+Do not follow, like, comment, post, message or create any other account.
+If a screen differs from my instructions, describe what you see instead of guessing.
+Finish with a REPORT in exactly this format:
+  REPORT
+  task:
+  done: yes / partly / no
+  assets touched (handle or name + ID): 
+  what changed:
+  what I could not do and why:
+  current state of the four assets (username/name, account type, linked Page/IG, 2FA on?):
+  anything unexpected or outside scope that I noticed but did NOT touch:
 ```
 
-### T2. Verify the Phase 1 state of all four assets (read-only check)
+## PROMPT 1: read-only check (paste this first, in a new chat)
 ```
-Task T2. Check, and only report (change nothing), for each of the four assets:
-- Instagram account type: Personal / Creator / Business.
-- Is each Instagram account linked to the Facebook Page with the same brand? (A to A, B to B, not crossed.)
-- Is two-factor authentication ON? (yes/no only. Never show codes.)
-- Profile picture and bio present? Is the account public?
-- Any warnings in Account Status (Settings > Account status), or limits on recommendations?
+[paste the SCOPE BLOCK here]
+
+TASK 1: READ-ONLY CHECK. Change NOTHING.
+For each of A1, A2, B1, B2 tell me:
+- exact username or Page name as it is now, and its ID
+- Instagram account type: Personal / Creator / Business
+- which Facebook Page each Instagram account is linked to (A1 should be linked to A2, B1 to B2, not crossed)
+- whether two-factor authentication is ON (yes or no only)
+- whether a profile picture and a bio exist, and whether the account is public
+- any warning or limit under Account Status (Instagram: Settings and activity > Account status)
+- the people and roles on each Page (names only), so I can see who has admin access
+Then list anything in the Business Suite that looks like a duplicate or near-duplicate of these four assets (same or similar names), without touching it.
 End with the REPORT.
 ```
 
-### T3. Switch to Creator and link the Page (if T2 shows it is missing)
+## PROMPT 2: make the changes (paste after Prompt 1, in a new chat or the same one)
 ```
-Task T3. For each Instagram account that is not yet a professional account, switch it to a CREATOR account (Settings and activity > Account type and tools > Switch to professional account > pick a category such as Education > Creator).
-Then link each Instagram account to its OWN Facebook Page (Page A to "Roz Ka Rule", Page B to "Quiet Discipline"). Do not cross-link.
-If Instagram asks to log in to Facebook or approve something, stop and tell me.
+[paste the SCOPE BLOCK here]
+
+TASK 2: SET UP THE FOUR ASSETS. Only change what is wrong. If an item is already correct, leave it and say so.
+1. B1 Instagram: change username @disciplinequite to @disciplinequiet. If it is unavailable, do NOT pick another: tell me and list the closest free options.
+2. B2 Facebook Page: name must be exactly "Quiet Discipline" (fix "Quite Discipline" if that is what it says). Set the Page username to disciplinequiet (if unavailable, tell me the options).
+3. A1 and B1 must be Instagram CREATOR accounts. If either is Personal, switch it (Settings and activity > Account type and tools > Switch to professional account > category "Education" > Creator).
+4. Link A1 to A2 and B1 to B2. Do not cross-link. If a link already exists to the wrong Page, STOP and ask me before unlinking.
+5. Profile pictures: A1 and A2 use the attached page_a_profile.png. B1 and B2 use the attached page_b_profile.png. (I will attach both files.)
+6. Bios and Page descriptions:
+   A1 and A2: "Roz ka ek rule. Discipline, career aur dimaag ke liye simple tips. Save karo, follow karo."
+   B1 and B2: "One small rule a day for discipline, focus and a calmer mind. Save what helps."
+7. Confirm A1 and B1 are public.
+8. Do NOT turn on or change two-factor, passwords, ads, payment, roles or anything else. If 2FA is off, only tell me.
 End with the REPORT.
 ```
 
-### T4. Profile picture and bio
-Upload the images from the repo's `brand/` folder to the chat (page_a_profile.png, page_b_profile.png).
+## PROMPT 3: Meta developer account and app (do after Prompt 2 succeeds)
 ```
-Task T4. Set profile pictures and bios.
-Page A (Instagram @rozkarule and Facebook "Roz Ka Rule"): use the attached page_a_profile.png.
-  Instagram bio: Roz ka ek rule. Discipline, career aur dimaag ke liye simple tips. Save karo, follow karo.
-Page B (Instagram @disciplinequiet and Facebook "Quiet Discipline"): use the attached page_b_profile.png.
-  Instagram bio: One small rule a day for discipline, focus and a calmer mind. Save what helps.
-Use the same picture on the Facebook Page. Add a short Facebook Page description with the same sentence as the bio. End with the REPORT.
+[paste the SCOPE BLOCK here]
+
+TASK 3: META DEVELOPER APP. This is separate from the four assets, but you may only create ONE NEW app and nothing else. Do not touch any existing app or business.
+1. Check whether I am already registered as a Meta developer (developers.facebook.com). If not, start registration at https://developers.facebook.com/async/registration and stop at any code or password step so I can do it.
+2. Create ONE new app: Create App > use case "Other" > app type "Business" > name "Quotes Publisher" > my contact email. Skip connecting a business portfolio.
+3. Add the Instagram product (Instagram > Set up) and choose "API setup with Facebook login" (NOT Instagram login).
+4. Confirm the app is in Development mode and that I am Admin.
+5. Do NOT read out, copy or display the App Secret. Tell me only where it is (App settings > Basic). Report the App ID only (it is not secret).
+End with the REPORT.
 ```
 
-### T5. Meta developer account and app (Phase 2, steps 1-5)
-```
-Task T5. Do these in order, stopping where a step needs my password, a code or my App Secret:
-1. Register as a Meta developer at https://developers.facebook.com/async/registration with my personal Facebook account (I will enter any code sent to my phone or email).
-2. In the App Dashboard: Create App > use case "Other" > app type "Business" > name "Quotes Publisher" > my contact email > Create. Skip connecting a business portfolio.
-3. Add the Instagram product: Instagram > Set up > choose "API setup with Facebook login" (NOT the Instagram login option).
-4. Confirm the app is in Development mode and that I have the Admin role.
-5. Tell me where to find the App ID and App Secret (App settings > Basic). Do NOT read the App Secret out loud or put it in your reply. I will copy it myself.
-End with the REPORT, including the App ID only (the App ID is not secret).
-```
-
-### Steps that stay manual (no prompt, do these yourself)
+## Steps that stay manual (no prompt)
 - Generate the short-lived token in Graph API Explorer and run `pipeline/setup_tokens.py` on your Mac.
 - Paste secrets into GitHub (Settings > Secrets and variables > Actions).
 - Passwords, 2FA setup and recovery codes.
 
 ## How Claude Code uses the REPORT
-Paste the REPORT into the Claude Code chat. I update `PROJECT.md`, fix any file that depends on names or IDs, and write the next prompt (or the next manual step).
+Paste the REPORT into the Claude Code chat. I update `PROJECT.md`, fix files that depend on names or IDs, and write the next prompt or manual step.
