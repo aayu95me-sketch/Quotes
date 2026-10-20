@@ -41,11 +41,11 @@ Platform payouts are small, and for an India-based page they are smaller still (
 
 ## Research tooling via Zapier (state)
 - Zapier MCP works. Connected there already: Google Sheets/Docs, Gmail, ChatGPT (OpenAI), Kartra, PhantomBuster. Make MCP works but the account lacks org-view rights.
-- **Gemini (Google AI Studio) actions enabled; needs owner to connect an API key** at the auth URL (free key from aistudio.google.com). `send_prompt` with Google Search grounding gives live web research. Anthropic (Claude) app exists in Zapier but is not enabled or connected.
+- **Gemini connected and working** (model `gemini-3.8-flash`; `gemini-2.5-flash` is retired). But the free API key returned **quota exceeded** on search-grounded prompts (retried several times, 2026-10-20). Fallback: owner runs the ready prompts in `docs/05-research-prompts.md` in the Gemini app or Claude chat and pastes answers back. Retry Zapier-Gemini later (quota may reset). Anthropic (Claude) app exists in Zapier but is not enabled or connected.
 - ChatGPT is connected but not used: owner named Claude/Gemini, and it may bill their OpenAI credits (budget ₹0).
 
 ## Open questions for the owner
-1. Connect Gemini in Zapier (see above).
+1. Optional but valuable: run P1-P4 from `docs/05-research-prompts.md` in the Gemini app and paste back the answers.
 2. Create the accounts (checklist in doc 02, section 4).
 
 ## Technical notes (₹0 constraints)
@@ -55,7 +55,7 @@ Platform payouts are small, and for an India-based page they are smaller still (
 - Whether the API supports delayed scheduling is unverified; fall back to a GitHub Actions cron that publishes approved posts at set times.
 
 ## Next steps (proposed order)
-1. **Owner:** connect Gemini in Zapier. **Claude then:** competitor and trend research via Gemini with Google Search grounding.
+1. **Claude:** retry Zapier-Gemini research when quota allows; otherwise use answers the owner pastes from the prompts file.
 2. **Owner:** create the accounts (checklist in doc 02, section 4).
 3. **Claude:** add GitHub Actions workflow, analytics puller, Graph API test on a real account.
 4. **Claude:** generate the first 30-day content batch per page for owner approval.
