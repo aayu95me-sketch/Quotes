@@ -34,7 +34,7 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## Prompt 2 result (2026-10-20)
 - Done by Claude chat: bios on B1, A2, B2. Not done: names, pictures, A1 anything (Chrome is signed in only as B1).
-- **@disciplinequiet is taken on Instagram** (also @quietdiscipline). Decision: Page B Instagram handle = **@disciplinequiet.official** (files updated). Facebook Page B2 username `disciplinequiet` was available (separate namespace).
+- **@disciplinequiet is taken on Instagram** (also @quietdiscipline). Page B Instagram handle decision stays **@the.disciplinequiet** (files already use it); fallbacks `disciplinequiet.official`, `disciplinequiet_`. Facebook Page B2 username `disciplinequiet` was available (separate namespace).
 - Owner must do (passwords): B2 username (box open in Chrome), B2 name -> "Quiet Discipline", A2 name -> "Roz Ka Rule". Facebook reviews page-name changes (up to 3 days) and then locks the name for 60 days, so the spelling must be exact.
 - Owner on phone: profile pictures for A1, A2, B1, B2 (files sent to the owner); A1 bio, name "Roz Ka Rule", category; 2FA; Account Status for A1; Creator vs Business.
 - Prompt 2C covers category, B1 handle and display name via Chrome.

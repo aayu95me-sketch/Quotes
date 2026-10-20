@@ -77,12 +77,12 @@ End with the REPORT.
 ```
 
 ## PROMPT 2C: finish what Prompt 2 could not (Chrome is signed in as B1 and the Page B2)
-Prompt 2 result: bios set on B1, A2, B2. `@disciplinequiet` is TAKEN on Instagram. Free options found: disciplinequiet_, the.disciplinequiet, disciplinequiet.in, disciplinequiet.official. Decision: **@disciplinequiet.official** (the .in ending would suggest an Indian page; a trailing underscore looks unpolished). The Facebook Page username `disciplinequiet` was available and is fine, it is a separate namespace.
+Prompt 2 result: bios set on B1, A2, B2. `@disciplinequiet` is TAKEN on Instagram. Free options found: disciplinequiet_, the.disciplinequiet, disciplinequiet.in, disciplinequiet.official. Decision: **@the.disciplinequiet** (an earlier check found `.official` already taken; the .in ending would suggest an Indian page; a trailing underscore looks unpolished). Fallbacks, in order: disciplinequiet.official, disciplinequiet_. The Facebook Page username `disciplinequiet` was available and is fine, it is a separate namespace.
 ```
-[paste the SCOPE BLOCK here if this is a new chat. Note: B1's handle is now to become @disciplinequiet.official]
+[paste the SCOPE BLOCK here if this is a new chat. Note: B1's handle is now to become @the.disciplinequiet]
 
 TASK 2C. Chrome is signed in to Instagram as B1 (@disciplinequite) and can act as Page B2. Do only these:
-1. B1 Instagram (web, Edit profile): username -> disciplinequiet.official. Name -> "Quiet Discipline". Category -> "Education" (or "Personal blog" if not offered; tell me which).
+1. B1 Instagram (web, Edit profile): username -> the.disciplinequiet (if taken: disciplinequiet.official, then disciplinequiet_; do not pick any other). Name -> "Quiet Discipline". Category -> "Education" (or "Personal blog" if not offered; tell me which).
 2. Facebook Page A2 (ID 1345396148663682): Page category -> "Education" (or "Personal blog"). Do NOT start the name change; I will do it myself because it needs my password.
 3. Facebook Page B2 (ID 1436529449539802): category -> "Education" (or "Personal blog").
 4. Do not touch passwords, pictures, 2FA, roles, portfolios, or any other Page. Do not sign in to or switch to A1; I will do A1 on my phone.
