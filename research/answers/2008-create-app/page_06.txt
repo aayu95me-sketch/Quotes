@@ -1,0 +1,164 @@
+URL: https://www.facebook.com/business/help/1710077379203657
+METHOD: r.jina.ai
+
+Title: Create a Business Portfolio in Meta Business Suite
+
+URL Source: https://www.facebook.com/business/help/1710077379203657
+
+Markdown Content:
+[![Image 2: Meta for Business (formerly Facebook for Business)](http://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=369852008357062&version=1789737248)](https://www.facebook.com/business)
+
+[Get started](https://www.facebook.com/business/help/1710077379203657#)
+
+[Advertise](https://www.facebook.com/business/help/1710077379203657#)
+
+[Learn](https://www.facebook.com/business/help/1710077379203657#)
+
+[Support](https://www.facebook.com/business/help/1710077379203657#)
+
+[![Image 3](https://scontent-atl3-1.xx.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=28b1f4&_nc_ohc=dYrN8rupfrsQ7kNvwE4UHeX&_nc_oc=AdpwdrBtuARVrnixlU3OmT8aOIi5BwfSO6W0FMTiKNcNleuIU3b-FutNi1plmMUcGO4&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=apaWOxCd_Fas2LaSRYgnUg&_nc_ss=7b289&oh=00_AQO0TxJQNsYVq9SdpiFn1v7JjJlqwwYRNsWp2Pa3Qoz4lA&oe=6ADD7A02)](https://www.facebook.com/business/help/1710077379203657#)
+
+[![Image 4](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=1389774634917761&version=1792520513)](https://www.facebook.com/business/help/1710077379203657#)
+
+![Image 5](https://scontent-atl3-1.xx.fbcdn.net/v/t39.8562-6/315221436_683202276756209_1888406246823173964_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=LQTjMKpJkcAQ7kNvwHbiLDP&_nc_oc=Adq-IEEghpKbiEmPYNIb_HJfYH8zlL7UqIJhRDLgSAIow1D3_DUrUm0Da5vm4T8mBAU&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=apaWOxCd_Fas2LaSRYgnUg&_nc_ss=7b289&oh=00_AQMzdTThy4ermOj6EeCrLJcNlTztYDyq73_PTq_tVqmlyA&oe=6ADD6C8A)
+
+## Log in to Meta for Business
+
+Manage your ad accounts and get personalized support.
+
+[![Image 6](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=2375113342667919&version=1792520513) Log in with Facebook](https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzkyNTIwODk0fQ%3D%3D&next=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Fhelp%2F1710077379203657)
+
+[Start now](https://www.facebook.com/business/mfb_login_redirect_logging/?redirect_destination=ads_manager)
+
+Go to Ads Manager
+
+[_chevron-down_](https://www.facebook.com/business/help/1710077379203657#)
+
+[Create a Page](https://www.facebook.com/business/redirect/pages/creation/?campaign_id=163681540489385&creative&placement=%2Fbusiness%2Fhelp%2F1710077379203657)
+
+[Business Help Center](https://www.facebook.com/business/help)
+
+[![Image 7](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=753484536890446&version=1740493453)Get support](https://www.facebook.com/business/help/support)
+
+# Create a business portfolio in Meta Business Suite
+
+Chat with Meta AI business assistant for support around the clock Still need help? Your business assistant can help resolve account issues and unblock your business.
+
+Start chat
+
+You can create a [business portfolio](https://www.facebook.com/business/help/486932075688253) to bring together and manage your organization’s business assets – such as Facebook Pages, Instagram accounts and ad accounts – in one place with business tools such as Meta Business Suite.
+
+## Before you begin
+
+*   You must have access to Meta Business Suite, using either your Facebook profile or a managed Meta account. 
+*   If you have a managed Meta account, you must have organization management permissions in [Organization Manager](https://business.facebook.com/meta_business_admin_center). If you click the link and you are redirected to **Home** in Meta Business Suite, this means you do not have access to Organization Manager. If you have people migration and/or IT settings access in Organization Manager, but not organization management permissions, then you will not be able to create a business portfolio. 
+*   To keep our platform safe from harm and to prevent advertising abuse, we only grant access to some features when an advertiser has met certain requirements. This means when you create a new business portfolio or ad account, you may not have access to all advertising features. You can see what features you currently have access to, and find out what actions you may need to take to access additional features in [Business Support Home.](https://www.facebook.com/business-support-home/) 
+
+## Create a business portfolio
+
+To create a business portfolio for your organization:
+
+1.   Go to [business.facebook.com](https://business.facebook.com/) and log in using your Facebook profile or managed Meta account.
+2.   Click the dropdown menu below **Home** in the top left.
+3.   Click **Create a business portfolio**.
+4.   Enter a name for the business portfolio. This should match the public name of your business or organization because it will be visible across Meta. The name of your business portfolio cannot contain special characters.
+5.   If you’re logged into [business.facebook.com](https://business.facebook.com/) with your Facebook profile, then you need to enter your first and last name and your business email. Meta will use this email to contact you about your business. It won't be visible to your customers.
+    *   If you’re logged in with a managed Meta account, then you don’t need to do this. 
+
+6.   Click **Create**or **Create portfolio**. If you’re creating a business portfolio using your Facebook profile, then you’ll get an email asking you to confirm your business email address.
+
+**Note:** You can personally create up to 2 business portfolios. There is no limit on the number of portfolios you can belong to.
+
+## After creating a business portfolio
+
+After you’ve created your business portfolio, you get [full control](https://www.facebook.com/business/help/442345745885606) of it and you can add business assets, such as:
+
+*   [A Facebook Page](https://www.facebook.com/business/help/720478807965744) 
+*   [An Instagram account](https://www.facebook.com/business/help/620548115562686) 
+*   [An ad account](https://www.facebook.com/business/help/915885887059947) 
+*   [An app owned by your organization](https://www.facebook.com/business/help/2199735813629697) 
+*   [A Meta Pixel](https://www.facebook.com/business/help/314143995668266) 
+
+Business assets can only belong to 1 business portfolio.
+
+You can also [add people in your organization to join your business portfolio and assign them assets](https://www.facebook.com/business/help/2169003770027706) to work on. You can also [add partners](https://www.facebook.com/business/help/708679622611131), such as people who work at an agency your organization works with. Your contact information will be visible to people who are added to the business portfolio.
+
+## Learn more
+
+*   [About business portfolio access](https://www.facebook.com/business/help/442345745885606) 
+*   [Best practices for making a business portfolio more secure](https://www.facebook.com/business/help/608572510632070) 
+*   [Set up and manage your business portfolio and business assets](https://www.facebook.com/business/help/586400082815745) 
+
+![Image 8](http://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=1124271668792488&version=1771391301)
+##### Common support topics
+
+[About advertising restrictions](https://www.facebook.com/business/help/975570072950669)
+
+##### Business Help Center
+
+![Image 9](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=2189607951385194&version=1716504911)
+
+[Troubleshoot a disabled or restricted account](https://www.facebook.com/business/help/422289316306981)
+
+##### Business Help Center
+
+![Image 10](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=2189607951385194&version=1716504911)
+
+[About Meta Business Support Home](https://www.facebook.com/business/help/254088759757736)
+
+##### Business Help Center
+
+![Image 11](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=2189607951385194&version=1716504911)
+
+[Fix a failed payment issue on Meta](https://www.facebook.com/business/help/268196136699959)
+
+##### Business Help Center
+
+![Image 12](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=2189607951385194&version=1716504911)
+
+[![Image 13](https://scontent-atl3-2.xx.fbcdn.net/v/t39.8562-6/321383695_1761464880891846_7163045669980296910_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=28b1f4&_nc_ohc=wbjd2AqvH-AQ7kNvwGvZSt4&_nc_oc=Adoefb1mBBLmKtKQb4rL-rBkYeCMQakQuQmOdJTXWN_CTBcEOTWykNLRKy_HhRoBK3mbJOTe4Ue8RELHKJqlX0lM&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=0QDOCMrmhr09QK4ECCqG8Q&_nc_ss=7b289&oh=00_AQNQgWjEu9m0uj4PC3WgMwP0ePbjh3rpwVAlQI1sGZhwRA&oe=6ADD8438)](https://www.facebook.com/business/help/1710077379203657#)
+
+[![Image 14: Permalink](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=514159977391799&version=1666676243&transcode_extension=webp)](https://www.facebook.com/business/help/1710077379203657?helpref=uf_permalink)[![Image 15: Share](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=814226356566295&version=1666676243&transcode_extension=webp)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Fhelp%2F1710077379203657)
+
+Was this information helpful?
+
+Yes
+
+ 
+
+No
+
+ 
+
+More in this section:
+
+### [Basics](https://www.facebook.com/business/help/1710077379203657#)
+
+[About business portfolios](https://www.facebook.com/business/help/486932075688253)[About business portfolio and business asset permissions](https://www.facebook.com/business/help/442345745885606)[About Settings in Meta Business Suite](https://www.facebook.com/business/help/530540643805698)[Find your business portfolio ID](https://www.facebook.com/business/help/1181250022022158)
+
+### [Set Up](https://www.facebook.com/business/help/1710077379203657#)
+
+[Create a business portfolio](https://www.facebook.com/business/help/1710077379203657)[Accept an invitation to join a business portfolio](https://www.facebook.com/business/help/351956468742349)[About setting up and managing your business portfolio and business assets](https://www.facebook.com/business/help/586400082815745)
+
+### [Manage](https://www.facebook.com/business/help/1710077379203657#)
+
+[Edit your information in Meta Business Suite](https://www.facebook.com/business/help/257957338156440)[Change someone's access and permissions to a business portfolio or business asset](https://www.facebook.com/business/help/299504287548592)[Delete your business portfolio](https://www.facebook.com/business/help/1592865014304024)
+
+### [Troubleshoot](https://www.facebook.com/business/help/1710077379203657#)
+
+[Troubleshoot why you can't delete your business portfolio](https://www.facebook.com/business/help/2186488678264121)
+
+[© 2026 Meta](https://www.facebook.com/)
+
+[About](https://www.meta.com/about/ "Read our blog, discover the resource center, and find job opportunities.")[Developers](https://developers.meta.com/ "Develop on our platform.")[Careers](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.metacareers.com%2F&h=AUBTz1fDgTxfu4puejOD1rjt-1ZjOq61WiFY-F-yY0dhO4RFhnuLN633WaBFujgKy6u2ks_m5gVprmcYActggwdA0IlKm0Sa6mfw9mNHx-38nRtqrrE8bRljOOs1yd3BPuexJPG44whj-A "Make your next career move to our awesome company.")[Privacy](https://www.facebook.com/privacy/explanation "Learn about your privacy and Facebook.")[Cookies](https://www.facebook.com/help/cookies "Learn about cookies and Facebook.")[Terms](https://www.facebook.com/policies/ "Review our terms and policies.")[Help Center](https://www.facebook.com/business/help/ "Visit our Help Center.")
+
+[English (US)](https://www.facebook.com/business/help/1710077379203657 "English (US)")[English (UK)](https://en-gb.facebook.com/business/help/1710077379203657?locale=en_GB "English (UK)")[Español](https://es-la.facebook.com/business/help/1710077379203657?locale=es_LA "Spanish")[Português (Brasil)](https://pt-br.facebook.com/business/help/1710077379203657?locale=pt_BR "Portuguese (Brazil)")[Français (France)](https://fr-fr.facebook.com/business/help/1710077379203657?locale=fr_FR "French (France)")[Español (España)](https://es-es.facebook.com/business/help/1710077379203657?locale=es_ES "Spanish (Spain)")[More languages](https://www.facebook.com/business/help/1710077379203657#)
+
+[![Image 16](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=1315151719256614&version=1784669297&transcode_extension=webp)](https://www.facebook.com/business/help/1710077379203657#)
+
+#### ![Image 17](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=1389774634917761&version=1792520513)Log in to Meta for Business
+
+Manage your ad accounts and get personalized support.
+
+[](https://www.facebook.com/business/help/1710077379203657#)[![Image 18](https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=2375113342667919&version=1792520513) Log in with Facebook](https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzkyNTIwODk0fQ%3D%3D&next=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Fhelp%2F1710077379203657)
+
