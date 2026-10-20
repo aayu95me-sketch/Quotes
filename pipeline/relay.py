@@ -161,6 +161,14 @@ def main():
                     context.append(f"## {u}\n{text[:20000]}")
             (out / "search_results.md").write_text("\n".join(lines) + "\n")
         answer = ""
+        if req.get("list_models"):
+            prov = req["list_models"]
+            base, key = ("https://api.groq.com/openai/v1", "GROQ_API_KEY") if prov == "groq" else ("https://api.openai.com/v1", "OPENAI_API_KEY")
+            try:
+                ms = json.loads(http(f"{base}/models", headers={"Authorization": f"Bearer {os.environ[key]}"}))["data"]
+                answer = "Models:\n" + "\n".join(f"- {m['id']}" for m in sorted(ms, key=lambda m: m["id"]))
+            except Exception as e:
+                answer = f"ERROR listing models: {e}"
         if req.get("ask"):
             try:
                 answer = ask_llm(req["ask"], "\n\n".join(context) if req["ask"].get("use_fetched") else "")
