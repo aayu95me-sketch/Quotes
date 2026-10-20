@@ -1,7 +1,11 @@
 {
-  "ask": {
-    "provider": "groq",
-    "prompt": "From official Meta/Instagram/Facebook pages (creators.instagram.com, help.instagram.com, facebook.com/business/help) as of 2026: (1) Is Facebook Content Monetization available to creators in India, are photo and text posts eligible, what are the thresholds, and how are Indian creators paid? (2) Which Instagram monetisation tools (Gifts, Subscriptions, Badges, Bonuses, Creator Marketplace) are available in India? (3) What are the requirements for Instagram Broadcast Channels? (4) Does a page that posts only designed text carousels and static-image reels qualify for any Instagram or Facebook monetisation, and what originality rules apply?",
-    "system": "You are a careful market researcher with live web search. Never invent accounts, handles, follower counts, rates or quotes. Every claim needs a source URL. If you cannot verify something, write 'unverified'. Prefer 2026 sources and official pages. Be concise; use markdown tables."
+  "search": {
+    "queries": [
+      "Instagram Gifts subscriptions bonuses available countries India creators.instagram.com",
+      "Facebook content monetization India eligibility photos text posts 2026",
+      "Instagram broadcast channels who can create requirements",
+      "Meta Facebook content monetization program eligible countries list"
+    ],
+    "top": 3
   }
 }
