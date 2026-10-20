@@ -14,12 +14,19 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## Status (2026-10-20)
 - **Research:** done to the extent possible. See docs 01-03, 06, 07. Verified facts are in doc 06 (official pages fetched through the relay).
-- **Accounts:** owner created Instagram **@rozkarule** (Page A) and **@disciplinequite** (Page B; note the spelling "quite", the owner's choice or a typo to confirm) plus matching Facebook Pages. Still to confirm: Professional (Creator) switch, Page-to-Instagram link, 2FA, profile pictures and bios.
+- **Accounts:** owner created Instagram **@rozkarule** (Page A) and **@disciplinequite** was created with a typo; owner asked (2026-10-20) to correct it to **@disciplinequiet** in the Instagram and Facebook Page settings (owner action; files already use the corrected spelling) plus matching Facebook Pages. Still to confirm: Professional (Creator) switch, Page-to-Instagram link, 2FA, profile pictures and bios.
 - **Brand:** approved. **Roz Ka Rule** (Page A, India, Hinglish+English) and **Quiet Discipline** (Page B, US/UK/CA/AU, English). Profile images in `brand/`.
 - **Content:** week 1 fully written: 7 draft carousels plus 3 static-image Reels per page (20 total) in `content/posts/`, all `status: draft`, dates 27 Oct to 2 Nov (shift to real go-live). Plan for days 8-30 (hooks) in `docs/09-content-plan.md`. Weeks 2-4 get written one week at a time after reading the previous week's data.
 - **Audio:** trending, mood-matched music for Reels via Meta's Audio API (`pipeline/audio.py`, `content/audio_moods.json`, weekly shortlist job). Strategy and limits in `docs/10-audio-strategy.md`. Music cannot be attached to carousels or Stories through the API.
 - **Pipeline:** render (carousels and 9:16 Reels), static Reel slideshow builder, approval CLI, publisher (render + upload to public assets repo + Graph API + AI flag, safety rails), research relay. All tested locally or on Actions except **live publishing, which has not been run**. `publish.yml` is a dry run unless repo variable `LIVE_PUBLISH=true`, and only activates once merged to `main`.
 - **Owner next:** Phase 1 of `docs/08-account-setup-guide.md` (create the two Instagram accounts, Facebook Pages, 2FA, profile pictures, bios). Then 3-5 days of warm-up. Then Phase 2 (Meta developer app, tokens, secrets) with Claude guiding step by step.
+
+## Operating model: who does what
+- **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
+- **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
+- **GitHub Actions (always on):** publishes approved posts, pulls audio shortlists, runs research requests.
+- **Claude chat project "New Bot Planning" (owner's claude.ai):** not reachable from Claude Code. To share state, give it this repo (GitHub connector in the project) or paste `PROJECT.md` into its knowledge. Use it for approvals and brainstorming on the phone; the repo stays the source of truth.
+- **Meta Ads connector in this session:** advertising tools only (list pages/ad accounts, boost posts, create ads). It cannot create accounts, rename them, or publish organic posts. One Pages lookup was blocked by the permission classifier and was not retried; one ad-account list lookup ran (read-only, nothing changed). Not used further for this project.
 
 ## Key findings
 - Platform payouts are small for an India page; income must come from sponsors, affiliates, own digital products and an owned audience (email/WhatsApp).
