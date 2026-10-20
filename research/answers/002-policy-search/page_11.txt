@@ -1,0 +1,131 @@
+URL: https://tutorial.gst.gov.in/userguide/refund/Furnishing_of_Letter_of_Undertaking.htm
+QUERY: CBIC letter of undertaking LUT export of services GST online filing 2026
+METHOD: direct
+
+Furnishing of Letter of Undertaking
+
+Furnishing of Letter of Undertaking
+
+Click here to see this page in full context
+
+Manual > Filing of Letter of Undertaking for Export of Goods or Services (FORM GST RFD-11)
+
+How can I as a taxpayer file the Letter of Undertaking (LUT) for export of goods or services at the GST Portal?
+
+To file the Letter of Undertaking (LUT) for export of goods or services at the GST Portal, perform the following steps:
+
+1. Access the GST Portal at
+
+www.gst.gov.in
+
+URL. The GST Home page is displayed.
+
+2. Login to the GST Portal with valid credentials.
+
+3. Click the 
+Services > User Services > Furnish Letter of Undertaking (LUT) 
+
+command
+.
+
+4. Form GST RFD-11 is displayed. Select the financial year for which LUT is applied for from the 
+LUT Applied for Financial Year
+ drop-down list.
+
+5. Click the 
+Choose File
+ button to upload the previous LUT.
+
+Note
+:
+
+Only PDF or JPEG file formats are allowed.
+
+Maximum file size for upload is 2 MB.
+
+6. Select the declaration checkboxes.
+
+7. In the Name, Address and occupation of the independent and reliable witnesses section, enter the name and address of 2 witnesses.
+
+8. In the 
+Place of Filing LUT 
+
+field
+, enter the place.
+
+9. In the 
+Name of Primary/ Other Authorized Signatory
+ drop-down list, select the name of authorized signatory.
+
+10. 
+In the
+
+Place
+
+field, enter the place where the form is filed.
+
+11. In case you want to save the form and retrieve the form later, click the 
+SAVE 
+button to save the form.
+
+A confirmation message is displayed that application is saved successfully.
+
+Note
+: You can navigate to 
+Services
+ > 
+User Services 
+> 
+My Saved Applications
+ to retrieve the saved application later.
+
+12. Click the 
+PREVIEW
+ button to preview the form.
+
+The form is displayed in the PDF format.
+
+13. Click the 
+SIGN AND FILE WITH DSC
+ or 
+SIGN AND FILE WITH EVC 
+button.
+
+Note
+: If you have saved the form and retrieving it later, you need to select the name of authorized signatory and 
+enter the place where the form is filed before filing the form.
+
+14. Click the 
+
+PROCEED
+
+ button.
+
+Submit with DSC
+
+:
+
+Sign the application using the registered Digital Signature Certificate of the selected authorized signatory.
+
+Submit with EVC
+
+:
+
+If the EVC option is selected, the system will trigger an OTP to the registered mobile phone number and e-mail address of the authorized signatory. Enter that OTP in the pop-up to sign the application.
+
+Notes
+
+:
+
+The system generates an ARN and displays a confirmation message.
+
+GST Portal sends the ARN at registered email and mobile of the Taxpayer by e-mail and SMS.
+
+You can click the 
+DOWNLOAD
+ button to download the acknowledgement.
+
+Note
+: You can click the 
+DOWNLOAD
+ button to download the acknowledgement.

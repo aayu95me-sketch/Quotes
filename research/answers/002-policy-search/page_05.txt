@@ -1,0 +1,38 @@
+URL: https://creators.instagram.com/blog/ai-generated-profile-label?locale=en_GB
+QUERY: Instagram AI info label requirements AI-generated content creators help center
+METHOD: r.jina.ai
+
+Title: Bringing more transparency to AI-generated profiles on Instagram
+
+URL Source: https://creators.instagram.com/blog/ai-generated-profile-label?locale=en_GB
+
+Warning: Target URL returned error 400: Bad Request
+
+Markdown Content:
+#### **Introducing the AI-generated profile label**
+
+Today, we're renaming the AI creator label to AI-generated profile to make it more clear to people when a profile features an AI-generated person rather than a human. We will also limit the reach of profiles that feature an AI-generated person and do not add this label.
+
+This update builds on the learnings of the AI creator label that we began testing earlier this year. As generative AI becomes a bigger part of how people create, we've heard that people don't like seeing a profile that seems human, only to find out later that the person featured is AI-generated. They want to know when a profile features an AI-generated person.
+
+For creators who previously added the AI creator label, creators will now see the new name and have a chance to review the AI-generated profile label, confirm if it still fits or remove it if it no longer applies. Creators who simply use AI tools as part of their creative process don't need to add the label.
+
+  
+
+#### **What this means for AI-generated profiles**
+
+For unlabelled profiles that feature an AI-generated person, creators can and should apply the label by editing their profile and toggling on AI-generated profile. Upon doing so, the label will begin to appear on their profile and alongside their content if their specific media doesn't already have a label indicating that it was created or edited with AI. Creators who proactively add the AI-generated profile label will not see a change to their profile's reach.
+
+Creators who don't appropriately label their AI-generated profiles may see limits to their profile's reach. Unlabelled profiles that we detect will be notified and can check [Account Status](https://help.instagram.com/338481628002750/) to see if they're no longer eligible to appear in recommendations.
+
+For unlabelled AI-generated profiles that become non-recommendable, there are two paths back to being recommendable again:
+
+  
+
+*   Add the AI-generated profile label so that their profile accurately reflects their AI-based identity, or
+*   Appeal the decision. Our systems might not always be perfect, so creators can check Account Status to see if there are any limits to their account's reach and appeal restrictions that they believe were made in error. If their appeal is successful, the profile and its content will be eligible to appear again in recommendations.
+
+#### **Looking forward**
+
+This change is part of our ongoing effort to improve transparency, and we hope it helps people better understand who or what is behind the content they're seeing on Instagram. To learn more about the AI-generated profile label, we recommend reviewing our [Help Centre](https://help.instagram.com/1555776438852001).
+

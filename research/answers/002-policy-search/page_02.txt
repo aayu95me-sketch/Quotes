@@ -1,0 +1,26 @@
+URL: https://help.instagram.com/originality
+QUERY: Instagram originality guidelines aggregated content unoriginal reposting recommendations help.instagram.com
+METHOD: r.jina.ai
+
+Title: Help Center
+
+URL Source: https://help.instagram.com/originality
+
+Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout.
+Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page.
+
+Markdown Content:
+## This page isn't available right now
+
+This may be because of a technical error that we're working to get fixed. Try reloading this page.
+
+Reload page
+
+## Your Request Couldn't be Processed
+
+* * *
+
+There was a problem with this request. Try again later.
+
+OK
+
