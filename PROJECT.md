@@ -54,6 +54,13 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 ## Public check (relay run 2009, 2026-10-21)
 - Facebook A2 now named **"Roz Ka Rule"**, B2 **"Quiet Discipline"** with username **/disciplinequiet** working. Both show a profile photo. A2 has no username yet. So the three Facebook password steps appear **done**. Instagram profiles are login-walled (cannot verify publicly); the operator verifies with Prompt 2D.
 
+## Operator reports 2B, 2C, 2D (2026-10-21)
+- **2B (read-only):** the two "Quiet Discipline" entries with full access to B2 are **people** in the business portfolio "Quite Discipline" (1370046235203586), signed in with **Instagram** (IDs 61566292079484 active today; 61567045532811 never active). A third/fourth Instagram-login person "Quite Discipline @disciplinequite" (61567537685833) also exists. "Ayush Sharma" (Facebook login, 61568936982799) is the real owner. Likely Business Suite profiles created when the owner signed in with the Instagram accounts; not proven. They have full control of the portfolio, including deleting it. Owner decision pending: confirm they are yours, then remove the never-used one(s) in Business Suite > Settings > People. A business asset group "quitediscipline" also exists.
+- **2C:** nothing changed. The operator's tool blocks Save clicks and typing categories in Meta; Chrome's Instagram is signed in as A1, not B1.
+- **2D (read-only):** A1: name "Rozkarule" (needs "Roz Ka Rule"), category Art, bio empty, picture yes. A2: name "Roz Ka Rule", username none (rozkarule is available), category Arts & entertainment, bio yes, picture yes. B1 (public view): still @disciplinequite, name "Quite Discipline", bio yes, picture yes; `the.disciplinequiet` is free. B2: name "Quiet Discipline", username disciplinequiet, category Arts & entertainment, bio yes, picture yes.
+- **Working pattern:** operator prefills screens, owner presses Save and enters passwords (Prompt 2E in docs/11).
+- Remaining: A2 username, A1 name/bio/category, B1 rename and category, Education on A2 and B2, two-factor and Security Checkup, the portfolio people question, then Prompt 3 (developer app).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.

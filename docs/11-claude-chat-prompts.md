@@ -107,6 +107,19 @@ Then ONE change, only if A2 still has no username: set the A2 Page username to r
 If anything differs from CLAUDE.md, list the differences. Do not touch anything else. End with the REPORT in inbox/.
 ```
 
+## PROMPT 2E: prefill, do not Save (the operator's safety check blocks Save clicks and typing categories in Meta)
+Operator result 2026-10-21: it could open screens and type in username boxes ("rozkarule is available") but its tool refused to press Save or type "Education" into category fields. So the working pattern is: **operator opens and fills, the owner presses Save and types any password**.
+Chrome's Instagram is currently signed in as **A1 (@rozkarule)**. Chrome's Facebook is acting as the **Roz Ka Rule Page** (switch back with the profile menu).
+```
+Task 2E. Use the owner's Chrome. For each item: open the exact screen, fill the field, then STOP BEFORE pressing Save/Submit and tell me "ready: press Save on <screen>". Wait for me to say done, then re-open the screen and confirm the saved value. Do not press Save or enter any password yourself.
+1. A1 Instagram (signed in now): Edit profile > Name = "Roz Ka Rule"; Bio = "Roz ka ek rule. Discipline, career aur dimaag ke liye simple tips. Save karo, follow karo."; Category = Education (or Personal blog).
+2. A2 Facebook Page (acting as the Page now): Settings > Username > Edit > rozkarule.
+3. A2 About > Category = Education. Then switch to Page B2 (facebook.com/disciplinequiet): About > Category = Education.
+4. Finally switch Facebook back to the personal profile.
+Touch nothing else. End with the REPORT in inbox/.
+```
+B1 (@disciplinequite) cannot be done from this Chrome until the owner logs in to it. B1 is easiest on the phone: Edit profile > Username `the.disciplinequiet` (confirmed free), Name `Quiet Discipline`, Category Education.
+
 ## MANUAL: do these on your phone (Claude chat could not, and some are security steps that should be yours)
 1. **Two-factor on Instagram B1, and check A1:** Instagram app > Settings and activity > Accounts Center > Password and security > Two-factor authentication. Use an authenticator app. Save the backup codes offline. Do the same for the Facebook profile.
 2. **Security Checkup on B1's Meta account:** work through the 3 recommended actions.
