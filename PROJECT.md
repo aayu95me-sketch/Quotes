@@ -85,6 +85,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Meta app **"Quotes Publisher"**, **App ID 1454446477743438**, Business type, **Development mode**, owner Ayush Sharma is the only Administrator. Instagram product added with **API setup with Facebook login**. App Secret never read (owner keeps it). Contact email on the app was prefilled with another Gmail; optional to change. The "Other" use case is marked "going away soon" by Meta; the app uses the older product experience.
 - Next (owner, manual): Graph API Explorer token for the two Pages and two Instagram accounts only, run `pipeline/setup_tokens.py` on the Mac, put 4 secrets plus slides-repo secret/variable into GitHub. Then run workflow `verify-setup` (pipeline/verify.py): checks account access, publishing quota, trending audio, slides repo. No secrets printed.
 
+## Setup verification run (verify-setup, 2026-10-21)
+- **PASS:** Page A `@rozkarule` (name "Roz Ka Rule") and Page B `@the.disciplinequiet` (name "Quiet Discipline") are readable with the stored tokens; publishing quota 0/100 per 24h on both; **Audio API returns 25 trending tracks on both accounts** (so trending audio via API works with these tokens).
+- **FAIL:** `ASSETS_REPO` variable and `ASSETS_PAT` secret were empty in the workflow. Slide hosting is the only missing piece. (ASSETS_REPO must be a repository *variable*, ASSETS_PAT a *secret*.)
+- A commit on this branch ("setup_tokens: show granted permissions and fall back to known Page IDs when /me/accounts is empty") shows the token script had to be adjusted during the owner's token step.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
