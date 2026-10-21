@@ -1,0 +1,6 @@
+URL: https://www.instagram.com/the.disciplinequiet/embed/
+METHOD: failed
+
+
+Instagram
+(jina fallback failed: HTTP Error 403: Forbidden)
