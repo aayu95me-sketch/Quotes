@@ -1,6 +1,6 @@
 # 30-Day Content Plan (draft)
 
-Week 1 is fully written (14 draft carousels in `content/posts/`, dates 27 Oct to 2 Nov, to be shifted to the real go-live date). Weeks 2-4 below are hooks only. I write each week in full after reading the previous week's numbers, because the plan should follow what the audience saves and shares. Language mix on Page A: Hinglish and English alternate; after week 2 I compare saves and shares per 1,000 reach and favour the winner.
+Week 1 is fully written (14 draft carousels in `content/posts/`, dates 21 to 27 Oct after the go-live shift (originally 27 Oct to 2 Nov)). Weeks 2-4 below are hooks only. I write each week in full after reading the previous week's numbers, because the plan should follow what the audience saves and shares. Language mix on Page A: Hinglish and English alternate; after week 2 I compare saves and shares per 1,000 reach and favour the winner.
 
 Cadence per page: 1 carousel a day. From week 2, add 3 static-image Reels a week (one strong slide from the best carousel, with trending audio) and 2 Stories a week (poll or question from a recent carousel).
 

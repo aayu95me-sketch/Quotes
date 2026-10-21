@@ -108,6 +108,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Owner asked to go live **today**. All 20 approved posts were shifted 6 days earlier (files renamed): first posts are Page A carousel 21 Oct 19:00 IST and Page B carousel 21 Oct 17:00 UTC; first reels 22 Oct. The warm-up advice (3-5 days) was the builder's judgement, not a Meta rule; owner chose to proceed.
 - **Owner action to start publishing:** set repository variable `LIVE_PUBLISH` = `true` (Settings > Secrets and variables > Actions > Variables). The `publish` workflow runs every 30 minutes from the default branch and posts only approved posts that are due.
 
+## FIRST LIVE POST (2026-10-21 13:44 UTC)
+- `LIVE_PUBLISH=true` set by owner. A manual `publish` run published **Page A's first carousel** (`page_a/2026-10-21-procrastination`, media_id 18140538160621085). The workflow then committed the status change (`published`). End-to-end publishing, including `media_publish`, is therefore proven for carousels. Not yet proven live: reels with attached audio (first reel is 22 Oct 12:30 IST for Page A), Page B publishing (due 17:00 UTC today).
+- Scheduled `publish` runs fire roughly hourly (GitHub throttling), so posts can go out up to ~1 hour after their time. Manual runs are possible (workflow_dispatch).
+- **Open items:** week 2 (days 8-14) must be written and approved before 28 Oct; two-factor still off; unused portfolio profiles still present; owner has not yet confirmed the first post looks right on Instagram; weekly autonomous sessions offered, no answer.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
