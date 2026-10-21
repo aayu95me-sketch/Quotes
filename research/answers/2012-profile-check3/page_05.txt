@@ -1,0 +1,6 @@
+URL: https://www.instagram.com/disciplinequite/
+METHOD: failed
+
+
+(direct fetch failed: HTTP Error 429: Too Many Requests)
+(jina fallback failed: HTTP Error 403: Forbidden)
