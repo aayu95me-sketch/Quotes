@@ -69,6 +69,13 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - **B2 "Quiet Discipline": name and username `disciplinequiet` correct, two photos present, but category is still "Arts & entertainment".** Needs Education.
 - Facebook About text and intro are not visible to logged-out visitors, so not verified. Instagram profiles are login-walled; A1 and B1 can only be verified by the operator (Prompt 2D) or by the owner. No new operator reports since 2B/2C/2D.
 
+## Account state after owner's updates (operator read-only recheck, 2026-10-21)
+- **Done:** A1 @rozkarule: name "Roz Ka Rule", bio, category Education, picture. A2 Page "Roz Ka Rule": username rozkarule, category Education, intro/About, picture. B1 renamed to **@the.disciplinequiet**, name "Quiet Discipline", bio, picture (old @disciplinequite URL is gone). B2 Page "Quiet Discipline": username disciplinequiet, category Education, intro/About, picture.
+- **Open:** Facebook **cover photos** on both Pages (none yet; files `brand/page_a_cover.png`, `page_b_cover.png`); B1 category and account types (Creator vs Business) unverified; **two-factor and Security Checkup** unverified (B1 was OFF); A1 Account Status unchecked; the unused Instagram-login people in the portfolio (owner decision); Chrome's Facebook is acting as the Page B2 (switch back).
+- Facebook Page About text is the one-line bio, not the longer About from docs/13. Optional.
+- My relay's Instagram fetches now get HTTP 429/403 from Instagram; the builder stops probing Instagram and relies on operator reports.
+- Next: Prompt 3 (Meta developer app) while the accounts warm up.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
