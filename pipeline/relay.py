@@ -45,17 +45,31 @@ def strip_html(raw):
     return re.sub(r"\n\s*\n+", "\n\n", re.sub(r"[ \t]+", " ", raw)).strip()
 
 
+def metas(raw):
+    """Return the page's og:/description meta tags as text lines (what link previews show)."""
+    out = []
+    for tag in re.findall(r"<meta[^>]+>", raw):
+        k = re.search(r'(?:property|name)="((?:og:|twitter:)[^"]+|description)"', tag)
+        v = re.search(r'content="([^"]*)"', tag)
+        if k and v:
+            out.append(f"META {k.group(1)}: {html.unescape(v.group(1))}")
+    return "\n".join(out)
+
+
 def fetch(url):
+    meta, text = "", ""
     try:
-        text = strip_html(http(url))
+        raw = http(url)
+        meta = metas(raw)
+        text = strip_html(raw)
         if len(text) > 1500:
-            return "direct", text[:MAX_PAGE]
+            return "direct", (meta + "\n\n" + text)[:MAX_PAGE]
     except Exception as e:
         text = f"(direct fetch failed: {e})"
     try:
-        return "r.jina.ai", http("https://r.jina.ai/" + url, headers={"Accept": "text/plain"})[:MAX_PAGE]
+        return "r.jina.ai", (meta + "\n\n" + http("https://r.jina.ai/" + url, headers={"Accept": "text/plain"}))[:MAX_PAGE]
     except Exception as e:
-        return "failed", f"{text}\n(jina fallback failed: {e})"
+        return "failed", f"{meta}\n{text}\n(jina fallback failed: {e})"
 
 
 def _ddg(q):
