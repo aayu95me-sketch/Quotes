@@ -1,0 +1,33 @@
+name: test-containers
+# Manual live API test that NEVER publishes: renders, uploads slides, builds Instagram containers (and reel uploads with audio), then stops.
+on:
+  workflow_dispatch:
+    inputs:
+      posts:
+        description: "Space-separated post files, e.g. content/posts/page_a/2026-10-27-procrastination.json"
+        required: true
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install renderer
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+          sudo apt-get install -y ffmpeg
+      - name: Prepare containers (no publish)
+        env:
+          ASSETS_REPO: ${{ vars.ASSETS_REPO }}
+          ASSETS_PAT: ${{ secrets.ASSETS_PAT }}
+          IG_PAGE_A_USER_ID: ${{ secrets.IG_PAGE_A_USER_ID }}
+          IG_PAGE_A_TOKEN: ${{ secrets.IG_PAGE_A_TOKEN }}
+          IG_PAGE_B_USER_ID: ${{ secrets.IG_PAGE_B_USER_ID }}
+          IG_PAGE_B_TOKEN: ${{ secrets.IG_PAGE_B_TOKEN }}
+        run: python pipeline/publish.py --prepare-only --only ${{ github.event.inputs.posts }}

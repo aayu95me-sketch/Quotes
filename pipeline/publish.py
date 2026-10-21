@@ -89,7 +89,7 @@ def due_posts(now):
         yield f, post
 
 
-def publish_carousel(f, post, live):
+def publish_carousel(f, post, live, prepare=False):
     page, stem = post["page"], f.stem
     n = len(post["slides"])
     if not live:
@@ -106,10 +106,15 @@ def publish_carousel(f, post, live):
     if post.get("ai_label"):  # self-disclosure; carousel container only, not children
         params["is_ai_generated"] = "true"
     parent = api("POST", f"{uid}/media", params, ver)["id"]
+    status = None
     for _ in range(20):  # wait for processing
-        if api("GET", parent, {"fields": "status_code", "access_token": token}, ver).get("status_code") == "FINISHED":
+        status = api("GET", parent, {"fields": "status_code", "access_token": token}, ver).get("status_code")
+        if status == "FINISHED":
             break
         time.sleep(5)
+    if prepare:  # dry end-to-end test: everything except the final publish
+        print(f"PREPARED carousel {page}/{stem}: parent container {parent}, {len(kids)} children, status {status}")
+        return None
     return api("POST", f"{uid}/media_publish", {"creation_id": parent, "access_token": token}, ver)["id"]
 
 
@@ -126,7 +131,7 @@ def rupload(container_id, mp4, token, ver):
         raise RuntimeError(f"rupload failed: {out}")
 
 
-def publish_reel(f, post, live):
+def publish_reel(f, post, live, prepare=False):
     """Static-image Reel: render 9:16 slides, build a silent slideshow mp4, attach trending mood-matched audio."""
     page, stem = post["page"], f.stem
     per = float(post.get("seconds_each", 3.5))
@@ -160,6 +165,7 @@ def publish_reel(f, post, live):
         params["audio_configuration"] = json.dumps({"audio_id": chosen["audio_id"], "audio_volume": int(post.get("audio_volume", vol)), "video_volume": 0})
     cid = api("POST", f"{uid}/media", params, ver)["id"]
     rupload(cid, mp4, token, ver)
+    st = None
     for _ in range(40):
         st = api("GET", cid, {"fields": "status_code", "access_token": token}, ver).get("status_code")
         if st == "FINISHED":
@@ -167,6 +173,9 @@ def publish_reel(f, post, live):
         if st == "ERROR":
             raise RuntimeError("Reel processing failed")
         time.sleep(6)
+    if prepare:
+        print(f"PREPARED reel {page}/{stem}: container {cid}, status {st}, audio {chosen.get('title') if chosen else 'none'} ({chosen.get('audio_id') if chosen else '-'})")
+        return None
     mid = api("POST", f"{uid}/media_publish", {"creation_id": cid, "access_token": token}, ver)["id"]
     if chosen and chosen.get("title"):
         audio_mod.record_use(page, chosen)
@@ -178,34 +187,40 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true")
     ap.add_argument("--count", action="store_true", help="print the number of approved, due posts and exit (cheap check for CI)")
+    ap.add_argument("--prepare-only", action="store_true", help="live API test: build containers (carousel children, reel upload with audio) but do NOT publish")
+    ap.add_argument("--only", nargs="*", help="with --prepare-only: post files to test regardless of status and date")
     a = ap.parse_args()
     now = dt.datetime.now(dt.timezone.utc)
     if a.count:
         print(sum(1 for _ in due_posts(now)))
         return
     n = 0
-    for f, post in due_posts(now):
-        if n >= MAX_PER_RUN:
+    if a.only and not a.prepare_only:
+        sys.exit("--only is only allowed together with --prepare-only (it must never publish)")
+    queue = [(pathlib.Path(x), json.loads(pathlib.Path(x).read_text())) for x in a.only] if a.only else due_posts(now)
+    live = a.live or a.prepare_only
+    for f, post in queue:
+        if n >= MAX_PER_RUN and not a.only:
             break
         if post["type"] not in ("carousel", "reel"):
             print(f"skip {f.name}: type {post['type']} not supported yet")
             continue
         try:
-            media_id = (publish_reel if post["type"] == "reel" else publish_carousel)(f, post, a.live)
+            media_id = (publish_reel if post["type"] == "reel" else publish_carousel)(f, post, live, a.prepare_only)
         except Exception as e:  # never crash the whole run; record and move on
             print(f"ERROR {f.name}: {e}")
-            if a.live:
+            if a.live and not a.prepare_only:
                 post["status"] = "failed"
                 post["error"] = str(e)[:300]
                 f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
             continue
-        if a.live and media_id:
+        if a.live and not a.prepare_only and media_id:
             post["status"] = "published"
             post["media_id"] = media_id
             post["published_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
             f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
         n += 1
-    print(f"{n} post(s) processed ({'live' if a.live else 'dry-run'})")
+    print(f"{n} post(s) processed ({'prepare-only test' if a.prepare_only else 'live' if a.live else 'dry-run'})")
 
 
 if __name__ == "__main__":

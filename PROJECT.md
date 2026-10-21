@@ -99,6 +99,10 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Review packs built with `pipeline/review.py` (`out/review_page_a.pdf`, `out/review_page_b.pdf`, 10 drafts each) and sent to the owner. Nothing is approved yet; `LIVE_PUBLISH` is not set, so the scheduled job only dry-runs.
 - **Go-live plan:** owner reviews, tells Claude which posts to approve (Claude edits `status: approved`); first live post is a single approved carousel with `publish_at` set a few minutes ahead, then `LIVE_PUBLISH=true`. Two-factor is still off (owner decision; risk noted).
 
+## Week 1 approved (2026-10-21)
+- Owner said "go ahead" after receiving the review PDFs: all 20 week-1 drafts set to `status: approved` (14 carousels, 6 reels; 27 Oct to 2 Nov). Nothing publishes until the repo variable `LIVE_PUBLISH` is `true` (the scheduled job dry-runs otherwise).
+- New `test-containers` workflow + `publish.py --prepare-only --only <files>`: live API test that builds Instagram containers (carousel children, reel upload with pinned audio) but never publishes (refuses `--only` without `--prepare-only`).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
