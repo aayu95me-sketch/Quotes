@@ -106,6 +106,7 @@ def shortlist(pages):
                 lines.append(f"| error | | {e} | | | |")
             lines.append("")
         out = ROOT / "research" / "audio" / f"{day}_{page}.md"
+        out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text("\n".join(lines) + "\n")
         print(out)
 
