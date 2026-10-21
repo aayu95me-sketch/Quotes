@@ -103,6 +103,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Owner said "go ahead" after receiving the review PDFs: all 20 week-1 drafts set to `status: approved` (14 carousels, 6 reels; 27 Oct to 2 Nov). Nothing publishes until the repo variable `LIVE_PUBLISH` is `true` (the scheduled job dry-runs otherwise).
 - New `test-containers` workflow + `publish.py --prepare-only --only <files>`: live API test that builds Instagram containers (carousel children, reel upload with pinned audio) but never publishes (refuses `--only` without `--prepare-only`).
 
+## Live test passed and go-live today (2026-10-21)
+- **test-containers run 1 PASSED** (prepare-only, nothing published): carousel containers built with 8 children each (FINISHED) on both pages, and both reels uploaded with the pinned trending audio attached (FINISHED). Only `media_publish` is untested.
+- Owner asked to go live **today**. All 20 approved posts were shifted 6 days earlier (files renamed): first posts are Page A carousel 21 Oct 19:00 IST and Page B carousel 21 Oct 17:00 UTC; first reels 22 Oct. The warm-up advice (3-5 days) was the builder's judgement, not a Meta rule; owner chose to proceed.
+- **Owner action to start publishing:** set repository variable `LIVE_PUBLISH` = `true` (Settings > Secrets and variables > Actions > Variables). The `publish` workflow runs every 30 minutes from the default branch and posts only approved posts that are due.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
