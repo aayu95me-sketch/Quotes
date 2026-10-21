@@ -76,6 +76,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - My relay's Instagram fetches now get HTTP 429/403 from Instagram; the builder stops probing Instagram and relies on operator reports.
 - Next: Prompt 3 (Meta developer app) while the accounts warm up.
 
+## Owner confirmations (2026-10-21)
+- Facebook cover photos uploaded on both Pages. B1 category is Education. A1 and B1 are **Creator** accounts. Account status shows green on all three checks.
+- **Owner decisions, noted as risk, not blockers:** two-factor authentication is **on hold**; Security Checkup is **on hold**; the unused Instagram-login profiles in the "Quite Discipline" portfolio are **left in place**. Risk: whoever gets into the owner's Facebook login controls both Pages and the developer app; those profiles have full portfolio access. Revisit before `LIVE_PUBLISH` goes true (2FA at minimum).
+- **Account setup is complete.** Next: Phase 2 (Meta developer app and tokens). Warm-up (3-5 days, no posting) runs in parallel.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
