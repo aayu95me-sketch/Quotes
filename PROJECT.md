@@ -121,6 +121,9 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 ## Re-approval (2026-10-21)
 - Owner said "Approve all" for the 18 revised drafts. All 19 unpublished posts are `approved`; 1 published (A's first carousel).
 
+## Page B first live post (2026-10-21 17:07 UTC)
+- `page_b/2026-10-21-willpower` **published** (media_id 17955009702035777). Both pages are now live. 18 approved posts remain; no failures. Next: A reel 22 Oct 07:00 UTC (first live audio), B reel 13:00 UTC, A carousel 13:30 UTC, B carousel 17:00 UTC.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
