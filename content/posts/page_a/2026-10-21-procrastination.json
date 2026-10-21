@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-21T19:00:00+05:30",
   "pillar": "mind",
   "slides": [
@@ -41,5 +41,7 @@
   ],
   "caption": "Procrastination ka matlab laziness nahi hota. Dimaag ek feeling se bach raha hota hai. Chhota shuru karo, motivation baad mein aati hai.\n\nKaunsa kaam aap abhi taal rahe ho? Comment mein likho.\n\n#discipline #studymotivation #selfimprovement #procrastination #hinglish",
   "ai_label": true,
-  "lang": "hinglish"
+  "lang": "hinglish",
+  "media_id": "18140538160621085",
+  "published_at": "2026-10-21T13:44:44.124368+00:00"
 }
