@@ -118,6 +118,9 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - All 18 queued posts except Page B's willpower carousel (due 21 Oct 17:00 UTC, left as approved and unchanged) were rewritten and set back to **draft**: they need the owner's re-approval before they publish. Earliest deadlines: A reel 22 Oct 07:00 UTC (12:30 IST), B reel 22 Oct 13:00 UTC, A carousel 22 Oct 13:30 UTC, B carousel 22 Oct 17:00 UTC. Posts more than 24 h overdue are skipped (can be rescheduled).
 - New review PDFs sent (`pipeline/review.py`).
 
+## Re-approval (2026-10-21)
+- Owner said "Approve all" for the 18 revised drafts. All 19 unpublished posts are `approved`; 1 published (A's first carousel).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
