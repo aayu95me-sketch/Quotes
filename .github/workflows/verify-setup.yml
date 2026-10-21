@@ -1,0 +1,23 @@
+name: verify-setup
+# Manual run. Checks that the Instagram secrets and the slide-hosting repo work. Prints no secrets.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify
+        env:
+          ASSETS_REPO: ${{ vars.ASSETS_REPO }}
+          ASSETS_PAT: ${{ secrets.ASSETS_PAT }}
+          IG_PAGE_A_USER_ID: ${{ secrets.IG_PAGE_A_USER_ID }}
+          IG_PAGE_A_TOKEN: ${{ secrets.IG_PAGE_A_TOKEN }}
+          IG_PAGE_B_USER_ID: ${{ secrets.IG_PAGE_B_USER_ID }}
+          IG_PAGE_B_TOKEN: ${{ secrets.IG_PAGE_B_TOKEN }}
+        run: python pipeline/verify.py

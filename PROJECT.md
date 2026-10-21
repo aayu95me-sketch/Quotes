@@ -81,6 +81,10 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - **Owner decisions, noted as risk, not blockers:** two-factor authentication is **on hold**; Security Checkup is **on hold**; the unused Instagram-login profiles in the "Quite Discipline" portfolio are **left in place**. Risk: whoever gets into the owner's Facebook login controls both Pages and the developer app; those profiles have full portfolio access. Revisit before `LIVE_PUBLISH` goes true (2FA at minimum).
 - **Account setup is complete.** Next: Phase 2 (Meta developer app and tokens). Warm-up (3-5 days, no posting) runs in parallel.
 
+## Developer app created (operator Prompt 3 report, 2026-10-21)
+- Meta app **"Quotes Publisher"**, **App ID 1454446477743438**, Business type, **Development mode**, owner Ayush Sharma is the only Administrator. Instagram product added with **API setup with Facebook login**. App Secret never read (owner keeps it). Contact email on the app was prefilled with another Gmail; optional to change. The "Other" use case is marked "going away soon" by Meta; the app uses the older product experience.
+- Next (owner, manual): Graph API Explorer token for the two Pages and two Instagram accounts only, run `pipeline/setup_tokens.py` on the Mac, put 4 secrets plus slides-repo secret/variable into GitHub. Then run workflow `verify-setup` (pipeline/verify.py): checks account access, publishing quota, trending audio, slides repo. No secrets printed.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
