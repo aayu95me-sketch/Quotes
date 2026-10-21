@@ -15,6 +15,9 @@ Anything else in the owner's Meta Business Suite (other Pages, accounts, busines
 4. Posts publish only when `status: approved` (owner approves; first 30 days every post).
 5. Money posts: educational only, no stock/crypto tips, no returns claims. Mental-health posts: no diagnosis, add the disclaimer.
 
+## Writing rules
+Easy to read: one idea per slide, body slides max 10 words, concrete examples, plain words, highlight key words with *asterisks*. Full rules in `docs/14-writing-style.md`.
+
 ## Who does what (two Claude Code sessions share this repo)
 - **Claude Code "Market research for project" session (builder):** research, content, pipeline, workflows, reports. Branch `claude/eager-bell-i41n67` (the repo default branch).
 - **Claude Code project "Static Automation" (operator, has the owner's browser/device):** account-level tasks from `docs/11-claude-chat-prompts.md`. It writes results as a file `inbox/YYYY-MM-DD-topic.md` using the REPORT format, commits and pushes (own branch is fine; the builder fetches all `claude/*` branches). It does not edit `pipeline/`, `content/` or `PROJECT.md`.

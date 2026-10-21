@@ -1,45 +1,46 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-27T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
   "slides": [
     {
       "kind": "hook",
-      "text": "Boundaries are scripts, not feelings"
+      "text": "Boundaries are *scripts*, not feelings"
     },
     {
       "kind": "body",
-      "text": "Most people do not lack boundaries. They lack words ready to use."
+      "text": "Most people don't lack boundaries. They lack *words*."
     },
     {
       "kind": "body",
-      "text": "Saying no at work: \"I can do this by Friday, or that by Monday. Which matters more?\""
+      "text": "To say no: *\"I can do X by Friday, or Y by Monday. Which matters more?\"*"
     },
     {
       "kind": "body",
-      "text": "Declining a meeting: \"I will not be able to attend. Could you send notes or the key decision?\""
+      "text": "To skip a meeting: *\"I can't attend. Please send notes.\"*"
     },
     {
       "kind": "body",
-      "text": "After hours: \"I will pick this up first thing tomorrow.\""
+      "text": "After hours: *\"I'll pick this up first thing tomorrow.\"*"
     },
     {
       "kind": "body",
-      "text": "Say it once, calmly, without a long apology. Over-explaining invites negotiation."
+      "text": "Say it *once*, calmly. *Don't over-explain.*"
     },
     {
       "kind": "body",
-      "text": "Prepare your script before you need it. Practice makes it feel natural."
+      "text": "Write your script *before* you need it."
     },
     {
       "kind": "cta",
-      "text": "Save this for the next time you need it.",
+      "text": "Save these scripts.",
       "sub": "Follow for one small rule daily"
     }
   ],
   "caption": "A boundary is a sentence you have prepared in advance. Save these scripts.\n\nWhich one would you use first?\n\n#boundaries #workplace #communication #assertiveness #selfimprovement",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

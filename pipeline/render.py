@@ -7,6 +7,7 @@ import html
 import json
 import os
 import pathlib
+import re
 
 from playwright.sync_api import sync_playwright
 
@@ -24,6 +25,7 @@ body{{width:{w}px;height:{h}px;background:{bg};color:{fg};font-family:{font};
 .main{{flex:1;display:flex;flex-direction:column;justify-content:center}}
 .text{{font-size:{size}px;line-height:1.22;font-weight:{weight};letter-spacing:-.01em}}
 .sub{{margin-top:48px;font-size:38px;color:{accent};font-weight:600}}
+.hl{{color:{accent};font-weight:800}}
 .rule{{width:120px;height:8px;background:{accent};border-radius:4px;margin-bottom:56px}}
 .foot{{font-size:30px;color:{muted}}}
 </style></head><body>
@@ -39,7 +41,7 @@ def slide_html(page, slide, idx, total, reel=False):
     kind = slide["kind"]
     text = slide["text"]
     n = len(text)
-    size = (84 if n < 70 else 74) if kind == "hook" else 78 if n < 60 else 68 if n < 100 else 60 if n < 150 else 54
+    size = (96 if n < 50 else 84) if kind == "hook" else 88 if n < 50 else 76 if n < 90 else 64 if n < 140 else 54
     sub = f'<div class="sub">{html.escape(slide["sub"])}</div>' if slide.get("sub") else ""
     if reel:
         size = int(size * 1.12)
@@ -47,7 +49,7 @@ def slide_html(page, slide, idx, total, reel=False):
         w=RW if reel else W, h=RH if reel else H, pt=300 if reel else 110, pb=380 if reel else 90, bar=230 if reel else 70, bg=t["bg"], fg=t["fg"], muted=t["muted"], accent=t["accent"],
         font=t["font"], size=size, weight=800 if kind == "hook" else 600,
         pct=round(idx / total * 100), name=html.escape(page["name"]), idx=idx, total=total,
-        text=html.escape(text), sub=sub, footer=html.escape(page["footer"]),
+        text=re.sub(r"\*(.+?)\*", r'<span class="hl">\1</span>', html.escape(text)), sub=sub, footer=html.escape(page["footer"]),
     )
 
 

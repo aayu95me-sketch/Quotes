@@ -1,45 +1,46 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-27T19:00:00+05:30",
   "pillar": "money",
   "lang": "hinglish",
   "slides": [
     {
       "kind": "hook",
-      "text": "Pehli salary mein yeh 3 cheezein pehle karo"
+      "text": "Pehli salary mein *yeh 3 kaam* pehle karo"
     },
     {
       "kind": "body",
-      "text": "1. Emergency fund se shuru karo. Itna paisa alag rakho ki kuch mahine ka kharcha nikal sake."
+      "text": "*1.* Emergency fund shuru karo. *Alag account* mein."
     },
     {
       "kind": "body",
-      "text": "2. Mahine ka kharcha likhna shuru karo. Pata chalega paisa jaata kahan hai."
+      "text": "*2.* Kharcha *likhna* shuru karo."
     },
     {
       "kind": "body",
-      "text": "3. Agar koi mehnga loan ya credit card ka balance hai toh use pehle utaaro."
+      "text": "*3.* Mehnga loan ya credit card due *pehle* utaro."
     },
     {
       "kind": "body",
-      "text": "Pehli salary par gadgets aur trips ka lalach hota hai. Thoda enjoy karo, par plan ke saath."
+      "text": "Thoda enjoy karo, par *plan ke saath*."
     },
     {
       "kind": "body",
-      "text": "Kisi ke kehne par kisi stock ya scheme mein paisa mat lagao. Pehle basics samjho."
+      "text": "Kisi ke kehne par *stock ya scheme* mein paisa mat lagao."
     },
     {
       "kind": "body",
-      "text": "Paise ki aadat chhoti shuruaat se banti hai. Perfect plan ka intezaar mat karo."
+      "text": "Pehle *basics* samjho."
     },
     {
       "kind": "cta",
-      "text": "Save karo. Pehli salary aane par dobara padhna.",
+      "text": "Save karo. Pehli salary par dobara padhna.",
       "sub": "Educational only, not financial advice."
     }
   ],
   "caption": "Pehli salary ke baad kuch simple steps: emergency fund, kharcha track karo, mehnga loan pehle.\n\nPehli salary mein tumne kya kiya? Batao.\n\nEducational content only, not financial advice.\n\n#personalfinance #firstsalary #moneybasics #youngindia #hinglish",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

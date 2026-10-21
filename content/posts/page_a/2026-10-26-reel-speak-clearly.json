@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-26T12:30:00+05:30",
   "pillar": "confident",
   "lang": "hinglish",
@@ -11,11 +11,11 @@
   "slides": [
     {
       "kind": "hook",
-      "text": "Dheere bolo. Seedha bolo."
+      "text": "*Dheere* bolo. *Seedha* bolo."
     },
     {
       "kind": "body",
-      "text": "Log tumhe serious lene lagenge."
+      "text": "Log tumhe *serious* lenge."
     },
     {
       "kind": "cta",
@@ -31,5 +31,6 @@
     "artist": "Adam Griffith",
     "source": "research/audio/2026-10-21 shortlist (Audio API, trending + mood keywords)",
     "judged_by": "title and artist only; not listened to"
-  }
+  },
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

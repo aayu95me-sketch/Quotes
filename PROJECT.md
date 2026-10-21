@@ -113,6 +113,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - Scheduled `publish` runs fire roughly hourly (GitHub throttling), so posts can go out up to ~1 hour after their time. Manual runs are possible (workflow_dispatch).
 - **Open items:** week 2 (days 8-14) must be written and approved before 28 Oct; two-factor still off; unused portfolio profiles still present; owner has not yet confirmed the first post looks right on Instagram; weekly autonomous sessions offered, no answer.
 
+## Readability revision (2026-10-21, owner feedback)
+- Owner confirmed the first post looked good but felt "a little confusing". Cause: abstract 12-17 word slides. New rules in `docs/14-writing-style.md` (one idea per slide, max 10 words, concrete examples, `*highlight*` markup, bigger type). Renderer now supports `*highlight*` and larger fonts.
+- All 18 queued posts except Page B's willpower carousel (due 21 Oct 17:00 UTC, left as approved and unchanged) were rewritten and set back to **draft**: they need the owner's re-approval before they publish. Earliest deadlines: A reel 22 Oct 07:00 UTC (12:30 IST), B reel 22 Oct 13:00 UTC, A carousel 22 Oct 13:30 UTC, B carousel 22 Oct 17:00 UTC. Posts more than 24 h overdue are skipped (can be rescheduled).
+- New review PDFs sent (`pipeline/review.py`).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.

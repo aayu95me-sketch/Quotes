@@ -1,38 +1,38 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-26T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
   "slides": [
     {
       "kind": "hook",
-      "text": "What burnout looks like before you call it burnout"
+      "text": "Early signs of *burnout*"
     },
     {
       "kind": "body",
-      "text": "You dread tasks you used to handle easily."
+      "text": "You *dread* tasks you used to handle."
     },
     {
       "kind": "body",
-      "text": "Small requests irritate you far more than they should."
+      "text": "Small requests *irritate* you."
     },
     {
       "kind": "body",
-      "text": "Sundays feel heavy and holidays do not recharge you."
+      "text": "Sundays feel *heavy*. Holidays don't recharge you."
     },
     {
       "kind": "body",
-      "text": "You feel cynical about work you once cared about."
+      "text": "You feel *cynical* about work you once cared about."
     },
     {
       "kind": "body",
-      "text": "Sleep and focus both slip, even when you are not busier than usual."
+      "text": "Sleep and focus *slip*, even when you're not busier."
     },
     {
       "kind": "body",
-      "text": "If this lasts for weeks, talk to a doctor or counsellor. This is general information, not a diagnosis."
+      "text": "If it lasts *weeks*, talk to a doctor or counsellor. This is general information, not a diagnosis."
     },
     {
       "kind": "cta",
@@ -41,5 +41,6 @@
     }
   ],
   "caption": "Early signs of burnout are easy to dismiss. Notice the pattern before it becomes a crisis.\n\nHave you felt any of these? You are not alone.\n\nThis is general information, not medical advice.\n\n#burnout #worklifebalance #mentalhealth #selfcare #psychology",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

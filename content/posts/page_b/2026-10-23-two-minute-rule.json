@@ -1,45 +1,46 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-23T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
   "slides": [
     {
       "kind": "hook",
-      "text": "The 2-minute rule is incomplete. Here is the missing half."
+      "text": "The 2-minute rule is *half a rule*"
     },
     {
       "kind": "body",
-      "text": "The common advice: make a habit take two minutes so starting feels easy."
+      "text": "Common advice: make a habit take *2 minutes*."
     },
     {
       "kind": "body",
-      "text": "It works for starting. It ignores what happens after you start."
+      "text": "That helps you *start*. It ignores what comes next."
     },
     {
       "kind": "body",
-      "text": "Missing half one: decide in advance when you stop. An endpoint makes starting feel safe."
+      "text": "*Missing half 1:* Decide when you'll *stop*."
     },
     {
       "kind": "body",
-      "text": "Missing half two: attach it to something that already happens. After coffee. After you sit at your desk."
+      "text": "*Missing half 2:* Attach it to something you *already do*."
     },
     {
       "kind": "body",
-      "text": "Missing half three: track the start, not the result. Showing up is the habit."
+      "text": "*Missing half 3:* Track *showing up*, not results."
     },
     {
       "kind": "body",
-      "text": "Small and anchored beats big and heroic. Every time."
+      "text": "*Small and anchored* beats big and heroic."
     },
     {
       "kind": "cta",
-      "text": "Save this and pick one habit to shrink today.",
+      "text": "Pick one habit and shrink it today.",
       "sub": "Follow for one small rule daily"
     }
   ],
   "caption": "Starting small is only half the system. Add an endpoint and an anchor.\n\nWhat habit are you shrinking this week?\n\n#habits #productivity #selfimprovement #discipline #psychology",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

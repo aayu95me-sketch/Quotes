@@ -1,45 +1,46 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-25T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
   "slides": [
     {
       "kind": "hook",
-      "text": "Stop setting goals. Set these instead."
+      "text": "Stop setting goals. *Set inputs.*"
     },
     {
       "kind": "body",
-      "text": "Goals describe an outcome. Outcomes depend on things you do not control."
+      "text": "A goal is an *outcome*. You don't control outcomes."
     },
     {
       "kind": "body",
-      "text": "Set an input instead: the action you can repeat no matter what happens."
+      "text": "An input is an *action* you can repeat."
     },
     {
       "kind": "body",
-      "text": "Instead of \"lose weight\", choose \"walk for 20 minutes after dinner\"."
+      "text": "Not \"lose weight\". *\"Walk 20 minutes after dinner.\"*"
     },
     {
       "kind": "body",
-      "text": "Define a minimum version for bad days. Five minutes counts."
+      "text": "Add a *minimum version* for bad days. *5 minutes counts.*"
     },
     {
       "kind": "body",
-      "text": "Review weekly, not daily. Ask what got in the way and remove one obstacle."
+      "text": "Review *weekly*. Ask what got in the way. *Remove one thing.*"
     },
     {
       "kind": "body",
-      "text": "Outcomes are the scoreboard. Inputs are the game."
+      "text": "Outcomes are the *scoreboard*. Inputs are the *game*."
     },
     {
       "kind": "cta",
-      "text": "Save this and rewrite one goal as an input today.",
+      "text": "Turn one goal into an input today.",
       "sub": "Follow for one small rule daily"
     }
   ],
   "caption": "Outcomes are the scoreboard. Inputs are the game. Turn one goal into a repeatable action.\n\nWhat is your input this week?\n\n#goalsetting #habits #productivity #selfimprovement #mindset",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

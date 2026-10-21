@@ -1,45 +1,46 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-26T19:00:00+05:30",
   "pillar": "study",
   "lang": "hinglish",
   "slides": [
     {
       "kind": "hook",
-      "text": "Ghar pe padhai nahi ho paati? Yeh 5 cheezein try karo"
+      "text": "Ghar pe padhai nahi hoti? *5 fix*"
     },
     {
       "kind": "body",
-      "text": "Padhne ki jagah fix karo. Bed par nahi, table par. Dimaag jagah se mood pakadta hai."
+      "text": "*Table par* padho. Bed par nahi."
     },
     {
       "kind": "body",
-      "text": "Phone doosre kamre mein rakho. Silent par bhi table par rakha phone dhyan khichta hai."
+      "text": "Phone *dusre kamre* mein rakho."
     },
     {
       "kind": "body",
-      "text": "25 minute padho, 5 minute break lo. Break mein scroll mat karo. Paani piyo ya khadke ho jao."
+      "text": "*25 minute* padho. *5 minute* break."
     },
     {
       "kind": "body",
-      "text": "Din ka sabse mushkil subject pehle lo, jab dimaag fresh ho."
+      "text": "Mushkil subject *pehle* lo."
     },
     {
       "kind": "body",
-      "text": "Padhne se pehle likho: aaj kaunsa topic khatam karna hai. Bina target ke ghanton ka kuch nahi."
+      "text": "Padhne se pehle *aaj ka target* likho."
     },
     {
       "kind": "body",
-      "text": "Har hafte ek din fix karo jisme sirf revision ho."
+      "text": "Hafte mein *ek din* sirf revision."
     },
     {
       "kind": "cta",
-      "text": "Save karo. Kal se ek cheez aazma ke dekho.",
+      "text": "Save karo. Kal se ek fix try karo.",
       "sub": "Follow for one study rule a day"
     }
   ],
   "caption": "Ghar pe padhai mushkil lagti hai? Bahut baar problem discipline ki nahi, environment ki hoti hai.\n\nTumhara sabse bada distraction kya hai? Comment karo.\n\n#studymotivation #studyathome #students #studyhacks #hinglish",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

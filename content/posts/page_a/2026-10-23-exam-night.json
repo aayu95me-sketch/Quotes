@@ -1,45 +1,46 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-23T19:00:00+05:30",
   "pillar": "study",
   "lang": "hinglish",
   "slides": [
     {
       "kind": "hook",
-      "text": "Exam se ek raat pehle yeh mat karo"
+      "text": "Exam se ek raat pehle *yeh mat karo*"
     },
     {
       "kind": "body",
-      "text": "Naya chapter shuru mat karo. Ek raat mein naya kuch yaad nahi hota, bas ghabrahat badhti hai."
+      "text": "*Naya chapter* shuru mat karo."
     },
     {
       "kind": "body",
-      "text": "Pura syllabus dobara padhne ki koshish mat karo. Sirf formula, definitions aur short notes dekho."
+      "text": "Sirf *formulas aur short notes* dekho."
     },
     {
       "kind": "body",
-      "text": "Raat bhar jaagna galat plan hai. Neend memory ko pakka karti hai."
+      "text": "Raat bhar mat jaago. *Neend yaad rakhne mein madad karti hai.*"
     },
     {
       "kind": "body",
-      "text": "Kal ke liye sab kuch pehle se rakh lo: admit card, pen, ID, paani. Subah ki tension kam hogi."
+      "text": "Bag, admit card, pen *pehle se* rakh lo."
     },
     {
       "kind": "body",
-      "text": "Doston se \"kitna ho gaya\" poochna band karo. Doosron ki taiyari tumhari neend nahi hai."
+      "text": "Doston se *\"kitna hua?\"* mat poochho."
     },
     {
       "kind": "body",
-      "text": "Exam ke 10 minute pehle apne hi notes dekho. Naye doubts mat khodo."
+      "text": "Subah *10 minute* apne hi notes dekho."
     },
     {
       "kind": "cta",
-      "text": "Save karo. Exam se pehle wali raat yeh dobara padhna.",
+      "text": "Save karo. Exam se pehle dobara padhna.",
       "sub": "Follow for one study rule a day"
     }
   ],
   "caption": "Exam se pehle ki raat ka plan chhota rakho: revise, so jao, aur shaant raho.\n\nKal kaunsa exam hai? Comment mein batao, all the best!\n\n#studymotivation #examtips #students #studytips #hinglish",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

@@ -1,45 +1,46 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-24T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
   "slides": [
     {
       "kind": "hook",
-      "text": "Why you lose focus mid-afternoon, and a boring fix"
+      "text": "Why you lose focus *mid-afternoon*"
     },
     {
       "kind": "body",
-      "text": "Many people notice an energy dip after lunch. You are not broken. It is common."
+      "text": "Many people feel *a dip after lunch*. It's common."
     },
     {
       "kind": "body",
-      "text": "Stop scheduling your hardest thinking for that window."
+      "text": "Don't plan *hard thinking* in that window."
     },
     {
       "kind": "body",
-      "text": "Put your most demanding work in the part of the day when your mind is clearest."
+      "text": "Do your *hardest work* when your mind is clearest."
     },
     {
       "kind": "body",
-      "text": "Use the dip for easy tasks: email, admin, filing, planning tomorrow."
+      "text": "Use the dip for *easy tasks*: email, admin, planning."
     },
     {
       "kind": "body",
-      "text": "A ten-minute walk and a glass of water beat another coffee more often than not."
+      "text": "A *10-minute walk* and water often beat more coffee."
     },
     {
       "kind": "body",
-      "text": "Work with your energy instead of fighting it. Fewer hours, better output."
+      "text": "*Work with your energy*, not against it."
     },
     {
       "kind": "cta",
-      "text": "Save this before tomorrow's afternoon slump.",
+      "text": "Save this for tomorrow's slump.",
       "sub": "Follow for one small rule daily"
     }
   ],
   "caption": "If your focus fades mid-afternoon, stop forcing it. Move hard work earlier and use the dip for easy tasks.\n\nWhen is your best focus window? Comment below.\n\n#productivity #focus #deepwork #worklife #selfimprovement",
-  "ai_label": true
+  "ai_label": true,
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

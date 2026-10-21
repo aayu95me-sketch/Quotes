@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "draft",
   "publish_at": "2026-10-22T12:30:00+05:30",
   "pillar": "focus",
   "lang": "hinglish",
@@ -11,15 +11,15 @@
   "slides": [
     {
       "kind": "hook",
-      "text": "Procrastination laziness nahi hai."
+      "text": "Procrastination *laziness nahi hai*."
     },
     {
       "kind": "body",
-      "text": "Dimaag ek feeling se bach raha hai. Chhota shuru karo."
+      "text": "Bas *2 minute* shuru karo."
     },
     {
       "kind": "cta",
-      "text": "Poora carousel dekho. Save karo.",
+      "text": "Poora carousel profile par.",
       "sub": "@rozkarule"
     }
   ],
@@ -31,5 +31,6 @@
     "artist": "Neha Karode",
     "source": "research/audio/2026-10-21 shortlist (Audio API, trending + mood keywords)",
     "judged_by": "title and artist only; not listened to"
-  }
+  },
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }
