@@ -90,6 +90,10 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - **FAIL:** `ASSETS_REPO` variable and `ASSETS_PAT` secret were empty in the workflow. Slide hosting is the only missing piece. (ASSETS_REPO must be a repository *variable*, ASSETS_PAT a *secret*.)
 - A commit on this branch ("setup_tokens: show granted permissions and fall back to known Page IDs when /me/accounts is empty") shows the token script had to be adjusted during the owner's token step.
 
+## Trending audio pinned for week-1 Reels (2026-10-21)
+- The weekly `audio-shortlist` job works (needed a folder fix). Real trending tracks from Meta's Audio API are in `research/audio/2026-10-21_page_*.md`. Picks were made from title and artist only (not listened to); owner may veto. Page A: procrastination = Maya Maya (Instrumental), exam-night = Piano Mystique, speak-clearly = Knockout. Page B: willpower = Good Vibes, understood = Whistling Through Fall, boundary = Hopeful Ascent. IDs are pinned in each reel's `audio_id`. Tracks flagged ads-eligible False are fine for organic posts but should not be used once a page promotes products.
+- Still missing for the first live post: slide hosting (`ASSETS_REPO` variable, `ASSETS_PAT` secret).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
