@@ -94,6 +94,11 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - The weekly `audio-shortlist` job works (needed a folder fix). Real trending tracks from Meta's Audio API are in `research/audio/2026-10-21_page_*.md`. Picks were made from title and artist only (not listened to); owner may veto. Page A: procrastination = Maya Maya (Instrumental), exam-night = Piano Mystique, speak-clearly = Knockout. Page B: willpower = Good Vibes, understood = Whistling Through Fall, boundary = Hopeful Ascent. IDs are pinned in each reel's `audio_id`. Tracks flagged ads-eligible False are fine for organic posts but should not be used once a page promotes products.
 - Still missing for the first live post: slide hosting (`ASSETS_REPO` variable, `ASSETS_PAT` secret).
 
+## Setup fully verified (verify-setup run 3, 2026-10-21)
+- **ALL CHECKS PASSED:** both Instagram accounts readable, publishing quota 0/100, trending audio returns 25 tracks each, slides repo `aayu95me-sketch/quotes-slides` is public and writable with `ASSETS_PAT`. Secrets and variables are in place.
+- Review packs built with `pipeline/review.py` (`out/review_page_a.pdf`, `out/review_page_b.pdf`, 10 drafts each) and sent to the owner. Nothing is approved yet; `LIVE_PUBLISH` is not set, so the scheduled job only dry-runs.
+- **Go-live plan:** owner reviews, tells Claude which posts to approve (Claude edits `status: approved`); first live post is a single approved carousel with `publish_at` set a few minutes ahead, then `LIVE_PUBLISH=true`. Two-factor is still off (owner decision; risk noted).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
