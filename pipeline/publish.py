@@ -209,6 +209,9 @@ def main():
             media_id = (publish_reel if post["type"] == "reel" else publish_carousel)(f, post, live, a.prepare_only)
         except Exception as e:  # never crash the whole run; record and move on
             print(f"ERROR {f.name}: {e}")
+            if any(k in str(e) for k in ("OAuthException", "access blocked", "Error validating access token", "Cannot call API")):
+                print("AUTH PROBLEM: stopping this run; posts stay approved and will retry once tokens/app access are fixed")
+                break
             if a.live and not a.prepare_only:
                 post["status"] = "failed"
                 post["error"] = str(e)[:300]

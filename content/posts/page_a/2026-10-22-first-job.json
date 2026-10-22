@@ -1,8 +1,8 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "failed",
-  "publish_at": "2026-10-22T19:00:00+05:30",
+  "status": "approved",
+  "publish_at": "2026-10-22T13:41:56.998341+00:00",
   "pillar": "career",
   "lang": "en",
   "slides": [
@@ -42,6 +42,5 @@
   ],
   "caption": "First job nerves are normal. These five habits make the first year easier.\n\nWhich one do you wish you knew earlier? Tell us below.\n\n#career #firstjob #youngprofessionals #careeradvice #india",
   "ai_label": true,
-  "revised": "2026-10-21 simpler wording after owner feedback",
-  "error": "Graph API 400: {\"error\":{\"message\":\"Cannot call API for app 1454446477743438 on behalf of user 28142739095405684\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A0AWwGQj_amFMcMYpDdvMOr\"}}"
+  "revised": "2026-10-21 simpler wording after owner feedback"
 }

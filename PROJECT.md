@@ -127,6 +127,10 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 ## Reel failure found and fixed (2026-10-22 13:3x UTC)
 - The first live Reel (A, 22 Oct 07:00 UTC) **failed**: `ffmpeg` was not installed on the publish runner (only the test workflow installed it). Nothing was posted. Fix: `publish.yml` now installs ffmpeg when a post is due. The failed reel was reset to `approved` with an immediate `publish_at`. Lesson: the test workflow and the live workflow must install the same tools.
 
+## META API ACCESS BLOCKED (2026-10-22 ~13:45 UTC)
+- After the ffmpeg fix, publishing failed with `Cannot call API for app 1454446477743438 on behalf of user 28142739095405684` (OAuthException 200) and the Audio API said `API access blocked`. `verify-setup` confirms **both Instagram accounts unreadable with the stored tokens** (they worked on 21 Oct 07:35, 13:44 and 17:07 UTC). Slides repo still fine. Posts that failed on auth were reset to `approved`; `publish.py` now stops the run on an auth error instead of marking posts failed. Owner action: open the Meta developer dashboard for app "Quotes Publisher" and Facebook/Instagram notifications for restrictions or required re-verification; if no restriction, regenerate tokens with `pipeline/setup_tokens.py` and update the 4 secrets.
+- Possible causes (unverified): Meta restricted the app or the owner's developer account; the owner's Facebook session/password changed or a security check invalidated tokens; app in Development mode with a role change.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
