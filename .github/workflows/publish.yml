@@ -26,6 +26,8 @@ jobs:
         if: steps.due.outputs.n != '0'
         timeout-minutes: 8
         run: |
+          # packages.microsoft.com returns 403 on runners and breaks apt-get update; we do not need it
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list /etc/apt/sources.list.d/microsoft-prod.sources /etc/apt/sources.list.d/*microsoft* 2>/dev/null || true
           pip install playwright
           playwright install --with-deps chromium
       - name: Install ffmpeg (static binary via pip, no apt)
