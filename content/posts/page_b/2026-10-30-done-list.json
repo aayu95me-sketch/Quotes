@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-30T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *done list* beats the to-do list"
+    },
+    {
+      "kind": "body",
+      "text": "A to-do list shows what's *left*."
+    },
+    {
+      "kind": "body",
+      "text": "A done list shows what's *finished*."
+    },
+    {
+      "kind": "body",
+      "text": "At day's end, write *3 things done*."
+    },
+    {
+      "kind": "body",
+      "text": "It builds *proof* you're moving."
+    },
+    {
+      "kind": "body",
+      "text": "Start *tonight*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Try it today.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "End the day by writing three things you finished. It shows progress a to-do list never does.\n\nWhat's on your done list today?\n\n#productivity #worklife #todolist #habits #focus",
+  "ai_label": true
+}

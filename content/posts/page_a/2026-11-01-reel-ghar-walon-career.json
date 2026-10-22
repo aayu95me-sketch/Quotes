@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-01T09:00:00+00:00",
+  "pillar": "life",
+  "lang": "hi",
+  "mood": "calm",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Ghar walon ko *career* kaise samjhao"
+    },
+    {
+      "kind": "body",
+      "text": "*Pehle* unki chinta suno."
+    },
+    {
+      "kind": "body",
+      "text": "Plan *3 line* mein batao."
+    },
+    {
+      "kind": "body",
+      "text": "Chhota *proof* dikhao."
+    },
+    {
+      "kind": "cta",
+      "text": "Poora carousel profile par.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Ghar walon ko samjhana ek din ka kaam nahi hai. Chinta suno, plan batao, chhota proof dikhao.\n\nPoora carousel humare profile par.\n\n#family #career #indianparents #hinglish #youngindia #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-11-01-ghar-walon-career"
+}

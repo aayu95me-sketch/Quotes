@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-28T13:30:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Overthinking? *Ek kaagaz*, 5 minute."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 1:* Jo dimaag mein hai, sab likho."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 2:* Jo tumhare haath mein hai, uspe tick."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 3:* Jo haath mein nahi hai, kaat do."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 4:* Tick wali cheez mein se *ek* chuno."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 5:* Wohi ek kaam abhi shuru karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Raat ko kaam aayega.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Overthinking ka ilaaj sochna nahi, likhna hai. Ek kaagaz, 5 minute.\n\nAaj raat try karoge? Comment mein batao.\n\nYeh general tips hain, medical salah nahi.\n\n#overthinking #mindset #discipline #hinglish #youngindia",
+  "ai_label": true
+}

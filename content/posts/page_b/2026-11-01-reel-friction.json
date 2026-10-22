@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-01T15:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Make a bad habit *harder*"
+    },
+    {
+      "kind": "body",
+      "text": "*Phone* outside the bedroom."
+    },
+    {
+      "kind": "body",
+      "text": "*Snacks* on the top shelf."
+    },
+    {
+      "kind": "body",
+      "text": "Small friction *adds up*."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "You don't need more willpower. Add one small obstacle between you and the bad habit.\n\nFull carousel on our profile.\n\n#habits #willpower #selfimprovement #discipline #productivity #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-11-01-friction"
+}

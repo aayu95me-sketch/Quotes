@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-03T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Don't feel like starting? *Use the 5-minute opener*"
+    },
+    {
+      "kind": "body",
+      "text": "Set a timer for *5 minutes*."
+    },
+    {
+      "kind": "body",
+      "text": "Do *only* the first step."
+    },
+    {
+      "kind": "body",
+      "text": "You're *allowed to stop* after."
+    },
+    {
+      "kind": "body",
+      "text": "Most times, you *keep going*."
+    },
+    {
+      "kind": "body",
+      "text": "Starting is the *hard part*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for a slow Monday.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Five minutes. First step only. You're allowed to stop after. Often you won't want to.\n\nWhat will you start today? Comment below.\n\n#productivity #motivation #procrastination #habits #worklife",
+  "ai_label": true
+}

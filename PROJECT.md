@@ -215,3 +215,6 @@ Both live Reels went out silent with no music label. Cause suspected: the resuma
 ## Audio VERIFIED (2026-10-22 ~16:10 UTC)
 Owner screenshots: B reel `two-minute-rule` (published via `video_url` + `audio_configuration`) shows "Makana • Locked and Loaded" on Instagram, so the documented flow attaches trending audio. The two earlier Reels (A `2026-10-22-reel-procrastination`, B `2026-10-22-reel-willpower`) were published with the old resumable upload and show "Original audio" (silent). Instagram cannot change audio after posting; fix = owner deletes those two in the app, then we republish them (decision pending with owner). All Reels from now on carry audio. Carousels have no API audio.
 Also fixed: publish workflow broke on a 403 from packages.microsoft.com during `playwright install --with-deps`; the workflow now removes that apt source first.
+
+## Week 2 drafted (2026-10-22)
+Both silent Reels were deleted by the owner and republished with audio (owner confirmed music audible). Week 2 (28 Oct to 3 Nov): 7 carousels per page plus 3 companion Reels per page, all `status: draft`, in `content/posts/<page>/`. Reels have a mood and no pinned audio_id: the publisher auto-picks a trending, mood-matched track at publish time. Review PDFs: `out/review_page_a.pdf`, `out/review_page_b.pdf`. Awaiting owner approval before 27 Oct batch ends.

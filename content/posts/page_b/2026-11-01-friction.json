@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-01T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Make a bad habit *slightly harder*"
+    },
+    {
+      "kind": "body",
+      "text": "Add *steps* between you and it."
+    },
+    {
+      "kind": "body",
+      "text": "*Phone:* charge it *outside the bedroom*."
+    },
+    {
+      "kind": "body",
+      "text": "*Snacks:* keep them on the *top shelf*."
+    },
+    {
+      "kind": "body",
+      "text": "*Scrolling:* log out of the *app*."
+    },
+    {
+      "kind": "body",
+      "text": "*Small friction* adds up."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Pick one today.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "You don't need more willpower. Add one small obstacle between you and the bad habit.\n\nWhich habit will you make harder? Comment below.\n\n#habits #willpower #selfimprovement #discipline #productivity",
+  "ai_label": true
+}

@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-10-28T09:00:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Overthinking? *Ek kaagaz*, 5 minute."
+    },
+    {
+      "kind": "body",
+      "text": "Sab kuch *kaagaz par* likho."
+    },
+    {
+      "kind": "body",
+      "text": "Jo haath mein hai, *wohi* karo."
+    },
+    {
+      "kind": "body",
+      "text": "Ek kaam chuno. *Abhi* shuru karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Poora carousel profile par.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Overthinking ka ilaaj sochna nahi, likhna hai. Ek kaagaz, 5 minute.\n\nPoora carousel humare profile par.\n\n#overthinking #mindset #discipline #hinglish #youngindia #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-10-28-overthinking"
+}

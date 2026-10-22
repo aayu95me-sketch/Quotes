@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-10-30T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "\"Tell me about yourself\" in *3 parts*"
+    },
+    {
+      "kind": "body",
+      "text": "*Who you are* now. One line."
+    },
+    {
+      "kind": "body",
+      "text": "*One win* you're proud of."
+    },
+    {
+      "kind": "body",
+      "text": "*Why this role.* Under 60 seconds."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "Three parts: who you are, one proud thing, why this role. Under a minute.\n\nFull carousel on our profile.\n\n#interview #career #jobsearch #careeradvice #india #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-10-30-tell-me-about-yourself"
+}

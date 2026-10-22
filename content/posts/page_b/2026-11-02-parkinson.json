@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-02T17:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Why work *expands* to fill the time"
+    },
+    {
+      "kind": "body",
+      "text": "It's called *Parkinson's law*."
+    },
+    {
+      "kind": "body",
+      "text": "Give a task *a week*, it takes a week."
+    },
+    {
+      "kind": "body",
+      "text": "Give it *two hours*, it often fits."
+    },
+    {
+      "kind": "body",
+      "text": "So set *shorter deadlines*."
+    },
+    {
+      "kind": "body",
+      "text": "Then *protect* that time."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next task.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Work tends to expand to fill the time you give it. Try a shorter deadline for your next task.\n\nWhat will you shorten today? Comment below.\n\n#productivity #parkinsonslaw #timemanagement #focus #psychology",
+  "ai_label": true
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-31T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "How to give feedback *without a fight*"
+    },
+    {
+      "kind": "body",
+      "text": "*Step 1:* Ask *\"Can I share something?\"*"
+    },
+    {
+      "kind": "body",
+      "text": "*Step 2:* Say *what you saw*. Not who they are."
+    },
+    {
+      "kind": "body",
+      "text": "*Step 3:* Say *the effect* it had."
+    },
+    {
+      "kind": "body",
+      "text": "*Step 4:* Ask *what they think*."
+    },
+    {
+      "kind": "body",
+      "text": "Aim to *solve it*, not win."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next talk.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Describe what you saw, say the effect, then ask what they think. It keeps people listening.\n\nHave you tried this? Comment below.\n\n#communication #feedback #relationships #leadership #selfimprovement",
+  "ai_label": true
+}

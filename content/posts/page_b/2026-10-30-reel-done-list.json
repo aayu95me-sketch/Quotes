@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-10-30T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *done list*"
+    },
+    {
+      "kind": "body",
+      "text": "To-do shows what's *left*."
+    },
+    {
+      "kind": "body",
+      "text": "Done list shows what's *finished*."
+    },
+    {
+      "kind": "body",
+      "text": "Write *3 things*. Tonight."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "End the day by writing three things you finished. It shows progress a to-do list never does.\n\nFull carousel on our profile.\n\n#productivity #worklife #todolist #habits #focus #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-10-30-done-list"
+}

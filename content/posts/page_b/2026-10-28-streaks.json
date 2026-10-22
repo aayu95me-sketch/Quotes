@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-10-28T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Why you keep *breaking streaks*"
+    },
+    {
+      "kind": "body",
+      "text": "A streak turns one miss into *failure*."
+    },
+    {
+      "kind": "body",
+      "text": "So one miss becomes *five*."
+    },
+    {
+      "kind": "body",
+      "text": "The fix: *never miss twice.*"
+    },
+    {
+      "kind": "body",
+      "text": "Missed once? *Restart today.*"
+    },
+    {
+      "kind": "body",
+      "text": "Make the *smallest version* count."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next slip.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "One missed day isn't the problem. Missing twice is. Restart today, keep it small.\n\nWhat habit are you restarting? Comment below.\n\n#habits #consistency #selfimprovement #discipline #psychology",
+  "ai_label": true
+}
