@@ -28,13 +28,12 @@ jobs:
         run: |
           pip install playwright
           playwright install --with-deps chromium
-      - name: Install ffmpeg
+      - name: Install ffmpeg (static binary via pip, no apt)
         if: steps.due.outputs.n != '0'
-        timeout-minutes: 8
-        env:
-          DEBIAN_FRONTEND: noninteractive
+        timeout-minutes: 5
         run: |
-          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg)
+          pip install -q imageio-ffmpeg
+          sudo ln -sf "$(python -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
           ffmpeg -version | head -1
       - name: Publish due, approved posts
         if: steps.due.outputs.n != '0'

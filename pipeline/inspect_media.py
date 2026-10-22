@@ -18,7 +18,7 @@ for arg in sys.argv[1:]:
         print("  no media_url returned"); continue
     f = tempfile.mktemp(suffix=".mp4")
     urllib.request.urlretrieve(mu, f)
-    p = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,codec_name,duration", "-of", "csv=p=0", f], capture_output=True, text=True)
-    print("  streams:", p.stdout.strip().replace("\n", " | "))
+    p = subprocess.run(["ffmpeg", "-hide_banner", "-i", f], capture_output=True, text=True)
+    print("  streams:", [l.strip() for l in p.stderr.splitlines() if "Stream #" in l])
     r = subprocess.run(["ffmpeg", "-i", f, "-af", "volumedetect", "-vn", "-f", "null", "-"], capture_output=True, text=True)
     print("  loudness:", [l.split("] ")[-1] for l in r.stderr.splitlines() if "mean_volume" in l or "max_volume" in l] or "no audio stream / none measured")
