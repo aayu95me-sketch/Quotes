@@ -148,9 +148,9 @@ def publish_reel(f, post, live, prepare=False):
     key = page.upper()
     uid, token = os.environ[f"IG_{key}_USER_ID"], os.environ[f"IG_{key}_TOKEN"]
     ver = os.environ.get("GRAPH_VERSION", "v26.0")
-    params = {"media_type": "REELS", "upload_type": "resumable", "caption": post["caption"], "access_token": token}
+    base = {"media_type": "REELS", "caption": post["caption"], "access_token": token}
     if post.get("ai_label"):
-        params["is_ai_generated"] = "true"
+        base["is_ai_generated"] = "true"
     chosen, vol = None, audio_mod.mood_cfg(page, post.get("mood", "focus"))["volume"]
     try:
         if post.get("audio_id"):
@@ -162,9 +162,13 @@ def publish_reel(f, post, live, prepare=False):
     except Exception as e:  # audio failure should not block the post; publish silent and note it
         print(f"WARN audio lookup failed ({e}); publishing without audio")
     if chosen:
-        params["audio_configuration"] = json.dumps({"audio_id": chosen["audio_id"], "audio_volume": int(post.get("audio_volume", 80)), "video_volume": 1})  # docs: both 1-100; 0 is out of range
-    cid = api("POST", f"{uid}/media", params, ver)["id"]
-    rupload(cid, mp4, token, ver)
+        # Same shape as Meta's documented example: audio_volume 1-100, video_volume 1-100 (our video track is silent).
+        base["audio_configuration"] = json.dumps({"audio_id": chosen["audio_id"], "audio_volume": int(post.get("audio_volume", 80)), "video_volume": 50})
+    # Documented flow: video_url on a public server + audio_configuration. (The earlier resumable-upload flow published
+    # Reels WITHOUT the music; measured and confirmed by the owner 2026-10-22.)
+    video_url = upload_assets([pathlib.Path(mp4)], page, stem)[0]
+    print(f"reel video hosted for container: {video_url}")
+    cid = api("POST", f"{uid}/media", {**base, "video_url": video_url}, ver)["id"]
     st = None
     for _ in range(40):
         st = api("GET", cid, {"fields": "status_code", "access_token": token}, ver).get("status_code")

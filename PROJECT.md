@@ -208,3 +208,6 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - `content/pages/*.json` brand config. `content/posts/<page>/*.json` posts. `brand/` profile images.
 - `pipeline/`: `render.py`, `reel.py`, `audio.py`, `approve.py`, `publish.py`, `relay.py`, `brand.py`, `setup_tokens.py`. `content/audio_moods.json`.
 - `research/requests`, `research/answers`: relay. `research/audio`: weekly audio shortlists. `.github/workflows/`: `research-relay.yml`, `publish.yml`, `audio-shortlist.yml`.
+
+## Audio fix attempt 2 (2026-10-22 15:30 UTC)
+Both live Reels went out silent with no music label. Cause suspected: the resumable-upload flow does not carry `audio_configuration`. Reels now use Meta's documented flow: mp4 hosted in the assets repo, `video_url` + `audio_configuration` (audio_volume 80, video_volume 50). Test: B reel `two-minute-rule` pulled forward to now. Owner to check for the music label and sound. If still silent, fallback: publish Reels silent and add trending audio manually in the app (~1 min per Reel).
