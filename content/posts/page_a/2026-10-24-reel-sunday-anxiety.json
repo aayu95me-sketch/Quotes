@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "approved",
+  "publish_at": "2026-10-24T09:00:00+00:00",
+  "pillar": "mind",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "audio_id": "976299230340697",
+  "audio_pick": {
+    "title": "Someday (Instrumental)",
+    "artist": "Cy Curnin",
+    "source": "companion reel of the carousel, shortlist 2026-10-21",
+    "judged_by": "title and artist only"
+  },
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Sunday night anxiety? Try this *4-minute reset*"
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 1:* Write every worry on paper."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 2:* Circle only what you can fix this week."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 3:* Pick *3 tasks* for tomorrow."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for next Sunday.",
+      "sub": "General information, not medical advice."
+    }
+  ],
+  "caption": "A short reset for the Sunday scaries: list, filter, plan, one small step.\n\nWhat does your Sunday night feel like? Comment below.\n\nFull carousel on our profile.\n\n#mentalwellness #sundayreset #productivity #selfimprovement #india #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-10-24-sunday-anxiety",
+  "revised": "2026-10-22 audio companion reel"
+}

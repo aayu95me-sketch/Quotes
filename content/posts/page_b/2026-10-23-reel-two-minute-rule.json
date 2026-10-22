@@ -1,0 +1,45 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "approved",
+  "publish_at": "2026-10-23T15:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "audio_id": "859319581616251",
+  "audio_pick": {
+    "title": "Locked and Loaded",
+    "artist": "Makana",
+    "source": "companion reel of the carousel, shortlist 2026-10-21",
+    "judged_by": "title and artist only"
+  },
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The 2-minute rule is *half a rule*"
+    },
+    {
+      "kind": "body",
+      "text": "Common advice: make a habit take *2 minutes*."
+    },
+    {
+      "kind": "body",
+      "text": "That helps you *start*. It ignores what comes next."
+    },
+    {
+      "kind": "body",
+      "text": "*Missing half 1:* Decide when you'll *stop*."
+    },
+    {
+      "kind": "cta",
+      "text": "Pick one habit and shrink it today.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Starting small is only half the system. Add an endpoint and an anchor.\n\nWhat habit are you shrinking this week?\n\nFull carousel on our profile.\n\n#habits #productivity #selfimprovement #discipline #psychology #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-10-23-two-minute-rule",
+  "revised": "2026-10-22 audio companion reel"
+}

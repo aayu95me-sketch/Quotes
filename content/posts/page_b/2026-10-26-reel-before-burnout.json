@@ -1,0 +1,45 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "approved",
+  "publish_at": "2026-10-26T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "audio_id": "750168916679326",
+  "audio_pick": {
+    "title": "Piano For A Fallen World",
+    "artist": "Brent Bourgeois",
+    "source": "companion reel of the carousel, shortlist 2026-10-21",
+    "judged_by": "title and artist only"
+  },
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Early signs of *burnout*"
+    },
+    {
+      "kind": "body",
+      "text": "You *dread* tasks you used to handle."
+    },
+    {
+      "kind": "body",
+      "text": "Small requests *irritate* you."
+    },
+    {
+      "kind": "body",
+      "text": "Sundays feel *heavy*. Holidays don't recharge you."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Share it with someone who works too hard.",
+      "sub": "General information, not medical advice."
+    }
+  ],
+  "caption": "Early signs of burnout are easy to dismiss. Notice the pattern before it becomes a crisis.\n\nHave you felt any of these? You are not alone.\n\nThis is general information, not medical advice.\n\nFull carousel on our profile.\n\n#burnout #worklifebalance #mentalhealth #selfcare #psychology #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-10-26-before-burnout",
+  "revised": "2026-10-22 audio companion reel"
+}

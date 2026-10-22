@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "approved",
+  "publish_at": "2026-10-26T09:00:00+00:00",
+  "pillar": "study",
+  "lang": "hinglish",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "audio_id": "592271352837708",
+  "audio_pick": {
+    "title": "Beautiful",
+    "artist": "Giulio Cercato",
+    "source": "companion reel of the carousel, shortlist 2026-10-21",
+    "judged_by": "title and artist only"
+  },
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Ghar pe padhai nahi hoti? *5 fix*"
+    },
+    {
+      "kind": "body",
+      "text": "*Table par* padho. Bed par nahi."
+    },
+    {
+      "kind": "body",
+      "text": "Phone *dusre kamre* mein rakho."
+    },
+    {
+      "kind": "body",
+      "text": "*25 minute* padho. *5 minute* break."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Kal se ek fix try karo.",
+      "sub": "Follow for one study rule a day"
+    }
+  ],
+  "caption": "Ghar pe padhai mushkil lagti hai? Bahut baar problem discipline ki nahi, environment ki hoti hai.\n\nTumhara sabse bada distraction kya hai? Comment karo.\n\nFull carousel on our profile.\n\n#studymotivation #studyathome #students #studyhacks #hinglish #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-10-26-padhai-ghar-pe",
+  "revised": "2026-10-22 audio companion reel"
+}

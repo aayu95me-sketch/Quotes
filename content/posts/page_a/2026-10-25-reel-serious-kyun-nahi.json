@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "approved",
+  "publish_at": "2026-10-25T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "hinglish",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "audio_id": "1515990402427650",
+  "audio_pick": {
+    "title": "Hopeful Ascent",
+    "artist": "Global Genius",
+    "source": "companion reel of the carousel, shortlist 2026-10-21",
+    "judged_by": "title and artist only"
+  },
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Log tumhe *serious* kyun nahi lete?"
+    },
+    {
+      "kind": "body",
+      "text": "Har baat mein *\"sorry\"* mat bolo."
+    },
+    {
+      "kind": "body",
+      "text": "*Dheere* bolo. Thoda *ruk* ke bolo."
+    },
+    {
+      "kind": "body",
+      "text": "Bolne se pehle apna point *1 line* mein socho."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Us dost ko bhejo jo kam bolta hai.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "Serious dikhne ka matlab loud hona nahi hai. Clear aur confident hona hai.\n\nKaunsa point tumhe sabse zyada kaam ka laga?\n\nFull carousel on our profile.\n\n#communication #careergrowth #confidence #youngindia #hinglish #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-10-25-serious-kyun-nahi",
+  "revised": "2026-10-22 audio companion reel"
+}

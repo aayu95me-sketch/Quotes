@@ -1,0 +1,45 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "approved",
+  "publish_at": "2026-10-27T09:00:00+00:00",
+  "pillar": "money",
+  "lang": "hinglish",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "audio_id": "1154971944635968",
+  "audio_pick": {
+    "title": "Make My Day",
+    "artist": "Marshall Rogalski",
+    "source": "companion reel of the carousel, shortlist 2026-10-21",
+    "judged_by": "title and artist only"
+  },
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Pehli salary mein *yeh 3 kaam* pehle karo"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Emergency fund shuru karo. *Alag account* mein."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Kharcha *likhna* shuru karo."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* Mehnga loan ya credit card due *pehle* utaro."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Pehli salary par dobara padhna.",
+      "sub": "Educational only, not financial advice."
+    }
+  ],
+  "caption": "Pehli salary ke baad kuch simple steps: emergency fund, kharcha track karo, mehnga loan pehle.\n\nPehli salary mein tumne kya kiya? Batao.\n\nEducational content only, not financial advice.\n\nFull carousel on our profile.\n\n#personalfinance #firstsalary #moneybasics #youngindia #hinglish #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-10-27-first-salary",
+  "revised": "2026-10-22 audio companion reel"
+}

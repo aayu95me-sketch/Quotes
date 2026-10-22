@@ -134,6 +134,12 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 ## Next step for the Meta block (owner request, 2026-10-22)
 - Owner asked for a prompt for the Static Automation operator and sync via GitHub. **Prompt 4** added to docs/11. Operator reports to `inbox/2026-10-22-meta-api-block.md`; builder reads it on the next fetch and decides between a restriction appeal and token regeneration.
 
+## Recovery and audio (2026-10-22)
+- **Cause of the API block:** the owner's Meta developer account needed "Confirm Account" after a new-login security flag (operator report `inbox/2026-10-22-meta-api-block.md`). Owner confirmed it; `verify-setup` passes again with the same tokens (no regeneration needed). Owner still has to review "unrecognised logins" and turn on 2FA.
+- **Published 22 Oct 14:49-14:50 UTC:** A carousel first-job (18641979343017340), A reel procrastination (18643556746053858), B reel willpower (17997142476047112), both with pinned trending audio via `audio_configuration`. Audio attachment itself is unverified from here (the API call succeeded); owner to confirm the music label shows on the Reels.
+- **Audio on carousels is impossible through the API** (Meta documents audio only for Reels). Owner asked for audio on all posts, so **8 companion Reels** were generated from remaining carousels (hook + 3 slides + CTA, mood-matched pinned tracks from the 21 Oct shortlist), approved, scheduled 09:00 UTC (A) / 15:00 UTC (B) on the carousel's day. Duplicates of existing reels were not created. Carousels stay silent (owner can add a song by hand only when posting in the app).
+- `publish.yml`: ffmpeg install split into its own time-limited step (the previous combined step hung once).
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
