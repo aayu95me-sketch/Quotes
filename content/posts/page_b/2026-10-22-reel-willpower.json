@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-22T16:14:54.910087+00:00",
   "pillar": "focus",
   "lang": "en",
@@ -32,5 +32,7 @@
     "source": "research/audio/2026-10-21 shortlist (Audio API, trending + mood keywords)",
     "judged_by": "title and artist only; not listened to"
   },
-  "revised": "2026-10-21 simpler wording after owner feedback"
+  "revised": "2026-10-21 simpler wording after owner feedback",
+  "media_id": "18117098843019717",
+  "published_at": "2026-10-22T16:18:28.445881+00:00"
 }
