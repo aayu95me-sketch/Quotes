@@ -1,0 +1,27 @@
+name: inspect-media
+on:
+  workflow_dispatch:
+    inputs:
+      media:
+        description: "page_a:<id> page_b:<id> ..."
+        required: true
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ffmpeg
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg)
+      - name: Inspect
+        env:
+          IG_PAGE_A_TOKEN: ${{ secrets.IG_PAGE_A_TOKEN }}
+          IG_PAGE_B_TOKEN: ${{ secrets.IG_PAGE_B_TOKEN }}
+        run: python pipeline/inspect_media.py ${{ github.event.inputs.media }}
