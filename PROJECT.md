@@ -211,3 +211,7 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 
 ## Audio fix attempt 2 (2026-10-22 15:30 UTC)
 Both live Reels went out silent with no music label. Cause suspected: the resumable-upload flow does not carry `audio_configuration`. Reels now use Meta's documented flow: mp4 hosted in the assets repo, `video_url` + `audio_configuration` (audio_volume 80, video_volume 50). Test: B reel `two-minute-rule` pulled forward to now. Owner to check for the music label and sound. If still silent, fallback: publish Reels silent and add trending audio manually in the app (~1 min per Reel).
+
+## Audio VERIFIED (2026-10-22 ~16:10 UTC)
+Owner screenshots: B reel `two-minute-rule` (published via `video_url` + `audio_configuration`) shows "Makana • Locked and Loaded" on Instagram, so the documented flow attaches trending audio. The two earlier Reels (A `2026-10-22-reel-procrastination`, B `2026-10-22-reel-willpower`) were published with the old resumable upload and show "Original audio" (silent). Instagram cannot change audio after posting; fix = owner deletes those two in the app, then we republish them (decision pending with owner). All Reels from now on carry audio. Carousels have no API audio.
+Also fixed: publish workflow broke on a 403 from packages.microsoft.com during `playwright install --with-deps`; the workflow now removes that apt source first.
