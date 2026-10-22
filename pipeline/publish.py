@@ -162,7 +162,7 @@ def publish_reel(f, post, live, prepare=False):
     except Exception as e:  # audio failure should not block the post; publish silent and note it
         print(f"WARN audio lookup failed ({e}); publishing without audio")
     if chosen:
-        params["audio_configuration"] = json.dumps({"audio_id": chosen["audio_id"], "audio_volume": int(post.get("audio_volume", vol)), "video_volume": 0})
+        params["audio_configuration"] = json.dumps({"audio_id": chosen["audio_id"], "audio_volume": int(post.get("audio_volume", 80)), "video_volume": 1})  # docs: both 1-100; 0 is out of range
     cid = api("POST", f"{uid}/media", params, ver)["id"]
     rupload(cid, mp4, token, ver)
     st = None

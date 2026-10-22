@@ -140,6 +140,12 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - **Audio on carousels is impossible through the API** (Meta documents audio only for Reels). Owner asked for audio on all posts, so **8 companion Reels** were generated from remaining carousels (hook + 3 slides + CTA, mood-matched pinned tracks from the 21 Oct shortlist), approved, scheduled 09:00 UTC (A) / 15:00 UTC (B) on the carousel's day. Duplicates of existing reels were not created. Carousels stay silent (owner can add a song by hand only when posting in the app).
 - `publish.yml`: ffmpeg install split into its own time-limited step (the previous combined step hung once).
 
+## Audio problem (2026-10-22 15:25 UTC)
+- Owner cannot hear audio on the first two live Reels (A https://www.instagram.com/reel/DezPDJojVGU/, B https://www.instagram.com/reel/DezPH-jjUgA/). `inspect-media` measured the video file Instagram serves via `media_url`: it has an audio stream but it is silent (mean -91 dB). Inconclusive whether Instagram attached the library track separately (licensed music may not be baked into `media_url`), but the owner's report says no sound.
+- Suspected causes: our `audio_configuration` used `video_volume: 0` (documented range is 1-100, possibly invalid) and low `audio_volume` (30-40). Changed to `audio_volume` 80 and `video_volume` 1 for all future Reels. Not baking music into the video ourselves: the Audio API's `download_url` is a preview link and using it would bypass Meta's licensing for attached audio.
+- Next: owner checks whether the Reels show a music label under the username; if not, publish a single test Reel with the new config and inspect again.
+- ffmpeg now installed via `pip install imageio-ffmpeg` (apt hung twice); `inspect-media` workflow measures audio of any published media.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
