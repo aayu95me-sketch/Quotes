@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-22T17:00:00+00:00",
   "pillar": "relationships",
   "lang": "en",
@@ -42,5 +42,7 @@
   ],
   "caption": "Arguments rarely end because someone wins. They end when both people feel heard.\n\nWhich phrase would you actually use? Tell us below.\n\n#relationships #communication #emotionalintelligence #selfimprovement #psychology",
   "ai_label": true,
-  "revised": "2026-10-21 simpler wording after owner feedback"
+  "revised": "2026-10-21 simpler wording after owner feedback",
+  "media_id": "18119077639979359",
+  "published_at": "2026-10-22T18:04:33.957634+00:00"
 }
