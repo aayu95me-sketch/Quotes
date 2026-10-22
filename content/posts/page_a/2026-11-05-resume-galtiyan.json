@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-05T13:30:00+00:00",
+  "pillar": "career",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Resume ki *5 galtiyan* jo HR turant pakadta hai"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Spelling ki galti."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Bahut lamba. *1 page* kaafi hai."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* \"Hard-working\" jaise khali shabd."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* Kaam ke *result* nahi likhe."
+    },
+    {
+      "kind": "body",
+      "text": "*5.* Purana ya galat *contact*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Apna resume check karo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Spelling, length, khali shabd, result na likhna, galat contact. Apna resume aaj check karo.\n\nKaunsi galti tumne ki thi? Comment karo.\n\n#resume #jobsearch #career #hinglish #freshers",
+  "ai_label": true
+}

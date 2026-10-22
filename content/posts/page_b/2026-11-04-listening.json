@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-04T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Listening is a skill. *4 moves.*"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Put the *phone away*."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Let them *finish*. Count to two."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* Say back *what you heard*."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* Ask *one* follow-up question."
+    },
+    {
+      "kind": "body",
+      "text": "Don't *fix* it yet."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next talk.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Phone away, let them finish, repeat what you heard, ask one question. Don't fix yet.\n\nWho listens best in your life? Tell us below.\n\n#listening #communication #relationships #selfimprovement #psychology",
+  "ai_label": true
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-05T17:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Why your *evening choices* feel worse"
+    },
+    {
+      "kind": "body",
+      "text": "Many people report *decision fatigue*."
+    },
+    {
+      "kind": "body",
+      "text": "A day of choices can *drain you*."
+    },
+    {
+      "kind": "body",
+      "text": "By night, you pick *the easy option*."
+    },
+    {
+      "kind": "body",
+      "text": "So decide *important things* early."
+    },
+    {
+      "kind": "body",
+      "text": "Pre-plan *tonight's* meal and tasks."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for tonight.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "After a day of choices, the easy option wins. Decide important things earlier and pre-plan your evening.\n\nWhat will you decide in the morning?\n\nGeneral information, not medical advice.\n\n#decisionfatigue #psychology #habits #productivity #selfimprovement",
+  "ai_label": true
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-07T13:30:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Pehli baar baat karna *mushkil* lagta hai? *3 tareeke*"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Pehle se *ek line* soch lo."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* *Sawaal* pucho. Sunna aasan hai."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* Ek *chhoti muskaan* se shuru karo."
+    },
+    {
+      "kind": "body",
+      "text": "Galti hui? *Sab bhool jaate hain.*"
+    },
+    {
+      "kind": "body",
+      "text": "Roz *ek chhoti baat* karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Kisi dost ko bhejo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Ek line pehle se soch lo, sawaal pucho, muskuraao. Chhoti baat se shuruat karo.\n\nTumhe sabse zyada kahan ghabrahat hoti hai?\n\nYeh general tips hain, medical salah nahi.\n\n#socialanxiety #confidence #communication #hinglish #youngindia",
+  "ai_label": true
+}

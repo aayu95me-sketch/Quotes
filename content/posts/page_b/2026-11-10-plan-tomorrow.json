@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-10T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Plan *tomorrow tonight* in 3 lines"
+    },
+    {
+      "kind": "body",
+      "text": "*Line 1:* The *one thing* that matters."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 2:* *Two* smaller tasks."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 3:* *When* you'll start."
+    },
+    {
+      "kind": "body",
+      "text": "Write it *before bed*."
+    },
+    {
+      "kind": "body",
+      "text": "Wake up to *a plan*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Try it tonight.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "One main thing, two smaller tasks, a start time. Write it before bed.\n\nWhat's tomorrow's one thing?\n\n#planning #productivity #habits #routine #selfimprovement",
+  "ai_label": true
+}

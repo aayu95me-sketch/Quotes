@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-09T13:30:00+00:00",
+  "pillar": "life",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Dosti mein *\"nahi\"* bolna kaise seekhe"
+    },
+    {
+      "kind": "body",
+      "text": "*Pehle* batao: \"Mujhe samajh aaya.\""
+    },
+    {
+      "kind": "body",
+      "text": "*Phir* seedha bolo: \"Aaj nahi kar paunga.\""
+    },
+    {
+      "kind": "body",
+      "text": "*Lamba reason* dene ki zaroorat nahi."
+    },
+    {
+      "kind": "body",
+      "text": "Doosra *option* do, agar chaho."
+    },
+    {
+      "kind": "body",
+      "text": "Sachcha dost *samjhega*."
+    },
+    {
+      "kind": "cta",
+      "text": "Share karo kisi dost ko.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Nahi bolna rude nahi hai. Pehle samjho, phir seedha bolo, lamba reason mat do.\n\nTumhe nahi bolna kab mushkil lagta hai? Comment karo.\n\n#boundaries #friendship #communication #hinglish #youngindia",
+  "ai_label": true
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-07T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "How to say *\"that won't work\"* without sounding negative"
+    },
+    {
+      "kind": "body",
+      "text": "Start with the *goal*: \"I want this to succeed.\""
+    },
+    {
+      "kind": "body",
+      "text": "Name *one specific risk*."
+    },
+    {
+      "kind": "body",
+      "text": "Offer *an alternative*."
+    },
+    {
+      "kind": "body",
+      "text": "Ask: \"*What do you think?*\""
+    },
+    {
+      "kind": "body",
+      "text": "Be *clear*, not harsh."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next meeting.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Start with the goal, name one risk, offer an alternative, ask what they think.\n\nHave you had to say this at work? Tell us below.\n\n#communication #worklife #leadership #careeradvice #productivity",
+  "ai_label": true
+}

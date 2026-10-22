@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-09T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "How to apologize *properly*: 4 parts"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Say *\"I'm sorry for...\"* and name it."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Say *how it affected them*."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* Say *what you'll do differently*."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* *Don't add* \"but...\"."
+    },
+    {
+      "kind": "body",
+      "text": "Then *listen*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for when you need it.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Name it, own the effect, say what changes, skip the 'but'. Then listen.\n\nWhat makes an apology feel real to you?\n\n#apology #relationships #communication #emotionalintelligence #selfimprovement",
+  "ai_label": true
+}

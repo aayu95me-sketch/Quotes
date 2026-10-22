@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-04T13:30:00+00:00",
+  "pillar": "study",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Revision ka *1-3-7 rule*"
+    },
+    {
+      "kind": "body",
+      "text": "Jo aaj padha, *1 din baad* dohrao."
+    },
+    {
+      "kind": "body",
+      "text": "Phir *3 din baad* dohrao."
+    },
+    {
+      "kind": "body",
+      "text": "Phir *7 din baad* dohrao."
+    },
+    {
+      "kind": "body",
+      "text": "Har baar *sirf 10 minute*."
+    },
+    {
+      "kind": "body",
+      "text": "Yaad *lamba* rehta hai."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Kal se shuru karo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Padhne ke baad 1, 3 aur 7 din par chhota revision. 10 minute kaafi hain.\n\nAaj kya padha? Kal kab dohraoge? Comment karo.\n\n#revision #studytips #students #hinglish #exampreparation",
+  "ai_label": true
+}

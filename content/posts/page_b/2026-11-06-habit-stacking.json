@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-06T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Attach a new habit to *one you already have*"
+    },
+    {
+      "kind": "body",
+      "text": "*After* I pour my coffee, I *stretch*."
+    },
+    {
+      "kind": "body",
+      "text": "*After* I brush my teeth, I *read one page*."
+    },
+    {
+      "kind": "body",
+      "text": "*After* I sit down, I *write my top task*."
+    },
+    {
+      "kind": "body",
+      "text": "Pick *one* trigger."
+    },
+    {
+      "kind": "body",
+      "text": "Make the new habit *tiny*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Pick your trigger.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "After [habit you already do], I [tiny new habit]. One trigger, one tiny action.\n\nWhat's your trigger? Comment below.\n\n#habitstacking #habits #routine #selfimprovement #consistency",
+  "ai_label": true
+}

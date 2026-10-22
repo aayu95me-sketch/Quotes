@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-04T15:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Listening is a *skill*"
+    },
+    {
+      "kind": "body",
+      "text": "*Phone away.*"
+    },
+    {
+      "kind": "body",
+      "text": "*Say back* what you heard."
+    },
+    {
+      "kind": "body",
+      "text": "Ask *one* question."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Phone away, let them finish, repeat what you heard, ask one question. Don't fix yet.\n\nFull carousel on our profile.\n\n#listening #communication #relationships #selfimprovement #psychology #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-11-04-listening"
+}
