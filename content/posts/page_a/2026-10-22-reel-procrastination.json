@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "failed",
   "publish_at": "2026-10-22T13:28:33.190520+00:00",
   "pillar": "focus",
   "lang": "hinglish",
@@ -32,5 +32,6 @@
     "source": "research/audio/2026-10-21 shortlist (Audio API, trending + mood keywords)",
     "judged_by": "title and artist only; not listened to"
   },
-  "revised": "2026-10-21 simpler wording after owner feedback"
+  "revised": "2026-10-21 simpler wording after owner feedback",
+  "error": "Graph API 400: {\"error\":{\"message\":\"Cannot call API for app 1454446477743438 on behalf of user 28142739095405684\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AwMgcynCYAheV98QZ_oy3dF\"}}"
 }
