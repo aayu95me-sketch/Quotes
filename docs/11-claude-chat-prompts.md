@@ -120,6 +120,20 @@ Touch nothing else. End with the REPORT in inbox/.
 ```
 B1 (@disciplinequite) cannot be done from this Chrome until the owner logs in to it. B1 is easiest on the phone: Edit profile > Username `the.disciplinequiet` (confirmed free), Name `Quiet Discipline`, Category Education.
 
+## PROMPT 4: Meta API access blocked (read-only investigation; owner's Chrome is signed in)
+Context (2026-10-22): publishing and verify-setup fail with "Cannot call API for app 1454446477743438 on behalf of user 28142739095405684" and "API access blocked". Tokens worked until 21 Oct 17:07 UTC. Need the cause.
+```
+Read CLAUDE.md and docs/11-claude-chat-prompts.md. Run Prompt 4 read-only. Change nothing, enter no passwords, never read or show the App Secret or any token.
+1. developers.facebook.com > My Apps > "Quotes Publisher" (App ID 1454446477743438): report App Mode, any banner or alert (restricted, disabled, policy violation, data use checkup, re-verification), App roles (who is Administrator/Developer/Tester), and the Dashboard "Alerts" / "Notifications" / "App Review" status. Quote any warning text exactly.
+2. Same app > Settings > Basic: is the app status "Live" or "Development", and is there any "Action required" item.
+3. Facebook notifications and Support Inbox (facebook.com/business/help/support-inbox or Business Support Home): any case, restriction or warning on the Business portfolio, the Pages "Roz Ka Rule" and "Quiet Discipline", or the Instagram accounts @rozkarule and @the.disciplinequiet.
+4. Instagram app status for both accounts is visible in Settings > Account status (report if reachable).
+5. Facebook > Settings > Security and login > "Where you're logged in" or recent security alerts: report only whether there is a recent alert or forced logout today. Do not change anything.
+6. Business Settings > Users > People: any change in the last 48 hours (new entries, removed roles).
+End with the REPORT in inbox/2026-10-22-meta-api-block.md, commit and push. Say clearly which screens you could not read.
+```
+After the report: if no restriction is found, the owner regenerates tokens with `pipeline/setup_tokens.py` and updates the four GitHub secrets (builder will guide).
+
 ## MANUAL: do these on your phone (Claude chat could not, and some are security steps that should be yours)
 1. **Two-factor on Instagram B1, and check A1:** Instagram app > Settings and activity > Accounts Center > Password and security > Two-factor authentication. Use an authenticator app. Save the backup codes offline. Do the same for the Facebook profile.
 2. **Security Checkup on B1's Meta account:** work through the 3 recommended actions.

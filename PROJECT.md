@@ -131,6 +131,9 @@ India-based; payouts to an Indian bank account. Budget **₹0**. Has a MacBook, 
 - After the ffmpeg fix, publishing failed with `Cannot call API for app 1454446477743438 on behalf of user 28142739095405684` (OAuthException 200) and the Audio API said `API access blocked`. `verify-setup` confirms **both Instagram accounts unreadable with the stored tokens** (they worked on 21 Oct 07:35, 13:44 and 17:07 UTC). Slides repo still fine. Posts that failed on auth were reset to `approved`; `publish.py` now stops the run on an auth error instead of marking posts failed. Owner action: open the Meta developer dashboard for app "Quotes Publisher" and Facebook/Instagram notifications for restrictions or required re-verification; if no restriction, regenerate tokens with `pipeline/setup_tokens.py` and update the 4 secrets.
 - Possible causes (unverified): Meta restricted the app or the owner's developer account; the owner's Facebook session/password changed or a security check invalidated tokens; app in Development mode with a role change.
 
+## Next step for the Meta block (owner request, 2026-10-22)
+- Owner asked for a prompt for the Static Automation operator and sync via GitHub. **Prompt 4** added to docs/11. Operator reports to `inbox/2026-10-22-meta-api-block.md`; builder reads it on the next fetch and decides between a restriction appeal and token regeneration.
+
 ## Operating model: who does what
 - **Owner (identity and security only):** create/rename accounts, 2FA, passwords, Meta developer registration, copying tokens into GitHub Secrets, approving posts, payouts/tax. No tool can or should do these for the owner.
 - **Claude Code (this repo):** research via the relay, ideas, writing, rendering, scheduling logic, audio picks, analytics, weekly reports, and fixing the pipeline.
