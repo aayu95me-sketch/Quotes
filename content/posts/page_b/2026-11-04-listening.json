@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-04T17:00:00+00:00",
   "pillar": "relationships",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Phone away, let them finish, repeat what you heard, ask one question. Don't fix yet.\n\nWho listens best in your life? Tell us below.\n\n#listening #communication #relationships #selfimprovement #psychology",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-22"
 }

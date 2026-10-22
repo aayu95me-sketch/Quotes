@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-07T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Start with the goal, name one risk, offer an alternative, ask what they think.\n\nHave you had to say this at work? Tell us below.\n\n#communication #worklife #leadership #careeradvice #productivity",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-22"
 }

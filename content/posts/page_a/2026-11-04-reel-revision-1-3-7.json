@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-04T09:00:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -33,5 +33,6 @@
   ],
   "caption": "Padhne ke baad 1, 3 aur 7 din par chhota revision. 10 minute kaafi hain.\n\nPoora carousel humare profile par.\n\n#revision #studytips #students #hinglish #exampreparation #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-11-04-revision-1-3-7"
+  "companion_of": "page_a/2026-11-04-revision-1-3-7",
+  "approved_at": "2026-10-22"
 }

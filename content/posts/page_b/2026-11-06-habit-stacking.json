@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-06T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "After [habit you already do], I [tiny new habit]. One trigger, one tiny action.\n\nWhat's your trigger? Comment below.\n\n#habitstacking #habits #routine #selfimprovement #consistency",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-22"
 }
