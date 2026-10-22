@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-03T13:30:00+00:00",
   "pillar": "mind",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Online sirf best moments dikhte hain. Apne kal se compare karo, kisi aur ke highlights se nahi.\n\nAaj tumne kya chhota sa accha kiya?\n\nYeh general tips hain, medical salah nahi.\n\n#comparison #mindset #socialmedia #hinglish #youngindia",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-22"
 }

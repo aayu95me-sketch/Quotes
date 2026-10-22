@@ -218,3 +218,5 @@ Also fixed: publish workflow broke on a 403 from packages.microsoft.com during `
 
 ## Week 2 drafted (2026-10-22)
 Both silent Reels were deleted by the owner and republished with audio (owner confirmed music audible). Week 2 (28 Oct to 3 Nov): 7 carousels per page plus 3 companion Reels per page, all `status: draft`, in `content/posts/<page>/`. Reels have a mood and no pinned audio_id: the publisher auto-picks a trending, mood-matched track at publish time. Review PDFs: `out/review_page_a.pdf`, `out/review_page_b.pdf`. Awaiting owner approval before 27 Oct batch ends.
+
+Week 2 (28 Oct to 3 Nov, 20 posts) approved by owner 2026-10-22.

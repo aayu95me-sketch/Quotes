@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-10-30T09:00:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -33,5 +33,6 @@
   ],
   "caption": "Three parts: who you are, one proud thing, why this role. Under a minute.\n\nFull carousel on our profile.\n\n#interview #career #jobsearch #careeradvice #india #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-10-30-tell-me-about-yourself"
+  "companion_of": "page_a/2026-10-30-tell-me-about-yourself",
+  "approved_at": "2026-10-22"
 }

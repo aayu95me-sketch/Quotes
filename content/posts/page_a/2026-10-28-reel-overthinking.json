@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-10-28T09:00:00+00:00",
   "pillar": "mind",
   "lang": "hi",
@@ -33,5 +33,6 @@
   ],
   "caption": "Overthinking ka ilaaj sochna nahi, likhna hai. Ek kaagaz, 5 minute.\n\nPoora carousel humare profile par.\n\n#overthinking #mindset #discipline #hinglish #youngindia #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-10-28-overthinking"
+  "companion_of": "page_a/2026-10-28-overthinking",
+  "approved_at": "2026-10-22"
 }

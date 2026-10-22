@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-10-29T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Notes copy karne ka naam padhai nahi hai. Apne shabdon mein likho aur ek sawaal jodo.\n\nTumhari sabse badi notes ki galti kaunsi hai?\n\n#studytips #notes #students #hinglish #exampreparation",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-22"
 }

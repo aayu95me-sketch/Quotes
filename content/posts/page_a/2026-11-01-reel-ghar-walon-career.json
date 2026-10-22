@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-01T09:00:00+00:00",
   "pillar": "life",
   "lang": "hi",
@@ -33,5 +33,6 @@
   ],
   "caption": "Ghar walon ko samjhana ek din ka kaam nahi hai. Chinta suno, plan batao, chhota proof dikhao.\n\nPoora carousel humare profile par.\n\n#family #career #indianparents #hinglish #youngindia #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-11-01-ghar-walon-career"
+  "companion_of": "page_a/2026-11-01-ghar-walon-career",
+  "approved_at": "2026-10-22"
 }

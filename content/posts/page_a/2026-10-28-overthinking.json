@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-10-28T13:30:00+00:00",
   "pillar": "mind",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Overthinking ka ilaaj sochna nahi, likhna hai. Ek kaagaz, 5 minute.\n\nAaj raat try karoge? Comment mein batao.\n\nYeh general tips hain, medical salah nahi.\n\n#overthinking #mindset #discipline #hinglish #youngindia",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-22"
 }

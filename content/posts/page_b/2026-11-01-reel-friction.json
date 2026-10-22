@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-01T15:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -33,5 +33,6 @@
   ],
   "caption": "You don't need more willpower. Add one small obstacle between you and the bad habit.\n\nFull carousel on our profile.\n\n#habits #willpower #selfimprovement #discipline #productivity #reels",
   "ai_label": true,
-  "companion_of": "page_b/2026-11-01-friction"
+  "companion_of": "page_b/2026-11-01-friction",
+  "approved_at": "2026-10-22"
 }
