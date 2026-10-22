@@ -27,6 +27,7 @@ jobs:
         run: |
           pip install playwright
           playwright install --with-deps chromium
+          sudo apt-get install -y ffmpeg
       - name: Publish due, approved posts
         if: steps.due.outputs.n != '0'
         env:
