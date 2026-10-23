@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-23T19:00:00+05:30",
   "pillar": "study",
   "lang": "hinglish",
@@ -42,5 +42,7 @@
   ],
   "caption": "Exam se pehle ki raat ka plan chhota rakho: revise, so jao, aur shaant raho.\n\nKal kaunsa exam hai? Comment mein batao, all the best!\n\n#studymotivation #examtips #students #studytips #hinglish",
   "ai_label": true,
-  "revised": "2026-10-21 simpler wording after owner feedback"
+  "revised": "2026-10-21 simpler wording after owner feedback",
+  "media_id": "18196727428346096",
+  "published_at": "2026-10-23T14:15:25.880558+00:00"
 }
