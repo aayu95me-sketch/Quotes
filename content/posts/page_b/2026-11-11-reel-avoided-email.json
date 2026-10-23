@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-11T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The email you're avoiding"
+    },
+    {
+      "kind": "body",
+      "text": "*Line 1:* the point."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 2:* what you need, *by when*."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 3:* thanks."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Point, need and deadline, thanks. Short emails get answered.\n\nFull carousel on our profile.\n\n#email #productivity #worklife #communication #procrastination #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-11-11-avoided-email"
+}

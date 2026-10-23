@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-11T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The email you've been avoiding: *a 3-line template*"
+    },
+    {
+      "kind": "body",
+      "text": "*Line 1:* The *point*, in one sentence."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 2:* What you *need*, and by *when*."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 3:* *Thanks*, and your contact."
+    },
+    {
+      "kind": "body",
+      "text": "No *long apology*."
+    },
+    {
+      "kind": "body",
+      "text": "Send it *before you reread it twice*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for the email you're avoiding.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Point, need and deadline, thanks. Short emails get answered.\n\nWhich email are you sending today?\n\n#email #productivity #worklife #communication #procrastination",
+  "ai_label": true
+}

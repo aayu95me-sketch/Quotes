@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-13T13:30:00+00:00",
+  "pillar": "career",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Salary talk: *the first sentence* matters"
+    },
+    {
+      "kind": "body",
+      "text": "Say: \"*I'm excited about this role.*\""
+    },
+    {
+      "kind": "body",
+      "text": "Then: \"*Based on my skills, I was hoping for X.*\""
+    },
+    {
+      "kind": "body",
+      "text": "Name *a range*, not one number."
+    },
+    {
+      "kind": "body",
+      "text": "Then *stop talking*. Let them reply."
+    },
+    {
+      "kind": "body",
+      "text": "*Practice* it out loud first."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this before your offer call.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "Start positive, give a range, then pause. Practice out loud.\n\nHave you negotiated before? How did it go?\n\nGeneral career information.\n\n#salarynegotiation #career #jobs #careeradvice #india",
+  "ai_label": true
+}

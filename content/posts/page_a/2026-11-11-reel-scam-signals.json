@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-11T09:00:00+00:00",
+  "pillar": "money",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Scam ke *5 signal*"
+    },
+    {
+      "kind": "body",
+      "text": "Koi *OTP* maange? Ruko."
+    },
+    {
+      "kind": "body",
+      "text": "*Guaranteed return*? Ruko."
+    },
+    {
+      "kind": "body",
+      "text": "*Pehle paisa*? Ruko."
+    },
+    {
+      "kind": "cta",
+      "text": "Poora carousel profile par.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "OTP, guaranteed return, jaldi ka dabav, anjaan link, pehle paisa. Inme se ek bhi dikhe toh ruk jao.\n\nPoora carousel humare profile par.\n\n#scamalert #cybersafety #moneysafety #hinglish #india #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-11-11-scam-signals"
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-17T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Rebuild your routine *after a bad week*"
+    },
+    {
+      "kind": "body",
+      "text": "Don't try to *make up* for it."
+    },
+    {
+      "kind": "body",
+      "text": "Pick *one* anchor habit."
+    },
+    {
+      "kind": "body",
+      "text": "Do it *at the same time* tomorrow."
+    },
+    {
+      "kind": "body",
+      "text": "Add *a second* habit in a week."
+    },
+    {
+      "kind": "body",
+      "text": "*Small* beats perfect."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next reset.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Skip the catch-up. Pick one anchor habit, same time tomorrow, add a second next week.\n\nWhat's your anchor habit?\n\n#routine #habits #reset #selfimprovement #consistency",
+  "ai_label": true
+}

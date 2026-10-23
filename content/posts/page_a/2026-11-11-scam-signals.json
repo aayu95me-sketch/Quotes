@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-11T13:30:00+00:00",
+  "pillar": "money",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Scam se bachne ke *5 signal*"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Koi aapse *OTP* maange."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* \"*Guaranteed return*\" ka wada."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* *Jaldi karo*, offer khatam hone wala hai."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* Anjaan *link* par click karne ko kahe."
+    },
+    {
+      "kind": "body",
+      "text": "*5.* Pehle *paisa bhejo*, baad mein milega."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Ghar walon ko bhejo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "OTP, guaranteed return, jaldi ka dabav, anjaan link, pehle paisa. Inme se ek bhi dikhe toh ruk jao.\n\nKisi ne tumhe aisa message bheja hai? Comment karo.\n\nSirf educational jaankari, financial salah nahi.\n\n#scamalert #cybersafety #moneysafety #hinglish #india",
+  "ai_label": true
+}

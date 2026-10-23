@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-16T13:30:00+00:00",
+  "pillar": "study",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Group study *kab kaam karti hai*, kab nahi"
+    },
+    {
+      "kind": "body",
+      "text": "*Kaam karti hai:* Sab ne *pehle khud* padha ho."
+    },
+    {
+      "kind": "body",
+      "text": "*Kaam karti hai:* Ek-doosre ko *samjhao*."
+    },
+    {
+      "kind": "body",
+      "text": "*Kaam nahi karti:* Pehli baar padhna."
+    },
+    {
+      "kind": "body",
+      "text": "*Kaam nahi karti:* Group bahut *bada*."
+    },
+    {
+      "kind": "body",
+      "text": "Best: *3-4 log*, 1 ghanta, 1 topic."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Group mein share karo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Pehle khud padho, phir group mein samjhao. 3-4 log, 1 ghanta, 1 topic.\n\nTumhari group study kaisi rehti hai? Comment karo.\n\n#groupstudy #studytips #students #hinglish #exampreparation",
+  "ai_label": true
+}

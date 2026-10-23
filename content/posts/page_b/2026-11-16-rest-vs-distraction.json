@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-16T17:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "*Rest* is not the same as *distraction*"
+    },
+    {
+      "kind": "body",
+      "text": "*Distraction:* scrolling, *tired* afterward."
+    },
+    {
+      "kind": "body",
+      "text": "*Rest:* a walk, *lighter* afterward."
+    },
+    {
+      "kind": "body",
+      "text": "Ask: \"*Do I feel better after?*\""
+    },
+    {
+      "kind": "body",
+      "text": "Plan *real rest* each day."
+    },
+    {
+      "kind": "body",
+      "text": "Even *10 minutes* counts."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for a tired day.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Scrolling can leave you more tired. Real rest leaves you lighter. Ask how you feel after.\n\nWhat's your best kind of rest?\n\nGeneral wellbeing information, not medical advice.\n\n#rest #selfcare #burnout #productivity #psychology",
+  "ai_label": true
+}

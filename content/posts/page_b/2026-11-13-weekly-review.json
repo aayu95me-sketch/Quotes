@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-13T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "A *15-minute* weekly review"
+    },
+    {
+      "kind": "body",
+      "text": "*Minutes 1-5:* What *went well*?"
+    },
+    {
+      "kind": "body",
+      "text": "*Minutes 6-10:* What *got in the way*?"
+    },
+    {
+      "kind": "body",
+      "text": "*Minutes 11-15:* Pick *three priorities* for next week."
+    },
+    {
+      "kind": "body",
+      "text": "Do it *same time* each week."
+    },
+    {
+      "kind": "body",
+      "text": "Keep the notes *short*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for Sunday.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Five minutes on wins, five on obstacles, five to pick priorities. Same time every week.\n\nWhen will you do yours?\n\n#weeklyreview #productivity #habits #planning #selfimprovement",
+  "ai_label": true
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-14T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Set a boundary with a friend *without losing them*"
+    },
+    {
+      "kind": "body",
+      "text": "Start with *the friendship*: \"I value you.\""
+    },
+    {
+      "kind": "body",
+      "text": "State *the need*: \"I can't talk late on weekdays.\""
+    },
+    {
+      "kind": "body",
+      "text": "Offer *what you can do*."
+    },
+    {
+      "kind": "body",
+      "text": "*Keep it short.* No big speech."
+    },
+    {
+      "kind": "body",
+      "text": "Expect *a bit of awkwardness*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Share it with a friend.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Name the friendship, state the need, offer an alternative, keep it short.\n\nWhere do you need a boundary? Tell us below.\n\n#boundaries #friendship #relationships #communication #selfimprovement",
+  "ai_label": true
+}

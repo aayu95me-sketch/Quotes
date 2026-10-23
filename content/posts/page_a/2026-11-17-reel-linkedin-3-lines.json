@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-17T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *3 LinkedIn lines*"
+    },
+    {
+      "kind": "body",
+      "text": "*Headline:* what you do."
+    },
+    {
+      "kind": "body",
+      "text": "*One result* you're proud of."
+    },
+    {
+      "kind": "body",
+      "text": "Say *what you want*."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "Headline, one result, what you want next. A clear photo helps too.\n\nFull carousel on our profile.\n\n#linkedin #career #personalbranding #jobsearch #india #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-11-17-linkedin-3-lines"
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-15T13:30:00+00:00",
+  "pillar": "life",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Rejection ke baad *agle 24 ghante* ka plan"
+    },
+    {
+      "kind": "body",
+      "text": "*Ghanta 1:* Bura lagne do. *Bas.*"
+    },
+    {
+      "kind": "body",
+      "text": "*Ghanta 2:* Thoda *chal ke aao*."
+    },
+    {
+      "kind": "body",
+      "text": "*Raat:* Ek dost se *baat* karo."
+    },
+    {
+      "kind": "body",
+      "text": "*Kal subah:* Ek *sabak* likho."
+    },
+    {
+      "kind": "body",
+      "text": "*Kal dopahar:* Agli *application* bhejo."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Kisi dost ko bhejo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Rejection bura lagta hai. Pehle ghante bura lagne do, phir chalo, baat karo, sabak likho, agla step lo.\n\nTumhara sabse bada sabak kaunsa tha?\n\nYeh general tips hain, medical salah nahi.\n\n#rejection #resilience #career #hinglish #youngindia",
+  "ai_label": true
+}

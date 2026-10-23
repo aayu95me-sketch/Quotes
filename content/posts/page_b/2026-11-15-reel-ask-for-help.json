@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-15T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Ask for help *so they say yes*"
+    },
+    {
+      "kind": "body",
+      "text": "Be *specific*."
+    },
+    {
+      "kind": "body",
+      "text": "Say *how long* it takes."
+    },
+    {
+      "kind": "body",
+      "text": "*Thank them*."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Specific ask, a time estimate, why them, an easy way to say no, and a thank-you.\n\nFull carousel on our profile.\n\n#askforhelp #communication #teamwork #worklife #careeradvice #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-11-15-ask-for-help"
+}

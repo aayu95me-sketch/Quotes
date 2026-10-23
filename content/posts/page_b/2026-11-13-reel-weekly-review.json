@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-13T15:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "A *15-minute* weekly review"
+    },
+    {
+      "kind": "body",
+      "text": "*Went well?* 5 minutes."
+    },
+    {
+      "kind": "body",
+      "text": "*Got in the way?* 5 minutes."
+    },
+    {
+      "kind": "body",
+      "text": "*Pick 3* priorities."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Five minutes on wins, five on obstacles, five to pick priorities. Same time every week.\n\nFull carousel on our profile.\n\n#weeklyreview #productivity #habits #planning #selfimprovement #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-11-13-weekly-review"
+}
