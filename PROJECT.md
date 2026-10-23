@@ -237,3 +237,5 @@ Early, NOT yet conclusions (all posts under 48h, n=7): both pages have 3 followe
 
 ## Sunday routine (owner agreed 2026-10-23)
 Scheduled task "Weekly content drafting and review pack" (trigger trig_01Exw2ReKWARPCMa2j4hCK7d) fires every Sunday 09:07 IST (first run 25 Oct 03:37 UTC). It checks health and insights, drafts the next week, builds the review PDFs and sends them to the owner, who approves on the phone. The routine has no GitHub connector; it works through git only. Unverified: whether a fresh routine session starts with the repo checked out (the prompt tells it to use add_repo if not). Check the first run on 25 Oct.
+
+Week 4 (11 to 17 Nov, 22 posts) approved by owner 2026-10-23. Approved runway now ends 17 Nov.

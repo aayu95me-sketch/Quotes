@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-16T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Pehle khud padho, phir group mein samjhao. 3-4 log, 1 ghanta, 1 topic.\n\nTumhari group study kaisi rehti hai? Comment karo.\n\n#groupstudy #studytips #students #hinglish #exampreparation",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-23"
 }

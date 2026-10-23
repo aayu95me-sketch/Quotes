@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-15T13:30:00+00:00",
   "pillar": "life",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Rejection bura lagta hai. Pehle ghante bura lagne do, phir chalo, baat karo, sabak likho, agla step lo.\n\nTumhara sabse bada sabak kaunsa tha?\n\nYeh general tips hain, medical salah nahi.\n\n#rejection #resilience #career #hinglish #youngindia",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-23"
 }

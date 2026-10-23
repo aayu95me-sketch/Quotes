@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-14T13:30:00+00:00",
   "pillar": "mind",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Neend, kaam ka size, samajh, aur dimaag ki koi baat. 4 sawaal, ek chhota badlav.\n\nKaunsa sawaal sabse zyada lagta hai?\n\nYeh general tips hain, medical salah nahi. Agar yeh hafton tak rahe, kisi professional se baat karo.\n\n#motivation #focus #mindset #hinglish #youngindia",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-23"
 }

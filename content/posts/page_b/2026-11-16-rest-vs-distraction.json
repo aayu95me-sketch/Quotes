@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-16T17:00:00+00:00",
   "pillar": "psychology",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Scrolling can leave you more tired. Real rest leaves you lighter. Ask how you feel after.\n\nWhat's your best kind of rest?\n\nGeneral wellbeing information, not medical advice.\n\n#rest #selfcare #burnout #productivity #psychology",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-23"
 }

@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-11T09:00:00+00:00",
   "pillar": "money",
   "lang": "hi",
@@ -33,5 +33,6 @@
   ],
   "caption": "OTP, guaranteed return, jaldi ka dabav, anjaan link, pehle paisa. Inme se ek bhi dikhe toh ruk jao.\n\nPoora carousel humare profile par.\n\n#scamalert #cybersafety #moneysafety #hinglish #india #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-11-11-scam-signals"
+  "companion_of": "page_a/2026-11-11-scam-signals",
+  "approved_at": "2026-10-23"
 }

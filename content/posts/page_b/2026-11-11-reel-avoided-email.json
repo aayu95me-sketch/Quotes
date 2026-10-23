@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-11T15:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -33,5 +33,6 @@
   ],
   "caption": "Point, need and deadline, thanks. Short emails get answered.\n\nFull carousel on our profile.\n\n#email #productivity #worklife #communication #procrastination #reels",
   "ai_label": true,
-  "companion_of": "page_b/2026-11-11-avoided-email"
+  "companion_of": "page_b/2026-11-11-avoided-email",
+  "approved_at": "2026-10-23"
 }

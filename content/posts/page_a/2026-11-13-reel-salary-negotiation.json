@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-13T09:00:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -33,5 +33,6 @@
   ],
   "caption": "Start positive, give a range, then pause. Practice out loud.\n\nFull carousel on our profile.\n\n#salarynegotiation #career #jobs #careeradvice #india #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-11-13-salary-negotiation"
+  "companion_of": "page_a/2026-11-13-salary-negotiation",
+  "approved_at": "2026-10-23"
 }

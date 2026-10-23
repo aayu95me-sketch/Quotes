@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-15T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Specific ask, a time estimate, why them, an easy way to say no, and a thank-you.\n\nWho will you ask this week?\n\n#askforhelp #communication #teamwork #worklife #careeradvice",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-23"
 }

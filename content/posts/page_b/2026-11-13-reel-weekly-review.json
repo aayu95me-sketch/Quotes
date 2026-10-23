@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-13T15:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -33,5 +33,6 @@
   ],
   "caption": "Five minutes on wins, five on obstacles, five to pick priorities. Same time every week.\n\nFull carousel on our profile.\n\n#weeklyreview #productivity #habits #planning #selfimprovement #reels",
   "ai_label": true,
-  "companion_of": "page_b/2026-11-13-weekly-review"
+  "companion_of": "page_b/2026-11-13-weekly-review",
+  "approved_at": "2026-10-23"
 }
