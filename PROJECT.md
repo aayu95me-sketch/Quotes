@@ -225,3 +225,7 @@ Week 2 (28 Oct to 3 Nov, 20 posts) approved by owner 2026-10-22.
 4 to 10 Nov: 7 carousels + 3 Reels per page, all draft, awaiting owner approval. Plan changes: B day 17/21 swapped to habit-stacking and plan-tomorrow to avoid repeating the never-miss-twice and phone-friction posts already used in week 2.
 
 Week 3 (4 to 10 Nov, 20 posts) approved by owner 2026-10-22.
+
+## First insights (2026-10-23 07:02 UTC) - `research/insights/2026-10-23.md`
+Insights permission works (reach, saves, shares, likes, views per post; account reach split follower/non-follower). Daily workflow `insights.yml` (05:17 UTC) commits a report.
+Early, NOT yet conclusions (all posts under 48h, n=7): both pages have 3 followers. Reels reached 100-106 accounts (almost all non-followers) while carousels reached 3 (essentially only followers). Saves+shares: 1 save in total. Working hypothesis to test: Reels are the discovery format at this stage; carousels convert and retain once people follow. Decision rule: no format/language/pillar conclusion before 8 scored posts per group. Proposal for week 4: raise Reels from 3 to 5 a week per page if the hypothesis still holds on 28 Oct data (owner approves).
