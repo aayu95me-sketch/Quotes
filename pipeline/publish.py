@@ -31,7 +31,7 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "pipeline"))
 GRAPH = "https://graph.facebook.com"
-MAX_LATE = dt.timedelta(hours=24)  # never publish something that is more than a day overdue
+MAX_LATE = dt.timedelta(hours=48)  # an outage shorter than two days catches up; older posts must be rescheduled on purpose
 MAX_PER_RUN = 3
 
 
@@ -84,7 +84,7 @@ def due_posts(now):
         if when > now:
             continue
         if now - when > MAX_LATE:
-            print(f"skip {f.name}: more than 24h overdue, reschedule it")
+            print(f"skip {f.name}: more than 48h overdue, reschedule it")
             continue
         yield f, post
 
@@ -191,6 +191,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true")
     ap.add_argument("--count", action="store_true", help="print the number of approved, due posts and exit (cheap check for CI)")
+    ap.add_argument("--health", action="store_true", help="exit 1 (so GitHub emails the owner) if a post is >3h overdue or fewer than 5 days of approved posts remain")
     ap.add_argument("--prepare-only", action="store_true", help="live API test: build containers (carousel children, reel upload with audio) but do NOT publish")
     ap.add_argument("--only", nargs="*", help="with --prepare-only: post files to test regardless of status and date")
     a = ap.parse_args()
@@ -198,9 +199,25 @@ def main():
     if a.count:
         print(sum(1 for _ in due_posts(now)))
         return
+    if a.health:
+        late, last = [], now
+        for f in sorted((ROOT / "content" / "posts").rglob("*.json")):
+            post = json.loads(f.read_text())
+            if post.get("status") != "approved":
+                continue
+            when = dt.datetime.fromisoformat(post["publish_at"])
+            if now - when > dt.timedelta(hours=3):
+                late.append(f.name)
+            last = max(last, when)
+        runway = (last - now).total_seconds() / 86400
+        print(f"approved posts run {runway:.1f} more days; overdue by more than 3h: {late or 'none'}")
+        if late or runway < 5:
+            sys.exit(f"HEALTH ALERT: {'overdue posts: ' + ', '.join(late) if late else 'less than 5 days of approved posts left, approve the next batch'}")
+        return
     n = 0
     if a.only and not a.prepare_only:
         sys.exit("--only is only allowed together with --prepare-only (it must never publish)")
+    auth_failed = False
     queue = [(pathlib.Path(x), json.loads(pathlib.Path(x).read_text())) for x in a.only] if a.only else due_posts(now)
     live = a.live or a.prepare_only
     for f, post in queue:
@@ -215,6 +232,7 @@ def main():
             print(f"ERROR {f.name}: {e}")
             if any(k in str(e) for k in ("OAuthException", "access blocked", "Error validating access token", "Cannot call API")):
                 print("AUTH PROBLEM: stopping this run; posts stay approved and will retry once tokens/app access are fixed")
+                auth_failed = True
                 break
             if a.live and not a.prepare_only:
                 post["status"] = "failed"
@@ -228,6 +246,8 @@ def main():
             f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
         n += 1
     print(f"{n} post(s) processed ({'prepare-only test' if a.prepare_only else 'live' if a.live else 'dry-run'})")
+    if auth_failed:
+        sys.exit("AUTH PROBLEM: see log; posts stay approved")  # non-zero exit makes GitHub email the owner
 
 
 if __name__ == "__main__":

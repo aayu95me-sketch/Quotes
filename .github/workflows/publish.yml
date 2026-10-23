@@ -50,6 +50,7 @@ jobs:
         run: |
           if [ "$LIVE" = "true" ]; then python pipeline/publish.py --live; else python pipeline/publish.py; fi
       - name: Commit post status changes
+        if: always()
         run: |
           git config user.name "publisher"
           git config user.email "publisher@users.noreply.github.com"
@@ -58,3 +59,6 @@ jobs:
           git commit -m "publisher: update post status [skip ci]"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Health check (fails, so GitHub emails the owner, if posts are late or the approved runway is short)
+        if: always()
+        run: python pipeline/publish.py --health
