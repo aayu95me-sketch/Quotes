@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-23T07:02:22.732612+00:00",
+  "generated": "2026-10-24T05:39:41.470899+00:00",
   "pages": {
     "page_a": {
       "account": {
         "followers": 3,
-        "media": 3,
+        "media": 4,
         "reach_by_follow_type_1d": {
           "FOLLOWER": 3,
-          "NON_FOLLOWER": 123
+          "NON_FOLLOWER": 176
         },
         "err": null
       },
@@ -17,7 +17,116 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "mind",
-          "age_h": 41,
+          "age_h": 64,
+          "scored": true,
+          "insights": {
+            "reach": 3,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 17
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-22-first-job",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "career",
+          "age_h": 39,
+          "scored": false,
+          "insights": {
+            "reach": 3,
+            "saved": 0,
+            "shares": 0,
+            "likes": 4,
+            "comments": 0,
+            "total_interactions": 4,
+            "views": 19
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-22-reel-procrastination",
+          "type": "reel",
+          "lang": "hinglish",
+          "pillar": "focus",
+          "age_h": 37,
+          "scored": false,
+          "insights": {
+            "reach": 159,
+            "saved": 0,
+            "shares": 0,
+            "likes": 4,
+            "comments": 0,
+            "total_interactions": 4,
+            "views": 197,
+            "ig_reels_avg_watch_time": 2470
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-23-exam-night",
+          "type": "carousel",
+          "lang": "hinglish",
+          "pillar": "study",
+          "age_h": 15,
+          "scored": false,
+          "insights": {
+            "reach": 2,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 12
+          },
+          "score": 0.0,
+          "errors": []
+        }
+      ]
+    },
+    "page_b": {
+      "account": {
+        "followers": 3,
+        "media": 5,
+        "reach_by_follow_type_1d": {
+          "NON_FOLLOWER": 120,
+          "FOLLOWER": 3
+        },
+        "err": null
+      },
+      "posts": [
+        {
+          "post": "2026-10-21-willpower",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "habits",
+          "age_h": 61,
+          "scored": true,
+          "insights": {
+            "reach": 3,
+            "saved": 0,
+            "shares": 0,
+            "likes": 4,
+            "comments": 2,
+            "total_interactions": 6,
+            "views": 14
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-22-end-arguments",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "relationships",
+          "age_h": 36,
           "scored": false,
           "insights": {
             "reach": 3,
@@ -32,113 +141,23 @@
           "errors": []
         },
         {
-          "post": "2026-10-22-first-job",
-          "type": "carousel",
-          "lang": "en",
-          "pillar": "career",
-          "age_h": 16,
-          "scored": false,
-          "insights": {
-            "reach": 3,
-            "saved": 0,
-            "shares": 0,
-            "likes": 4,
-            "comments": 0,
-            "total_interactions": 4,
-            "views": 14
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
-          "post": "2026-10-22-reel-procrastination",
-          "type": "reel",
-          "lang": "hinglish",
-          "pillar": "focus",
-          "age_h": 15,
-          "scored": false,
-          "insights": {
-            "reach": 106,
-            "saved": 0,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 3,
-            "views": 132,
-            "ig_reels_avg_watch_time": 2679
-          },
-          "score": 0.0,
-          "errors": []
-        }
-      ]
-    },
-    "page_b": {
-      "account": {
-        "followers": 3,
-        "media": 4,
-        "reach_by_follow_type_1d": {
-          "NON_FOLLOWER": 111,
-          "FOLLOWER": 3
-        },
-        "err": null
-      },
-      "posts": [
-        {
-          "post": "2026-10-21-willpower",
-          "type": "carousel",
-          "lang": "en",
-          "pillar": "habits",
-          "age_h": 38,
-          "scored": false,
-          "insights": {
-            "reach": 3,
-            "saved": 0,
-            "shares": 0,
-            "likes": 4,
-            "comments": 2,
-            "total_interactions": 6,
-            "views": 11
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
-          "post": "2026-10-22-end-arguments",
-          "type": "carousel",
-          "lang": "en",
-          "pillar": "relationships",
-          "age_h": 13,
-          "scored": false,
-          "insights": {
-            "reach": 3,
-            "saved": 0,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 3,
-            "views": 8
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
           "post": "2026-10-22-reel-willpower",
           "type": "reel",
           "lang": "en",
           "pillar": "focus",
-          "age_h": 15,
+          "age_h": 37,
           "scored": false,
           "insights": {
-            "reach": 100,
+            "reach": 103,
             "saved": 1,
             "shares": 0,
             "likes": 3,
             "comments": 0,
             "total_interactions": 4,
-            "views": 118,
-            "ig_reels_avg_watch_time": 2320
+            "views": 124,
+            "ig_reels_avg_watch_time": 2286
           },
-          "score": 10.0,
+          "score": 9.7,
           "errors": []
         },
         {
@@ -146,17 +165,36 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 15,
+          "age_h": 38,
           "scored": false,
           "insights": {
-            "reach": 10,
+            "reach": 16,
             "saved": 0,
             "shares": 0,
             "likes": 3,
             "comments": 0,
             "total_interactions": 3,
-            "views": 21,
-            "ig_reels_avg_watch_time": 6141
+            "views": 30,
+            "ig_reels_avg_watch_time": 5274
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-23-two-minute-rule",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "habits",
+          "age_h": 13,
+          "scored": false,
+          "insights": {
+            "reach": 1,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 9
           },
           "score": 0.0,
           "errors": []
