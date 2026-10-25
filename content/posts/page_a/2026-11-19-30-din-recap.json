@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-19T13:30:00+00:00",
   "pillar": "mind",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "30 din, 5 rules. Ek chuno aur is hafte try karo.\n\nKaunsa rule tumhare liye sabse kaam ka raha? Comment karo.\n\n#recap #discipline #habits #hinglish #youngindia",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-25"
 }

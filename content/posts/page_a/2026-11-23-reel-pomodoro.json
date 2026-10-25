@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-23T09:00:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -33,5 +33,6 @@
   ],
   "caption": "25 minute padhai, 5 minute ka break, 4 round ke baad lamba break. Ise Pomodoro kehte hain.\n\nPoora carousel humare profile par.\n\n#pomodoro #studytips #focus #hinglish #students #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-11-23-pomodoro"
+  "companion_of": "page_a/2026-11-23-pomodoro",
+  "approved_at": "2026-10-25"
 }

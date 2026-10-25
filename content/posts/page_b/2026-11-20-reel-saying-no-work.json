@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-20T15:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -33,5 +33,6 @@
   ],
   "caption": "Thank them, state your load, offer a later date or another person. Short and kind.\n\nFull carousel on our profile.\n\n#boundaries #worklife #communication #careeradvice #productivity #reels",
   "ai_label": true,
-  "companion_of": "page_b/2026-11-20-saying-no-work"
+  "companion_of": "page_b/2026-11-20-saying-no-work",
+  "approved_at": "2026-10-25"
 }

@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-24T15:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -33,5 +33,6 @@
   ],
   "caption": "Clothes, bag, water, book, one tab. Make starting easier by setting up tonight.\n\nFull carousel on our profile.\n\n#habits #routine #productivity #environment #selfimprovement #reels",
   "ai_label": true,
-  "companion_of": "page_b/2026-11-24-environment-design"
+  "companion_of": "page_b/2026-11-24-environment-design",
+  "approved_at": "2026-10-25"
 }

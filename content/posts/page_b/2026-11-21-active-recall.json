@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-21T17:00:00+00:00",
   "pillar": "psychology",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Rereading feels productive. Testing yourself works better. Close the book and write what you remember.\n\nWill you try it today? Comment below.\n\n#studytips #activerecall #learning #psychology #productivity",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-25"
 }

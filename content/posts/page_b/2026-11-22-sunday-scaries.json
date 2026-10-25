@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-22T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Write Monday's top three, prepare what you need, do one small nice thing. Then stop planning.\n\nWhat's your Sunday evening routine?\n\nGeneral wellbeing information, not medical advice.\n\n#sundayscaries #routine #habits #mentalwellness #selfimprovement",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-25"
 }

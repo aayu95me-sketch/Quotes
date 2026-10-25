@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-24T09:00:00+00:00",
   "pillar": "career",
   "lang": "hi",
@@ -33,5 +33,6 @@
   ],
   "caption": "Khud koshish, kya try kiya, ek saaf sawaal, sahi time, dhanyavaad.\n\nPoora carousel humare profile par.\n\n#communication #career #students #hinglish #youngindia #reels",
   "ai_label": true,
-  "companion_of": "page_a/2026-11-24-doubt-poochna"
+  "companion_of": "page_a/2026-11-24-doubt-poochna",
+  "approved_at": "2026-10-25"
 }

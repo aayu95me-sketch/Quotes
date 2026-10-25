@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-22T13:30:00+00:00",
   "pillar": "money",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Ek simple tareeka: 50% zaroori, 30% mann ke, 20% bachat. Pehle bachat alag karo.\n\nTumhara pehla budget kaisa raha? Comment karo.\n\nSirf educational jaankari, financial salah nahi.\n\n#budget #savings #personalfinance #hinglish #financialliteracy",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-25"
 }

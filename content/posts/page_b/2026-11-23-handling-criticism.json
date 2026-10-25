@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-23T17:00:00+00:00",
   "pillar": "relationships",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Is any of it true, is it about the work, what can I change? Pause before replying.\n\nHow do you handle criticism? Tell us below.\n\n#criticism #feedback #communication #selfimprovement #worklife",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-25"
 }

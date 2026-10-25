@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-24T13:30:00+00:00",
   "pillar": "career",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Khud koshish, kya try kiya, ek saaf sawaal, sahi time, dhanyavaad.\n\nDoubt poochna tumhe kab mushkil lagta hai? Comment karo.\n\n#communication #career #students #hinglish #youngindia",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-25"
 }

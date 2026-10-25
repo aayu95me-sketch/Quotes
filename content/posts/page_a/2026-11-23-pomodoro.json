@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-23T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "25 minute padhai, 5 minute ka break, 4 round ke baad lamba break. Ise Pomodoro kehte hain.\n\nKitne round kar paaye? Comment karo.\n\n#pomodoro #studytips #focus #hinglish #students",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-10-25"
 }
