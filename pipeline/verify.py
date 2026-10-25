@@ -52,6 +52,8 @@ for page, fbid in FB.items():
     tok = os.environ.get(f"IG_{page}_TOKEN", "")
     s, d = graph(fbid, tok, fields="name,followers_count,fan_count")
     all_ok &= line(s == 200, f"{page}: Facebook Page readable -> {d.get('name')} (followers {d.get('followers_count')}, likes {d.get('fan_count')})" if s == 200 else f"{page}: Facebook Page NOT readable with this token: {d.get('error', {}).get('message', s)}")
+    s, d = graph("me", tok, fields="id,name")
+    line(s == 200 and d.get("id") == fbid, f"{page}: token acts as the Page itself ({d.get('name')})" if s == 200 and d.get("id") == fbid else f"{page}: token identity is {d.get('name') or d.get('error', {}).get('message', s)} (id {d.get('id')}), NOT the Page; Facebook posting needs a Page token")
     s, d = graph(f"{fbid}/feed", tok, limit=1)
     line(s == 200, f"{page}: Facebook feed readable (needed to confirm posting access later)" if s == 200 else f"{page}: Facebook feed NOT readable: {d.get('error', {}).get('message', s)}")
 
