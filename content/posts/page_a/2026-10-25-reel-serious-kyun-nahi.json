@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-25T09:00:00+00:00",
   "pillar": "career",
   "lang": "hinglish",
@@ -41,5 +41,7 @@
   "caption": "Serious dikhne ka matlab loud hona nahi hai. Clear aur confident hona hai.\n\nKaunsa point tumhe sabse zyada kaam ka laga?\n\nFull carousel on our profile.\n\n#communication #careergrowth #confidence #youngindia #hinglish #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-10-25-serious-kyun-nahi",
-  "revised": "2026-10-22 audio companion reel"
+  "revised": "2026-10-22 audio companion reel",
+  "media_id": "18106114598460017",
+  "published_at": "2026-10-25T09:04:03.635105+00:00"
 }
