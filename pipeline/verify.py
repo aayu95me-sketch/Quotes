@@ -47,6 +47,14 @@ for page in ("PAGE_A", "PAGE_B"):
     n = len(d.get("audio", [])) if s == 200 else 0
     all_ok &= line(s == 200 and n > 0, f"{page}: trending audio search returned {n} tracks" if s == 200 else f"{page}: Audio API NOT available: {d.get('error', {}).get('message', s)}")
 
+FB = {"PAGE_A": "1345396148663682", "PAGE_B": "1436529449539802"}  # Facebook Page IDs (not secret, see CLAUDE.md)
+for page, fbid in FB.items():
+    tok = os.environ.get(f"IG_{page}_TOKEN", "")
+    s, d = graph(fbid, tok, fields="name,followers_count,fan_count")
+    all_ok &= line(s == 200, f"{page}: Facebook Page readable -> {d.get('name')} (followers {d.get('followers_count')}, likes {d.get('fan_count')})" if s == 200 else f"{page}: Facebook Page NOT readable with this token: {d.get('error', {}).get('message', s)}")
+    s, d = graph(f"{fbid}/feed", tok, limit=1)
+    line(s == 200, f"{page}: Facebook feed readable (needed to confirm posting access later)" if s == 200 else f"{page}: Facebook feed NOT readable: {d.get('error', {}).get('message', s)}")
+
 repo, pat = os.environ.get("ASSETS_REPO", ""), os.environ.get("ASSETS_PAT", "")
 if repo and pat:
     s, d = get(f"https://api.github.com/repos/{repo}", {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"})
