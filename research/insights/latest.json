@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-24T05:39:41.470899+00:00",
+  "generated": "2026-10-25T05:38:21.443192+00:00",
   "pages": {
     "page_a": {
       "account": {
         "followers": 3,
-        "media": 4,
+        "media": 7,
         "reach_by_follow_type_1d": {
           "FOLLOWER": 3,
-          "NON_FOLLOWER": 176
+          "NON_FOLLOWER": 248
         },
         "err": null
       },
@@ -17,7 +17,7 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "mind",
-          "age_h": 64,
+          "age_h": 88,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -36,8 +36,8 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 39,
-          "scored": false,
+          "age_h": 63,
+          "scored": true,
           "insights": {
             "reach": 3,
             "saved": 0,
@@ -55,8 +55,8 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "focus",
-          "age_h": 37,
-          "scored": false,
+          "age_h": 61,
+          "scored": true,
           "insights": {
             "reach": 159,
             "saved": 0,
@@ -65,7 +65,7 @@
             "comments": 0,
             "total_interactions": 4,
             "views": 197,
-            "ig_reels_avg_watch_time": 2470
+            "ig_reels_avg_watch_time": 2453
           },
           "score": 0.0,
           "errors": []
@@ -75,10 +75,10 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "study",
-          "age_h": 15,
+          "age_h": 39,
           "scored": false,
           "insights": {
-            "reach": 2,
+            "reach": 3,
             "saved": 0,
             "shares": 0,
             "likes": 3,
@@ -88,15 +88,74 @@
           },
           "score": 0.0,
           "errors": []
+        },
+        {
+          "post": "2026-10-24-reel-exam-night",
+          "type": "reel",
+          "lang": "hinglish",
+          "pillar": "calm",
+          "age_h": 22,
+          "scored": false,
+          "insights": {
+            "reach": 149,
+            "saved": 0,
+            "shares": 0,
+            "likes": 2,
+            "comments": 0,
+            "total_interactions": 2,
+            "views": 177,
+            "ig_reels_avg_watch_time": 2765
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-24-reel-sunday-anxiety",
+          "type": "reel",
+          "lang": "en",
+          "pillar": "mind",
+          "age_h": 21,
+          "scored": false,
+          "insights": {
+            "reach": 50,
+            "saved": 0,
+            "shares": 0,
+            "likes": 1,
+            "comments": 0,
+            "total_interactions": 1,
+            "views": 59,
+            "ig_reels_avg_watch_time": 2722
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-24-sunday-anxiety",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "mind",
+          "age_h": 16,
+          "scored": false,
+          "insights": {
+            "reach": 2,
+            "saved": 0,
+            "shares": 0,
+            "likes": 1,
+            "comments": 0,
+            "total_interactions": 1,
+            "views": 3
+          },
+          "score": 0.0,
+          "errors": []
         }
       ]
     },
     "page_b": {
       "account": {
         "followers": 3,
-        "media": 5,
+        "media": 8,
         "reach_by_follow_type_1d": {
-          "NON_FOLLOWER": 120,
+          "NON_FOLLOWER": 213,
           "FOLLOWER": 3
         },
         "err": null
@@ -107,7 +166,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 61,
+          "age_h": 85,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -126,8 +185,8 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "relationships",
-          "age_h": 36,
-          "scored": false,
+          "age_h": 60,
+          "scored": true,
           "insights": {
             "reach": 3,
             "saved": 0,
@@ -145,8 +204,8 @@
           "type": "reel",
           "lang": "en",
           "pillar": "focus",
-          "age_h": 37,
-          "scored": false,
+          "age_h": 61,
+          "scored": true,
           "insights": {
             "reach": 103,
             "saved": 1,
@@ -155,7 +214,7 @@
             "comments": 0,
             "total_interactions": 4,
             "views": 124,
-            "ig_reels_avg_watch_time": 2286
+            "ig_reels_avg_watch_time": 2228
           },
           "score": 9.7,
           "errors": []
@@ -165,8 +224,8 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 38,
-          "scored": false,
+          "age_h": 62,
+          "scored": true,
           "insights": {
             "reach": 16,
             "saved": 0,
@@ -175,7 +234,7 @@
             "comments": 0,
             "total_interactions": 3,
             "views": 30,
-            "ig_reels_avg_watch_time": 5274
+            "ig_reels_avg_watch_time": 4673
           },
           "score": 0.0,
           "errors": []
@@ -185,16 +244,75 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 13,
+          "age_h": 36,
           "scored": false,
           "insights": {
-            "reach": 1,
+            "reach": 3,
             "saved": 0,
             "shares": 0,
             "likes": 3,
             "comments": 0,
             "total_interactions": 3,
             "views": 9
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-24-focus-3pm",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "work",
+          "age_h": 12,
+          "scored": false,
+          "insights": {
+            "reach": 1,
+            "saved": 0,
+            "shares": 0,
+            "likes": 1,
+            "comments": 0,
+            "total_interactions": 1,
+            "views": 3
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-24-reel-focus-3pm",
+          "type": "reel",
+          "lang": "en",
+          "pillar": "work",
+          "age_h": 14,
+          "scored": false,
+          "insights": {
+            "reach": 105,
+            "saved": 0,
+            "shares": 0,
+            "likes": 1,
+            "comments": 0,
+            "total_interactions": 1,
+            "views": 120,
+            "ig_reels_avg_watch_time": 1552
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-24-reel-understood",
+          "type": "reel",
+          "lang": "en",
+          "pillar": "calm",
+          "age_h": 16,
+          "scored": false,
+          "insights": {
+            "reach": 102,
+            "saved": 0,
+            "shares": 0,
+            "likes": 2,
+            "comments": 0,
+            "total_interactions": 2,
+            "views": 116,
+            "ig_reels_avg_watch_time": 2007
           },
           "score": 0.0,
           "errors": []
