@@ -21,7 +21,9 @@ jobs:
           python-version: "3.12"
       - name: Anything due? (cheap check, keeps Actions minutes low)
         id: due
-        run: echo "n=$(python pipeline/publish.py --count | tail -1)" >> "$GITHUB_OUTPUT"
+        run: |
+          echo "n=$(python pipeline/publish.py --count | tail -1)" >> "$GITHUB_OUTPUT"
+          echo "fb=$(python pipeline/publish.py --fb-pending | tail -1)" >> "$GITHUB_OUTPUT"
       - name: Install renderer
         if: steps.due.outputs.n != '0'
         timeout-minutes: 8
@@ -37,8 +39,8 @@ jobs:
           pip install -q imageio-ffmpeg
           sudo ln -sf "$(python -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
           ffmpeg -version | head -1
-      - name: Publish due, approved posts
-        if: steps.due.outputs.n != '0'
+      - name: Publish due, approved posts (and mirror to Facebook)
+        if: steps.due.outputs.n != '0' || steps.due.outputs.fb != '0'
         env:
           LIVE: ${{ vars.LIVE_PUBLISH }}
           ASSETS_REPO: ${{ vars.ASSETS_REPO }}

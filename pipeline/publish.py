@@ -75,6 +75,78 @@ def upload_assets(paths, page, stem):
     return urls
 
 
+def fb_page_id(page):
+    return json.loads((ROOT / "content" / "pages" / f"{page}.json").read_text())["fb_page_id"]
+
+
+def fb_carousel(post, page, slide_urls, token, ver):
+    """Mirror a carousel to the Facebook Page as a multi-photo post (photos are uploaded unpublished, then attached)."""
+    fid = fb_page_id(page)
+    ids = [api("POST", f"{fid}/photos", {"url": u, "published": "false", "access_token": token}, ver)["id"] for u in slide_urls]
+    attached = json.dumps([{"media_fbid": i} for i in ids])
+    return api("POST", f"{fid}/feed", {"message": post["caption"], "attached_media": attached, "access_token": token}, ver)["id"]
+
+
+def fb_reel(post, page, video_url, token, ver):
+    """Mirror a Reel to the Facebook Page via the video_reels flow (start, upload from a hosted file, finish)."""
+    fid = fb_page_id(page)
+    start = api("POST", f"{fid}/video_reels", {"upload_phase": "start", "access_token": token}, ver)
+    vid, upload_url = start["video_id"], start["upload_url"]
+    req = urllib.request.Request(upload_url, method="POST", headers={"Authorization": f"OAuth {token}", "file_url": video_url})
+    try:
+        out = json.loads(urllib.request.urlopen(req, timeout=300).read())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"fb reel upload {e.code}: {e.read().decode('utf-8', 'replace')[:300]}")
+    if not out.get("success"):
+        raise RuntimeError(f"fb reel upload failed: {out}")
+    api("POST", f"{fid}/video_reels", {"upload_phase": "finish", "video_id": vid, "video_state": "PUBLISHED",
+                                        "description": post["caption"], "access_token": token}, ver)
+    return vid
+
+
+def fb_mirror(post, page, stem, token, ver, urls=None, video_url=None):
+    """Best effort: a Facebook failure never marks the Instagram post failed. Result is stored on the post."""
+    try:
+        if post["type"] == "reel":
+            post["fb_post_id"] = fb_reel(post, page, video_url, token, ver)
+        else:
+            post["fb_post_id"] = fb_carousel(post, page, urls, token, ver)
+        post.pop("fb_error", None)
+        print(f"FB mirrored {page}/{stem}: {post['fb_post_id']}")
+    except Exception as e:
+        msg = str(e)
+        print(f"FB ERROR {page}/{stem}: {msg[:300]}")
+        if any(k in msg for k in ("(#200)", "(#10)", "permission", "OAuthException")):
+            return "permission"  # token lacks Page posting access: leave the post untouched so it retries after the fix
+        post["fb_error"] = msg[:300]
+    return None
+
+
+def fb_catchup(now, limit=2):
+    """Mirror already-published Instagram posts that have no Facebook copy yet (slides/videos are in the assets repo)."""
+    repo = os.environ.get("ASSETS_REPO", "")
+    done = 0
+    for f in sorted((ROOT / "content" / "posts").rglob("*.json")):
+        if done >= limit:
+            break
+        post = json.loads(f.read_text())
+        if post.get("status") != "published" or post.get("fb_post_id") or post.get("fb_error") or not post.get("published_at"):
+            continue
+        page, stem = post["page"], f.stem
+        base = f"https://raw.githubusercontent.com/{repo}/main/{page}/{stem}"
+        token = os.environ[f"IG_{page.upper()}_TOKEN"]
+        ver = os.environ.get("GRAPH_VERSION", "v26.0")
+        if post["type"] == "reel":
+            res = fb_mirror(post, page, stem, token, ver, video_url=f"{base}/{stem}.mp4")
+        else:
+            res = fb_mirror(post, page, stem, token, ver, urls=[f"{base}/slide_{i:02d}.png" for i in range(1, len(post["slides"]) + 1)])
+        f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
+        done += 1
+        if res == "permission":
+            print("FB PERMISSION PROBLEM: Page posting not allowed with the stored token; stopping Facebook catch-up")
+            break
+
+
 def due_posts(now):
     for f in sorted((ROOT / "content" / "posts").rglob("*.json")):
         post = json.loads(f.read_text())
@@ -115,7 +187,9 @@ def publish_carousel(f, post, live, prepare=False):
     if prepare:  # dry end-to-end test: everything except the final publish
         print(f"PREPARED carousel {page}/{stem}: parent container {parent}, {len(kids)} children, status {status}")
         return None
-    return api("POST", f"{uid}/media_publish", {"creation_id": parent, "access_token": token}, ver)["id"]
+    mid = api("POST", f"{uid}/media_publish", {"creation_id": parent, "access_token": token}, ver)["id"]
+    fb_mirror(post, page, stem, token, ver, urls=urls)
+    return mid
 
 
 def rupload(container_id, mp4, token, ver):
@@ -184,6 +258,7 @@ def publish_reel(f, post, live, prepare=False):
     if chosen and chosen.get("title"):
         audio_mod.record_use(page, chosen)
         post["audio_used"] = {k: chosen.get(k) for k in ("audio_id", "title", "display_artist")}
+    fb_mirror(post, page, stem, token, ver, video_url=video_url)
     return mid
 
 
@@ -191,6 +266,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true")
     ap.add_argument("--count", action="store_true", help="print the number of approved, due posts and exit (cheap check for CI)")
+    ap.add_argument("--fb-pending", action="store_true", help="print how many published posts still need their Facebook copy and exit")
     ap.add_argument("--health", action="store_true", help="exit 1 (so GitHub emails the owner) if a post is >3h overdue or fewer than 5 days of approved posts remain")
     ap.add_argument("--prepare-only", action="store_true", help="live API test: build containers (carousel children, reel upload with audio) but do NOT publish")
     ap.add_argument("--only", nargs="*", help="with --prepare-only: post files to test regardless of status and date")
@@ -198,6 +274,10 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     if a.count:
         print(sum(1 for _ in due_posts(now)))
+        return
+    if a.fb_pending:
+        print(sum(1 for f in (ROOT / "content" / "posts").rglob("*.json")
+                  if (lambda p: p.get("status") == "published" and p.get("published_at") and not p.get("fb_post_id") and not p.get("fb_error"))(json.loads(f.read_text()))))
         return
     if a.health:
         late, last = [], now
@@ -245,6 +325,8 @@ def main():
             post["published_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
             f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
         n += 1
+    if a.live and not a.prepare_only and not auth_failed:
+        fb_catchup(now)
     print(f"{n} post(s) processed ({'prepare-only test' if a.prepare_only else 'live' if a.live else 'dry-run'})")
     if auth_failed:
         sys.exit("AUTH PROBLEM: see log; posts stay approved")  # non-zero exit makes GitHub email the owner
