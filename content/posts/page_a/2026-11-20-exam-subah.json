@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-20T13:30:00+00:00",
+  "pillar": "study",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Exam ke din *subah ke 5 kaam*"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* *Halka* nashta karo."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Naye topic *mat padho*."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* Sirf *apni list* dekho."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* Time se *pehle* pahuncho."
+    },
+    {
+      "kind": "body",
+      "text": "*5.* Gehri saans. *Phir shuru.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Dost ko bhejo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Halka nashta, koi naya topic nahi, apni list, time se pehle, gehri saans.\n\nExam ke din tumhara routine kya hota hai? Comment karo.\n\n#examday #studytips #students #hinglish #exampreparation",
+  "ai_label": true
+}

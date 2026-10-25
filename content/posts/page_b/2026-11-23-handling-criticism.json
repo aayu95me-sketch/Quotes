@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-23T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Handling criticism: *3 questions*"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Is *any part* of it true?"
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Is it about *my work* or *me*?"
+    },
+    {
+      "kind": "body",
+      "text": "*3.* What *one thing* can I change?"
+    },
+    {
+      "kind": "body",
+      "text": "*Pause* before you reply."
+    },
+    {
+      "kind": "body",
+      "text": "Say *\"thanks, I'll think.\"*"
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next review.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Is any of it true, is it about the work, what can I change? Pause before replying.\n\nHow do you handle criticism? Tell us below.\n\n#criticism #feedback #communication #selfimprovement #worklife",
+  "ai_label": true
+}

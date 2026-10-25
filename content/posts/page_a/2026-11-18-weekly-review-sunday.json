@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-18T13:30:00+00:00",
+  "pillar": "discipline",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Sunday ka *15 minute* ka ritual"
+    },
+    {
+      "kind": "body",
+      "text": "*5 minute:* Is hafte *kya accha* hua?"
+    },
+    {
+      "kind": "body",
+      "text": "*5 minute:* Kahan *atke*?"
+    },
+    {
+      "kind": "body",
+      "text": "*5 minute:* Agle hafte ke *3 kaam* chuno."
+    },
+    {
+      "kind": "body",
+      "text": "*Roz ek hi time* par karo."
+    },
+    {
+      "kind": "body",
+      "text": "Notes *chhote* rakho."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Is Sunday karo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Accha kya hua, kahan atke, agle hafte ke 3 kaam. 15 minute, har Sunday.\n\nAap kab karoge? Comment karo.\n\n#weeklyreview #discipline #planning #hinglish #youngindia",
+  "ai_label": true
+}

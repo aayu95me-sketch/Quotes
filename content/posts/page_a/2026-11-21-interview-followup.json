@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-21T13:30:00+00:00",
+  "pillar": "career",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *follow-up email* after an interview"
+    },
+    {
+      "kind": "body",
+      "text": "Send it within *24 hours*."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 1:* Thank them *by name*."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 2:* One thing you *enjoyed* in the talk."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 3:* Say you're *excited* about the role."
+    },
+    {
+      "kind": "body",
+      "text": "Keep it *under 5 lines*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next interview.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "Within 24 hours: thank them by name, mention one thing from the talk, say you're excited. Under five lines.\n\nHave you sent one? Tell us below.\n\n#interview #jobsearch #career #followup #india",
+  "ai_label": true
+}

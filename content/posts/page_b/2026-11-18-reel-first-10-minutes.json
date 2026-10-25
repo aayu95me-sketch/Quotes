@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-18T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *first 10 minutes*"
+    },
+    {
+      "kind": "body",
+      "text": "Skip *email*. Sit down."
+    },
+    {
+      "kind": "body",
+      "text": "Write *one top task*."
+    },
+    {
+      "kind": "body",
+      "text": "*Start it.* Phone away."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Skip email at first. Write the top task, start it, check messages after.\n\nFull carousel on our profile.\n\n#productivity #worklife #morningroutine #focus #habits #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-11-18-first-10-minutes"
+}

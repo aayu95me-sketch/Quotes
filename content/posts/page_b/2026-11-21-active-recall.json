@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-21T17:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Why you *reread* but still forget"
+    },
+    {
+      "kind": "body",
+      "text": "Rereading *feels* easy."
+    },
+    {
+      "kind": "body",
+      "text": "That ease can be *misleading*."
+    },
+    {
+      "kind": "body",
+      "text": "Try *active recall*: close the book."
+    },
+    {
+      "kind": "body",
+      "text": "Write *what you remember*."
+    },
+    {
+      "kind": "body",
+      "text": "Then *check* what you missed."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next study session.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Rereading feels productive. Testing yourself works better. Close the book and write what you remember.\n\nWill you try it today? Comment below.\n\n#studytips #activerecall #learning #psychology #productivity",
+  "ai_label": true
+}

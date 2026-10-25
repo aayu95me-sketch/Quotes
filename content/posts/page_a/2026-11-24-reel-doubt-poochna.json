@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-24T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "hi",
+  "mood": "calm",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Doubt *kaise poochein*"
+    },
+    {
+      "kind": "body",
+      "text": "Pehle *khud* koshish."
+    },
+    {
+      "kind": "body",
+      "text": "Batao *kya try kiya*."
+    },
+    {
+      "kind": "body",
+      "text": "Ek *saaf sawaal*."
+    },
+    {
+      "kind": "cta",
+      "text": "Poora carousel profile par.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Khud koshish, kya try kiya, ek saaf sawaal, sahi time, dhanyavaad.\n\nPoora carousel humare profile par.\n\n#communication #career #students #hinglish #youngindia #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-11-24-doubt-poochna"
+}

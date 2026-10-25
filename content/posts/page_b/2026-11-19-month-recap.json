@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-19T17:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "A *month* of small rules: 5 to keep"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* *Never miss twice.*"
+    },
+    {
+      "kind": "body",
+      "text": "*2.* The *5-minute opener*."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* Write a *done list*."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* Make bad habits *harder*."
+    },
+    {
+      "kind": "body",
+      "text": "*5.* Review *weekly*, 15 minutes."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Pick one to keep.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Five small rules from our first month. Pick one and keep it for a week.\n\nWhich one are you keeping? Comment below.\n\n#recap #habits #discipline #selfimprovement #productivity",
+  "ai_label": true
+}

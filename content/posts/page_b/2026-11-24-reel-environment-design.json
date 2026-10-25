@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-24T15:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Set up *tomorrow* in 2 minutes"
+    },
+    {
+      "kind": "body",
+      "text": "*Clothes* out. *Bag* packed."
+    },
+    {
+      "kind": "body",
+      "text": "*Book* open to the page."
+    },
+    {
+      "kind": "body",
+      "text": "*Starting* made easy."
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Clothes, bag, water, book, one tab. Make starting easier by setting up tonight.\n\nFull carousel on our profile.\n\n#habits #routine #productivity #environment #selfimprovement #reels",
+  "ai_label": true,
+  "companion_of": "page_b/2026-11-24-environment-design"
+}

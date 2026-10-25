@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-24T13:30:00+00:00",
+  "pillar": "career",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Teacher ya boss se *doubt* kaise poochein"
+    },
+    {
+      "kind": "body",
+      "text": "*Pehle* khud koshish karo."
+    },
+    {
+      "kind": "body",
+      "text": "Batao *kya try kiya*."
+    },
+    {
+      "kind": "body",
+      "text": "Poochho *ek* saaf sawaal."
+    },
+    {
+      "kind": "body",
+      "text": "Sahi *time* chuno."
+    },
+    {
+      "kind": "body",
+      "text": "*Dhanyavaad* bolo. Likh lo."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Kal try karo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Khud koshish, kya try kiya, ek saaf sawaal, sahi time, dhanyavaad.\n\nDoubt poochna tumhe kab mushkil lagta hai? Comment karo.\n\n#communication #career #students #hinglish #youngindia",
+  "ai_label": true
+}

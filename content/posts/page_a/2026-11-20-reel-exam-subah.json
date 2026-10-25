@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-20T09:00:00+00:00",
+  "pillar": "study",
+  "lang": "hi",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Exam ke din *subah ke 5 kaam*"
+    },
+    {
+      "kind": "body",
+      "text": "*Halka* nashta."
+    },
+    {
+      "kind": "body",
+      "text": "Naya topic *mat padho*."
+    },
+    {
+      "kind": "body",
+      "text": "Time se *pehle* pahuncho."
+    },
+    {
+      "kind": "cta",
+      "text": "Poora carousel profile par.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Halka nashta, koi naya topic nahi, apni list, time se pehle, gehri saans.\n\nPoora carousel humare profile par.\n\n#examday #studytips #students #hinglish #exampreparation #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-11-20-exam-subah"
+}

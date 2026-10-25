@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-18T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *first 10 minutes* of your workday"
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 1-2:* Skip email. *Sit down.*"
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 3-5:* Write *today's top task*."
+    },
+    {
+      "kind": "body",
+      "text": "*Minute 6-10:* Start it. *Phone away.*"
+    },
+    {
+      "kind": "body",
+      "text": "Check messages *after*."
+    },
+    {
+      "kind": "body",
+      "text": "Protect it *every day*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for Monday.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Skip email at first. Write the top task, start it, check messages after.\n\nWhat's your first task tomorrow?\n\n#productivity #worklife #morningroutine #focus #habits",
+  "ai_label": true
+}

@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-18T09:00:00+00:00",
+  "pillar": "discipline",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Sunday ka *15 minute* ka ritual"
+    },
+    {
+      "kind": "body",
+      "text": "*Kya accha* hua?"
+    },
+    {
+      "kind": "body",
+      "text": "*Kahan atke?*"
+    },
+    {
+      "kind": "body",
+      "text": "Agle hafte ke *3 kaam*."
+    },
+    {
+      "kind": "cta",
+      "text": "Poora carousel profile par.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Accha kya hua, kahan atke, agle hafte ke 3 kaam. 15 minute, har Sunday.\n\nPoora carousel humare profile par.\n\n#weeklyreview #discipline #planning #hinglish #youngindia #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-11-18-weekly-review-sunday"
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-20T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "How to *politely say no* to extra work"
+    },
+    {
+      "kind": "body",
+      "text": "Start with *\"Thanks for thinking of me.\"*"
+    },
+    {
+      "kind": "body",
+      "text": "Say *your current load*."
+    },
+    {
+      "kind": "body",
+      "text": "Offer *a later date*, if true."
+    },
+    {
+      "kind": "body",
+      "text": "Or suggest *someone else*."
+    },
+    {
+      "kind": "body",
+      "text": "Keep it *short and kind*."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next request.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Thank them, state your load, offer a later date or another person. Short and kind.\n\nWhat do you need to say no to? Tell us below.\n\n#boundaries #worklife #communication #careeradvice #productivity",
+  "ai_label": true
+}

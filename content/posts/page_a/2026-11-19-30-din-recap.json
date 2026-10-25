@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-19T13:30:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "*30 din*, 5 rules jo humne share kiye"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Shuru karo *5 minute* se."
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Revision: *1-3-7*."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* Phone *bed se door*."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* Kaam ko *chhota* karo."
+    },
+    {
+      "kind": "body",
+      "text": "*5.* Khud se *kal ke* compare karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Kaunsa pehle try karoge?",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "30 din, 5 rules. Ek chuno aur is hafte try karo.\n\nKaunsa rule tumhare liye sabse kaam ka raha? Comment karo.\n\n#recap #discipline #habits #hinglish #youngindia",
+  "ai_label": true
+}

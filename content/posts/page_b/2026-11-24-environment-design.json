@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-24T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Set up *tomorrow* in 2 minutes"
+    },
+    {
+      "kind": "body",
+      "text": "*Clothes* out, *bag* packed."
+    },
+    {
+      "kind": "body",
+      "text": "*Water bottle* on the desk."
+    },
+    {
+      "kind": "body",
+      "text": "*Book* open to the page."
+    },
+    {
+      "kind": "body",
+      "text": "*One tab* open, the rest closed."
+    },
+    {
+      "kind": "body",
+      "text": "Make *starting* easy."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Try it tonight.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Clothes, bag, water, book, one tab. Make starting easier by setting up tonight.\n\nWhat will you set up tonight?\n\n#habits #routine #productivity #environment #selfimprovement",
+  "ai_label": true
+}

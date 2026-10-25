@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-21T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 3.2,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *follow-up email*"
+    },
+    {
+      "kind": "body",
+      "text": "Send in *24 hours*."
+    },
+    {
+      "kind": "body",
+      "text": "Thank them *by name*."
+    },
+    {
+      "kind": "body",
+      "text": "*Under 5 lines.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Full carousel on our profile.",
+      "sub": "Follow for one career rule a day"
+    }
+  ],
+  "caption": "Within 24 hours: thank them by name, mention one thing from the talk, say you're excited. Under five lines.\n\nFull carousel on our profile.\n\n#interview #jobsearch #career #followup #india #reels",
+  "ai_label": true,
+  "companion_of": "page_a/2026-11-21-interview-followup"
+}
