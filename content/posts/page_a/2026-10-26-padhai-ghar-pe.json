@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-26T19:00:00+05:30",
   "pillar": "study",
   "lang": "hinglish",
@@ -42,5 +42,8 @@
   ],
   "caption": "Ghar pe padhai mushkil lagti hai? Bahut baar problem discipline ki nahi, environment ki hoti hai.\n\nTumhara sabse bada distraction kya hai? Comment karo.\n\n#studymotivation #studyathome #students #studyhacks #hinglish",
   "ai_label": true,
-  "revised": "2026-10-21 simpler wording after owner feedback"
+  "revised": "2026-10-21 simpler wording after owner feedback",
+  "fb_post_id": "1345396148663682_122107133877515383",
+  "media_id": "17941555317382315",
+  "published_at": "2026-10-26T14:44:51.545791+00:00"
 }
