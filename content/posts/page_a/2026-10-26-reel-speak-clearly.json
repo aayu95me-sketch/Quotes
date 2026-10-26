@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-26T12:30:00+05:30",
   "pillar": "confident",
   "lang": "hinglish",
@@ -32,5 +32,8 @@
     "source": "research/audio/2026-10-21 shortlist (Audio API, trending + mood keywords)",
     "judged_by": "title and artist only; not listened to"
   },
-  "revised": "2026-10-21 simpler wording after owner feedback"
+  "revised": "2026-10-21 simpler wording after owner feedback",
+  "fb_post_id": "1787114215900278",
+  "media_id": "18119800030760482",
+  "published_at": "2026-10-26T07:51:19.920015+00:00"
 }
