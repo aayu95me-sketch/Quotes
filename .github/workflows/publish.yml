@@ -24,14 +24,18 @@ jobs:
         run: |
           echo "n=$(python pipeline/publish.py --count | tail -1)" >> "$GITHUB_OUTPUT"
           echo "fb=$(python pipeline/publish.py --fb-pending | tail -1)" >> "$GITHUB_OUTPUT"
-      - name: Install renderer
+      - name: Install renderer (uses the runner's preinstalled Chrome; falls back to Playwright's own download)
         if: steps.due.outputs.n != '0'
         timeout-minutes: 8
         run: |
-          # packages.microsoft.com returns 403 on runners and breaks apt-get update; we do not need it
-          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list /etc/apt/sources.list.d/microsoft-prod.sources /etc/apt/sources.list.d/*microsoft* 2>/dev/null || true
           pip install playwright
-          playwright install --with-deps chromium
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "CHROMIUM_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+            google-chrome --version
+          else
+            sudo rm -f /etc/apt/sources.list.d/*microsoft* 2>/dev/null || true
+            playwright install --with-deps chromium
+          fi
       - name: Install ffmpeg (static binary via pip, no apt)
         if: steps.due.outputs.n != '0'
         timeout-minutes: 5
