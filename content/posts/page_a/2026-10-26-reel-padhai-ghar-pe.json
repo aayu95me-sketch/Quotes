@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-26T09:00:00+00:00",
   "pillar": "study",
   "lang": "hinglish",
@@ -41,5 +41,8 @@
   "caption": "Ghar pe padhai mushkil lagti hai? Bahut baar problem discipline ki nahi, environment ki hoti hai.\n\nTumhara sabse bada distraction kya hai? Comment karo.\n\nFull carousel on our profile.\n\n#studymotivation #studyathome #students #studyhacks #hinglish #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-10-26-padhai-ghar-pe",
-  "revised": "2026-10-22 audio companion reel"
+  "revised": "2026-10-22 audio companion reel",
+  "fb_post_id": "1143490961393767",
+  "media_id": "18114433832141824",
+  "published_at": "2026-10-26T09:57:24.655857+00:00"
 }
