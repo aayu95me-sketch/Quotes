@@ -253,3 +253,6 @@ After the owner replaced the two Page tokens, `verify-setup` (run 40221491272) s
 
 ## Facebook posting WORKS and tokens verified (2026-10-25 18:41 UTC)
 Cause of the earlier Quiet Discipline Instagram failure was the IG_PAGE_B_USER_ID secret (wrong value; correct is 17841422691847840; A is 17841469203264060, both non-secret). After the owner fixed the tokens and the ID, `verify-setup` passes all checks (both IG accounts readable, both tokens act as their Facebook Pages, trending audio ok). Publish run 151 mirrored two Roz Ka Rule carousels to its Facebook Page (post ids 1345396148663682_1221066...). Catch-up continues 2 posts per hourly run (about 17 left). Untested yet: the Facebook REEL path (will run when catch-up or a new Reel reaches it); watch the logs for 'FB ERROR'.
+
+## Chrome fix and Facebook Reel verified (2026-10-26 09:57 UTC)
+Run 171 failed because `playwright install --with-deps` timed out after 8 min (slow apt mirrors). `publish.yml` now uses the runner's preinstalled Google Chrome via CHROMIUM_PATH (falls back to Playwright's download). Run 172: renderer step 7 s; A Reel `2026-10-26-reel-padhai-ghar-pe` published to Instagram and mirrored to the Roz Ka Rule Facebook Page (video id 1143490961393767). Facebook REEL path works. The late Reel was about 1 h late; no other loss.
