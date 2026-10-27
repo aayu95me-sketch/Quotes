@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-27T09:00:00+00:00",
   "pillar": "money",
   "lang": "hinglish",
@@ -41,5 +41,8 @@
   "caption": "Pehli salary ke baad kuch simple steps: emergency fund, kharcha track karo, mehnga loan pehle.\n\nPehli salary mein tumne kya kiya? Batao.\n\nEducational content only, not financial advice.\n\nFull carousel on our profile.\n\n#personalfinance #firstsalary #moneybasics #youngindia #hinglish #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-10-27-first-salary",
-  "revised": "2026-10-22 audio companion reel"
+  "revised": "2026-10-22 audio companion reel",
+  "fb_post_id": "1817767379356099",
+  "media_id": "17975294358162045",
+  "published_at": "2026-10-27T09:15:59.656771+00:00"
 }
