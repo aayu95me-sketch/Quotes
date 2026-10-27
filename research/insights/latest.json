@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-26T05:43:01.860140+00:00",
+  "generated": "2026-10-27T05:40:31.777522+00:00",
   "pages": {
     "page_a": {
       "account": {
         "followers": 3,
-        "media": 9,
+        "media": 12,
         "reach_by_follow_type_1d": {
-          "FOLLOWER": 3,
-          "NON_FOLLOWER": 395
+          "FOLLOWER": 4,
+          "NON_FOLLOWER": 435
         },
         "err": null
       },
@@ -17,16 +17,16 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "mind",
-          "age_h": 112,
+          "age_h": 136,
           "scored": true,
           "insights": {
-            "reach": 3,
+            "reach": 4,
             "saved": 0,
             "shares": 0,
             "likes": 3,
             "comments": 0,
             "total_interactions": 3,
-            "views": 20
+            "views": 22
           },
           "score": 0.0,
           "errors": []
@@ -36,7 +36,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 87,
+          "age_h": 111,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -55,17 +55,17 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "focus",
-          "age_h": 85,
+          "age_h": 109,
           "scored": true,
           "insights": {
-            "reach": 159,
+            "reach": 161,
             "saved": 0,
             "shares": 0,
             "likes": 4,
             "comments": 0,
             "total_interactions": 4,
-            "views": 202,
-            "ig_reels_avg_watch_time": 2413
+            "views": 204,
+            "ig_reels_avg_watch_time": 2395
           },
           "score": 0.0,
           "errors": []
@@ -75,16 +75,16 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "study",
-          "age_h": 63,
+          "age_h": 87,
           "scored": true,
           "insights": {
-            "reach": 3,
+            "reach": 4,
             "saved": 0,
             "shares": 0,
             "likes": 3,
             "comments": 0,
             "total_interactions": 3,
-            "views": 16
+            "views": 19
           },
           "score": 0.0,
           "errors": []
@@ -94,17 +94,17 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "calm",
-          "age_h": 46,
-          "scored": false,
+          "age_h": 70,
+          "scored": true,
           "insights": {
-            "reach": 150,
+            "reach": 151,
             "saved": 0,
             "shares": 0,
             "likes": 3,
             "comments": 0,
             "total_interactions": 3,
-            "views": 180,
-            "ig_reels_avg_watch_time": 2718
+            "views": 182,
+            "ig_reels_avg_watch_time": 2733
           },
           "score": 0.0,
           "errors": []
@@ -114,17 +114,17 @@
           "type": "reel",
           "lang": "en",
           "pillar": "mind",
-          "age_h": 45,
-          "scored": false,
+          "age_h": 69,
+          "scored": true,
           "insights": {
-            "reach": 79,
+            "reach": 80,
             "saved": 0,
             "shares": 0,
             "likes": 4,
             "comments": 0,
             "total_interactions": 4,
-            "views": 95,
-            "ig_reels_avg_watch_time": 2564
+            "views": 99,
+            "ig_reels_avg_watch_time": 2833
           },
           "score": 0.0,
           "errors": []
@@ -134,10 +134,237 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "mind",
+          "age_h": 64,
+          "scored": true,
+          "insights": {
+            "reach": 4,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 14
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-25-reel-serious-kyun-nahi",
+          "type": "reel",
+          "lang": "hinglish",
+          "pillar": "career",
+          "age_h": 45,
+          "scored": false,
+          "insights": {
+            "reach": 173,
+            "saved": 1,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 4,
+            "views": 204,
+            "ig_reels_avg_watch_time": 3504
+          },
+          "score": 5.8,
+          "errors": []
+        },
+        {
+          "post": "2026-10-25-serious-kyun-nahi",
+          "type": "carousel",
+          "lang": "hinglish",
+          "pillar": "career",
           "age_h": 40,
           "scored": false,
           "insights": {
+            "reach": 4,
+            "saved": 0,
+            "shares": 0,
+            "likes": 0,
+            "comments": 0,
+            "total_interactions": 0,
+            "views": 8
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-26-padhai-ghar-pe",
+          "type": "carousel",
+          "lang": "hinglish",
+          "pillar": "study",
+          "age_h": 15,
+          "scored": false,
+          "insights": {
+            "reach": 1,
+            "saved": 0,
+            "shares": 0,
+            "likes": 0,
+            "comments": 0,
+            "total_interactions": 0,
+            "views": 2
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-26-reel-padhai-ghar-pe",
+          "type": "reel",
+          "lang": "hinglish",
+          "pillar": "study",
+          "age_h": 20,
+          "scored": false,
+          "insights": {
+            "reach": 146,
+            "saved": 3,
+            "shares": 0,
+            "likes": 0,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 171,
+            "ig_reels_avg_watch_time": 4884
+          },
+          "score": 20.5,
+          "errors": []
+        },
+        {
+          "post": "2026-10-26-reel-speak-clearly",
+          "type": "reel",
+          "lang": "hinglish",
+          "pillar": "confident",
+          "age_h": 22,
+          "scored": false,
+          "insights": {
+            "reach": 129,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 173,
+            "ig_reels_avg_watch_time": 3792
+          },
+          "score": 0.0,
+          "errors": []
+        }
+      ]
+    },
+    "page_b": {
+      "account": {
+        "followers": 5,
+        "media": 13,
+        "reach_by_follow_type_1d": {
+          "NON_FOLLOWER": 210,
+          "FOLLOWER": 4
+        },
+        "err": null
+      },
+      "posts": [
+        {
+          "post": "2026-10-21-willpower",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "habits",
+          "age_h": 133,
+          "scored": true,
+          "insights": {
             "reach": 3,
+            "saved": 0,
+            "shares": 0,
+            "likes": 4,
+            "comments": 2,
+            "total_interactions": 6,
+            "views": 18
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-22-end-arguments",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "relationships",
+          "age_h": 108,
+          "scored": true,
+          "insights": {
+            "reach": 4,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 20
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-22-reel-willpower",
+          "type": "reel",
+          "lang": "en",
+          "pillar": "focus",
+          "age_h": 109,
+          "scored": true,
+          "insights": {
+            "reach": 103,
+            "saved": 1,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 4,
+            "views": 128,
+            "ig_reels_avg_watch_time": 2160
+          },
+          "score": 9.7,
+          "errors": []
+        },
+        {
+          "post": "2026-10-23-reel-two-minute-rule",
+          "type": "reel",
+          "lang": "en",
+          "pillar": "habits",
+          "age_h": 110,
+          "scored": true,
+          "insights": {
+            "reach": 16,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 32,
+            "ig_reels_avg_watch_time": 4351
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-23-two-minute-rule",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "habits",
+          "age_h": 85,
+          "scored": true,
+          "insights": {
+            "reach": 4,
+            "saved": 0,
+            "shares": 0,
+            "likes": 3,
+            "comments": 0,
+            "total_interactions": 3,
+            "views": 15
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-24-focus-3pm",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "work",
+          "age_h": 60,
+          "scored": true,
+          "insights": {
+            "reach": 4,
             "saved": 0,
             "shares": 0,
             "likes": 3,
@@ -149,180 +376,12 @@
           "errors": []
         },
         {
-          "post": "2026-10-25-reel-serious-kyun-nahi",
-          "type": "reel",
-          "lang": "hinglish",
-          "pillar": "career",
-          "age_h": 21,
-          "scored": false,
-          "insights": {
-            "reach": 172,
-            "saved": 1,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 4,
-            "views": 200,
-            "ig_reels_avg_watch_time": 3352
-          },
-          "score": 5.8,
-          "errors": []
-        },
-        {
-          "post": "2026-10-25-serious-kyun-nahi",
-          "type": "carousel",
-          "lang": "hinglish",
-          "pillar": "career",
-          "age_h": 16,
-          "scored": false,
-          "insights": {
-            "reach": 2,
-            "saved": 0,
-            "shares": 0,
-            "likes": 0,
-            "comments": 0,
-            "total_interactions": 0,
-            "views": 3
-          },
-          "score": 0.0,
-          "errors": []
-        }
-      ]
-    },
-    "page_b": {
-      "account": {
-        "followers": 4,
-        "media": 10,
-        "reach_by_follow_type_1d": {
-          "NON_FOLLOWER": 310,
-          "FOLLOWER": 3
-        },
-        "err": null
-      },
-      "posts": [
-        {
-          "post": "2026-10-21-willpower",
-          "type": "carousel",
-          "lang": "en",
-          "pillar": "habits",
-          "age_h": 109,
-          "scored": true,
-          "insights": {
-            "reach": 3,
-            "saved": 0,
-            "shares": 0,
-            "likes": 4,
-            "comments": 2,
-            "total_interactions": 6,
-            "views": 17
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
-          "post": "2026-10-22-end-arguments",
-          "type": "carousel",
-          "lang": "en",
-          "pillar": "relationships",
-          "age_h": 84,
-          "scored": true,
-          "insights": {
-            "reach": 3,
-            "saved": 0,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 3,
-            "views": 17
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
-          "post": "2026-10-22-reel-willpower",
-          "type": "reel",
-          "lang": "en",
-          "pillar": "focus",
-          "age_h": 85,
-          "scored": true,
-          "insights": {
-            "reach": 103,
-            "saved": 1,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 4,
-            "views": 127,
-            "ig_reels_avg_watch_time": 2175
-          },
-          "score": 9.7,
-          "errors": []
-        },
-        {
-          "post": "2026-10-23-reel-two-minute-rule",
-          "type": "reel",
-          "lang": "en",
-          "pillar": "habits",
-          "age_h": 86,
-          "scored": true,
-          "insights": {
-            "reach": 16,
-            "saved": 0,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 3,
-            "views": 31,
-            "ig_reels_avg_watch_time": 4507
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
-          "post": "2026-10-23-two-minute-rule",
-          "type": "carousel",
-          "lang": "en",
-          "pillar": "habits",
-          "age_h": 61,
-          "scored": true,
-          "insights": {
-            "reach": 3,
-            "saved": 0,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 3,
-            "views": 13
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
-          "post": "2026-10-24-focus-3pm",
-          "type": "carousel",
-          "lang": "en",
-          "pillar": "work",
-          "age_h": 36,
-          "scored": false,
-          "insights": {
-            "reach": 3,
-            "saved": 0,
-            "shares": 0,
-            "likes": 3,
-            "comments": 0,
-            "total_interactions": 3,
-            "views": 7
-          },
-          "score": 0.0,
-          "errors": []
-        },
-        {
           "post": "2026-10-24-reel-focus-3pm",
           "type": "reel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 38,
-          "scored": false,
+          "age_h": 62,
+          "scored": true,
           "insights": {
             "reach": 107,
             "saved": 0,
@@ -330,8 +389,8 @@
             "likes": 3,
             "comments": 0,
             "total_interactions": 3,
-            "views": 126,
-            "ig_reels_avg_watch_time": 1655
+            "views": 127,
+            "ig_reels_avg_watch_time": 1648
           },
           "score": 0.0,
           "errors": []
@@ -341,8 +400,8 @@
           "type": "reel",
           "lang": "en",
           "pillar": "calm",
-          "age_h": 40,
-          "scored": false,
+          "age_h": 64,
+          "scored": true,
           "insights": {
             "reach": 104,
             "saved": 0,
@@ -350,8 +409,8 @@
             "likes": 4,
             "comments": 0,
             "total_interactions": 4,
-            "views": 119,
-            "ig_reels_avg_watch_time": 2067
+            "views": 120,
+            "ig_reels_avg_watch_time": 2054
           },
           "score": 0.0,
           "errors": []
@@ -361,17 +420,17 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 14,
+          "age_h": 38,
           "scored": false,
           "insights": {
-            "reach": 103,
+            "reach": 106,
             "saved": 0,
             "shares": 0,
             "likes": 0,
             "comments": 0,
             "total_interactions": 0,
-            "views": 109,
-            "ig_reels_avg_watch_time": 1114
+            "views": 114,
+            "ig_reels_avg_watch_time": 1164
           },
           "score": 0.0,
           "errors": []
@@ -381,16 +440,75 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 12,
+          "age_h": 36,
           "scored": false,
           "insights": {
-            "reach": 1,
+            "reach": 4,
             "saved": 0,
             "shares": 0,
             "likes": 0,
             "comments": 0,
             "total_interactions": 0,
-            "views": 2
+            "views": 9
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-26-before-burnout",
+          "type": "carousel",
+          "lang": "en",
+          "pillar": "work",
+          "age_h": 12,
+          "scored": false,
+          "insights": {
+            "reach": 2,
+            "saved": 0,
+            "shares": 0,
+            "likes": 1,
+            "comments": 1,
+            "total_interactions": 2,
+            "views": 9
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-26-reel-before-burnout",
+          "type": "reel",
+          "lang": "en",
+          "pillar": "work",
+          "age_h": 14,
+          "scored": false,
+          "insights": {
+            "reach": 31,
+            "saved": 0,
+            "shares": 0,
+            "likes": 0,
+            "comments": 0,
+            "total_interactions": 0,
+            "views": 33,
+            "ig_reels_avg_watch_time": 2339
+          },
+          "score": 0.0,
+          "errors": []
+        },
+        {
+          "post": "2026-10-26-reel-boundary",
+          "type": "reel",
+          "lang": "en",
+          "pillar": "confident",
+          "age_h": 15,
+          "scored": false,
+          "insights": {
+            "reach": 79,
+            "saved": 0,
+            "shares": 0,
+            "likes": 0,
+            "comments": 0,
+            "total_interactions": 0,
+            "views": 93,
+            "ig_reels_avg_watch_time": 1536
           },
           "score": 0.0,
           "errors": []
