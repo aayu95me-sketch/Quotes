@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-28T09:00:00+00:00",
   "pillar": "mind",
   "lang": "hi",
@@ -34,5 +34,13 @@
   "caption": "Overthinking ka ilaaj sochna nahi, likhna hai. Ek kaagaz, 5 minute.\n\nPoora carousel humare profile par.\n\n#overthinking #mindset #discipline #hinglish #youngindia #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-10-28-overthinking",
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "audio_used": {
+    "audio_id": "823145229909724",
+    "title": "Maya Maya (Instrumental)",
+    "display_artist": "Neha Karode"
+  },
+  "fb_post_id": "4220818518050094",
+  "media_id": "18206865715374776",
+  "published_at": "2026-10-28T09:46:37.622760+00:00"
 }
