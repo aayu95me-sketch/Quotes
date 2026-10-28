@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-28T15:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -34,5 +34,13 @@
   "caption": "One missed day isn't the problem. Missing twice is. Restart today, keep it small.\n\nFull carousel on our profile.\n\n#habits #consistency #selfimprovement #discipline #psychology #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-10-28-streaks",
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "audio_used": {
+    "audio_id": "2477944699150252",
+    "title": "Peaceful Piano",
+    "display_artist": "Dr. Pheel"
+  },
+  "fb_post_id": "1466358832075423",
+  "media_id": "18057137903804968",
+  "published_at": "2026-10-28T15:49:47.163712+00:00"
 }
