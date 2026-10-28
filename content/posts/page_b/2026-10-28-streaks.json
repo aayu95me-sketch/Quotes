@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-28T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -38,5 +38,8 @@
   ],
   "caption": "One missed day isn't the problem. Missing twice is. Restart today, keep it small.\n\nWhat habit are you restarting? Comment below.\n\n#habits #consistency #selfimprovement #discipline #psychology",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "fb_post_id": "1436529449539802_122102146041523675",
+  "media_id": "18430833307149812",
+  "published_at": "2026-10-28T17:44:23.609975+00:00"
 }
