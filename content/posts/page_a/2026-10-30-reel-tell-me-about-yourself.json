@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-30T09:00:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -34,5 +34,13 @@
   "caption": "Three parts: who you are, one proud thing, why this role. Under a minute.\n\nFull carousel on our profile.\n\n#interview #career #jobsearch #careeradvice #india #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-10-30-tell-me-about-yourself",
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "audio_used": {
+    "audio_id": "1108285910189784",
+    "title": "Knockout",
+    "display_artist": "Adam Griffith"
+  },
+  "fb_post_id": "1103826065720653",
+  "media_id": "18119481625786108",
+  "published_at": "2026-10-30T09:49:53.106591+00:00"
 }
