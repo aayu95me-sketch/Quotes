@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-30T13:30:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -38,5 +38,8 @@
   ],
   "caption": "Three parts: who you are, one proud thing, why this role. Under a minute.\n\nWhat's the hardest interview question for you? Tell us below.\n\n#interview #career #jobsearch #careeradvice #india",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "fb_post_id": "1345396148663682_122109090837515383",
+  "media_id": "18117443654088404",
+  "published_at": "2026-10-30T13:57:32.571304+00:00"
 }
