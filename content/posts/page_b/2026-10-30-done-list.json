@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-30T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -38,5 +38,8 @@
   ],
   "caption": "End the day by writing three things you finished. It shows progress a to-do list never does.\n\nWhat's on your done list today?\n\n#productivity #worklife #todolist #habits #focus",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "fb_post_id": "1436529449539802_122104027245523675",
+  "media_id": "18090798125272027",
+  "published_at": "2026-10-30T17:50:24.792645+00:00"
 }
