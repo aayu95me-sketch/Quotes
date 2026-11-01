@@ -35,6 +35,28 @@ MAX_LATE = dt.timedelta(hours=48)  # an outage shorter than two days catches up;
 MAX_PER_RUN = 3
 
 
+STATE = ROOT / "state" / "blocked.json"
+BLOCK_HOURS = 6  # after Instagram says "action is blocked", leave that account alone this long instead of retrying hourly
+
+
+def blocked_pages(now):
+    try:
+        data = json.loads(STATE.read_text())
+    except Exception:
+        return {}
+    return {pg: u for pg, u in data.items() if dt.datetime.fromisoformat(u) > now}
+
+
+def block_page(page, now):
+    try:
+        data = json.loads(STATE.read_text())
+    except Exception:
+        data = {}
+    data[page] = (now + dt.timedelta(hours=BLOCK_HOURS)).isoformat()
+    STATE.parent.mkdir(exist_ok=True)
+    STATE.write_text(json.dumps(data, indent=2) + "\n")
+
+
 def api(method, path, params, version):
     url = f"{GRAPH}/{version}/{path}"
     data = urllib.parse.urlencode(params).encode() if method == "POST" else None
@@ -286,7 +308,7 @@ def main():
             if post.get("status") != "approved":
                 continue
             when = dt.datetime.fromisoformat(post["publish_at"])
-            if now - when > dt.timedelta(hours=3):
+            if now - when > dt.timedelta(hours=3) and post["page"] not in blocked_pages(now):
                 late.append(f.name)
             last = max(last, when)
         runway = (last - now).total_seconds() / 86400
@@ -298,11 +320,17 @@ def main():
     if a.only and not a.prepare_only:
         sys.exit("--only is only allowed together with --prepare-only (it must never publish)")
     auth_failed = False
+    block_alert = False
+    blocked = blocked_pages(now)
+    for pg, u in blocked.items():
+        print(f"{pg}: Instagram blocked this account, resting until {u[:16]} UTC")
     queue = [(pathlib.Path(x), json.loads(pathlib.Path(x).read_text())) for x in a.only] if a.only else due_posts(now)
     live = a.live or a.prepare_only
     for f, post in queue:
         if n >= MAX_PER_RUN and not a.only:
             break
+        if post["page"] in blocked:
+            continue
         if post["type"] not in ("carousel", "reel"):
             print(f"skip {f.name}: type {post['type']} not supported yet")
             continue
@@ -310,6 +338,12 @@ def main():
             media_id = (publish_reel if post["type"] == "reel" else publish_carousel)(f, post, live, a.prepare_only)
         except Exception as e:  # never crash the whole run; record and move on
             print(f"ERROR {f.name}: {e}")
+            if "2207051" in str(e) or '"code":4,' in str(e):  # "Application request limit reached / Action is blocked": rest this account, keep the other running
+                block_page(post["page"], now)
+                blocked[post["page"]] = "now"
+                print(f"INSTAGRAM BLOCKED {post['page']}: resting {BLOCK_HOURS}h; the owner may need to check Account Status / Business Suite")
+                block_alert = True
+                continue
             if any(k in str(e) for k in ("OAuthException", "access blocked", "Error validating access token", "Cannot call API")):
                 print("AUTH PROBLEM: stopping this run; posts stay approved and will retry once tokens/app access are fixed")
                 auth_failed = True
@@ -328,6 +362,8 @@ def main():
     if a.live and not a.prepare_only and not auth_failed:
         fb_catchup(now)
     print(f"{n} post(s) processed ({'prepare-only test' if a.prepare_only else 'live' if a.live else 'dry-run'})")
+    if block_alert:
+        sys.exit("INSTAGRAM BLOCKED an account (see log); resting it for a few hours")  # non-zero exit makes GitHub email the owner once per block
     if auth_failed:
         sys.exit("AUTH PROBLEM: see log; posts stay approved")  # non-zero exit makes GitHub email the owner
 
