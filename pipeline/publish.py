@@ -176,6 +176,19 @@ def fb_catchup(now, limit=2):
             break
 
 
+DAILY_CAP = 3  # per Instagram account per UTC day; the plan is 1 carousel + 1-2 Reels
+
+
+def posted_today(page, now):
+    n = 0
+    for f in (ROOT / "content" / "posts" / page).glob("*.json"):
+        p = json.loads(f.read_text())
+        pa = p.get("published_at")
+        if p.get("status") == "published" and pa and dt.datetime.fromisoformat(pa).date() == now.date():
+            n += 1
+    return n
+
+
 def find_recent(page, caption, since, ver=None):
     """Return the oldest Instagram media with this exact caption published since `since`, else None.
     Makes publishing idempotent: Instagram sometimes creates the post and then answers with an error, and a retry would post a duplicate."""
@@ -346,6 +359,7 @@ def main():
     if a.only and not a.prepare_only:
         sys.exit("--only is only allowed together with --prepare-only (it must never publish)")
     auth_failed = False
+    done_pages = set()
     block_alert = False
     blocked = blocked_pages(now)
     for pg, u in blocked.items():
@@ -370,6 +384,11 @@ def main():
                 continue
         if a.reconcile:
             continue  # reconcile-only: never publish
+        if post["page"] in done_pages and not a.only:
+            continue  # at most one post per account per run, so a backlog trickles out hourly instead of bursting
+        if not a.only and posted_today(post["page"], now) >= DAILY_CAP:
+            print(f"{post['page']}: daily cap of {DAILY_CAP} reached, {f.name} waits for tomorrow")
+            continue
         if post["page"] in blocked:
             continue
         if post["type"] not in ("carousel", "reel"):
@@ -415,6 +434,7 @@ def main():
             post["published_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
             f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
         n += 1
+        done_pages.add(post["page"])
     if a.live and not a.prepare_only and not auth_failed and not a.reconcile and not paused():
         fb_catchup(now)
     print(f"{n} post(s) processed ({'prepare-only test' if a.prepare_only else 'live' if a.live else 'dry-run'})")
