@@ -39,6 +39,13 @@ STATE = ROOT / "state" / "blocked.json"
 BLOCK_HOURS = 6  # after Instagram says "action is blocked", leave that account alone this long instead of retrying hourly
 
 
+PAUSE = ROOT / "state" / "pause"
+
+
+def paused():
+    return PAUSE.exists()
+
+
 def blocked_pages(now):
     try:
         data = json.loads(STATE.read_text())
@@ -295,7 +302,10 @@ def main():
     a = ap.parse_args()
     now = dt.datetime.now(dt.timezone.utc)
     if a.count:
-        print(sum(1 for _ in due_posts(now)))
+        print(0 if paused() else sum(1 for _ in due_posts(now)))
+        return
+    if paused() and not a.prepare_only and not a.only:
+        print("PAUSED: state/pause exists, nothing is published until it is removed")
         return
     if a.fb_pending:
         print(sum(1 for f in (ROOT / "content" / "posts").rglob("*.json")
