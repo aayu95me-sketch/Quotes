@@ -1,0 +1,38 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-08T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Your cold email gets *ignored?* Fix it in 3 lines."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 1:* who you are."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 2:* why *them*."
+    },
+    {
+      "kind": "body",
+      "text": "*Line 3:* one *small ask*."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one career rule a day.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Who you are, why them, one small ask. Under 100 words. Follow up once.\n\nFull carousel on our profile.\n\n#coldemail #career #networking #jobsearch #india #reels",
+  "ai_label": true,
+  "variant_of": "page_a/2026-11-08-reel-cold-email",
+  "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)"
+}

@@ -1,0 +1,38 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-06T09:00:00+00:00",
+  "pillar": "discipline",
+  "lang": "hi",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Phone *chhodna* nahi hai. Bas ye 3 badlav."
+    },
+    {
+      "kind": "body",
+      "text": "Sone se pehle phone *bed se door*."
+    },
+    {
+      "kind": "body",
+      "text": "*Notifications* band. Sirf kaam wale on."
+    },
+    {
+      "kind": "body",
+      "text": "Padhte time phone *dusre kamre* mein."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Phone chhodna nahi hai. Bas thodi friction badhao. Ek badlav chuno aur ek hafta try karo.\n\nPoora carousel humare profile par.\n\n#phoneaddiction #digitaldetox #discipline #hinglish #youngindia #reels",
+  "ai_label": true,
+  "variant_of": "page_a/2026-11-06-reel-phone-addiction",
+  "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)"
+}

@@ -1,0 +1,38 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-08T15:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "mood": "reflective",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "You're *probably wrong* about something. Test it."
+    },
+    {
+      "kind": "body",
+      "text": "We notice *what agrees* with us."
+    },
+    {
+      "kind": "body",
+      "text": "Ask: *what would change my mind?*"
+    },
+    {
+      "kind": "body",
+      "text": "Read *one* counter-argument."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "We notice what agrees with us. Ask what would change your mind and read one good counter-argument.\n\nFull carousel on our profile.\n\n#confirmationbias #psychology #criticalthinking #mindset #selfimprovement #reels",
+  "ai_label": true,
+  "variant_of": "page_b/2026-11-08-reel-confirmation-bias",
+  "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)"
+}

@@ -1,0 +1,38 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-04T09:00:00+00:00",
+  "pillar": "study",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Padha hua *bhool jaate ho?* Ye karo."
+    },
+    {
+      "kind": "body",
+      "text": "Aaj padho. *1 din baad* dohrao."
+    },
+    {
+      "kind": "body",
+      "text": "*3 din baad* phir. *7 din baad* phir."
+    },
+    {
+      "kind": "body",
+      "text": "Har baar *sirf 10 minute*."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Padhne ke baad 1, 3 aur 7 din par chhota revision. 10 minute kaafi hain.\n\nPoora carousel humare profile par.\n\n#revision #studytips #students #hinglish #exampreparation #reels",
+  "ai_label": true,
+  "variant_of": "page_a/2026-11-04-reel-revision-1-3-7",
+  "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)"
+}
