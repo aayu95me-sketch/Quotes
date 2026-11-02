@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-10-31T13:30:00+00:00",
   "pillar": "discipline",
   "lang": "hi",
@@ -38,5 +38,8 @@
   ],
   "caption": "Subah 5 baje uthna goal nahi hai. Pehle sone ka time fix karo.\n\nAaj raat kitne baje soyoge? Comment karo.\n\n#discipline #morningroutine #sleep #hinglish #youngindia",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "media_id": "18129510508646701",
+  "published_at": "2026-10-31T13:43:49+00:00",
+  "note": "reconciled: found on Instagram, not published again"
 }
