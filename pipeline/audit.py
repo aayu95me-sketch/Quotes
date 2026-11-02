@@ -66,14 +66,26 @@ def main():
         missing_on_ig = [p["_file"] for mid, p in repo_pub.items() if mid not in ig_ids]
         extra_on_ig = [m for m in ig if m["id"] not in repo_pub]
         md.append(f"- In repo as published but NOT on Instagram (deleted or never there): {missing_on_ig or 'none'}")
-        md.append("- On Instagram but not in repo (deleted-and-republished ones, manual posts): " + (", ".join(f"{m['timestamp'][:16]} {m['media_type']}" for m in extra_on_ig) or "none"))
+        md.append("- On Instagram but not in repo (duplicates or manual posts):")
+        for m in sorted(extra_on_ig, key=lambda x: x["timestamp"]):
+            md.append(f"  - {m['timestamp'][:16]} {m['media_type']} | {(m.get('caption') or '')[:50]!r} | {m.get('permalink')}")
+        cap = {}
+        for m in ig:
+            cap.setdefault((m.get("caption") or "")[:60], []).append(m["timestamp"][:16])
+        dups = {k: v for k, v in cap.items() if len(v) > 1}
+        md.append("- Captions that appear more than once: " + ("; ".join(f"{k[:40]!r} x{len(v)}" for k, v in dups.items()) or "none"))
         by_day = {}
         for m in ig:
             by_day.setdefault(m["timestamp"][:10], []).append(m["media_type"][:3])
         md.append("- Instagram posts per day: " + ", ".join(f"{d}: {len(v)}" for d, v in sorted(by_day.items())))
         # Facebook
-        fb, err = paged(f"{fbid}/posts", tok, fields="id,created_time,message,attachments{media_type}", limit=50)
+        fb, err = paged(f"{fbid}/posts", tok, fields="id,created_time,message", limit=50)
+        fcap = {}
+        for m in fb:
+            fcap.setdefault((m.get("message") or "")[:60], []).append(m["created_time"][:16])
+        fdups = {k: v for k, v in fcap.items() if len(v) > 1}
         md.append(f"Facebook Page shows **{len(fb)}** feed posts" + (f" (error: {err})" if err else "") + f"; repo says {sum(1 for p in items if p.get('fb_post_id'))} mirrored.")
+        md.append("- Facebook captions that appear more than once: " + ("; ".join(f"{k[:40]!r} x{len(v)}" for k, v in fdups.items()) or "none"))
         reels, err2 = paged(f"{fbid}/video_reels", tok, fields="id,created_time,description", limit=50)
         md.append(f"Facebook Reels listed: {len(reels)}" + (f" (error: {err2})" if err2 else ""))
         # schedule vs reality
