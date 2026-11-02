@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-08T09:00:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -34,5 +34,6 @@
   "caption": "Who you are, why them, one small ask. Under 100 words. Follow up once.\n\nFull carousel on our profile.\n\n#coldemail #career #networking #jobsearch #india #reels",
   "ai_label": true,
   "variant_of": "page_a/2026-11-08-reel-cold-email",
-  "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)"
+  "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)",
+  "approved_at": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "approved",
+  "status": "superseded",
   "publish_at": "2026-11-08T15:00:00+00:00",
   "pillar": "psychology",
   "lang": "en",
@@ -34,5 +34,6 @@
   "caption": "We notice what agrees with us. Ask what would change your mind and read one good counter-argument.\n\nFull carousel on our profile.\n\n#confirmationbias #psychology #criticalthinking #mindset #selfimprovement #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-11-08-confirmation-bias",
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "superseded_by": "2026-11-08-reel-confirmation-bias-v2"
 }
