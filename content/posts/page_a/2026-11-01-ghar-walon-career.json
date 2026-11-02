@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-01T13:30:00+00:00",
   "pillar": "life",
   "lang": "hi",
@@ -38,5 +38,9 @@
   ],
   "caption": "Ghar walon ko samjhana ek din ka kaam nahi hai. Chinta suno, plan batao, chhota proof dikhao.\n\nTumhare ghar mein kya sawaal aata hai? Comment karo.\n\n#family #career #indianparents #hinglish #youngindia",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "media_id": "18350978056251153",
+  "published_at": "2026-11-02T05:59:36+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"cod",
+  "fb_post_id": "1345396148663682_122110162743515383"
 }
