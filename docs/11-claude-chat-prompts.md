@@ -161,3 +161,8 @@ End with the REPORT.
 
 ## How Claude Code uses the REPORT
 Paste the REPORT into the Claude Code chat. I update `PROJECT.md`, fix files that depend on names or IDs, and write the next prompt or manual step.
+
+## Prompt 5: delete duplicate posts (Static Automation, owner approved 2026-11-02)
+Paste into the "Static Automation" Claude Code project. Scope: ONLY `@rozkarule` (IG ID 17841469203264060) and `@the.disciplinequiet` (IG ID 17841422691847840); nothing else in the Business Suite.
+
+> Read `research/audit/` in the Quotes repo (`git pull`; newest file). It lists duplicate Instagram posts created by a publishing bug. Task: in the Instagram web or app for `@rozkarule`, find the carousels whose caption starts "Subah 5 baje uthna goal nahi hai." There are 18 copies. KEEP the oldest (posted 2026-10-31 13:43 UTC) and DELETE the other 17 (links are in the audit file). For `@the.disciplinequiet`, find the carousels whose caption starts "Describe what you saw, say the effect, then ask what they think." There are 4 copies: KEEP the oldest (2026-11-01 03:41 UTC), DELETE the other 3. Before each delete, check that the caption and date match the audit file; if anything does not match, stop and report. Do not delete anything else, do not touch Facebook Pages, settings, passwords, 2FA or other accounts. Then write `inbox/2026-11-02-duplicates-deleted.md` in the REPORT format (CLAUDE.md), commit and push.
