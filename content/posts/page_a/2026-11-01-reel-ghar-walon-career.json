@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-01T09:00:00+00:00",
   "pillar": "life",
   "lang": "hi",
@@ -34,5 +34,13 @@
   "caption": "Ghar walon ko samjhana ek din ka kaam nahi hai. Chinta suno, plan batao, chhota proof dikhao.\n\nPoora carousel humare profile par.\n\n#family #career #indianparents #hinglish #youngindia #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-11-01-ghar-walon-career",
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "audio_used": {
+    "audio_id": "393903371411311",
+    "title": "The Nerve",
+    "display_artist": "Elad Marish"
+  },
+  "fb_post_id": "1296379752620119",
+  "media_id": "18196823791395649",
+  "published_at": "2026-11-02T12:59:37.954685+00:00"
 }
