@@ -176,6 +176,21 @@ def fb_catchup(now, limit=2):
             break
 
 
+def find_recent(page, caption, since, ver=None):
+    """Return the oldest Instagram media with this exact caption published since `since`, else None.
+    Makes publishing idempotent: Instagram sometimes creates the post and then answers with an error, and a retry would post a duplicate."""
+    key = page.upper()
+    uid, token = os.environ[f"IG_{key}_USER_ID"], os.environ[f"IG_{key}_TOKEN"]
+    ver = ver or os.environ.get("GRAPH_VERSION", "v26.0")
+    r = api("GET", f"{uid}/media", {"fields": "id,caption,timestamp", "limit": "50", "access_token": token}, ver)
+    hits = []
+    for m in r.get("data", []):
+        when = dt.datetime.fromisoformat(m["timestamp"].replace("+0000", "+00:00"))
+        if (m.get("caption") or "").strip() == caption.strip() and when >= since:
+            hits.append((when, m["id"]))
+    return min(hits) if hits else None
+
+
 def due_posts(now):
     for f in sorted((ROOT / "content" / "posts").rglob("*.json")):
         post = json.loads(f.read_text())
@@ -296,6 +311,7 @@ def main():
     ap.add_argument("--live", action="store_true")
     ap.add_argument("--count", action="store_true", help="print the number of approved, due posts and exit (cheap check for CI)")
     ap.add_argument("--fb-pending", action="store_true", help="print how many published posts still need their Facebook copy and exit")
+    ap.add_argument("--reconcile", action="store_true", help="with --live: only record posts that are already on Instagram (never posts anything); works while paused")
     ap.add_argument("--health", action="store_true", help="exit 1 (so GitHub emails the owner) if a post is >3h overdue or fewer than 5 days of approved posts remain")
     ap.add_argument("--prepare-only", action="store_true", help="live API test: build containers (carousel children, reel upload with audio) but do NOT publish")
     ap.add_argument("--only", nargs="*", help="with --prepare-only: post files to test regardless of status and date")
@@ -304,7 +320,7 @@ def main():
     if a.count:
         print(0 if paused() else sum(1 for _ in due_posts(now)))
         return
-    if paused() and not a.prepare_only and not a.only:
+    if paused() and not a.prepare_only and not a.only and not a.reconcile:
         print("PAUSED: state/pause exists, nothing is published until it is removed")
         return
     if a.fb_pending:
@@ -339,6 +355,21 @@ def main():
     for f, post in queue:
         if n >= MAX_PER_RUN and not a.only:
             break
+        if a.live and not a.prepare_only:
+            try:  # already on Instagram (an earlier attempt succeeded but answered with an error)? then record it, never post again
+                hit = find_recent(post["page"], post["caption"], now - dt.timedelta(hours=72))
+            except Exception as e:
+                hit = None
+                print(f"WARN duplicate check failed for {f.name}: {str(e)[:120]}")
+            if hit:
+                post["status"], post["media_id"] = "published", hit[1]
+                post["published_at"] = hit[0].isoformat()
+                post["note"] = "reconciled: found on Instagram, not published again"
+                f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
+                print(f"RECONCILED {f.name}: already on Instagram as {hit[1]}")
+                continue
+        if a.reconcile:
+            continue  # reconcile-only: never publish
         if post["page"] in blocked:
             continue
         if post["type"] not in ("carousel", "reel"):
@@ -348,6 +379,21 @@ def main():
             media_id = (publish_reel if post["type"] == "reel" else publish_carousel)(f, post, live, a.prepare_only)
         except Exception as e:  # never crash the whole run; record and move on
             print(f"ERROR {f.name}: {e}")
+            if a.live and not a.prepare_only:
+                try:
+                    hit = find_recent(post["page"], post["caption"], now - dt.timedelta(minutes=30))
+                except Exception:
+                    hit = None
+                if hit:  # the post was created although the call answered with an error: record it, do not retry
+                    post["status"], post["media_id"] = "published", hit[1]
+                    post["published_at"] = hit[0].isoformat()
+                    post["note"] = f"published although the API answered: {str(e)[:120]}"
+                    f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
+                    print(f"RECORDED {f.name} as published ({hit[1]}) despite the error")
+                    if "2207051" in str(e) or '"code":4,' in str(e):
+                        block_page(post["page"], now)
+                        blocked[post["page"]] = "now"
+                    continue
             if "2207051" in str(e) or '"code":4,' in str(e):  # "Application request limit reached / Action is blocked": rest this account, keep the other running
                 block_page(post["page"], now)
                 blocked[post["page"]] = "now"
@@ -369,7 +415,7 @@ def main():
             post["published_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
             f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
         n += 1
-    if a.live and not a.prepare_only and not auth_failed:
+    if a.live and not a.prepare_only and not auth_failed and not a.reconcile and not paused():
         fb_catchup(now)
     print(f"{n} post(s) processed ({'prepare-only test' if a.prepare_only else 'live' if a.live else 'dry-run'})")
     if block_alert:
