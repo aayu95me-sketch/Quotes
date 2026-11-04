@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-04T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -38,5 +38,9 @@
   ],
   "caption": "Padhne ke baad 1, 3 aur 7 din par chhota revision. 10 minute kaafi hain.\n\nAaj kya padha? Kal kab dohraoge? Comment karo.\n\n#revision #studytips #students #hinglish #exampreparation",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "media_id": "18110353955250797",
+  "published_at": "2026-11-04T13:44:12+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"cod",
+  "fb_post_id": "1345396148663682_122111061915515383"
 }
