@@ -266,3 +266,5 @@ Fix (pushed): publishing is now idempotent. Before every attempt, and after ever
 Cleanup: owner must delete the duplicates (Instagram API cannot delete). Prompt 5 in docs/11 gives it to the Static Automation operator (keep oldest copy of each, delete 17 on A and 3 on B). Publishing was paused with `state/pause` and resumes after this commit.
 
 Owner approved the hook-first v2 Reel test 2026-11-02 (6 Reels, 4 to 9 Nov); the six originals are status 'superseded'. Sprint plan: docs/16-growth-sprint.md. Gate 16 Nov.
+
+Week 6 (25 Nov to 1 Dec, 20 posts: 7 Reels + 3 carousels per page, hook-first format) approved by owner 2026-11-06. Runway ends 1 Dec. Decision gate for the hook-first format: 16 Nov.

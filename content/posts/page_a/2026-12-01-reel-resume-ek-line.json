@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-12-01T09:00:00+00:00",
   "pillar": "career",
   "lang": "hi",
@@ -33,5 +33,6 @@
     }
   ],
   "caption": "Ek line jo recruiter ko rok de.\n\nApna sabse accha result kya hai?\n\n#resume #career #jobsearch #hinglish\n\n#reels",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-06"
 }

@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-25T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Neend padhai ka hissa hai. 4 chhote rules.\n\nTum kitne ghante sote ho? Comment karo.\n\nYeh general tips hain, medical salah nahi.\n\n#sleep #studytips #students #hinglish #exampreparation",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-06"
 }

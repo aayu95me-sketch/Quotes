@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-27T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "A goal is a direction. The next action is the step.\n\nWhat's your next action?\n\n#habits #goals #productivity #selfimprovement #discipline",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-06"
 }

@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-30T09:00:00+00:00",
   "pillar": "life",
   "lang": "hi",
@@ -33,5 +33,6 @@
     }
   ],
   "caption": "Dost se baat karna aasan hai agar tum seedha aur pyaar se bolo.\n\nTum kaise handle karte ho?\n\n#friendship #boundaries #students #hinglish\n\n#reels",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-06"
 }

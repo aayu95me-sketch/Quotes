@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-25T15:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -33,5 +33,6 @@
     }
   ],
   "caption": "One task, one timer. Switching has a cost.\n\nWhat's your one task today?\n\n#productivity #focus #deepwork #habits\n\n#reels",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-06"
 }

@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-11-25T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "One task, one timer, one break.\n\nWhat will you single-task today?\n\n#productivity #focus #deepwork #habits #worklife",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-06"
 }
