@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-06T09:00:00+00:00",
   "pillar": "discipline",
   "lang": "hi",
@@ -35,5 +35,13 @@
   "ai_label": true,
   "variant_of": "page_a/2026-11-06-reel-phone-addiction",
   "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "audio_used": {
+    "audio_id": "1108285910189784",
+    "title": "Knockout",
+    "display_artist": "Adam Griffith"
+  },
+  "fb_post_id": "1697757355267894",
+  "media_id": "18142227004617233",
+  "published_at": "2026-11-06T10:42:40.559811+00:00"
 }
