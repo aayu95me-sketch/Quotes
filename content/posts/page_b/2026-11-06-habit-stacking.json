@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-06T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "After [habit you already do], I [tiny new habit]. One trigger, one tiny action.\n\nWhat's your trigger? Comment below.\n\n#habitstacking #habits #routine #selfimprovement #consistency",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "media_id": "18109579331245857",
+  "published_at": "2026-11-06T17:54:54+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"cod",
+  "fb_post_id": "1436529449539802_122107803711523675"
 }
