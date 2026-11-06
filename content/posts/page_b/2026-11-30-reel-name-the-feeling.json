@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-30T15:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Before you react, *name the feeling.*"
+    },
+    {
+      "kind": "body",
+      "text": "Say it: *\"I'm frustrated.\"*"
+    },
+    {
+      "kind": "body",
+      "text": "One *slow* breath."
+    },
+    {
+      "kind": "body",
+      "text": "Then *choose* your reply."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "Naming a feeling gives you a moment to choose.\n\nWhat do you feel right now?\n\nGeneral psychology information, not medical advice.\n\n#emotionalintelligence #psychology #communication #selfimprovement\n\n#reels",
+  "ai_label": true
+}

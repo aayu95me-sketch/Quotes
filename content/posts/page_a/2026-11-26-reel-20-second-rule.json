@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-26T09:00:00+00:00",
+  "pillar": "discipline",
+  "lang": "hi",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Shuru karna *mushkil* hai? 20 second rule."
+    },
+    {
+      "kind": "body",
+      "text": "Kaam ka *saaman* pehle se saamne rakho."
+    },
+    {
+      "kind": "body",
+      "text": "Distraction ko *20 second door* rakho."
+    },
+    {
+      "kind": "body",
+      "text": "Phir *bas pehla step* karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Shuru karna aasan banao, aadat apne aap banegi.\n\nAaj kya shuru karoge? Comment karo.\n\n#discipline #habits #motivation #hinglish\n\n#reels",
+  "ai_label": true
+}

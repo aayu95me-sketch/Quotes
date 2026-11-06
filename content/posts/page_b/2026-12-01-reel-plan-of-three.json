@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-01T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Start the week with a *plan of three.*"
+    },
+    {
+      "kind": "body",
+      "text": "Three *priorities.* No more."
+    },
+    {
+      "kind": "body",
+      "text": "Put them on a *sticky note.*"
+    },
+    {
+      "kind": "body",
+      "text": "Check it *each morning.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "Three priorities keep the week from running you.\n\nWhat are your three?\n\n#planning #productivity #habits #worklife\n\n#reels",
+  "ai_label": true
+}

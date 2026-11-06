@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-27T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "hi",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Interview se pehle *ghabrahat?* 3 trick."
+    },
+    {
+      "kind": "body",
+      "text": "*Dheeri saans.* 4 second andar, 6 bahar."
+    },
+    {
+      "kind": "body",
+      "text": "Pehla jawab *pehle se* yaad rakho."
+    },
+    {
+      "kind": "body",
+      "text": "*Dheere* bolo. Aap jaldi nahi mein ho."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Ghabrahat normal hai. Ye 3 chhoti cheezein madad karti hain.\n\nInterview ka sabse mushkil sawaal kaunsa hai?\n\n#interview #career #freshers #hinglish\n\n#reels",
+  "ai_label": true
+}

@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-25T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Why *one thing at a time* wins"
+    },
+    {
+      "kind": "body",
+      "text": "Switching tasks has a *restart cost.*"
+    },
+    {
+      "kind": "body",
+      "text": "You re-read. You *re-think.*"
+    },
+    {
+      "kind": "body",
+      "text": "Close tabs. Pick *one* task."
+    },
+    {
+      "kind": "body",
+      "text": "Set a *25-minute* timer."
+    },
+    {
+      "kind": "body",
+      "text": "Then take a *5-minute* break."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next work block.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "One task, one timer, one break.\n\nWhat will you single-task today?\n\n#productivity #focus #deepwork #habits #worklife",
+  "ai_label": true
+}

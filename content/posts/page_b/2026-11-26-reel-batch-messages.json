@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-26T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Stop checking messages *all day.*"
+    },
+    {
+      "kind": "body",
+      "text": "Check at *three set times.*"
+    },
+    {
+      "kind": "body",
+      "text": "Notifications *off* between."
+    },
+    {
+      "kind": "body",
+      "text": "Reply in *one* sitting."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "Batching messages gives you long stretches of focus.\n\nWhen will you check yours?\n\n#productivity #worklife #focus #habits\n\n#reels",
+  "ai_label": true
+}

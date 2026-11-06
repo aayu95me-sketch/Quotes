@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-29T09:00:00+00:00",
+  "pillar": "discipline",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Subah *confusion* se bachna hai? Raat ko ye likho."
+    },
+    {
+      "kind": "body",
+      "text": "Kal ke *3 kaam* likho."
+    },
+    {
+      "kind": "body",
+      "text": "Sabse zaroori *pehle* rakho."
+    },
+    {
+      "kind": "body",
+      "text": "Subah *seedha* shuru karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Raat ko 2 minute, subah ka confusion khatam.\n\nKal ka pehla kaam kya hai?\n\n#planning #discipline #productivity #hinglish\n\n#reels",
+  "ai_label": true
+}

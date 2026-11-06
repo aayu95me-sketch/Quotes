@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-27T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Write the *next action,* not the goal"
+    },
+    {
+      "kind": "body",
+      "text": "A goal tells you *where.*"
+    },
+    {
+      "kind": "body",
+      "text": "A next action tells you *what now.*"
+    },
+    {
+      "kind": "body",
+      "text": "Start with a *verb:* call, open, write."
+    },
+    {
+      "kind": "body",
+      "text": "Make it *under 5 minutes.*"
+    },
+    {
+      "kind": "body",
+      "text": "Do it. *Then* plan more."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for a vague goal.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "A goal is a direction. The next action is the step.\n\nWhat's your next action?\n\n#habits #goals #productivity #selfimprovement #discipline",
+  "ai_label": true
+}

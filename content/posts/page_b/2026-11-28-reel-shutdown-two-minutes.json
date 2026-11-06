@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-28T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "End work *cleanly* in 2 minutes."
+    },
+    {
+      "kind": "body",
+      "text": "Write *tomorrow's* top task."
+    },
+    {
+      "kind": "body",
+      "text": "Close *every* tab."
+    },
+    {
+      "kind": "body",
+      "text": "Say *\"done for today.\"*"
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "A clear stop makes the evening yours again.\n\nWhat's your closing ritual?\n\n#worklife #productivity #boundaries #habits\n\n#reels",
+  "ai_label": true
+}

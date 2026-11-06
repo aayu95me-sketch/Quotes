@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-25T09:00:00+00:00",
+  "pillar": "study",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Padhte hi *neend* aati hai? Ye 3 fix."
+    },
+    {
+      "kind": "body",
+      "text": "*Paani* piyo. Seedha baitho."
+    },
+    {
+      "kind": "body",
+      "text": "Table par padho. *Bed par nahi.*"
+    },
+    {
+      "kind": "body",
+      "text": "*25 minute* padho, 5 minute chalo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Neend aaye toh ye 3 chhote fix try karo.\n\nTumhe sabse zyada neend kab aati hai? Comment karo.\n\n#studytips #focus #students #hinglish\n\n#reels",
+  "ai_label": true
+}

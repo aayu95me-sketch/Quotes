@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-25T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Multitasking *feels* productive. It isn't."
+    },
+    {
+      "kind": "body",
+      "text": "Pick *one* task. Close the rest."
+    },
+    {
+      "kind": "body",
+      "text": "Set a *25-minute* timer."
+    },
+    {
+      "kind": "body",
+      "text": "Finish. *Then* switch."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "One task, one timer. Switching has a cost.\n\nWhat's your one task today?\n\n#productivity #focus #deepwork #habits\n\n#reels",
+  "ai_label": true
+}

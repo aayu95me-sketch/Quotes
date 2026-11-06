@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-01T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "hi",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Resume mein *1 line* jo sab badal de."
+    },
+    {
+      "kind": "body",
+      "text": "Sirf kaam nahi, *result* likho."
+    },
+    {
+      "kind": "body",
+      "text": "\"Sales *20% badhayi*\" sabse acha."
+    },
+    {
+      "kind": "body",
+      "text": "Number *nahi hai?* Saaf shabd likho."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Ek line jo recruiter ko rok de.\n\nApna sabse accha result kya hai?\n\n#resume #career #jobsearch #hinglish\n\n#reels",
+  "ai_label": true
+}

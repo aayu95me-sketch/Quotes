@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-11-29T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "A *shutdown routine* ends work cleanly"
+    },
+    {
+      "kind": "body",
+      "text": "Write *tomorrow's* top task."
+    },
+    {
+      "kind": "body",
+      "text": "Note *loose ends* in one list."
+    },
+    {
+      "kind": "body",
+      "text": "Close *every* tab and app."
+    },
+    {
+      "kind": "body",
+      "text": "Say *\"done for today.\"*"
+    },
+    {
+      "kind": "body",
+      "text": "Do *one* thing that isn't work."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for tonight.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "A clear stop makes your evening yours again.\n\nWhat's your closing ritual?\n\n#worklife #productivity #boundaries #habits #selfimprovement",
+  "ai_label": true
+}

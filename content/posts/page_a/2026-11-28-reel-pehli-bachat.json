@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-11-28T09:00:00+00:00",
+  "pillar": "money",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Paise bachane ka *pehla step.*"
+    },
+    {
+      "kind": "body",
+      "text": "Mahine ke shuru mein *pehle* alag karo."
+    },
+    {
+      "kind": "body",
+      "text": "Chhota amount. *Roz ka ek rupya bhi.*"
+    },
+    {
+      "kind": "body",
+      "text": "Baaki *kharch* karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Bachat ek aadat hai, amount baad mein badhta hai.\n\nSirf educational jaankari, financial salah nahi.\n\n#savings #money #financialliteracy #hinglish\n\n#reels",
+  "ai_label": true
+}
