@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-03T15:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Feel stuck? *Shrink* the task."
+    },
+    {
+      "kind": "body",
+      "text": "Cut it to *five minutes.*"
+    },
+    {
+      "kind": "body",
+      "text": "Make the first step *obvious.*"
+    },
+    {
+      "kind": "body",
+      "text": "Start. *Then* decide."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "Smaller tasks are easier to start, and starting is the hard part.\n\nWhat will you shrink?\n\n#habits #procrastination #productivity #selfimprovement\n\n#reels",
+  "ai_label": true
+}

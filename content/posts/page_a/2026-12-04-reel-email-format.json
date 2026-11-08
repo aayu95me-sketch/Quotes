@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-04T09:00:00+00:00",
+  "pillar": "career",
+  "lang": "hi",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Professional email ka *simple format.*"
+    },
+    {
+      "kind": "body",
+      "text": "*Subject* mein kaam likho."
+    },
+    {
+      "kind": "body",
+      "text": "*Pehli line* mein maang."
+    },
+    {
+      "kind": "body",
+      "text": "*Dhanyavaad* se khatam karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Saaf email jaldi jawab laata hai.\n\nTumhara sabse mushkil email kaunsa hai?\n\n#email #career #freshers #hinglish\n\n#reels",
+  "ai_label": true
+}

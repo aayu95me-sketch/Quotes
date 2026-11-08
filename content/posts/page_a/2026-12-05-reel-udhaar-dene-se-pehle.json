@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-05T09:00:00+00:00",
+  "pillar": "money",
+  "lang": "hi",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Udhaar dene se *pehle* ye socho."
+    },
+    {
+      "kind": "body",
+      "text": "Kya wapas *mil sakta* hai?"
+    },
+    {
+      "kind": "body",
+      "text": "Itna *khone* ka darr nahi?"
+    },
+    {
+      "kind": "body",
+      "text": "Na bolna *theek* hai."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Dosti aur paisa alag rakhna seekho.\n\nSirf educational jaankari, financial salah nahi.\n\n#money #boundaries #financialliteracy #hinglish\n\n#reels",
+  "ai_label": true
+}

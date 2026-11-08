@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-12-06T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "A thank-you that *actually lands*"
+    },
+    {
+      "kind": "body",
+      "text": "*Name* what they did."
+    },
+    {
+      "kind": "body",
+      "text": "Name *how it helped* you."
+    },
+    {
+      "kind": "body",
+      "text": "Keep it *short.*"
+    },
+    {
+      "kind": "body",
+      "text": "Say it *soon.*"
+    },
+    {
+      "kind": "body",
+      "text": "Don't add *\"but.\"*"
+    },
+    {
+      "kind": "cta",
+      "text": "Save this. Thank someone today.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Specific thanks feel real, and they're free.\n\nWho will you thank today?\n\n#gratitude #relationships #communication #selfimprovement #habits",
+  "ai_label": true
+}

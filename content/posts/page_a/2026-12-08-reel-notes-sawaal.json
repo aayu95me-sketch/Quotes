@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-08T09:00:00+00:00",
+  "pillar": "study",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Notes *dobara* nahi padhne? Sawaal banao."
+    },
+    {
+      "kind": "body",
+      "text": "Heading ko *sawaal* banao."
+    },
+    {
+      "kind": "body",
+      "text": "Jawab *chhupao.*"
+    },
+    {
+      "kind": "body",
+      "text": "Khud se *poocho.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Sawaal poochna dobara padhne se behtar kaam karta hai.\n\nAaj kaunsa topic try karoge?\n\n#studytips #revision #students #hinglish\n\n#reels",
+  "ai_label": true
+}

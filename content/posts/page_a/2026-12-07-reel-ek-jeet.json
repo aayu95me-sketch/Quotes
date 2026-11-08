@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-07T09:00:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "mood": "reflective",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Aaj ka *ek jeet* likho."
+    },
+    {
+      "kind": "body",
+      "text": "Ek chhota kaam *jo hua.*"
+    },
+    {
+      "kind": "body",
+      "text": "Likh lo. *Bas.*"
+    },
+    {
+      "kind": "body",
+      "text": "Kal *shuru* karna aasan hoga."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Chhoti jeet likhne se hausla badhta hai.\n\nAaj ki tumhari jeet kya thi?\n\n#motivation #mindset #habits #hinglish\n\n#reels",
+  "ai_label": true
+}

@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-06T09:00:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Raat ko *dimaag* chalta rehta hai? Ye try karo."
+    },
+    {
+      "kind": "body",
+      "text": "4 second *saans andar.*"
+    },
+    {
+      "kind": "body",
+      "text": "7 second *roko.*"
+    },
+    {
+      "kind": "body",
+      "text": "8 second *dheere bahar.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Dheemi saans se kai logon ko shaanti milti hai.\n\nYeh general tips hain, medical salah nahi.\n\n#sleep #mindset #calm #hinglish\n\n#reels",
+  "ai_label": true
+}

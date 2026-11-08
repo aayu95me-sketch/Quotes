@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-12-04T17:00:00+00:00",
+  "pillar": "psychology",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *teach-it-back* method"
+    },
+    {
+      "kind": "body",
+      "text": "Pick *one idea.*"
+    },
+    {
+      "kind": "body",
+      "text": "Explain it *out loud,* simply."
+    },
+    {
+      "kind": "body",
+      "text": "Notice where you *stumble.*"
+    },
+    {
+      "kind": "body",
+      "text": "Go back and *fix those gaps.*"
+    },
+    {
+      "kind": "body",
+      "text": "Explain it *again.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for your next study session.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "If you can't explain it simply, you haven't got it yet.\n\nWhat will you teach back?\n\n#learning #studytips #psychology #productivity #selfimprovement",
+  "ai_label": true
+}

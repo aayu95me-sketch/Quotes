@@ -1,0 +1,37 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-03T09:00:00+00:00",
+  "pillar": "life",
+  "lang": "hi",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Group chat *distraction* hai? Ye karo."
+    },
+    {
+      "kind": "body",
+      "text": "Padhte time *mute* karo."
+    },
+    {
+      "kind": "body",
+      "text": "Din mein *2 baar* check karo."
+    },
+    {
+      "kind": "body",
+      "text": "Urgent ho toh *call* aayega."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Mute karna rude nahi hai, ye focus hai.\n\nKitni baar chat check karte ho?\n\n#focus #students #boundaries #hinglish\n\n#reels",
+  "ai_label": true
+}

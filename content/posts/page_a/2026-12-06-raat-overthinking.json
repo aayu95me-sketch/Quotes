@@ -1,0 +1,41 @@
+{
+  "page": "page_a",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-12-06T13:30:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Raat ko *overthinking?* 4 chhote kadam"
+    },
+    {
+      "kind": "body",
+      "text": "*1.* Sone se pehle *likh do.*"
+    },
+    {
+      "kind": "body",
+      "text": "*2.* Screen *band* 30 minute."
+    },
+    {
+      "kind": "body",
+      "text": "*3.* *4-7-8* saans try karo."
+    },
+    {
+      "kind": "body",
+      "text": "*4.* Kal ke *3 kaam* likho."
+    },
+    {
+      "kind": "body",
+      "text": "Bistar par *planning nahi.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Save karo. Aaj raat try karo.",
+      "sub": "Roz ka ek rule, follow karo"
+    }
+  ],
+  "caption": "Raat ke vichaar kagaz par utaaro, dimaag halka hoga.\n\nKya aaj raat try karoge?\n\nYeh general tips hain, medical salah nahi. Agar neend ki dikkat hafton tak rahe, doctor se baat karo.\n\n#overthinking #sleep #mindset #hinglish #youngindia",
+  "ai_label": true
+}

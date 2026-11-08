@@ -1,0 +1,37 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-08T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "experiment": "hook-first (shorter, 2.6s slides, explicit follow line)",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Start Monday *the night before.*"
+    },
+    {
+      "kind": "body",
+      "text": "Pick the *first task.*"
+    },
+    {
+      "kind": "body",
+      "text": "Put *what you need* in sight."
+    },
+    {
+      "kind": "body",
+      "text": "Sleep on *a plan.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "A ready Monday feels lighter.\n\nWhat's your first task?\n\n#planning #productivity #worklife #habits\n\n#reels",
+  "ai_label": true
+}

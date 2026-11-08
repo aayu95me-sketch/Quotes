@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-12-02T17:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Fewer meetings, *clearer work*"
+    },
+    {
+      "kind": "body",
+      "text": "Ask: *what's the goal?*"
+    },
+    {
+      "kind": "body",
+      "text": "No agenda? *Ask for one.*"
+    },
+    {
+      "kind": "body",
+      "text": "Invite *only who's needed.*"
+    },
+    {
+      "kind": "body",
+      "text": "End with *owners and dates.*"
+    },
+    {
+      "kind": "body",
+      "text": "Offer *a short note* instead."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this before your next meeting.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "A meeting needs a goal, an agenda and owners.\n\nWhich meeting could be a note?\n\n#worklife #productivity #meetings #communication #leadership",
+  "ai_label": true
+}
