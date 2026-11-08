@@ -3,7 +3,7 @@ name: publish
 # Safety rail: it posts for real only if the repo VARIABLE LIVE_PUBLISH is set to "true". Otherwise it is a dry run.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 permissions:
   contents: write

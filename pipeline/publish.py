@@ -36,7 +36,7 @@ MAX_PER_RUN = 3
 
 
 STATE = ROOT / "state" / "blocked.json"
-BLOCK_HOURS = 6  # after Instagram says "action is blocked", leave that account alone this long instead of retrying hourly
+BLOCK_HOURS = 3  # after Instagram says "action is blocked", leave that account alone this long instead of retrying hourly
 
 
 PAUSE = ROOT / "state" / "pause"
@@ -176,6 +176,7 @@ def fb_catchup(now, limit=2):
             break
 
 
+PER_PAGE_PER_RUN = 2
 DAILY_CAP = 3  # per Instagram account per UTC day; the plan is 1 carousel + 1-2 Reels
 
 
@@ -325,7 +326,7 @@ def main():
     ap.add_argument("--count", action="store_true", help="print the number of approved, due posts and exit (cheap check for CI)")
     ap.add_argument("--fb-pending", action="store_true", help="print how many published posts still need their Facebook copy and exit")
     ap.add_argument("--reconcile", action="store_true", help="with --live: only record posts that are already on Instagram (never posts anything); works while paused")
-    ap.add_argument("--health", action="store_true", help="exit 1 (so GitHub emails the owner) if a post is >3h overdue or fewer than 5 days of approved posts remain")
+    ap.add_argument("--health", action="store_true", help="exit 1 (so GitHub emails the owner) if a post is >8h overdue or fewer than 5 days of approved posts remain")
     ap.add_argument("--prepare-only", action="store_true", help="live API test: build containers (carousel children, reel upload with audio) but do NOT publish")
     ap.add_argument("--only", nargs="*", help="with --prepare-only: post files to test regardless of status and date")
     a = ap.parse_args()
@@ -347,11 +348,11 @@ def main():
             if post.get("status") != "approved":
                 continue
             when = dt.datetime.fromisoformat(post["publish_at"])
-            if now - when > dt.timedelta(hours=3) and post["page"] not in blocked_pages(now):
+            if now - when > dt.timedelta(hours=8) and post["page"] not in blocked_pages(now):
                 late.append(f.name)
             last = max(last, when)
         runway = (last - now).total_seconds() / 86400
-        print(f"approved posts run {runway:.1f} more days; overdue by more than 3h: {late or 'none'}")
+        print(f"approved posts run {runway:.1f} more days; overdue by more than 8h: {late or 'none'}")
         if late or runway < 5:
             sys.exit(f"HEALTH ALERT: {'overdue posts: ' + ', '.join(late) if late else 'less than 5 days of approved posts left, approve the next batch'}")
         return
@@ -359,7 +360,7 @@ def main():
     if a.only and not a.prepare_only:
         sys.exit("--only is only allowed together with --prepare-only (it must never publish)")
     auth_failed = False
-    done_pages = set()
+    done_pages = {}
     block_alert = False
     blocked = blocked_pages(now)
     for pg, u in blocked.items():
@@ -384,8 +385,8 @@ def main():
                 continue
         if a.reconcile:
             continue  # reconcile-only: never publish
-        if post["page"] in done_pages and not a.only:
-            continue  # at most one post per account per run, so a backlog trickles out hourly instead of bursting
+        if done_pages.get(post["page"], 0) >= PER_PAGE_PER_RUN and not a.only:
+            continue  # at most two posts per account per run (GitHub runs the schedule only every few hours), never a burst
         if not a.only and posted_today(post["page"], now) >= DAILY_CAP:
             print(f"{post['page']}: daily cap of {DAILY_CAP} reached, {f.name} waits for tomorrow")
             continue
@@ -434,7 +435,7 @@ def main():
             post["published_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
             f.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
         n += 1
-        done_pages.add(post["page"])
+        done_pages[post["page"]] = done_pages.get(post["page"], 0) + 1
     if a.live and not a.prepare_only and not auth_failed and not a.reconcile and not paused():
         fb_catchup(now)
     print(f"{n} post(s) processed ({'prepare-only test' if a.prepare_only else 'live' if a.live else 'dry-run'})")
