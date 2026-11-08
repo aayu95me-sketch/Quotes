@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-12-04T13:30:00+00:00",
   "pillar": "career",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Saaf email, jaldi jawab.\n\nTumhara email subject kaisa hota hai?\n\n#email #career #freshers #hinglish #youngindia",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-08"
 }

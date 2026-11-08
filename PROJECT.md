@@ -271,3 +271,5 @@ Week 6 (25 Nov to 1 Dec, 20 posts: 7 Reels + 3 carousels per page, hook-first fo
 
 ## Schedule throttling found (2026-11-08)
 GitHub's "hourly" schedule actually fires only every 4-8 hours (runs seen at 09:53, 16:16, 20:26, 23:52 UTC on 7 Nov, 05:47 and 13:11 on 8 Nov), so posts go out hours after their slot (a Reel due 09:00 UTC posted 13:13 UTC; the 13:30 carousel waited). Changes: cron raised to every 15 minutes (GitHub still decides when it fires), up to 2 posts per account per run (daily cap 3 stays), rest after an Instagram "blocked" answer cut from 6 h to 3 h, health alert threshold for overdue posts raised from 3 h to 8 h so throttling does not email false alarms. If posts still lag by more than about 6 h, move the trigger to an external pinger (workflow_dispatch) or run on the owner's Mac/cloud scheduler.
+
+Week 7 (2 to 8 Dec, 20 posts) approved by owner 2026-11-08. Runway ends 8 Dec.

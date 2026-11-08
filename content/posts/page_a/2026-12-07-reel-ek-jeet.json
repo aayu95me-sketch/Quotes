@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-12-07T09:00:00+00:00",
   "pillar": "mind",
   "lang": "hi",
@@ -33,5 +33,6 @@
     }
   ],
   "caption": "Chhoti jeet likhne se hausla badhta hai.\n\nAaj ki tumhari jeet kya thi?\n\n#motivation #mindset #habits #hinglish\n\n#reels",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-08"
 }

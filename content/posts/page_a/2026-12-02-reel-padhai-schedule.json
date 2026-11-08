@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-12-02T09:00:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -33,5 +33,6 @@
     }
   ],
   "caption": "Din ko 3 block mein baanto, padhai aasan lagegi.\n\nTumhara best time kaunsa hai? Comment karo.\n\n#studytips #timemanagement #students #hinglish\n\n#reels",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-08"
 }
