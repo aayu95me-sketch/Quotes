@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-08T13:30:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "Who you are, why them, one small ask. Under 100 words. Follow up once.\n\nHave you sent a cold email? How did it go?\n\n#coldemail #career #networking #jobsearch #india",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "media_id": "18110460698221304",
+  "published_at": "2026-11-08T17:11:05+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"cod",
+  "fb_post_id": "1345396148663682_122112575811515383"
 }
