@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-08T09:00:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -35,5 +35,13 @@
   "ai_label": true,
   "variant_of": "page_a/2026-11-08-reel-cold-email",
   "experiment": "hook-first-v2 (shorter, 2.6s slides, hook promises a result, explicit follow line)",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "audio_used": {
+    "audio_id": "526825256283644",
+    "title": "Beautiful, You Are (Instrumental)",
+    "display_artist": "Ruby Amanfu"
+  },
+  "fb_post_id": "1668383504820725",
+  "media_id": "18178141672451697",
+  "published_at": "2026-11-08T13:13:30.251882+00:00"
 }
