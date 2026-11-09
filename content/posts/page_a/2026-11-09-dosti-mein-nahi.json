@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-09T13:30:00+00:00",
   "pillar": "life",
   "lang": "hi",
@@ -38,5 +38,9 @@
   ],
   "caption": "Nahi bolna rude nahi hai. Pehle samjho, phir seedha bolo, lamba reason mat do.\n\nTumhe nahi bolna kab mushkil lagta hai? Comment karo.\n\n#boundaries #friendship #communication #hinglish #youngindia",
   "ai_label": true,
-  "approved_at": "2026-10-22"
+  "approved_at": "2026-10-22",
+  "media_id": "18419661295084192",
+  "published_at": "2026-11-09T17:49:36+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"cod",
+  "fb_post_id": "1345396148663682_122112924435515383"
 }
