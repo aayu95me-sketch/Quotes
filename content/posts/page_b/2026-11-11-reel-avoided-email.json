@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-11T15:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -34,5 +34,13 @@
   "caption": "Point, need and deadline, thanks. Short emails get answered.\n\nFull carousel on our profile.\n\n#email #productivity #worklife #communication #procrastination #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-11-11-avoided-email",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "audio_used": {
+    "audio_id": "510358037368479",
+    "title": "Séquoia",
+    "display_artist": "Yann Falquet"
+  },
+  "fb_post_id": "3146121582402585",
+  "media_id": "18145493446720521",
+  "published_at": "2026-11-11T16:53:34.451715+00:00"
 }
