@@ -75,6 +75,59 @@ def render(post_path, out_dir):
     return paths
 
 
+def _kinetic_text(text):
+    """Return (html, word_count): every word wrapped in span.w so it can be revealed one at a time."""
+    parts, n = [], 0
+    for seg in re.split(r"(\*[^*]+\*)", text):
+        if not seg:
+            continue
+        hl = seg.startswith("*") and seg.endswith("*") and len(seg) > 2
+        words = (seg[1:-1] if hl else seg).split()
+        wrapped = []
+        for w in words:
+            wrapped.append(f'<span class="w">{html.escape(w)}</span>')
+            n += 1
+        inner = " ".join(wrapped)
+        parts.append(f'<span class="hl">{inner}</span>' if hl else inner)
+        parts.append(" ")
+    return "".join(parts).strip(), n
+
+
+_KIN_CSS = "<style>.w{visibility:hidden}.w.on{visibility:visible}.sub{visibility:hidden}.sub.on{visibility:visible}</style>"
+
+
+def render_kinetic(post_path, out_dir):
+    """Word-by-word reveal frames for a Reel. Returns [(png_path, seconds), ...]. Much shorter and with motion from the first frame."""
+    post_path = pathlib.Path(post_path)
+    post = json.loads(post_path.read_text())
+    page = json.loads((ROOT / "content" / "pages" / f"{post['page']}.json").read_text())
+    out = pathlib.Path(out_dir) / post["page"] / (post_path.stem + "_kinetic")
+    out.mkdir(parents=True, exist_ok=True)
+    exe = os.environ.get("CHROMIUM_PATH") or None
+    frames = []
+    slides = post["slides"]
+    with sync_playwright() as p:
+        browser = p.chromium.launch(executable_path=exe) if exe else p.chromium.launch()
+        pg = browser.new_page(viewport={"width": RW, "height": RH})
+        for si, sl in enumerate(slides, 1):
+            doc = slide_html(page, sl, si, len(slides), True)
+            inner, n = _kinetic_text(sl["text"])
+            doc = re.sub(r'(<div class="text">).*?(</div>)', lambda m: m.group(1) + inner + m.group(2), doc, count=1, flags=re.S)
+            doc = doc.replace("</head>", _KIN_CSS + "</head>", 1)
+            pg.set_content(doc)
+            kind = sl["kind"]
+            per, hold = (0.30, 0.7) if kind == "hook" else (0.20, 1.4) if kind == "cta" else (0.22, 0.8)
+            for k in range(1, n + 1):
+                pg.evaluate("k => document.querySelectorAll('.w').forEach((e, i) => e.classList.toggle('on', i < k))", k)
+                if k == n:
+                    pg.evaluate("() => { const s = document.querySelector('.sub'); if (s) s.classList.add('on'); }")
+                f = out / f"s{si:02d}_{k:02d}.png"
+                pg.screenshot(path=str(f))
+                frames.append((f, per if k < n else per + hold))
+        browser.close()
+    return frames
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("post")

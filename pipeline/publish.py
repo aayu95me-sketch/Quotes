@@ -271,12 +271,16 @@ def publish_reel(f, post, live, prepare=False):
         print(f"[dry-run] {page}/{stem}: reel, {len(post['slides'])} slides x {per}s, mood={post.get('mood')}, "
               f"audio_id={post.get('audio_id', 'auto-pick at publish time')}")
         return None
-    from render import render
-    from reel import build_slideshow
+    from render import render, render_kinetic
+    from reel import build_slideshow, build_kinetic
     import audio as audio_mod
-    paths = render(f, ROOT / "out")
     mp4 = str(ROOT / "out" / page / f"{stem}.mp4")
-    build_slideshow([str(x) for x in paths], mp4, per)
+    (ROOT / "out" / page).mkdir(parents=True, exist_ok=True)
+    if post.get("style") == "kinetic":  # word-by-word reveal, about 8-10 s instead of 13-16 s
+        total_s = build_kinetic(render_kinetic(f, ROOT / "out"), mp4)
+    else:
+        build_slideshow([str(x) for x in render(f, ROOT / "out")], mp4, per)
+        total_s = per * len(post["slides"])
     key = page.upper()
     uid, token = os.environ[f"IG_{key}_USER_ID"], os.environ[f"IG_{key}_TOKEN"]
     ver = os.environ.get("GRAPH_VERSION", "v26.0")
@@ -289,7 +293,7 @@ def publish_reel(f, post, live, prepare=False):
             chosen = {"audio_id": post["audio_id"]}
         else:
             chosen, vol = audio_mod.pick(page, post.get("mood", "focus"), uid, token, ver,
-                                         post.get("audio_type", "music"), per * len(post["slides"]),
+                                         post.get("audio_type", "music"), total_s,
                                          post.get("audio_queries", []))
     except Exception as e:  # audio failure should not block the post; publish silent and note it
         print(f"WARN audio lookup failed ({e}); publishing without audio")

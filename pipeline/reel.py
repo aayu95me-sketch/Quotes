@@ -60,3 +60,26 @@ def build_slideshow(images, out, seconds_each=3.0, audio=None, audio_volume=1.0)
     cmd += ["-filter_complex", ";".join(f), "-map", f"[{cur}]"] + amap
     cmd += ["-t", str(total), "-r", "30", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True, capture_output=True)
+
+
+def build_kinetic(frames, out, audio=None, audio_volume=1.0):
+    """Reel from timed frames [(png, seconds), ...] (word-by-word reveal). Silent track unless audio given; music is attached by Instagram."""
+    import pathlib
+    lst = pathlib.Path(out).with_suffix(".txt")
+    lines = []
+    for f, d in frames:
+        lines.append(f"file '{pathlib.Path(f).resolve()}'")
+        lines.append(f"duration {d:.3f}")
+    lines.append(f"file '{pathlib.Path(frames[-1][0]).resolve()}'")
+    lst.write_text("\n".join(lines) + "\n")
+    total = sum(d for _, d in frames)
+    cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst)]
+    if audio:
+        cmd += ["-i", audio, "-af", f"volume={audio_volume},atrim=0:{total},afade=t=out:st={max(total - 1, 0)}:d=1", "-c:a", "aac"]
+    else:
+        cmd += ["-f", "lavfi", "-t", str(total), "-i", "anullsrc=r=44100:cl=stereo", "-c:a", "aac"]
+    cmd += ["-vf", "fps=30,scale=1080:1920,setsar=1,format=yuv420p", "-t", f"{total:.3f}", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out]
+    subprocess.run(cmd, check=True, capture_output=True)
+    lst.unlink(missing_ok=True)
+    return total
+
