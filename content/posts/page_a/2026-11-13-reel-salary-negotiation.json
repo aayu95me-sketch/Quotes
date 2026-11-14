@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-13T09:00:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -36,5 +36,13 @@
   "companion_of": "page_a/2026-11-13-salary-negotiation",
   "approved_at": "2026-10-23",
   "style": "kinetic",
-  "seconds_each_static": 3.2
+  "seconds_each_static": 3.2,
+  "audio_used": {
+    "audio_id": "1108285910189784",
+    "title": "Knockout",
+    "display_artist": "Adam Griffith"
+  },
+  "fb_post_id": "1165440425949967",
+  "media_id": "18149466931575024",
+  "published_at": "2026-11-14T17:04:40.742063+00:00"
 }
