@@ -31,7 +31,7 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "pipeline"))
 GRAPH = "https://graph.facebook.com"
-MAX_LATE = dt.timedelta(hours=48)  # an outage shorter than two days catches up; older posts must be rescheduled on purpose
+MAX_LATE = dt.timedelta(hours=120)  # an outage shorter than two days catches up; older posts must be rescheduled on purpose
 MAX_PER_RUN = 3
 
 
