@@ -34,5 +34,7 @@
   "caption": "Headline, one result, what you want next. A clear photo helps too.\n\nFull carousel on our profile.\n\n#linkedin #career #personalbranding #jobsearch #india #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-11-17-linkedin-3-lines",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

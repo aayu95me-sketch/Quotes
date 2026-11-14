@@ -34,5 +34,7 @@
   "caption": "Skip email at first. Write the top task, start it, check messages after.\n\nFull carousel on our profile.\n\n#productivity #worklife #morningroutine #focus #habits #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-11-18-first-10-minutes",
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

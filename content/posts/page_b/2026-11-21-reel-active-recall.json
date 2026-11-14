@@ -34,5 +34,7 @@
   "caption": "Rereading feels productive. Testing yourself works better. Close the book and write what you remember.\n\nFull carousel on our profile.\n\n#studytips #activerecall #learning #psychology #productivity #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-11-21-active-recall",
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

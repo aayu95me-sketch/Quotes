@@ -34,5 +34,7 @@
   "caption": "Within 24 hours: thank them by name, mention one thing from the talk, say you're excited. Under five lines.\n\nFull carousel on our profile.\n\n#interview #jobsearch #career #followup #india #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-11-21-interview-followup",
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

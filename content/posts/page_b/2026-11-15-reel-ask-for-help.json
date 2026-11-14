@@ -34,5 +34,7 @@
   "caption": "Specific ask, a time estimate, why them, an easy way to say no, and a thank-you.\n\nFull carousel on our profile.\n\n#askforhelp #communication #teamwork #worklife #careeradvice #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-11-15-ask-for-help",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

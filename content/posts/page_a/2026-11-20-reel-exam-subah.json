@@ -34,5 +34,7 @@
   "caption": "Halka nashta, koi naya topic nahi, apni list, time se pehle, gehri saans.\n\nPoora carousel humare profile par.\n\n#examday #studytips #students #hinglish #exampreparation #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-11-20-exam-subah",
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

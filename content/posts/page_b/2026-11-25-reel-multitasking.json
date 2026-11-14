@@ -34,5 +34,7 @@
   ],
   "caption": "One task, one timer. Switching has a cost.\n\nWhat's your one task today?\n\n#productivity #focus #deepwork #habits\n\n#reels",
   "ai_label": true,
-  "approved_at": "2026-11-06"
+  "approved_at": "2026-11-06",
+  "style": "kinetic",
+  "seconds_each_static": 2.6
 }

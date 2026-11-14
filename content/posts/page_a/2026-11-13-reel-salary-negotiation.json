@@ -34,5 +34,7 @@
   "caption": "Start positive, give a range, then pause. Practice out loud.\n\nFull carousel on our profile.\n\n#salarynegotiation #career #jobs #careeradvice #india #reels",
   "ai_label": true,
   "companion_of": "page_a/2026-11-13-salary-negotiation",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

@@ -34,5 +34,7 @@
   "caption": "Skip the catch-up. Pick one anchor habit, same time tomorrow, add a second next week.\n\nFull carousel on our profile.\n\n#routine #habits #reset #selfimprovement #consistency #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-11-17-rebuild-routine",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

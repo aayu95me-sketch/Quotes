@@ -34,5 +34,7 @@
   "caption": "Is any of it true, is it about the work, what can I change? Pause before replying.\n\nFull carousel on our profile.\n\n#criticism #feedback #communication #selfimprovement #worklife #reels",
   "ai_label": true,
   "companion_of": "page_b/2026-11-23-handling-criticism",
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "style": "kinetic",
+  "seconds_each_static": 3.2
 }

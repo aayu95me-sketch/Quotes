@@ -34,5 +34,7 @@
   ],
   "caption": "A goal is a direction. A next action is a step.\n\nWhat's your next action?\n\n#habits #goals #productivity #selfimprovement\n\n#reels",
   "ai_label": true,
-  "approved_at": "2026-11-06"
+  "approved_at": "2026-11-06",
+  "style": "kinetic",
+  "seconds_each_static": 2.6
 }
