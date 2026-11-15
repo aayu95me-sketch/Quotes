@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-15T03:38:43.165316+00:00",
+  "generated": "2026-11-15T12:43:08.347417+00:00",
   "pages": {
     "page_a": {
       "account": {
         "followers": 5,
         "media": 40,
         "reach_by_follow_type_1d": {
-          "NON_FOLLOWER": 169,
+          "NON_FOLLOWER": 171,
           "FOLLOWER": 2
         },
         "err": null
@@ -17,7 +17,7 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "mind",
-          "age_h": 590,
+          "age_h": 599,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -36,7 +36,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 565,
+          "age_h": 574,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -55,7 +55,7 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "focus",
-          "age_h": 563,
+          "age_h": 572,
           "scored": true,
           "insights": {
             "reach": 161,
@@ -75,7 +75,7 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "study",
-          "age_h": 541,
+          "age_h": 550,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -94,7 +94,7 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "calm",
-          "age_h": 524,
+          "age_h": 533,
           "scored": true,
           "insights": {
             "reach": 151,
@@ -114,7 +114,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "mind",
-          "age_h": 523,
+          "age_h": 532,
           "scored": true,
           "insights": {
             "reach": 80,
@@ -134,7 +134,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "mind",
-          "age_h": 518,
+          "age_h": 527,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -153,7 +153,7 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "career",
-          "age_h": 499,
+          "age_h": 508,
           "scored": true,
           "insights": {
             "reach": 173,
@@ -173,7 +173,7 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "career",
-          "age_h": 494,
+          "age_h": 503,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -192,7 +192,7 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "study",
-          "age_h": 469,
+          "age_h": 478,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -211,7 +211,7 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "study",
-          "age_h": 474,
+          "age_h": 483,
           "scored": true,
           "insights": {
             "reach": 146,
@@ -231,7 +231,7 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "confident",
-          "age_h": 476,
+          "age_h": 485,
           "scored": true,
           "insights": {
             "reach": 129,
@@ -251,7 +251,7 @@
           "type": "carousel",
           "lang": "hinglish",
           "pillar": "money",
-          "age_h": 445,
+          "age_h": 454,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -270,7 +270,7 @@
           "type": "reel",
           "lang": "hinglish",
           "pillar": "money",
-          "age_h": 450,
+          "age_h": 459,
           "scored": true,
           "insights": {
             "reach": 111,
@@ -290,7 +290,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "mind",
-          "age_h": 422,
+          "age_h": 431,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -309,7 +309,7 @@
           "type": "reel",
           "lang": "hi",
           "pillar": "mind",
-          "age_h": 426,
+          "age_h": 435,
           "scored": true,
           "insights": {
             "reach": 96,
@@ -329,7 +329,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "study",
-          "age_h": 398,
+          "age_h": 407,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -348,7 +348,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 378,
+          "age_h": 387,
           "scored": true,
           "insights": {
             "reach": 24,
@@ -368,7 +368,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 374,
+          "age_h": 383,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -387,7 +387,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "discipline",
-          "age_h": 350,
+          "age_h": 359,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -406,7 +406,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "life",
-          "age_h": 310,
+          "age_h": 319,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -425,7 +425,7 @@
           "type": "reel",
           "lang": "hi",
           "pillar": "life",
-          "age_h": 303,
+          "age_h": 312,
           "scored": true,
           "insights": {
             "reach": 153,
@@ -445,7 +445,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "money",
-          "age_h": 301,
+          "age_h": 310,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -464,7 +464,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "mind",
-          "age_h": 277,
+          "age_h": 287,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -483,7 +483,7 @@
           "type": "reel",
           "lang": "hi",
           "pillar": "study",
-          "age_h": 258,
+          "age_h": 267,
           "scored": true,
           "insights": {
             "reach": 202,
@@ -503,7 +503,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "study",
-          "age_h": 254,
+          "age_h": 263,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -522,7 +522,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "career",
-          "age_h": 227,
+          "age_h": 236,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -541,7 +541,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "discipline",
-          "age_h": 202,
+          "age_h": 211,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -560,7 +560,7 @@
           "type": "reel",
           "lang": "hi",
           "pillar": "discipline",
-          "age_h": 209,
+          "age_h": 218,
           "scored": true,
           "insights": {
             "reach": 173,
@@ -580,7 +580,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "mind",
-          "age_h": 179,
+          "age_h": 188,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -599,7 +599,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 154,
+          "age_h": 164,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -618,7 +618,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 158,
+          "age_h": 167,
           "scored": true,
           "insights": {
             "reach": 157,
@@ -638,7 +638,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "life",
-          "age_h": 130,
+          "age_h": 139,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -657,7 +657,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "study",
-          "age_h": 107,
+          "age_h": 116,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -676,7 +676,7 @@
           "type": "reel",
           "lang": "hi",
           "pillar": "money",
-          "age_h": 83,
+          "age_h": 92,
           "scored": true,
           "insights": {
             "reach": 170,
@@ -696,7 +696,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "money",
-          "age_h": 83,
+          "age_h": 92,
           "scored": true,
           "insights": {
             "reach": 1,
@@ -715,7 +715,7 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "discipline",
-          "age_h": 55,
+          "age_h": 64,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -734,17 +734,17 @@
           "type": "reel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 11,
+          "age_h": 20,
           "scored": false,
           "insights": {
-            "reach": 170,
+            "reach": 172,
             "saved": 0,
             "shares": 0,
             "likes": 1,
             "comments": 0,
             "total_interactions": 1,
-            "views": 188,
-            "ig_reels_avg_watch_time": 1826
+            "views": 190,
+            "ig_reels_avg_watch_time": 1830
           },
           "score": 0.0,
           "errors": []
@@ -754,7 +754,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "career",
-          "age_h": 11,
+          "age_h": 20,
           "scored": false,
           "insights": {
             "reach": 2,
@@ -773,18 +773,18 @@
           "type": "carousel",
           "lang": "hi",
           "pillar": "mind",
-          "age_h": 6,
+          "age_h": 15,
           "scored": false,
           "insights": {
-            "reach": 0,
+            "reach": 1,
             "saved": 0,
             "shares": 0,
             "likes": 0,
             "comments": 0,
             "total_interactions": 0,
-            "views": 0
+            "views": 2
           },
-          "score": null,
+          "score": 0.0,
           "errors": []
         }
       ]
@@ -794,8 +794,8 @@
         "followers": 6,
         "media": 40,
         "reach_by_follow_type_1d": {
-          "NON_FOLLOWER": 15,
-          "FOLLOWER": 2
+          "FOLLOWER": 2,
+          "NON_FOLLOWER": 21
         },
         "err": null
       },
@@ -805,7 +805,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 587,
+          "age_h": 596,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -824,7 +824,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "relationships",
-          "age_h": 562,
+          "age_h": 571,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -843,7 +843,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "focus",
-          "age_h": 563,
+          "age_h": 572,
           "scored": true,
           "insights": {
             "reach": 104,
@@ -863,7 +863,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 564,
+          "age_h": 573,
           "scored": true,
           "insights": {
             "reach": 17,
@@ -883,7 +883,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 538,
+          "age_h": 548,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -902,7 +902,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 514,
+          "age_h": 523,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -921,7 +921,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 516,
+          "age_h": 525,
           "scored": true,
           "insights": {
             "reach": 108,
@@ -941,7 +941,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "calm",
-          "age_h": 518,
+          "age_h": 527,
           "scored": true,
           "insights": {
             "reach": 105,
@@ -961,7 +961,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 492,
+          "age_h": 501,
           "scored": true,
           "insights": {
             "reach": 107,
@@ -981,7 +981,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 490,
+          "age_h": 499,
           "scored": true,
           "insights": {
             "reach": 5,
@@ -1000,7 +1000,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 466,
+          "age_h": 475,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1019,7 +1019,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 468,
+          "age_h": 477,
           "scored": true,
           "insights": {
             "reach": 56,
@@ -1039,7 +1039,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "confident",
-          "age_h": 469,
+          "age_h": 478,
           "scored": true,
           "insights": {
             "reach": 85,
@@ -1059,7 +1059,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 442,
+          "age_h": 451,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1078,7 +1078,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 420,
+          "age_h": 429,
           "scored": true,
           "insights": {
             "reach": 43,
@@ -1098,7 +1098,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 418,
+          "age_h": 427,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -1117,7 +1117,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "psychology",
-          "age_h": 394,
+          "age_h": 403,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -1136,7 +1136,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 370,
+          "age_h": 379,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -1155,7 +1155,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 372,
+          "age_h": 381,
           "scored": true,
           "insights": {
             "reach": 35,
@@ -1175,7 +1175,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "relationships",
-          "age_h": 336,
+          "age_h": 345,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -1194,7 +1194,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 310,
+          "age_h": 319,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1213,7 +1213,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 303,
+          "age_h": 312,
           "scored": true,
           "insights": {
             "reach": 14,
@@ -1233,7 +1233,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "psychology",
-          "age_h": 298,
+          "age_h": 307,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1252,7 +1252,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 274,
+          "age_h": 283,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1271,7 +1271,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "relationships",
-          "age_h": 250,
+          "age_h": 259,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -1290,7 +1290,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "relationships",
-          "age_h": 252,
+          "age_h": 261,
           "scored": true,
           "insights": {
             "reach": 20,
@@ -1310,7 +1310,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "psychology",
-          "age_h": 221,
+          "age_h": 230,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1329,7 +1329,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 202,
+          "age_h": 211,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1348,7 +1348,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 193,
+          "age_h": 202,
           "scored": true,
           "insights": {
             "reach": 79,
@@ -1368,7 +1368,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 175,
+          "age_h": 184,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1387,7 +1387,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "psychology",
-          "age_h": 154,
+          "age_h": 164,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1406,7 +1406,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "psychology",
-          "age_h": 150,
+          "age_h": 160,
           "scored": true,
           "insights": {
             "reach": 21,
@@ -1426,7 +1426,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "relationships",
-          "age_h": 130,
+          "age_h": 139,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1445,7 +1445,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 102,
+          "age_h": 111,
           "scored": true,
           "insights": {
             "reach": 3,
@@ -1464,7 +1464,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 76,
+          "age_h": 85,
           "scored": true,
           "insights": {
             "reach": 2,
@@ -1483,7 +1483,7 @@
           "type": "reel",
           "lang": "en",
           "pillar": "work",
-          "age_h": 83,
+          "age_h": 92,
           "scored": true,
           "insights": {
             "reach": 20,
@@ -1503,7 +1503,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "psychology",
-          "age_h": 55,
+          "age_h": 64,
           "scored": true,
           "insights": {
             "reach": 4,
@@ -1522,19 +1522,19 @@
           "type": "reel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 11,
+          "age_h": 20,
           "scored": false,
           "insights": {
-            "reach": 17,
+            "reach": 23,
             "saved": 1,
             "shares": 0,
             "likes": 0,
             "comments": 0,
             "total_interactions": 1,
-            "views": 19,
-            "ig_reels_avg_watch_time": 1720
+            "views": 25,
+            "ig_reels_avg_watch_time": 1863
           },
-          "score": 58.8,
+          "score": 43.5,
           "errors": []
         },
         {
@@ -1542,7 +1542,7 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "habits",
-          "age_h": 11,
+          "age_h": 20,
           "scored": false,
           "insights": {
             "reach": 2,
@@ -1561,16 +1561,16 @@
           "type": "carousel",
           "lang": "en",
           "pillar": "relationships",
-          "age_h": 6,
+          "age_h": 15,
           "scored": false,
           "insights": {
-            "reach": 1,
+            "reach": 2,
             "saved": 0,
             "shares": 0,
             "likes": 0,
             "comments": 0,
             "total_interactions": 0,
-            "views": 3
+            "views": 9
           },
           "score": 0.0,
           "errors": []
