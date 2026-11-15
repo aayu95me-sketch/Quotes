@@ -1,0 +1,34 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-14T15:00:00+00:00",
+  "pillar": "work",
+  "lang": "en",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *2-minute* email rule."
+    },
+    {
+      "kind": "body",
+      "text": "Under 2 minutes? *Reply now.*"
+    },
+    {
+      "kind": "body",
+      "text": "Longer? *Schedule* it."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "Quick replies now, big ones in a block.\n\nWhat's in your inbox?\n\n#email #productivity #worklife #habits\n\n#reels",
+  "ai_label": true
+}

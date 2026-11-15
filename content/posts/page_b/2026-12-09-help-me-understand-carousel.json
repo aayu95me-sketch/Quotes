@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-12-09T17:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "How to *end an argument* without losing"
+    },
+    {
+      "kind": "body",
+      "text": "*Pause.* One slow breath."
+    },
+    {
+      "kind": "body",
+      "text": "Say: *\"Help me understand.\"*"
+    },
+    {
+      "kind": "body",
+      "text": "Then *listen* for a full minute."
+    },
+    {
+      "kind": "body",
+      "text": "Repeat *what you heard.*"
+    },
+    {
+      "kind": "body",
+      "text": "Only *then* share your view."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for the next disagreement.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Curiosity cools an argument faster than a good point.\n\nWhen will you try it?\n\n#communication #relationships #conflict #selfimprovement #emotionalintelligence",
+  "ai_label": true
+}

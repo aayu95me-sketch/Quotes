@@ -1,0 +1,34 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-15T09:00:00+00:00",
+  "pillar": "discipline",
+  "lang": "hi",
+  "mood": "focus",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Phone ne *kitna time* khaya?"
+    },
+    {
+      "kind": "body",
+      "text": "Settings mein *screen time* dekho."
+    },
+    {
+      "kind": "body",
+      "text": "Ek app par *limit* lagao."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Pehle number dekho, phir badlav karo.\n\nAaj kitna raha? Comment karo.\n\n#screentime #phoneaddiction #discipline #hinglish\n\n#reels",
+  "ai_label": true
+}

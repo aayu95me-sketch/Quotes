@@ -1,0 +1,41 @@
+{
+  "page": "page_b",
+  "type": "carousel",
+  "status": "draft",
+  "publish_at": "2026-12-13T17:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Rest is *part of the work*"
+    },
+    {
+      "kind": "body",
+      "text": "Tired work is *slow* work."
+    },
+    {
+      "kind": "body",
+      "text": "Plan rest *like a meeting.*"
+    },
+    {
+      "kind": "body",
+      "text": "Short breaks *beat* none."
+    },
+    {
+      "kind": "body",
+      "text": "One real day off *weekly.*"
+    },
+    {
+      "kind": "body",
+      "text": "Stop *earning* rest."
+    },
+    {
+      "kind": "cta",
+      "text": "Save this for a tired week.",
+      "sub": "Follow for one small rule daily"
+    }
+  ],
+  "caption": "Planned rest keeps work sustainable.\n\nWhen is your next rest?\n\nGeneral wellbeing information, not medical advice.\n\n#rest #burnout #worklife #habits #selfimprovement",
+  "ai_label": true
+}

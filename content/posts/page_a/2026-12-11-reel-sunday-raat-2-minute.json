@@ -1,0 +1,34 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-11T09:00:00+00:00",
+  "pillar": "mind",
+  "lang": "hi",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Sunday raat *ghabrahat?* 2 minute ka fix."
+    },
+    {
+      "kind": "body",
+      "text": "Kal ke *3 kaam* likho."
+    },
+    {
+      "kind": "body",
+      "text": "Phone *door.* Phir soyo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Likhne se dimaag halka hota hai.\n\nYeh general tips hain, medical salah nahi.\n\n#sundayscaries #mindset #planning #hinglish\n\n#reels",
+  "ai_label": true
+}

@@ -1,0 +1,34 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-12T09:00:00+00:00",
+  "pillar": "money",
+  "lang": "hi",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Dost *udhaar* maange toh kya karein?"
+    },
+    {
+      "kind": "body",
+      "text": "Pehle socho: *kho* sakte ho?"
+    },
+    {
+      "kind": "body",
+      "text": "Haan toh do. *Warna* na bolo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "Dosti aur paisa alag rakhna seekho.\n\nSirf educational jaankari, financial salah nahi.\n\n#money #boundaries #friendship #hinglish\n\n#reels",
+  "ai_label": true
+}

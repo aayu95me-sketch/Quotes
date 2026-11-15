@@ -1,0 +1,34 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-11T15:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Stop saying *\"I'll try.\"*"
+    },
+    {
+      "kind": "body",
+      "text": "It leaves *an exit.*"
+    },
+    {
+      "kind": "body",
+      "text": "Say *when* instead."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "\"I'll do it Tuesday at 4\" beats \"I'll try.\"\n\nWhat will you schedule?\n\n#habits #accountability #productivity #selfimprovement\n\n#reels",
+  "ai_label": true
+}

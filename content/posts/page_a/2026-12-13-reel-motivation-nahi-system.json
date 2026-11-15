@@ -1,0 +1,34 @@
+{
+  "page": "page_a",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-13T09:00:00+00:00",
+  "pillar": "discipline",
+  "lang": "hi",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "*Motivation* nahi, system chahiye."
+    },
+    {
+      "kind": "body",
+      "text": "Roz *10 minute.* Same time."
+    },
+    {
+      "kind": "body",
+      "text": "Time tay karo. *Shuru* karo."
+    },
+    {
+      "kind": "cta",
+      "text": "Follow karo. Roz ek rule.",
+      "sub": "@rozkarule"
+    }
+  ],
+  "caption": "System motivation se zyada tikta hai.\n\nTumhara 10 minute kaunsa hai?\n\n#discipline #habits #motivation #hinglish\n\n#reels",
+  "ai_label": true
+}

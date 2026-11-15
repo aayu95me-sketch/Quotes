@@ -1,0 +1,34 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-09T15:00:00+00:00",
+  "pillar": "relationships",
+  "lang": "en",
+  "mood": "calm",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "The *3-word* reply that ends arguments."
+    },
+    {
+      "kind": "body",
+      "text": "\"Help me understand.\""
+    },
+    {
+      "kind": "body",
+      "text": "Then *stop talking.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "It asks for their view instead of defending yours.\n\nWill you try it this week?\n\n#communication #relationships #conflict #selfimprovement\n\n#reels",
+  "ai_label": true
+}

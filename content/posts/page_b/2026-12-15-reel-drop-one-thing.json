@@ -1,0 +1,34 @@
+{
+  "page": "page_b",
+  "type": "reel",
+  "status": "draft",
+  "publish_at": "2026-12-15T15:00:00+00:00",
+  "pillar": "habits",
+  "lang": "en",
+  "mood": "confident",
+  "seconds_each": 2.6,
+  "audio_type": "music",
+  "style": "kinetic",
+  "experiment": "kinetic word-by-word, hook-first, about 8 s",
+  "slides": [
+    {
+      "kind": "hook",
+      "text": "Start the week *lighter.*"
+    },
+    {
+      "kind": "body",
+      "text": "Pick *one* thing to drop."
+    },
+    {
+      "kind": "body",
+      "text": "Drop it. *Today.*"
+    },
+    {
+      "kind": "cta",
+      "text": "Follow for one small rule daily.",
+      "sub": "@the.disciplinequiet"
+    }
+  ],
+  "caption": "Subtraction is a productivity tool.\n\nWhat will you drop?\n\n#minimalism #habits #productivity #worklife\n\n#reels",
+  "ai_label": true
+}
