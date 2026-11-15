@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-12-13T13:30:00+00:00",
   "pillar": "money",
   "lang": "hi",
@@ -33,5 +33,6 @@
     }
   ],
   "caption": "Dosti bachane ke liye paise ke rules saaf rakho.\n\nTumhara rule kya hai?\n\nSirf educational jaankari, financial salah nahi.\n\n#money #boundaries #friendship #hinglish #financialliteracy",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-15"
 }

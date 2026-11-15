@@ -284,3 +284,5 @@ Fix prototype (pushed): `"style": "kinetic"` on a Reel post renders word-by-word
 Owner asked to do the needful on the retention fixes (2026-11-14): all approved Reels now carry "style": "kinetic" (word-by-word reveal, about 9 s). Repo visibility check (anonymous): still PRIVATE; owner to make aayu95me-sketch/Quotes public to restore free Actions minutes.
 
 Repo made public by the owner 2026-11-14 ~17:00 UTC; Actions minutes no longer limited. First run after (43618901263): kinetic Reels rendered and published in CI for both accounts (salary-negotiation A, weekly-review B), carousels recorded despite the usual 'blocked' answer, all four mirrored to Facebook. Posting resumed.
+
+Week 8 (9 to 15 Dec, 20 posts: shorter kinetic Reels with curiosity hooks, 3 carousels per page) approved by owner 2026-11-15. Runway ends 15 Dec.

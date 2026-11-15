@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "draft",
+  "status": "approved",
   "publish_at": "2026-12-09T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -37,5 +37,6 @@
     }
   ],
   "caption": "Sawaal pehle, jawab baad mein.\n\nKaunsa chapter try karoge?\n\n#studytips #students #learning #hinglish #exampreparation",
-  "ai_label": true
+  "ai_label": true,
+  "approved_at": "2026-11-15"
 }
