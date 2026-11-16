@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-16T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -38,5 +38,9 @@
   ],
   "caption": "Pehle khud padho, phir group mein samjhao. 3-4 log, 1 ghanta, 1 topic.\n\nTumhari group study kaisi rehti hai? Comment karo.\n\n#groupstudy #studytips #students #hinglish #exampreparation",
   "ai_label": true,
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "media_id": "18399643963167615",
+  "published_at": "2026-11-16T13:35:48+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":",
+  "fb_post_id": "1345396148663682_122115011013515383"
 }
