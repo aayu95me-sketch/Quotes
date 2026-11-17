@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-17T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "Skip the catch-up. Pick one anchor habit, same time tomorrow, add a second next week.\n\nWhat's your anchor habit?\n\n#routine #habits #reset #selfimprovement #consistency",
   "ai_label": true,
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "media_id": "17869124925676336",
+  "published_at": "2026-11-17T22:53:33+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":",
+  "fb_post_id": "1436529449539802_122111066463523675"
 }
