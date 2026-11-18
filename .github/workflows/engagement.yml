@@ -1,0 +1,31 @@
+name: engagement
+# Manual and read-only: lists comments, likes and replies on recent Instagram and Facebook posts into research/engagement/.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  engagement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Engagement
+        env:
+          IG_PAGE_A_USER_ID: ${{ secrets.IG_PAGE_A_USER_ID }}
+          IG_PAGE_A_TOKEN: ${{ secrets.IG_PAGE_A_TOKEN }}
+          IG_PAGE_B_USER_ID: ${{ secrets.IG_PAGE_B_USER_ID }}
+          IG_PAGE_B_TOKEN: ${{ secrets.IG_PAGE_B_TOKEN }}
+        run: python pipeline/engagement.py
+      - name: Commit report
+        run: |
+          git config user.name "engagement"
+          git config user.email "engagement@users.noreply.github.com"
+          git add research/engagement
+          git diff --cached --quiet && exit 0
+          git commit -m "engagement report [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
