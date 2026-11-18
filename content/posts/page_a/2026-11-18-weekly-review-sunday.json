@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-18T13:30:00+00:00",
   "pillar": "discipline",
   "lang": "hi",
@@ -38,5 +38,9 @@
   ],
   "caption": "Accha kya hua, kahan atke, agle hafte ke 3 kaam. 15 minute, har Sunday.\n\nAap kab karoge? Comment karo.\n\n#weeklyreview #discipline #planning #hinglish #youngindia",
   "ai_label": true,
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "media_id": "17975843295154935",
+  "published_at": "2026-11-18T13:54:26+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":",
+  "fb_post_id": "1345396148663682_122115571413515383"
 }
