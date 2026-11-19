@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-19T17:00:00+00:00",
   "pillar": "psychology",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "Five small rules from our first month. Pick one and keep it for a week.\n\nWhich one are you keeping? Comment below.\n\n#recap #habits #discipline #selfimprovement #productivity",
   "ai_label": true,
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "media_id": "18029768450871371",
+  "published_at": "2026-11-19T22:40:27+00:00",
+  "note": "published although the API answered: Graph API 403: {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":",
+  "fb_post_id": "1436529449539802_122111553591523675"
 }
