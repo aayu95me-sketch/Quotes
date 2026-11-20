@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "failed",
   "publish_at": "2026-11-20T13:30:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -38,5 +38,6 @@
   ],
   "caption": "Halka nashta, koi naya topic nahi, apni list, time se pehle, gehri saans.\n\nExam ke din tumhara routine kya hota hai? Comment karo.\n\n#examday #studytips #students #hinglish #exampreparation",
   "ai_label": true,
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "error": "HTTP Error 401: Unauthorized"
 }
