@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "failed",
   "publish_at": "2026-11-20T17:00:00+00:00",
   "pillar": "work",
   "lang": "en",
@@ -38,5 +38,6 @@
   ],
   "caption": "Thank them, state your load, offer a later date or another person. Short and kind.\n\nWhat do you need to say no to? Tell us below.\n\n#boundaries #worklife #communication #careeradvice #productivity",
   "ai_label": true,
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "error": "HTTP Error 401: Unauthorized"
 }
