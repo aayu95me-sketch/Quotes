@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "approved",
+  "status": "failed",
   "publish_at": "2026-11-21T15:00:00+00:00",
   "pillar": "psychology",
   "lang": "en",
@@ -36,5 +36,6 @@
   "companion_of": "page_b/2026-11-21-active-recall",
   "approved_at": "2026-10-25",
   "style": "kinetic",
-  "seconds_each_static": 3.2
+  "seconds_each_static": 3.2,
+  "error": "HTTP Error 401: Unauthorized"
 }
