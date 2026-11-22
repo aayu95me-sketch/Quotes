@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-21T13:30:00+00:00",
   "pillar": "career",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "Within 24 hours: thank them by name, mention one thing from the talk, say you're excited. Under five lines.\n\nHave you sent one? Tell us below.\n\n#interview #jobsearch #career #followup #india",
   "ai_label": true,
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "asset_base": "https://raw.githubusercontent.com/aayu95me-sketch/Quotes/claude/eager-bell-i41n67/assets/page_a/2026-11-21-interview-followup",
+  "fb_post_id": "1345396148663682_122116631925515383",
+  "media_id": "18128254804928052",
+  "published_at": "2026-11-22T03:48:43.344913+00:00"
 }
