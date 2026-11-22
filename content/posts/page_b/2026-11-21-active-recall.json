@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-21T17:00:00+00:00",
   "pillar": "psychology",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "Rereading feels productive. Testing yourself works better. Close the book and write what you remember.\n\nWill you try it today? Comment below.\n\n#studytips #activerecall #learning #psychology #productivity",
   "ai_label": true,
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "asset_base": "https://raw.githubusercontent.com/aayu95me-sketch/Quotes/claude/eager-bell-i41n67/assets/page_b/2026-11-21-active-recall",
+  "fb_post_id": "1436529449539802_122112214083523675",
+  "media_id": "18105656414540789",
+  "published_at": "2026-11-22T13:17:57.681264+00:00"
 }
