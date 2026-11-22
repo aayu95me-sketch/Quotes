@@ -77,23 +77,43 @@ def api(method, path, params, version):
         raise RuntimeError(f"Graph API {e.code}: {e.read().decode('utf-8', 'replace')[:400]}")
 
 
+def _asset_targets():
+    """Where slides and videos are hosted, in order of preference: the assets repo (ASSETS_PAT), then this repo itself
+    through the workflow's own GITHUB_TOKEN (works when the personal token has expired or is missing)."""
+    out = []
+    if os.environ.get("ASSETS_REPO") and os.environ.get("ASSETS_PAT"):
+        out.append((os.environ["ASSETS_REPO"], "main", os.environ["ASSETS_PAT"], ""))
+    if os.environ.get("GITHUB_REPOSITORY") and os.environ.get("GITHUB_TOKEN"):
+        out.append((os.environ["GITHUB_REPOSITORY"], os.environ.get("GITHUB_REF_NAME", "main"), os.environ["GITHUB_TOKEN"], "assets/"))
+    return out
+
+
+def _put_asset(repo, branch, token, rel, data):
+    api_url = f"https://api.github.com/repos/{repo}/contents/{rel}"
+    hdr = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+    body = {"message": f"slide {rel}", "content": base64.b64encode(data).decode(), "branch": branch}
+    try:  # overwrite if it already exists
+        with urllib.request.urlopen(urllib.request.Request(api_url + f"?ref={branch}", headers=hdr), timeout=30) as r:
+            body["sha"] = json.loads(r.read())["sha"]
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            raise
+    urllib.request.urlopen(urllib.request.Request(api_url, data=json.dumps(body).encode(), headers=hdr, method="PUT"), timeout=60).read()
+    return f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}"
+
+
 def upload_assets(paths, page, stem):
-    """Push rendered PNGs to the public assets repo; return their raw URLs."""
-    repo, pat = os.environ["ASSETS_REPO"], os.environ["ASSETS_PAT"]
-    urls = []
-    for p in paths:
-        rel = f"{page}/{stem}/{p.name}"
-        api_url = f"https://api.github.com/repos/{repo}/contents/{rel}"
-        hdr = {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
-        body = {"message": f"slide {rel}", "content": base64.b64encode(p.read_bytes()).decode()}
-        try:  # overwrite if it already exists
-            with urllib.request.urlopen(urllib.request.Request(api_url, headers=hdr), timeout=30) as r:
-                body["sha"] = json.loads(r.read())["sha"]
-        except urllib.error.HTTPError:
-            pass
-        req = urllib.request.Request(api_url, data=json.dumps(body).encode(), headers=hdr, method="PUT")
-        urllib.request.urlopen(req, timeout=60).read()
-        urls.append(f"https://raw.githubusercontent.com/{repo}/main/{rel}")
+    """Host rendered PNGs/MP4 on a public URL; return the raw URLs. Falls back to this repo when the assets-repo token fails."""
+    targets, last_err, urls = _asset_targets(), None, None
+    for repo, branch, token, prefix in targets:
+        try:
+            urls = [_put_asset(repo, branch, token, f"{prefix}{page}/{stem}/{p.name}", p.read_bytes()) for p in paths]
+            break
+        except urllib.error.HTTPError as e:
+            last_err = e
+            print(f"WARN asset host {repo} refused ({e.code}); trying the next one")
+    if urls is None:
+        raise RuntimeError(f"ASSET HOSTING FAILED: {last_err}")
     for u in urls:  # wait until each URL is actually reachable
         for _ in range(10):
             try:
@@ -162,7 +182,7 @@ def fb_catchup(now, limit=2):
         if post.get("status") != "published" or post.get("fb_post_id") or post.get("fb_error") or not post.get("published_at"):
             continue
         page, stem = post["page"], f.stem
-        base = f"https://raw.githubusercontent.com/{repo}/main/{page}/{stem}"
+        base = post.get("asset_base") or f"https://raw.githubusercontent.com/{repo}/main/{page}/{stem}"
         token = os.environ[f"IG_{page.upper()}_TOKEN"]
         ver = os.environ.get("GRAPH_VERSION", "v26.0")
         if post["type"] == "reel":
@@ -228,6 +248,7 @@ def publish_carousel(f, post, live, prepare=False):
     from render import render
     paths = render(f, ROOT / "out")
     urls = upload_assets(paths, page, stem)
+    post["asset_base"] = urls[0].rsplit("/", 1)[0]
     key = page.upper()
     uid, token = os.environ[f"IG_{key}_USER_ID"], os.environ[f"IG_{key}_TOKEN"]
     ver = os.environ.get("GRAPH_VERSION", "v26.0")
@@ -303,6 +324,7 @@ def publish_reel(f, post, live, prepare=False):
     # Documented flow: video_url on a public server + audio_configuration. (The earlier resumable-upload flow published
     # Reels WITHOUT the music; measured and confirmed by the owner 2026-10-22.)
     video_url = upload_assets([pathlib.Path(mp4)], page, stem)[0]
+    post["asset_base"] = video_url.rsplit("/", 1)[0]
     print(f"reel video hosted for container: {video_url}")
     cid = api("POST", f"{uid}/media", {**base, "video_url": video_url}, ver)["id"]
     st = None
@@ -418,6 +440,10 @@ def main():
                         block_page(post["page"], now)
                         blocked[post["page"]] = "now"
                     continue
+            if "ASSET HOSTING FAILED" in str(e) or "HTTP Error 401" in str(e):
+                print("ASSET HOSTING PROBLEM: posts stay approved; renew ASSETS_PAT (fine-grained, Contents read/write on the assets repo)")
+                auth_failed = True
+                break
             if "2207051" in str(e) or '"code":4,' in str(e):  # "Application request limit reached / Action is blocked": rest this account, keep the other running
                 block_page(post["page"], now)
                 blocked[post["page"]] = "now"

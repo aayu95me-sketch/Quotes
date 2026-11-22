@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "failed",
+  "status": "approved",
   "publish_at": "2026-11-20T09:00:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -36,6 +36,5 @@
   "companion_of": "page_a/2026-11-20-exam-subah",
   "approved_at": "2026-10-25",
   "style": "kinetic",
-  "seconds_each_static": 3.2,
-  "error": "HTTP Error 401: Unauthorized"
+  "seconds_each_static": 3.2
 }
