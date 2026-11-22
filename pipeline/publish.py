@@ -197,7 +197,7 @@ def fb_catchup(now, limit=2):
 
 
 PER_PAGE_PER_RUN = 2
-DAILY_CAP = 3  # per Instagram account per UTC day; the plan is 1 carousel + 1-2 Reels
+DAILY_CAP = 4  # per Instagram account per UTC day (plan: 1 carousel + 1 Reel; the extra slot lets a backlog drain)
 
 
 def posted_today(page, now):
