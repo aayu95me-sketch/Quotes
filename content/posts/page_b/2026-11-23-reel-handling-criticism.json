@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-23T15:00:00+00:00",
   "pillar": "relationships",
   "lang": "en",
@@ -36,5 +36,14 @@
   "companion_of": "page_b/2026-11-23-handling-criticism",
   "approved_at": "2026-10-25",
   "style": "kinetic",
-  "seconds_each_static": 3.2
+  "seconds_each_static": 3.2,
+  "asset_base": "https://raw.githubusercontent.com/aayu95me-sketch/Quotes/claude/eager-bell-i41n67/assets/page_b/2026-11-23-reel-handling-criticism",
+  "audio_used": {
+    "audio_id": "2477944699150252",
+    "title": "Peaceful Piano",
+    "display_artist": "Dr. Pheel"
+  },
+  "fb_post_id": "1127116170296285",
+  "media_id": "17881598853564778",
+  "published_at": "2026-11-23T15:58:40.564339+00:00"
 }
