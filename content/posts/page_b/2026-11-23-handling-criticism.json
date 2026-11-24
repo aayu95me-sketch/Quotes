@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-23T17:00:00+00:00",
   "pillar": "relationships",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "Is any of it true, is it about the work, what can I change? Pause before replying.\n\nHow do you handle criticism? Tell us below.\n\n#criticism #feedback #communication #selfimprovement #worklife",
   "ai_label": true,
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "asset_base": "https://raw.githubusercontent.com/aayu95me-sketch/Quotes/claude/eager-bell-i41n67/assets/page_b/2026-11-23-handling-criticism",
+  "fb_post_id": "1436529449539802_122112556287523675",
+  "media_id": "18025195148928373",
+  "published_at": "2026-11-24T02:54:31.658610+00:00"
 }
