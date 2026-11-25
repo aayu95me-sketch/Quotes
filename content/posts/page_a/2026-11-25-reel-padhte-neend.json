@@ -1,7 +1,7 @@
 {
   "page": "page_a",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-25T09:00:00+00:00",
   "pillar": "study",
   "lang": "hi",
@@ -36,5 +36,14 @@
   "ai_label": true,
   "approved_at": "2026-11-06",
   "style": "kinetic",
-  "seconds_each_static": 2.6
+  "seconds_each_static": 2.6,
+  "asset_base": "https://raw.githubusercontent.com/aayu95me-sketch/Quotes/claude/eager-bell-i41n67/assets/page_a/2026-11-25-reel-padhte-neend",
+  "audio_used": {
+    "audio_id": "2697378737086947",
+    "title": "Floods",
+    "display_artist": "Trout Recording"
+  },
+  "fb_post_id": "1386448026736064",
+  "media_id": "17922696120529912",
+  "published_at": "2026-11-25T15:33:28.805142+00:00"
 }
