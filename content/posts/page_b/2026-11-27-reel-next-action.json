@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "reel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-27T15:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -36,5 +36,14 @@
   "ai_label": true,
   "approved_at": "2026-11-06",
   "style": "kinetic",
-  "seconds_each_static": 2.6
+  "seconds_each_static": 2.6,
+  "asset_base": "https://raw.githubusercontent.com/aayu95me-sketch/Quotes/claude/eager-bell-i41n67/assets/page_b/2026-11-27-reel-next-action",
+  "audio_used": {
+    "audio_id": "2697378737086947",
+    "title": "Floods",
+    "display_artist": "Trout Recording"
+  },
+  "fb_post_id": "1102684619471772",
+  "media_id": "17880881181634907",
+  "published_at": "2026-11-27T23:27:31.062603+00:00"
 }

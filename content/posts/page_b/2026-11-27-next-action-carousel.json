@@ -1,7 +1,7 @@
 {
   "page": "page_b",
   "type": "carousel",
-  "status": "approved",
+  "status": "published",
   "publish_at": "2026-11-27T17:00:00+00:00",
   "pillar": "habits",
   "lang": "en",
@@ -38,5 +38,9 @@
   ],
   "caption": "A goal is a direction. The next action is the step.\n\nWhat's your next action?\n\n#habits #goals #productivity #selfimprovement #discipline",
   "ai_label": true,
-  "approved_at": "2026-11-06"
+  "approved_at": "2026-11-06",
+  "asset_base": "https://raw.githubusercontent.com/aayu95me-sketch/Quotes/claude/eager-bell-i41n67/assets/page_b/2026-11-27-next-action-carousel",
+  "fb_post_id": "1436529449539802_122113423245523675",
+  "media_id": "18029046821923980",
+  "published_at": "2026-11-27T23:25:53.683847+00:00"
 }
